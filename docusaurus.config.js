@@ -33,19 +33,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -59,33 +54,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Home',
         logo: {
           alt: 'Kanoa Docs',
           src: 'img/logo.svg',
+          srcDark: 'img/logo_dark.svg',
+          href: '/',
+          target: '_self',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {to: '/blog', label: 'Updates', position: 'left'},
-        ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Connect',
             items: [
@@ -126,3 +105,4 @@ const config = {
 };
 
 module.exports = config;
+

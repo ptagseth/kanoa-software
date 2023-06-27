@@ -1,8 +1,9 @@
 # Website Terms & Conditions
 
-Welcome to www.nicolecoope.com.  Crossroad Consultation and Coaching Services, PLLC and/or its affiliates, partners, and assigns ("Kanoa"), provides website features to you subject to the following Terms and Conditions ("Terms and Conditions”).  The Terms and Conditions govern your use of the World Wide Web site located at www.nicolecoope.com, and any associated subpages ("Site").  By accessing, viewing, or using the content, material, or services available on or through this Site, you indicate that you have read and understand these Terms and Conditions, and that you agree to them and intend to be legally bound by them. If you do not agree to these Terms and Conditions, you are not granted permission to use this Site and must exit immediately.
+Welcome to Kanoa Consulting and/or its affiliates, partners, and assigns ("Kanoa"), provides website features to you subject to the following Terms and Conditions ("Terms and Conditions”).  The Terms and Conditions govern your use of the World Wide Web site located at www.kanoacon.com, and any associated subpages ("Site").  By accessing, viewing, or using the content, material, or services available on or through this Site, you indicate that you have read and understand these Terms and Conditions, and that you agree to them and intend to be legally bound by them. If you do not agree to these Terms and Conditions, you are not granted permission to use this Site and must exit immediately.
 
 These Terms and Conditions may be changed at any time.  It is your obligation as a user visiting the Site to familiarize yourself with these Terms and Conditions.  Any change to these Terms and Conditions shall also be effective as to any visitor who has visited the Site before the change was made.
+
 
 ### 1. Website Information
 
@@ -16,7 +17,7 @@ This Site, and its entire content, is offered by Kanoa for informational purpose
 
 #### LICENSE AND SITE ACCESS
 
-Kanoa grants you a limited license to access and make personal use of this Site, and expressly does not grant a license to download (other than page caching) or modify the Site, or any portion of it, except with express written consent of Kanoa.  This license does not include any resale or commercial use of this Site or its contents; any collection and use of any product or service listings, descriptions, or prices; any derivative use of this Site or its contents; any downloading or copying of account information for the benefit of another business or enterprise; or any use of data mining, robots, or similar data gathering and extraction tools.  This Site or any portion of this Site may not be reproduced, duplicated, copied, sold, resold, visited, or otherwise exploited for any commercial purpose without express written consent of Kanoa.  You may not frame or utilize framing techniques to enclose any trademark, logo, or other proprietary information (including images, text, page layout, or form) of Kanoa without express written consent.  You may not use any meta tags or any other "hidden text" utilizing Kanoa’s name or trademarks without the express written consent of Kanoa.  Any unauthorized use immediately terminates the permission or license granted by Kanoa.  You are granted a limited, revocable, and nonexclusive right to create a hyperlink to the home page of www.nicolecoope.com so long as the link does not portray Kanoa, or the associated products or services in a false, misleading, derogatory, or otherwise offensive manner.  You may not use Kanoa’s logos or other proprietary graphic or trademark as part of the link without the express written permission of Kanoa.
+Kanoa grants you a limited license to access and make personal use of this Site, and expressly does not grant a license to download (other than page caching) or modify the Site, or any portion of it, except with express written consent of Kanoa.  This license does not include any resale or commercial use of this Site or its contents; any collection and use of any product or service listings, descriptions, or prices; any derivative use of this Site or its contents; any downloading or copying of account information for the benefit of another business or enterprise; or any use of data mining, robots, or similar data gathering and extraction tools.  This Site or any portion of this Site may not be reproduced, duplicated, copied, sold, resold, visited, or otherwise exploited for any commercial purpose without express written consent of Kanoa.  You may not frame or utilize framing techniques to enclose any trademark, logo, or other proprietary information (including images, text, page layout, or form) of Kanoa without express written consent.  You may not use any meta tags or any other "hidden text" utilizing Kanoa’s name or trademarks without the express written consent of Kanoa.  Any unauthorized use immediately terminates the permission or license granted by Kanoa.  You are granted a limited, revocable, and nonexclusive right to create a hyperlink to the home page of www.kanoacon.com so long as the link does not portray Kanoa, or the associated products or services in a false, misleading, derogatory, or otherwise offensive manner.  You may not use Kanoa’s logos or other proprietary graphic or trademark as part of the link without the express written permission of Kanoa.
 
 #### COPYRIGHT
 
@@ -30,7 +31,7 @@ Removing or altering any copyright notice or any other proprietary notice on any
 
 All names, trademarks, service marks, symbols, slogans, and logos appearing on the Site are proprietary to Kanoa or its licensors.  Use or misuse of these trademarks is expressly prohibited and may violate federal, state, and international trademark law.
 
-Crossroad Consultation and Coaching Services, PLLC, www.nicolecoope.com, , and other Site graphics, logos, page headers, button icons, scripts, and service names are trademarks, registered trademarks, or trade dress of Kanoa in the U.S. and/or other countries.  Kanoa’s trademarks and trade dress may not be used in connection with any product or service that is not Kanoa’s, in any manner that is likely to cause confusion among customers, or in any manner that disparages or discredits Kanoa.  All other trademarks not owned by Kanoa that appear on this Site are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by Kanoa.
+Kanoa Consulting, www.kanoacon.com, and other Site graphics, logos, page headers, button icons, scripts, and service names are trademarks, registered trademarks, or trade dress of Kanoa in the U.S. and/or other countries.  Kanoa’s trademarks and trade dress may not be used in connection with any product or service that is not Kanoa’s, in any manner that is likely to cause confusion among customers, or in any manner that disparages or discredits Kanoa.  All other trademarks not owned by Kanoa that appear on this Site are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by Kanoa.
 
 ### 3. Communications with and Submissions to the Site
 
@@ -54,17 +55,17 @@ By transmitting any Submission(s) to Kanoa, you also represent and warrant that:
 
 You may not use a false e-mail address, impersonate any person or entity, or otherwise mislead as to the origin of an e-mail, card or any other Submission.  Kanoa maintains the right (but not the obligation) to review your Submission(s) and, in its sole discretion, decline to post and/or remove any Submission(s) for any reason or for no reason at all, at any time, and without notice.
 
-You may request that Kanoa delete your Submission(s) from the Site by emailing Kanoa at e-mail address and specifically indentifying the Submission(s) you are requesting to be deleted.  Upon receipt of your emailed request, Kanoa will make all reasonable efforts to delete your Submission(s) from the system and Site; however, Kanoa disclaims any and all responsibility for any copies of your Submission(s) that may have been made by a user of the Site before your Submission(s) was removed.
+You may request that Kanoa delete your Submission(s) from the Site by emailing Kanoa at e-mail address and specifically identifying the Submission(s) you are requesting to be deleted.  Upon receipt of your emailed request, Kanoa will make all reasonable efforts to delete your Submission(s) from the system and Site; however, Kanoa disclaims any and all responsibility for any copies of your Submission(s) that may have been made by a user of the Site before your Submission(s) was removed.
 
 ### 4. Use and Nature of the Internet
 
-Given the nature of the internet, the transmission of any communication or Submission to Kanoa via the Site or internet e-mail, whether encrypted or otherwise, cannot be guaranteed in all circumstances as secure.  As an alternative to communicating over the internet or e-mail, Kanoa can be contacted by postal mail at: 1933 Norma Rd NE, Tacoma, Washington, 98422.
+Given the nature of the internet, the transmission of any communication or Submission to Kanoa via the Site or internet e-mail, whether encrypted or otherwise, cannot be guaranteed in all circumstances as secure.  As an alternative to communicating over the internet or e-mail, Kanoa can be contacted by postal mail at: PO Box 25282 Federal Way, Washington, 98093.
 
 ### 5. Privacy
 
 Kanoa has a Privacy Statement describing Kanoa's online information gathering and dissemination practices with respect to the Site.  Please review the Privacy Statement, which is incorporated into these Terms and Conditions by reference, as if set forth fully herein, and which also governs your visit to the Site.
 
-**Additional information about your rights with respect to your private health information is available in the HIPAA disclosure statement available at www.nicolecoope.com or directly from Kanoa.**
+**Additional information about your rights with respect to your private health information is available in the HIPAA disclosure statement available at www.kanoacon.com or directly from Kanoa.**
 
 ### 6. Limitation of Liability & Disclaimer of Warranties and Conditions
 
@@ -88,9 +89,9 @@ You agree to defend, indemnify, and hold harmless Kanoa, its affiliates, contrac
 
 Kanoa endeavors to keep the Site and Site Materials on, in, and through this Site up-to-date.  Without limiting anything else in these Terms and Conditions or otherwise, Kanoa is not responsible for any errors or omissions in the Site or Site Materials.  Kanoa may make changes to the Site or Site Materials, or to the products, information, or services made available in connection with this Site, at any time with or without notice, and Kanoa makes no commitment to update the information contained on or in this Site.  Kanoa reserves the right to terminate your access to this Site in the event that you violate these Terms and Conditions or for any reason whatever, or for no reason, with or without notice, in addition to any and all other remedies available at law or in equity.
 
-### 9. Links to Other Web Sites
+### 9. Links to Other Websites
 
-This Site may, from time to time, contain links to other third-party internet web sites for the convenience of users in locating information, products, or services that may be of interest.  Kanoa is not responsible for examining or evaluating, and Kanoa does not warrant the offerings of, any of these businesses or individuals or the content of their web sites.  These sites are maintained by organizations over which Kanoa exercises no control, and Kanoa expressly disclaims any and all responsibility for the content, the accuracy of the information, the security of information provided to any third-party sites, and the quality of products or services provided by or advertised on these third-party sites.
+This Site may, from time to time, contain links to other third-party internet web sites for the convenience of users in locating information, products, or services that may be of interest.  Kanoa is not responsible for examining or evaluating, and Kanoa does not warrant the offerings of any of these businesses or individuals or the content of their web sites.  These sites are maintained by organizations over which Kanoa exercises no control, and Kanoa expressly disclaims any and all responsibility for the content, the accuracy of the information, the security of information provided to any third-party sites, and the quality of products or services provided by or advertised on these third-party sites.
 
 Without limiting anything else in these Terms and Conditions or otherwise, Kanoa does not assume any responsibility or liability for any errors or omissions in the Site or Site Materials, or for the information, links, text, graphics, or other items made available on other web sites created, maintained, or otherwise controlled by third parties.  You should carefully review the privacy statements and other conditions of use for any third-party material.
 
@@ -118,7 +119,7 @@ Kanoa shall not be liable for any damages resulting from a failure or delay in p
 
 ### 12. Your Account
 
-If you use this Site, you are responsible for maintaining the confidentiality of your private information, including your private health information, for restricting access to your computer, and you agree to accept responsibility for all activities that occur under your account or password, if any.  Kanoa does provide products or services to Children.  If you are under 13, you may use www.nicolecoope.com only with the involvement of a parent or guardian.  Kanoa reserves the right to refuse service, terminate accounts, remove or edit content, or cancel access in its sole discretion.
+If you use this Site, you are responsible for maintaining the confidentiality of your private information, including your private health information, for restricting access to your computer, and you agree to accept responsibility for all activities that occur under your account or password, if any.  Kanoa does provide products or services to Children.  If you are under 13, you may use www.kanoacon.com only with the involvement of a parent or guardian.  Kanoa reserves the right to refuse service, terminate accounts, remove or edit content, or cancel access in its sole discretion.
 
 ### 13.  Site Policies, Modifications, and Severability
 
@@ -126,22 +127,19 @@ Kanoa reserves the right to make changes to the Site, policies, and these Terms 
 
 ### 14.  Copyright Complaints
 
-Kanoa respects the intellectual property of others.  If you believe that your work has been copied in a way that constitutes copyright infringement, please provide Kanoa’s copyright agent the written information specified below.  Please note that this procedure is exclusively for notifying Kanoa that your copyrighted material has been infringed.
-* An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest;
-
-* A specific description of the copyrighted work that you claim has been infringed upon;
-
-* A specific description of where the material that you claim is infringing is located on the Site;
-
-* Your address, telephone number, and e-mail address;
-
-* A statement by you that you have a good-faith belief that the disputed use is not authorized or allowed by the copyright owner, its agent, or the law;
-
-* A statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
-
+Kanoa respects the intellectual property of others.  If you believe that your work has been copied in a way that constitutes copyright infringement, please provide Kanoa’s copyright agent the written information specified below.  Please note that this procedure is exclusively for notifying Kanoa that your copyrighted material has been infringed. 		* A specific description of where the material that you claim is infringing is located on the Site;
+An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; 		
+A specific description of the copyrighted work that you claim has been infringed upon; 		
+A specific description of where the material that you claim is infringing is located on the Site; 		
+Your address, telephone number, and e-mail address; 		
+A statement by you that you have a good-faith belief that the disputed use is not authorized or allowed by the copyright owner, its agent, or the law; 		
+A statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
 
 Kanoa’s Copyright Agent for notice of claims of copyright infringement can be reached as follows:
 
-Nicole Coope - Copyright Agent
+Nicole Coope - Copyright Agent  
+PO Box 25282  
+Federal Way, Washington, 98093  
+USA
 
 E-mail: nicole@kanoacon.com

@@ -1,11 +1,11 @@
 
 # Website Privacy Statement
 
-This Privacy Statement sets forth the information gathering, use, and dissemination practices of www.nicolecoope.com and/or its affiliates, partners, and assigns, ("Kanoa") in connection with the World Wide Web site located at www.nicolecoope.com, and any affiliated subpages ("Site").  This Privacy Statement applies solely to information Kanoa learns about you or obtains from you when you visit Kanoa’s Site.  This Privacy Statement does not address or govern any information gathering, use, or dissemination practices related to information collected in any other way.
+This Privacy Statement sets forth the information gathering, use, and dissemination practices of www.kanoacon.com and/or its affiliates, partners, and assigns, ("Kanoa") in connection with the World Wide Web site located at www.kanoacon.com, and any affiliated subpages ("Site").  This Privacy Statement applies solely to information Kanoa learns about you or obtains from you when you visit Kanoa’s Site.  This Privacy Statement does not address or govern any information gathering, use, or dissemination practices related to information collected in any other way.
 
-**This Privacy Statement does not address or govern the collection, maintenance, use, or disclosure of any private health information.  Additional information about your rights with respect to your private health information is available in the HIPAA disclosure statement available at www.nicolecoope.com or directly from Kanoa.**
+**This Privacy Statement does not address or govern the collection, maintenance, use, or disclosure of any private health information.  Additional information about your rights with respect to your private health information is available in the HIPAA disclosure statement available at www.kanoacon.com or directly from Kanoa.**
 
-Kanoa can be contacted by mail at 1933 Norma Rd NE, Tacoma, Washington, 98422, by phone at (253) 426-5319, or by e-mail at info@crossroadcounsel.com.
+Kanoa can be contacted by mail at PO Box 25282 Federal Way, Washington 98093, by phone at (253) 240-9914, or by e-mail at info@kanoacon.com.
 
 Your access or use of the Site constitutes your legally binding acceptance of, and agreement to, this Privacy Statement.  This Privacy Statement may be changed at any time.  It is your obligation as a user visiting the Site to familiarize yourself with this Privacy Statement.  Any change to this Privacy Statement shall also be effective as to any visitor who has visited the Site before the change was made.
 
@@ -45,11 +45,11 @@ This Site may contain links to other World Wide Web sites or advertisements for,
 
 ### 4. Security Measures
 
-Kanoa has implemented security features to prevent the unauthorized release of or access to users’ personal information.  Please be advised, however, that the confidentiality of any communication or material transmitted to or from Kanoa via this Site or e-mail cannot be guaranteed.  Accordingly, Kanoa is not responsible for the security of information transmitted via the internet.  As an alternative to communicating with Kanoa via e-mail or the internet, visitors can contact Kanoa by mail at 1933 Norma Rd NE, Tacoma, Washington, 98422, by phone at (253) 426-5319, or by e-mail at info@crossroadcounsel.com.
+Kanoa has implemented security features to prevent the unauthorized release of or access to users’ personal information.  Please be advised, however, that the confidentiality of any communication or material transmitted to or from Kanoa via this Site or e-mail cannot be guaranteed.  Accordingly, Kanoa is not responsible for the security of information transmitted via the internet.  As an alternative to communicating with Kanoa via e-mail or the internet, visitors can contact Kanoa by mail at PO Box 25282 Federal Way, Washington 98093, by phone at (253) 240-9914, or by e-mail at info@kanoacon.com.
 
 ### 5. Your Opt-Out Right
 
-You can always choose to withhold any information you do not want to provide, even though the information may be necessary in order for Kanoa provide you with services through the Site.
+You can always choose to withhold any information you do not want to provide, even though the information may be necessary in order for Kanoa to provide you with services through the Site.
 
 In addition, except as necessary for Kanoa to provide the services, information, or products requested by you, you may opt out of having your personally identifiable information used by Kanoa for secondary purposes, or disclosed by Kanoa to third parties by contacting Kanoa in writing via postal mail, at the addresses set out above. (This does not apply to collection of the type of web browser of the visitor to the Site or to information provided or collected that does not meet the above description.)  Such a request may result in Kanoa declining to provide services to you through the Site or denying you access to the Site.
 
@@ -77,4 +77,4 @@ Kanoa may change this Privacy Statement at any time.  It is the obligation of us
 
 If you would like to update or modify the personal information obtained by Kanoa through this Site, you may do so by:
 
-Sending an email to: nicole@kanoacon.com
+Sending an email to: info@kanoacon.com
