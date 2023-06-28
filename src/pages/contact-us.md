@@ -15,5 +15,3 @@ info@kanoacon.com
 PO Box 25282
 
 Federal Way, WA 98093
-
-<HighlightBlack color="#25c2a0">Highlighted Text Here</HighlightBlack> 
