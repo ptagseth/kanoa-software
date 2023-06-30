@@ -1,5 +1,6 @@
-import HighlightBlack from '@site/src/components/HighlightBlack';
-
+---
+id: contact-us
+---
 # Contact Us
 
 ### Phone:
