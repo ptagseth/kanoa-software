@@ -70,7 +70,7 @@ Multiple measurements can be set to allow for sub-group measurement analysis. By
 Double click these values to change them.
 
 
-![Check Sheets](/img/checksheets-.png)
+![Check Sheets](/img/checksheets-9.png)
 
 ## Check Item Types
 The three check types are Simple, Process and Product.
@@ -80,7 +80,7 @@ Simple check items are just that, simple. A simple check has no specification li
 
 When creating a simple check, a name for the check item, and the data type is all that is required. Values that can be entered for this type of check are then defined in the Pick List. Pass / Fail criteria are defined in the pick lick values and are the same regardless of the product or asset begin checked.
 
-![Check Sheets](/img/checksheets-11.png)
+![Check Sheets](/img/checksheets-10.png)
 
 ### Process Checks
 Process check items should be used when specification limits are needed that are dependent upon the asset being checked. A process check has specification limits dependent upon the asset and product that the check is being performed on. An example of this type of check might be ‘Dryer temperature’ where the required setting may be different based on the age or make or model of the equipment on the production line.
