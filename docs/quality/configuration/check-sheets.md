@@ -2,15 +2,7 @@
 title: Check Sheets
 sidebar_position: 1
 ---
-import MenuIcon from '@mui/icons-material/Menu';
-import HomeIcon from '@mui/icons-material/Home';
-import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import RestoreIcon from '@mui/icons-material/Restore';
-import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import ExitToAppTwoToneIcon from '@mui/icons-material/ExitToAppTwoTone';
-import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
-import DeleteForeverTwoToneIcon from '@mui/icons-material/DeleteForeverTwoTone';
+
 import HighlightBlack from ‘@site/src/components/HighlightBlack’;
 
 <HighlightBlack color="#25c2a0"> 
