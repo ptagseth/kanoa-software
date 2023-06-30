@@ -3,7 +3,7 @@ title: Check Sheets
 sidebar_position: 1
 ---
 
-> In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in Quality > Configuration > Check Sheets.
+> In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
 
 ## Overview
 Existing Check Sheets can be filtered by Asset, Product Set or Product and enabled/disabled state.
@@ -139,11 +139,11 @@ If checks need to be taken on certain events such as shift change, or at regular
 ### Triggers
 - **Product Change** – Whenever the product changes on the line, a new check sheet will be generated if the line mode and shift criteria are met. Product Change triggers have a modifier option:
 
-- Indented Every Product –Quality check is required every time the product changes
+    - Every Product –Quality check is required every time the product changes
 
-- Indented Unique Products Per Shift - Quality check is required only once per product per shift
+    - Unique Products Per Shift - Quality check is required only once per product per shift
 
-- Indented Once Per Shift – Only one quality check will be performed per shift
+    - Once Per Shift – Only one quality check will be performed per shift
 
 - **Shift Change** – Whenever the shift changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
 
@@ -152,19 +152,24 @@ If checks need to be taken on certain events such as shift change, or at regular
 - **Timed Interval** – A new check sheet will be generated every x mins if the line mode and shift criteria are met.
 
 ### Trigger Settings
-- *Mode* – Line modes can be Production, Idle, Changeover, Maintenance depending on how line mode is determined. Select the valid mode for the check sheet.
+- **Mode** – Line modes can be Production, Idle, Changeover, Maintenance depending on how line mode is determined. Select the valid mode for the check sheet.
 
-- *Shift* – If a check should only be taken on a certain, it can be defined here, otherwise select ‘All Shifts’.
+- **Shift** – If a check should only be taken on a certain, it can be defined here, otherwise select ‘All Shifts’.
 
-- *Delay* – When a check becomes due after the check sheet is triggered can be set using the ‘delay’ parameter.
+- **Delay** – When a check becomes due after the check sheet is triggered can be set using the ‘delay’ parameter.
 
-- *Coming Due* – This parameter can be set to inform the quality check person that a check is coming due x minutes before it is due.
+- **Coming Due** – This parameter can be set to inform the quality check person that a check is coming due x minutes before it is due.
 
-- *Overdue* – A check will change status to Overdue x minutes after it was due.
+- **Overdue** – A check will change status to Overdue x minutes after it was due.
 
-- *Grace* – This parameter defines how long a check sheet will be available before its status is changed to missed.
+- **Grace** – This parameter defines how long a check sheet will be available before its status is changed to missed.
 
 ![Check Sheets](/img/checksheets-15.png)
 
-> *Note:* If a new check is required based on the trigger and an existing check is already due, the existing check will be disabled and the new check created. Examples of this would a check driven by a timer interval and a shift change occurring. Checks that need to be triggered based on a plc tag change value, such as Glue station Check Weigher, are done through a special tagUDT. It is not configurable and must be set up by a manufacturing IT support person.
+:::note
+
+If a new check is required based on the trigger and an existing check is already due, the existing check will be disabled and the new check created. Examples of this would a check driven by a timer interval and a shift change occurring. Checks that need to be triggered based on a plc tag change value, such as Glue station Check Weigher, are done through a special tagUDT. It is not configurable and must be set up by a manufacturing IT support person.
+
+:::
+
 
