@@ -3,7 +3,11 @@ title: Check Sheets
 sidebar_position: 1
 ---
 
-> In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
+<HighlightBlack color="#25c2a0"> 
+
+In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
+
+</HighlightBlack>
 
 ## Overview
 Existing Check Sheets can be filtered by Asset, Product Set or Product and enabled/disabled state.
@@ -166,10 +170,10 @@ If checks need to be taken on certain events such as shift change, or at regular
 
 ![Check Sheets](/img/checksheets-15.png)
 
-:::note
+<HighlightBlack color="#25c2a0"> 
 
 If a new check is required based on the trigger and an existing check is already due, the existing check will be disabled and the new check created. Examples of this would a check driven by a timer interval and a shift change occurring. Checks that need to be triggered based on a plc tag change value, such as Glue station Check Weigher, are done through a special tagUDT. It is not configurable and must be set up by a manufacturing IT support person.
 
-:::
+</HighlightBlack>
 
 
