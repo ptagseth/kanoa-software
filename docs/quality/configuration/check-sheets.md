@@ -3,6 +3,7 @@ title: Check Sheets
 sidebar_position: 1
 ---
 
+
 import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
@@ -11,8 +12,8 @@ import RefreshIcon from '@mui/icons-material/Cached';
 import UpIcon from '@mui/icons-material/KeyboardArrowUp';
 import DownIcon from '@mui/icons-material/KeyboardArrowDown';
 
-In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
 
+In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
 
 
 ## Overview
