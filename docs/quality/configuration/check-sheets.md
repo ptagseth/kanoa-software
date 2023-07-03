@@ -6,7 +6,10 @@ sidebar_position: 1
 import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
-import DupliacteIcon from '@mui/icons-material/AddToPhotosSharp';
+import DuplicateIcon from '@mui/icons-material/AddToPhotosSharp';
+import RefreshIcon from '@mui/icons-material/Cached';
+import UpIcon from '@mui/icons-material/KeyboardArrowUp';
+import DownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
 
@@ -46,7 +49,7 @@ A check sheet can be configured to only be valid for a certain product or a prod
 ![Check Sheets](/img/checksheets-4.png)
 
 ### On Fail
-When enabled, a re-test will be automatically scheduled. The re-test can be the same check sheet or a different check sheet as specified in the dropdown. To refresh dropdown options, click the :refresh: button.
+When enabled, a re-test will be automatically scheduled. The re-test can be the same check sheet or a different check sheet as specified in the dropdown. To refresh dropdown options, click the <RefreshIcon fontSize="small" /> button.
 
 ### Notify
 If enabled, an email alert notification will be sent to the notification group(s) as specified in the dropdown.
@@ -60,13 +63,13 @@ General instructions and information about the check sheet can be entered into t
 
 
 ## Creating Check Items
-A check sheet can have multiple checks. Check items can be added :add:, edited :edit:, deleted :delete:, and the order in which they appear can be set using the up :up: and down :down: arrows. 
+A check sheet can have multiple checks. Check items can be added <AddIcon fontSize="small" />, edited <EditIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" />, and the order in which they appear can be set using the up <UpIcon fontSize="small" /> and down <DownIcon fontSize="small" /> arrows. 
 
 To create new check, click the add :add: icon. This opens the Check Item Selector where the check’s specifications are added. There are three types of checks that can be added to a check sheet, Simple, Process and Product. For more details on check types, see Check Item Types.
 
 ![Check Sheets](/img/checksheets-7.png)
 
-Instructions can be added for each check and are displayed when the check is selected. Press the update :update: button to save any changes to the check instructions. 
+Instructions can be added for each check and are displayed when the check is selected. Press the update button to save any changes to the check instructions. 
 
 ![Check Sheets](/img/checksheets-8.png)
 
