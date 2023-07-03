@@ -35,7 +35,7 @@ The first thing to take notice of on the right is the custom property ‘action�
 
 In the shift scheduler view, authorized users may create, edit, and delete shifts. Any user is allowed to view shifts for any asset they are associated with. In the screenshot, user ‘azhou’ is an Administrator for the asset ‘Apple House’, and is allowed to schedule shifts. As we can see, the create, edit, and delete buttons are displayed. However, lets then select an asset for which we do not have permissions. 
 
-![Functions Security](/img/SchedulenoPerms.png)
+![Functions Security](/img/schedulenoPerms.png)
 
 ‘azhou’ is a User at ‘Yakima Fruit and Cold Storage’, which doesn’t have the function of ‘ScheduleShifts’ enabled. The CRUD buttons seen in the previous screenshot are no longer displayed. In this case specifically, each of the CRUD buttons' ‘display’ property were bound to their corresponding booleans in the ‘action’ object.
 
