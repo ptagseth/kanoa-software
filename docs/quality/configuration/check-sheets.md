@@ -3,7 +3,10 @@ title: Check Sheets
 sidebar_position: 1
 ---
 
-import DeleteForeverTwoToneIcon from '@mui/icons-material/Add';
+import AddIcon from '@mui/icons-material/Add';
+import DeleteIcon from '@mui/icons-material/DeleteForever';
+import EditIcon from '@mui/icons-material/Edit';
+import DupliacteIcon from '@mui/icons-material/AddToPhotosSharp';
 
 In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
 
@@ -11,12 +14,12 @@ In order to perform and capture a quality, safety, operations or environmental c
 
 ## Overview
 Existing Check Sheets can be filtered by Asset, Product Set or Product and enabled/disabled state.
-Check sheets can be added :add:, edited :edit:, deleted :delete2: and duplicated :duplicate:.
+Check sheets can be added <AddIcon fontSize="small" />, edited <EditIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" /> and duplicated <DuplicateIcon fontSize="small" />.
 
 ![Check Sheets](/img/checksheets-1.png)
 
 ## Creating Check Sheets
-To create a new check sheet, click the Add icon <Add fontSize="small" />. This opens the Check Sheet Editor where the check sheet’s specifications are added.
+To create a new check sheet, click the Add icon <AddIcon fontSize="small" />. This opens the Check Sheet Editor where the check sheet’s specifications are added.
 
 ### Check Sheet Types
 There are three types of check sheets that can be created, Operations, Environmental, and Product. Operations and Environmental Checks can be used to perform housekeeping, environmental controls and safety checks, and do not require a product to be selected. Product Checks record the product being checked and apply any product or process specs.
