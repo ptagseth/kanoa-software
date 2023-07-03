@@ -31,7 +31,7 @@ Here, the asset ‘Kanoa Industries\Adelaide Hills’ is selected. This will the
 
 The first thing to take notice of on the right is the custom property ‘action’, which contains 4 booleans for each CRUD function. This permissions object is bound to the selected asset path and the logged in user’s username. Based on these two parameters, the allowed permissions are determined. In this specific example, the user needs to have a role assigned to the selected asset path, that has the function of ‘ScheduleShifts’. Let’s take a look at the functions of shift scheduler.
 
-![Functions Security](/img/SchedulePermissions.png)
+![Functions Security](/img/schedulePermissions.png)
 
 In the shift scheduler view, authorized users may create, edit, and delete shifts. Any user is allowed to view shifts for any asset they are associated with. In the screenshot, user ‘azhou’ is an Administrator for the asset ‘Apple House’, and is allowed to schedule shifts. As we can see, the create, edit, and delete buttons are displayed. However, lets then select an asset for which we do not have permissions. 
 
