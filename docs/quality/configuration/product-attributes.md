@@ -5,7 +5,7 @@ sidebar_position: 3
 
 Whenever a check is to be compared against a product specification, that check needs to reference a product attribute. Product Attributes and associated specifications can be configured in **Quality > Configuration > Product Attributes**.
 
-![Process Attributes](/img/product-attributes-1.png)
+![Product Attributes](/img/product-attributes-1.png)
 
 
 ## Adding Product Attributes

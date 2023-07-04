@@ -14,7 +14,7 @@ import Delete2Icon from '@mui/icons-material/DeleteForever';
 The check entry screen can be accessed by double clicking a check sheet in **Quality > Scheduled** checks in the MES application.
 
 
-![Process Attributes](/img/check-entry-1.png)
+![CHeck Entry](/img/check-entry-1.png)
 
 
 All checks defined for a check sheet are displayed in a table either on the left-hand side of the screen or at the top of the screen. Screen placement is dependent on the measurement count of the checks. The layout can be toggled between vertical and horizontal by clicking on the <LayoutIcon fontSize="small" /> button.

@@ -9,7 +9,7 @@ Product Sets are logical groupings of product that share the same process and pr
 
 Click the ‘Edit Product sets’ button to add or edit Product Sets.
 
-![Process Attributes](/img/product-sets-1.png)
+![Product Sets](/img/product-sets-1.png)
 
 
 ## Associating Products to a Product Set
