@@ -1,6 +1,7 @@
-
-# Website Privacy Statement
-
+---
+sidebar_class_name: hidden
+title: Website Privacy Statement
+---
 This Privacy Statement sets forth the information gathering, use, and dissemination practices of www.kanoacon.com and/or its affiliates, partners, and assigns, ("Kanoa") in connection with the World Wide Web site located at www.kanoacon.com, and any affiliated subpages ("Site").  This Privacy Statement applies solely to information Kanoa learns about you or obtains from you when you visit Kanoa’s Site.  This Privacy Statement does not address or govern any information gathering, use, or dissemination practices related to information collected in any other way.
 
 **This Privacy Statement does not address or govern the collection, maintenance, use, or disclosure of any private health information.  Additional information about your rights with respect to your private health information is available in the HIPAA disclosure statement available at www.kanoacon.com or directly from Kanoa.**
