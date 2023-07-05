@@ -1,7 +1,8 @@
 ---
+sidebar_class_name: hidden
 id: contact-us
+title: Contact Us
 ---
-# Contact Us
 
 ### Phone:
 

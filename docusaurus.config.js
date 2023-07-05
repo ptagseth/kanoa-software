@@ -87,7 +87,7 @@ const config = {
             items: [
                 {
                   label: 'Contact Us',
-                  href: 'contact-us',
+                  href: 'https://kanoa-software.netlify.app/contact-us',
                 },
                 {
                   label: 'Terms & Conditions',
