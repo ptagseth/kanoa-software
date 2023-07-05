@@ -1,9 +1,11 @@
 ---
+id: process-attributes
 title: Process Attributes
 sidebar_position: 2
 ---
-
+:::info
 Whenever a check is to be compared against a specification that is dependent upon the asset and/or, that check needs to reference a process attribute. Process Attributes and associated specifications can be configured in **Quality > Configuration > Process Attributes**.
+:::
 
 ![Process Attributes](/img/process-attributes-1.png)
 

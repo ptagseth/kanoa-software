@@ -2,9 +2,9 @@
 title: Summary Report
 sidebar_position: 1
 ---
-
+:::info
 The summary report can be found by clicking the Summary button in **Quality > Analysis**.
-
+:::
 
 ## By Check Sheet
 

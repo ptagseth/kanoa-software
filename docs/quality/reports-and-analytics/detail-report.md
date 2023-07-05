@@ -2,9 +2,9 @@
 title: Detail Report
 sidebar_position: 2
 ---
-
+:::info 
 The detail report can be found by clicking the Detail button in **Quality > Analysis**.
-
+:::
 
 The Detail report provides a view on individual check values. 
 

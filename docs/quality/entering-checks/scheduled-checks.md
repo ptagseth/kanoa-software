@@ -6,7 +6,9 @@ import AddIcon from '@mui/icons-material/Add';
 import EditIcon from '@mui/icons-material/Edit';
 import EyeIcon from '@mui/icons-material/Preview';
 
+:::info
 Based on the triggers defined for a check sheet and the line status (shift, mode and product) coming from MES, scheduled checks are automatically created. Scheduled Checks can be viewed from **Quality > Scheduled Checks** in the MES application navigation sidebar.
+:::
 
 ![Scheduled Checks](/img/scheduled-checks-1.png)
 

@@ -1,9 +1,11 @@
 ---
+id: product-attributes
 title: Product Attributes
 sidebar_position: 3
 ---
-
+:::info
 Whenever a check is to be compared against a product specification, that check needs to reference a product attribute. Product Attributes and associated specifications can be configured in **Quality > Configuration > Product Attributes**.
+:::
 
 ![Product Attributes](/img/product-attributes-1.png)
 
