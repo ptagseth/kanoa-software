@@ -113,12 +113,12 @@ The icon the shows up to the left of the text. You can pass in "None" to remove 
 
 ![Toast](/img/toast-10.png)
 
-1. system.perspective.sendMessage('showToast', {
+1. '''system.perspective.sendMessage('showToast', {
 2.     'message': 'This is a completely custom toast.',
 3.     'bgColor': 'MintCream',
 4.     'fgColor': 'CadetBlue',
 5.     'icon': 'material/clean_hands'
-6. })
+6. })'
 
 ![Toast](/img/toast-11.png)
 

@@ -2,9 +2,9 @@
 title: Translation Manager
 sidebar_position: 1
 ---
-
+:::info  
 Step-by-step guide to adding a new language to the project
-
+:::
 
 ## Export Terms
 

@@ -1,5 +1,6 @@
 ---
-title: Reliability
+id: reliability-kpis
+title: Reliability KPI's
 sidebar_position: 6
 ---
 

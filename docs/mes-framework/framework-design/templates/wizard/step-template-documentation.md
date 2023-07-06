@@ -1,10 +1,14 @@
 ---
+id: step-template-documentation
 title: Step Template Documentation
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-
+:::info
 The step template is a template used to design a step, to be used in a sequence of steps that are to be used with the Wizard Template. Steps typically contain a number of input fields, which values are to be collected and stored by the wizard, in order to execute the objective task.
+:::
+
+![Step Template Documentation](/img/30.png)
 
 ## Parameters
 
@@ -15,10 +19,10 @@ The step template is a template used to design a step, to be used in a sequence 
 
 ### Step - Data Properties 
 
-| **Name**      | **Description**                                                 | **Type**  |
-| :------------ | :------------------------------------------------------------------- | :---------- |
-| dependencies   | Object containing field names, if the step requires any field data from previous steps | object |
-| fields | Object containing field names associated with the step  -  More details in Data - [Fields Properties](#data---field-properties) | object |
+| **Name**      | **Description**                                                                                                                  | **Type**  |
+| :------------ |:---------------------------------------------------------------------------------------------------------------------------------| :---------- |
+| dependencies   | Object containing field names, if the step requires any field data from previous steps                                           | object |
+| fields | Object containing field names associated with the step  \\  More details in Data - [Fields Properties](#data---field-properties) | object |
 
 
 ### Data - Field Properties
