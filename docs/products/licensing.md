@@ -1,10 +1,10 @@
 ---
 id: licensing
 title: Licensing
+hide_title: true
 sidebar_position: 2
 ---
-
-## Software Licensing
+# Software Licensing
 The Kanoa MES Framework can be purchased for an enterprise. With that purchase, the framework can be installed for as many sites, production lines and servers as required for the client.  
 
 SQL Server will require licensing and it is expected that for the most part, a clients IT department will provide a database for this purpose.  

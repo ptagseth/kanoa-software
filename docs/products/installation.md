@@ -16,7 +16,7 @@ sidebar_position: 3
 2. A Kanoa_MES database shall be added to the database server. The framework package provides a script that will create the necessary schemas, tables and functions.
 
 ## Configuring Assets
-Refer to [Production Configuration](/category/asset-management) to see how to setup assets, modes and state.
+Refer to [Asset Management](/category/asset-management) to see how to setup assets, modes and state.
 
 ## Connecting to Assets
 - OPC Tags 
