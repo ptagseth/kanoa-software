@@ -1,6 +1,6 @@
 ---
 title: Translation Manager
-sidebar_position: 1
+sidebar_position: 7
 ---
 :::info  
 Step-by-step guide to adding a new language to the project

@@ -29,16 +29,16 @@ When a process check is to be taken, it will first check to see if a tolerance e
 
 
 ### Tolerance Parameters
-- Upper Entry Limit – Defines the maximum value that can be entered.
+- **Upper Entry Limit** – Defines the maximum value that can be entered.
 
-- Upper Spec Limit – Defines the upper Pass / Fail condition. Failing values will be highlighted red.
+- **Upper Spec Limit** – Defines the upper Pass / Fail condition. Failing values will be highlighted red.
 
-- Upper Control Limit – Defines the upper limit condition. Values exceeding the ucl will be considered as passing but will be highlighted orange.
+- **Upper Control Limit** – Defines the upper limit condition. Values exceeding the ucl will be considered as passing but will be highlighted orange.
 
-- Target - Defines the expected ideal value
+- **Target** - Defines the expected ideal value
 
-- Lower Control Limit – Defines the lower limit condition. Values below the lcl will be considered as passing but will be highlighted orange.
+- **Lower Control Limit** – Defines the lower limit condition. Values below the lcl will be considered as passing but will be highlighted orange.
 
-- Lower Spec Limit – Defines the lower Pass / Fail condition. Failing values will be highlighted red.
+- **Lower Spec Limit** – Defines the lower Pass / Fail condition. Failing values will be highlighted red.
 
-- Lower Entry Limit – Defines the minimum value that can be entered.
+- **Lower Entry Limit** – Defines the minimum value that can be entered.

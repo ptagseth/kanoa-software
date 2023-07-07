@@ -4,7 +4,9 @@ title: Operations Management
 sidebar_position: 2
 ---
 Any mode that has been configured for an asset and has the canSchedule attribute set can be scheduled for an asset in this screen.  
+
 The Scheduler supports recurrence rules to allow for recurring events.  
+
 Production orders that are in a ‘Released’ or ‘Scheduled’ state can also be dragged onto the scheduler.
 
 ![Mode Editor](/img/24.png)

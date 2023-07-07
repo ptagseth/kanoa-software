@@ -10,7 +10,7 @@ The Kanoa MES framework supports a light and dark mode. To switch themes, click 
 ![Summary View](/img/11.png)
 
 Light Mode:
-![Summary View](/img/12.png)  
+![Summary View](/img/12.png)
 
 Dark Mode:
 ![Summary View](/img/13.png)

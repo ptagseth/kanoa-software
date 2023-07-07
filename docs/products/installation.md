@@ -8,8 +8,8 @@ sidebar_position: 3
 ### Gateway Server
 1. Install latest version of [Ignition](https://inductiveautomation.com/downloads/ignition/8.1.19). Directions for installation [here](https://docs.inductiveautomation.com/display/DOC81/Installing+and+Upgrading+Ignition).
 2. Install BIJC [Calendar Component module](https://modules.bijc.co.uk/?page_id=76).
-3. Add Themes and icon files to the Ignition\data\modules\com.inductiveautomation.perspective folder
-4. Add dateUtil.py and six.py python libraries to the Ignition\user-lib\pylib folder
+3. Add Themes and icon files to the **Ignition\data\modules\com.inductiveautomation.perspective** folder
+4. Add **dateUtil.py** and **six.py** python libraries to the **Ignition\user-lib\pylib** folder
 
 ### Database
 1. SQL Server 2018 or higher must be used.
@@ -24,4 +24,6 @@ Refer to [Asset Management](/category/asset-management) to see how to setup asse
 - Manual Entry 
 - States, Modes, Counts
 
-// Need detailed discussion on how this works with the UDTs. Explain how counts are handled and that one, two or three counts can be added.
+:::caution Developer Note
+Need detailed discussion on how this works with the UDTs. Explain how counts are handled and that one, two or three counts can be added.
+:::
