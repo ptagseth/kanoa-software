@@ -12,32 +12,36 @@ import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import ExitToAppTwoToneIcon from '@mui/icons-material/ExitToAppTwoTone';
 import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
 import DeleteForeverTwoToneIcon from '@mui/icons-material/DeleteForeverTwoTone';
+import DoDisturbAltIcon from '@mui/icons-material/DoDisturbAlt';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import CloseIcon from '@mui/icons-material/Close';
 
 ## Top Navigation Bar
-The top navigation bar is always present at the top of the application. 
-
-Click the <MenuIcon fontSize="small" /> button to toggle the Navigation Sidebar open or closed. Click the <HomeIcon fontSize="small" /> button to go to the home page.  
-
-The <ChevronLeftIcon fontSize="small" /> <ChevronRightIcon fontSize="small" /> <RestoreIcon fontSize="small" /> buttons provide access to Navigation History. The navigation bar displays the name of the page currently open.  
+The top navigation bar is always present in the application, offering essential navigation features and displaying the current page's name.
 
 ![Navigation Menu](/img/17.png)
 
+It provides the following functionality:
+* **Menu Button** <MenuIcon fontSize="small" /> : Click to toggle the collapsible [Navigation Sidebar](#navigation-sidebar) open or closed.  
+* **Home Button** <HomeIcon fontSize="small" /> : Returns the user to the home page.
+* **Previous Page and Next Page Buttons** <ChevronLeftIcon fontSize="small" /> <ChevronRightIcon fontSize="small" /> : Quickly navigates between recently accessed pages.
+* **Navigation History Button** <RestoreIcon fontSize="small" /> : Opens [Navigation History](#navigation-history) pop-up.
+* **Current Page Display**: Displays the name of the page currently open.
+
 ## Navigation Sidebar
-The navigation sidebar facilitates navigation through the MES framework pages.  
+The navigation sidebar facilitates navigation through the framework's pages. To navigate to a page, click on its title or click the <ArrowRightIcon /> button to expand and view subpages.  
 
-To navigate to a page, click on its title or click the <ArrowRightIcon /> button to expand and view subpages.  
+Use the search bar at the top to search for a specific page.  
 
-Use the search bar at the top to search for a specific page.
+To access help documentation, click on the bottom **Help** option.
 
 ![Navigation Menu](/img/18.png)
 
 ## Navigation History
-To quickly navigate between recently accessed pages, use the previous page and next page buttons in the top navigation bar. <ChevronLeftIcon fontSize="small" /> <ChevronRightIcon fontSize="small" />  
-
 Full navigation history can be accessed by clicking on the <RestoreIcon fontSize="small" /> button in the top navigation bar, which opens the navigation history pop-up. The navigation history pop-up displays recently visited pages in chronological order. To navigate back to any of these pages, click on the page title.  
 
-To close the navigation history pop-up, click the <ExitToAppTwoToneIcon fontSize="small" /> Close button or the <CloseTwoToneIcon fontSize="small" /> in the top right corner.  
+To close the navigation history pop-up, click the <ExitToAppTwoToneIcon fontSize="small" /> button or the <CloseTwoToneIcon fontSize="small" /> in the top right corner.  
 
-To clear navigation history, click the <DeleteForeverTwoToneIcon fontSize="small" /> Clear button.
+To clear navigation history, click the <DoDisturbAltIcon fontSize="small" /> button.
 
 ![Navigation Menu](/img/19.png)
