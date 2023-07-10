@@ -53,10 +53,10 @@ const config = {
     ({
     algolia: {
         // The application ID provided by Algolia
-        appId: 'FAZ4EOEIYS',
+        appId: 'Z9I4A7AO2A',
 
         // Public API key: it is safe to commit it
-        apiKey: 'e6346fbe3575ab0a53d7a018ed37923a',
+        apiKey: '0b6575cc05de135d70cd658082f4c784',
 
         indexName: 'kanoa-software',
 
