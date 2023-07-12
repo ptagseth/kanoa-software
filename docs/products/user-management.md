@@ -22,8 +22,9 @@ Logout using the logout icon up in the upper right corner.
 
 
 ### Account Management
-To be able to add, delete and edit other accounts than yours, you must have Security privileges.  See [Configure Roles](#configure-roles) for more info.
+Security permissions can be managed from **Configuration/Security**.
 
+To be able to add, delete and edit other accounts than yours, you must have Security privileges.  See [Configure Roles](#configure-roles) for more info.
 
 ### Add User
 To add a user, click the <AddIcon fontSize="small" />.

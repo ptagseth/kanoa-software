@@ -2,14 +2,27 @@
 title: Home Page
 sidebar_position: 1
 ---
-The home page is the initial page displayed in the MES application and gives am overview of the current status of all assets in all enterprises.  
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
-Assets can either be displayed in a compact view or an expanded view. In the compact view, the current mode of each line is displayed. The expanded view displays current mode, current state, mode and state overviews for the selected time frame, and information on OEE, availability, performance and quality.  
+## Overview
 
-To expand or shrink an individual asset, double click the asset. To expand or shrink all assets simultaneously, click the arrow icon in the home page header bar.  
+The home page serves as the initial display in the MES application and provides a comprehensive overview of the current status of all assets across all enterprises.
 
-![Summary View](/img/9.png)
+## Asset Display Options
+To view an asset, click the <ChevronRightIcon fontSize="small" /> icon adjacent to the asset name. To expand or shrink all assets simultaneously, click the <ChevronRightIcon fontSize="small" /> icon in the home page header bar.
+![Home Page](/img/34.png)
 
-![Detail View](/img/10.png)
+Individual assets can either be displayed in a compact view or an expanded view. Click on an individual asset to expand or shrink it.
+* **Compact View:** In this view, all lines within an asset are shown, including the current mode of each line.
+  ![Summary View](/img/9.png)
+* **Expanded View:** This view provides a more detailed perspective. It includes the following information:
+  * Current mode
+  * Current state
+  * Mode and state overviews for the selected time frame 
+  * OEE (Overall Equipment Effectiveness)
+  * Availability 
+  * Performance 
+  * Quality
+  ![Detail View](/img/10.png)
 
 In the detail view, a date range dropdown allows you to select the time frame for which asset mode, state and OEE is displayed for. 
