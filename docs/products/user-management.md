@@ -70,6 +70,8 @@ Manage privileges for a role at Roles configuration tab.  Make sure the role has
 
 ![User Management](/img/UMConfigureRoles.png)
 
+For more details on how to configure roles and the security of roles - check the [Framework Design -> Security](/products/framework-design/security.md) pages.
+
 
 ### Delete Roles
 Delete a role by selecting the role and hit <DeleteIcon fontSize="small" /> button.
