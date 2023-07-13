@@ -51,3 +51,5 @@ This is how the security functions. Of course, there may need to be bindings set
 
 
 ## Assigning Roles and Functions
+
+Assignment of roles and functions - more details at the [Products > User Management ](/products/user-management.md) page.
