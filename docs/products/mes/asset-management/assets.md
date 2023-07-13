@@ -30,7 +30,7 @@ Logged in users can see the Asset management screen, but privileges are needed t
 
 To create an asset - click the <AddIcon fontSize="small" /> icon on the Asset Management page - and next click the <AddIcon fontSize="small" /> icon on the Asset Editor to clear the form.  Select the asset parent in the editor - and enter the asset information as needed.  Save the asset.
 
-![Asset Manager](/img/AssetCreateAsset.png)
+![Asset Manager](/img/AssetsCreateAsset.png)
 
 
 When an asset is configured as ‘OEE_Enabled’, a lineOEE tag UDT instance is created that can then be connected to a data source either plc from an OPC-UA source or MQTT reference tag.
@@ -47,5 +47,5 @@ Modify an Asset is just a variation of Create an Asset.  Select the asset to be 
 
 To Delete and Asset - select the asset to delete and click the <DeleteIcon fontSize="small" /> icon
 
-![Asset Manager](/img/AssetDeleteAsset.png)
+![Asset Manager](/img/AssetsDeleteAsset.png)
 
