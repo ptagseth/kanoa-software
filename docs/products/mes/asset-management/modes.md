@@ -3,7 +3,7 @@ id: modes
 title: Modes
 sidebar_position: 2
 ---
-Modes provides a method for stating what is intended to be happening on an asset and provides us with insight on the utilization of our assets.
+Modes provides a method for stating what is intended to be happening on an asset and provides us with insight on the utilization of our assets.  It answers the question:  What are we doing with the equipment of the line - e.q. Production, Maintenance, Changeover, etc.
 
 ![Modes](/img/ModesOverview.png)
 

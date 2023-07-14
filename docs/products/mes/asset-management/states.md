@@ -3,12 +3,12 @@ id: states
 title: States
 sidebar_position: 3
 ---
-Assets - fill in definition…
+The Asset State represents the local state of a line or the cells of the line, i.e. Running, idle, faulted, CIP, inspection, etc.
 
 ![States](/img/StateOverview.png)
 
 
-## Asset Management
+## State Management
 Assets states are created in State Editor. New states can be added. 
 
 ![States](/img/StateEditor.png)
