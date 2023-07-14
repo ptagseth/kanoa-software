@@ -15,10 +15,8 @@ Production Orders can be started and ended as well as production runs. Scheduled
 
 ![Asset Operation](/img/line-operation.png)
 
-### Accessing Downtime Data
-1. Select a line using the **Asset Selector** in the top left.
+## Accessing Production Data Entry
+The [Production Data Entry](docs/products/mes/production-data-entry.md) table can be accessed from the asset operation page by selecting a line using the **Asset Selector** in the top left.
    ![Editing Downtime](/img/36.png)
-2. Click on the <CreateIcon fontSize="small" /> **Production Entry** tab and use the date range selector to select the relevant time frame.
+Then, click on the <CreateIcon fontSize="small" /> **Production Entry** tab and use the date range selector to select the relevant time frame.
    ![Editing Downtime](/img/37.png)
-3. Expand the downtime data table by clicking on a line and selecting the **Downtime** tab.
-   ![Editing Downtime](/img/38.png)
