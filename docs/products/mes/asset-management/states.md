@@ -3,16 +3,23 @@ id: states
 title: States
 sidebar_position: 3
 ---
-Assets states are created in this screen. New states can be added. The state type determines whether the state should be considered to be a running, unplanned downtime or a planned downtime state and affect the OEE, reliability and downtime analysis.  
+Assets - fill in definition…
 
-The category field provides a method for grouping the different states into buckets for pareto analysis.  
+![States](/img/StateOverview.png)
 
-The Equipment type field is used to simply indicate if this state is has been created for a particular type of asset.  
 
-![Mode Editor](/img/6.png)
+## Asset Management
+Assets states are created in State Editor. New states can be added. 
+
+![States](/img/StateEditor.png)
+
+
+
+The state type determines whether the state should be considered to be a running, unplanned downtime or a planned downtime state and affect the OEE, reliability and downtime analysis.  
+
+The category field provides a method for grouping the different states into buckets for analysis.
 
 The configured asset states can then be associated to assets by selecting the assets in the asset tree, selecting the states in the table and pressing the link button.
+This creates a link entry between the asset and the state. A code value (integer) must then be defined for the asset. This will be the state value coming from that asset’s PLC.
 
-![Mode Editor](/img/7.png)
-
-This creates a link entry between the asset and the state. A code value (integer) must then be defined for the asset. This will be the state value coming from that asset’s plc.
+![States](/img/StateLinkAssets.png)
