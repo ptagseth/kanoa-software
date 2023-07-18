@@ -8,10 +8,10 @@ Products can be created in this screen or pulled via web service call or middlew
 ![Mode Editor](/img/MaterialsManagementMaterialsOverview.png)
 
 Product items can be categorized in classes and sub-classes of product if required.  
+Custom Attributes can be added to a product if required.
 
 ![Mode Editor](/img/MaterialsManagementMaterialsEditor.png)
 
-Custom Attributes can be added to a product if required.
 
 ## Configuring Asset Production Rates
 Any asset that has been configured with ‘OEE_Enabled’ can have a production rate information configured for it.
