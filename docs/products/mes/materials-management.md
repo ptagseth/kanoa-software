@@ -5,25 +5,35 @@ sidebar_position: 3
 ---
 Products can be created in this screen or pulled via web service call or middleware tables from an ERP system.  
 
-![Mode Editor](/img/21.png)
+![Mode Editor](/img/MaterialsManagementMaterialsOverview.png)
 
 Product items can be categorized in classes and sub-classes of product if required.  
 
-![Mode Editor](/img/22.png)
+![Mode Editor](/img/MaterialsManagementMaterialsEditor.png)
 
 Custom Attributes can be added to a product if required.
 
 ## Configuring Asset Production Rates
 Any asset that has been configured with ‘OEE_Enabled’ can have a production rate information configured for it.
 
-![Mode Editor](/img/23.png)  
+![Mode Editor](/img/MaterialsManagementProdRatesOverview.png)
 
-- **Standard Rate** – Theoretical speed at which the asset should be able to process material at.
 
-- **Schedule Rate** – Likely speed at which the asset will run based on historical OEE data.
+Manage the Production Rates using the Editor
+
+![Mode Editor](/img/MaterialsManagementProdRatesEditor.png)
+
+
+- **Std Rate** – Theoretical speed at which the asset should be able to process material at.
+
+- **Sch Rate** – Likely speed at which the asset will run based on historical OEE data.
 
 - **Period** – Period for which the standard and schedule rate applies to.
 
-- **Units** – Units for the infeed, outfeed and reject counts.
+- **Infeed Units** – Units for the infeed.
+
+- **Outfeed Units** – Units for the outfeed.
+
+- **Waste** – Units for calculated rejects.
 
 - **Package Count:** - The number of infeed units that equate to the outfeed units. Used to calculate OEE values when no infeed count exists.
