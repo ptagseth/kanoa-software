@@ -17,8 +17,12 @@ The **Production Data Entry** table records data pertaining to asset operation m
 Select a line using the **Asset Selector** in the top left and use the date range selector to select the relevant time frame.
 ![Editing Downtime](/img/42.png)
 
-## Editing Asset Operation
-To edit asset operation, open the asset operation screen
+## Asset Operation
+The production data entry table shows the mode of an asset's operations. 
+
+### Editing Asset Operation
+To edit asset operation, [open the production data entry table](docs/products/mes/asset-operation.md#accessing-production-data-entry).  
+Click on the <EditIcon fontSize="small" /> button located at the left of the table to open the **Edit Operation** pop-up. 
 
 ## Downtime
 To access downtime data, [open the production data entry table](docs/products/mes/asset-operation.md#accessing-production-data-entry). Then, click on an asset and select the **Downtime** tab.
@@ -50,6 +54,13 @@ Otherwise, click the <FilterAltIcon fontSize="small" /> button at the top of the
 ![Editing Downtime](/img/43.png)
 
 ## Production Counts
+Production counts displays the quantity of infeed units, outfeed units and waste units associated with an asset. 
+To access production counts, [open the production data entry table](docs/products/mes/asset-operation.md#accessing-production-data-entry). Then, click on an asset and select the **Counts** tab.
+
+Infeed, outfeed and waste units can be configured in **Configuration**. Additionally, the user can configure package count to seamlessly handle the conversions between infeed units (eg. bottles) and outfeed units (ie. cases).
+
+If there is a discrepancy in the recorded infeed, outfeed and waste units, a warning will be displayed.
 
 ### Editing Production Counts
-To edit production run counts, 
+The user can manually replace infeed, outfeed, or waste values through the production counts screen by clicking on the corresponding box, typing a new value and pressing enter. 
+To clear a value, press the x icon to the right of the placeholder. Once cleared, a calculator icon will be displayed, indicating that the new value has been calculated automatically using the other two data pieces. 

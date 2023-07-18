@@ -7,16 +7,20 @@ sidebar_position: 5
 import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
+import PersonIcon from '@mui/icons-material/Person';
+import LogoutIcon from '@mui/icons-material/Logout';
 
+The application initially opens in Guest Mode, where the user has limited permissions and access to assets. To receive
+the permissions associated with their pre-assigned role, the user must log in. 
 
 ### Login
-From guest mode, you can login by click the login icon in the upper right corner.
+From guest mode, you can log in by clicking the <PersonIcon fontSize="small" /> icon in the upper right corner.
 
 ![User Management](/img/UMLogin.png)
 
 
 ### Logout
-Logout using the logout icon up in the upper right corner.
+Log out by clicking the <LogoutIcon fontSize="small" /> icon up in the upper right corner.
 
 ![User Management](/img/UMLogout.png)
 
@@ -24,10 +28,10 @@ Logout using the logout icon up in the upper right corner.
 ### Account Management
 Security permissions can be managed from **Configuration/Security**.
 
-To be able to add, delete and edit other accounts than yours, you must have Security privileges.  See [Configure Roles](#configure-roles) for more info.
+To be able to add, delete and edit accounts other than yours, you must have Security privileges.  See [Configure Roles](#configure-roles) for more info.
 
 ### Add User
-To add a user, click the <AddIcon fontSize="small" />.
+To add a new user, click the <AddIcon fontSize="small" />.
 
 ![User Management](/img/UMAddUser.png)
 
@@ -36,7 +40,9 @@ Add the UserID, Password, First and Last names.  Email and Phone number are opti
 
 ![User Management](/img/UMAddUser2.png)
 
-The created user has no privileges - add roles by [Edit User](#edit-user)
+:::note
+A new user has no privileges - add roles through [Edit User](#edit-user)
+:::
 
 
 ### Edit User
