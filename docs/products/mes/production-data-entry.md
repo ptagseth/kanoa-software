@@ -14,18 +14,23 @@ import FilterAltIcon from '@mui/icons-material/FilterAlt';
 
 The **Production Data Entry** table records data pertaining to asset operation modes, downtime events, and production counts. It can be accessed from the [Asset Operation](docs/products/mes/asset-operation.md) and [Run Review](docs/products/mes/performance-analytics/run-review.md) screens.
 
-Select a line using the **Asset Selector** in the top left and use the date range selector to select the relevant time frame.
-![Editing Downtime](/img/42.png)
+## Accessing Production Data Entry
+1. Select a line using the **Asset Selector** in the top left.
+![Production Data Entry](/img/36.png)
+2. If you are accessing Production Data Entry from the Asset Operation page, click on the <CreateIcon fontSize="small" /> **Production Entry** tab.
+![Production Data Entry](/img/45.png)
+3. Use the date range selector to select the relevant time frame.
+![Production Data Entry](/img/37.png)
 
 ## Asset Operation
-The production data entry table shows the mode of an asset's operations. 
+The production data entry table shows an asset's operation mode. 
 
 ### Editing Asset Operation
-To edit asset operation, [open the production data entry table](docs/products/mes/asset-operation.md#accessing-production-data-entry).  
-Click on the <EditIcon fontSize="small" /> button located at the left of the table to open the **Edit Operation** pop-up. 
+To edit asset operation, open the production data entry table.  
+Click on the <EditIcon fontSize="small" /> button located at the left of the table to open the **Edit Asset Operation** pop-up. 
 
 ## Downtime
-To access downtime data, [open the production data entry table](docs/products/mes/asset-operation.md#accessing-production-data-entry). Then, click on an asset and select the **Downtime** tab.
+To access downtime data, open the production data entry table. Then, click on an asset and select the **Downtime** tab.
    ![Editing Downtime](/img/38.png)
 
 ### Editing Downtime Events
@@ -50,12 +55,12 @@ The **Show Uncoded** and **Show Coded** options filter downtime events based on 
 The right side of the footer displays a summary of the table results.
 ![Editing Downtime](/img/44.png)
 
-Otherwise, click the <FilterAltIcon fontSize="small" /> button at the top of the table to expand the standard table filter. 
+Additionally, click the <FilterAltIcon fontSize="small" /> button at the top of the table to expand the standard table filter. 
 ![Editing Downtime](/img/43.png)
 
 ## Production Counts
-Production counts displays the quantity of infeed units, outfeed units and waste units associated with an asset. 
-To access production counts, [open the production data entry table](docs/products/mes/asset-operation.md#accessing-production-data-entry). Then, click on an asset and select the **Counts** tab.
+Production counts displays infeed units, outfeed units and waste units associated with an asset. 
+To access production counts, open the production data entry table. Then, click on an asset and select the **Counts** tab.
 
 Infeed, outfeed and waste units can be configured in **Configuration**. Additionally, the user can configure package count to seamlessly handle the conversions between infeed units (eg. bottles) and outfeed units (ie. cases).
 
