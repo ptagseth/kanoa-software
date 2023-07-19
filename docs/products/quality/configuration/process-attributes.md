@@ -12,12 +12,13 @@ Whenever a check is to be compared against a specification that is dependent upo
 ## Adding a Process Attribute
 Each process attribute requires a name, an asset and a datatype. Process attribute names do not need to be unique and in fact identical names should be used such as ‘Dryer Temperature’ for comparison of similar attributes across assets. However, attribute name / asset combinations must be unique.
 
-![Process Attributes](/img/ProcessAttributeDataSourceEditor.png)
+![Process Attributes](/img/ProcessAttributeEditCreate.png)
 
 
 ### Automatic Tag Value Collectors
 If the value for the process attribute can be pulled directly from an asset, use the Tag Browser to select the tag. ‘Ignore zero values’ and ‘Scale Factor’ parameters are specific to tag collector values, scaling the plc value and preventing the storage of zero values if not required.
 
+![Process Attributes](/img/ProcessAttributeDataSourceEditor.png)
 
 ## Process Attribute Specifications
 
