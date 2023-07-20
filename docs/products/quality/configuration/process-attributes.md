@@ -4,20 +4,21 @@ title: Process Attributes
 sidebar_position: 2
 ---
 :::info
-Whenever a check is to be compared against a specification that is dependent upon the asset and/or, that check needs to reference a process attribute. Process Attributes and associated specifications can be configured in **Quality > Configuration > Process Attributes**.
+Whenever a check is to be compared against a specification that is dependent upon the asset, that check needs to reference a process attribute. Process Attributes and associated specifications can be configured in **Quality > Configuration > Process Attributes**.
 :::
 
-![Process Attributes](/img/process-attributes-1.png)
+![Process Attributes](/img/ProcessAttributeOverview.png)
 
 ## Adding a Process Attribute
 Each process attribute requires a name, an asset and a datatype. Process attribute names do not need to be unique and in fact identical names should be used such as ‘Dryer Temperature’ for comparison of similar attributes across assets. However, attribute name / asset combinations must be unique.
 
-![Process Attributes](/img/process-attributes-2.png)
+![Process Attributes](/img/ProcessAttributeEditCreate.png)
 
 
 ### Automatic Tag Value Collectors
 If the value for the process attribute can be pulled directly from an asset, use the Tag Browser to select the tag. ‘Ignore zero values’ and ‘Scale Factor’ parameters are specific to tag collector values, scaling the plc value and preventing the storage of zero values if not required.
 
+![Process Attributes](/img/ProcessAttributeDataSourceEditor.png)
 
 ## Process Attribute Specifications
 
@@ -25,20 +26,24 @@ One or more process specifications (or tolerances) can be added to a process att
 
 When a process check is to be taken, it will first check to see if a tolerance exists for the current product. If no tolerance is found, it will check if the current product belongs to a product set that has a tolerance. If no product set tolerance has been configured, it will use the tolerance defined for all products.
 
-![Process Attributes](/img/process-attributes-3.png)
+![Process Attributes](/img/ProcessAttributeToleranceEditor.png)
 
 
 ### Tolerance Parameters
-- **Upper Entry Limit** – Defines the maximum value that can be entered.
 
-- **Upper Spec Limit** – Defines the upper Pass / Fail condition. Failing values will be highlighted red.
+- **LEL - Lower Entry Limit** – Defines the minimum value that can be entered.
 
-- **Upper Control Limit** – Defines the upper limit condition. Values exceeding the ucl will be considered as passing but will be highlighted orange.
+- **LSL - Lower Spec Limit** – Defines the lower Pass / Fail condition. Failing values will be highlighted red.
+
+- **LCL - Lower Control Limit** – Defines the lower limit condition. Values below the lcl will be considered as passing but will be highlighted orange.
+
 
 - **Target** - Defines the expected ideal value
 
-- **Lower Control Limit** – Defines the lower limit condition. Values below the lcl will be considered as passing but will be highlighted orange.
+- **UCL - Upper Control Limit** – Defines the upper limit condition. Values exceeding the ucl will be considered as passing but will be highlighted orange.
 
-- **Lower Spec Limit** – Defines the lower Pass / Fail condition. Failing values will be highlighted red.
+- **USL - Upper Spec Limit** – Defines the upper Pass / Fail condition. Failing values will be highlighted red.
 
-- **Lower Entry Limit** – Defines the minimum value that can be entered.
+- **UEL - Upper Entry Limit** – Defines the maximum value that can be entered.
+
+
