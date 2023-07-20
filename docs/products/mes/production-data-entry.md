@@ -11,9 +11,11 @@ import ClearIcon from '@mui/icons-material/Clear';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import UndoIcon from '@mui/icons-material/Undo';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
+import SaveIcon from '@mui/icons-material/Save';
 
+:::info
 The **Production Data Entry** table records data pertaining to asset operation modes, downtime events, and production counts. It can be accessed from the [Asset Operation](docs/products/mes/asset-operation.md) and [Run Review](docs/products/mes/performance-analytics/run-review.md) screens.
-
+:::
 ## Accessing Production Data Entry
 1. Select a line using the **Asset Selector** in the top left.
 ![Production Data Entry](/img/36.png)
@@ -22,21 +24,18 @@ The **Production Data Entry** table records data pertaining to asset operation m
 3. Use the date range selector to select the relevant time frame.
 ![Production Data Entry](/img/37.png)
 
-## Asset Operation
-The production data entry table shows an asset's operation mode. 
+## Editing Asset Operation
+To edit asset operation, open the production data entry table. Then, click on an asset and select the **Operation** tab.
 
-### Editing Asset Operation
-To edit asset operation, open the production data entry table.  
-Click on the <EditIcon fontSize="small" /> button located at the left of the table to open the **Edit Asset Operation** pop-up. 
-
-## Downtime
+## Editing Downtime
 To access downtime data, open the production data entry table. Then, click on an asset and select the **Downtime** tab.
-   ![Editing Downtime](/img/38.png)
+   ![Editing Downtime](/img/41.png)
 
-### Editing Downtime Events
-To edit downtime, open the downtime data table and click on a downtime event. The following functionality is available: 
+To edit downtime, click on a downtime event. The following functionality is available: 
 * **Revert** <UndoIcon fontSize="small" sx={{color: "#db9b57"}}/> : Allows the user to undo changes they made while editing a downtime event.
-* **Split** <CallSplitIcon fontSize="small" sx={{color: "#89a726"}} /> : Separates a singular downtime event into two separate events. 
+* **Split** <CallSplitIcon fontSize="small" sx={{color: "#89a726"}} /> : Separates a singular downtime event into two separate events. Select the location of the split using the popup and press <CallSplitIcon fontSize="small" />
+  to save.
+  ![Production Data Entry](/img/46.png)
 * **Delete** <DeleteForeverIcon fontSize="small" sx={{color: "#d85857"}} /> : Deletes a downtime event
 * **Edit** <EditIcon fontSize="small" sx={{color: "#2d82d2"}} /> : Opens the Edit Events pop-up. 
   * The **Select Asset** dropdown allows the downtime event to be made specific to an individual cell. 
@@ -45,7 +44,6 @@ To edit downtime, open the downtime data table and click on a downtime event. Th
   * The **Comment** box allows any further details to be added below. 
   * Click <CheckBoxIcon fontSize="small" sx={{color: "#bcda57"}}/> to save your changes or <ClearIcon fontSize="small" /> to cancel.
 
-![Editing Downtime](/img/41.png)  
 ![Editing Downtime](/img/39.png)
 
 ### Filtering Downtime Events
@@ -58,14 +56,16 @@ The right side of the footer displays a summary of the table results.
 Additionally, click the <FilterAltIcon fontSize="small" /> button at the top of the table to expand the standard table filter. 
 ![Editing Downtime](/img/43.png)
 
-## Production Counts
-Production counts displays infeed units, outfeed units and waste units associated with an asset. 
+## Editing Production Counts
 To access production counts, open the production data entry table. Then, click on an asset and select the **Counts** tab.
+The **Counts** tab displays infeed units, outfeed units and waste units associated with an asset.
+![Editing Counts](/img/47.png)
 
-Infeed, outfeed and waste units can be configured in **Configuration**. Additionally, the user can configure package count to seamlessly handle the conversions between infeed units (eg. bottles) and outfeed units (ie. cases).
+The user can manually replace infeed, outfeed, or waste values through the production counts screen by clicking on the corresponding box, typing a new value and pressing <SaveIcon fontSize="small" sx={{color: "#89a726"}} />.  
+To clear a value, press the <ClearIcon fontSize="small" /> to the right of the placeholder. Once cleared, a calculator icon will be displayed, indicating that the new value has been calculated automatically.
+![Editing Counts](/img/49.png)
+
+Infeed, outfeed and waste units can be configured in [Asset Management](/category/asset-management). Additionally, the user can configure package count to seamlessly handle the conversions between infeed units (ie. bottles) and outfeed units (ie. cases).
 
 If there is a discrepancy in the recorded infeed, outfeed and waste units, a warning will be displayed.
-
-### Editing Production Counts
-The user can manually replace infeed, outfeed, or waste values through the production counts screen by clicking on the corresponding box, typing a new value and pressing enter. 
-To clear a value, press the x icon to the right of the placeholder. Once cleared, a calculator icon will be displayed, indicating that the new value has been calculated automatically using the other two data pieces. 
+![Editing Counts](/img/48.png)

@@ -1,6 +1,6 @@
 ---
-id: check-sheets
-title: Check Sheets
+id: checks
+title: Checks
 sidebar_position: 1
 ---
 
@@ -12,54 +12,67 @@ import DuplicateIcon from '@mui/icons-material/AddToPhotosSharp';
 import RefreshIcon from '@mui/icons-material/Cached';
 import UpIcon from '@mui/icons-material/KeyboardArrowUp';
 import DownIcon from '@mui/icons-material/KeyboardArrowDown';
+import ControlPointIcon from '@mui/icons-material/ControlPoint';
+import LayersIcon from '@mui/icons-material/Layers';
 
 :::info
-In order to perform and capture a quality, safety, operations or environmental check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
+In order to perform and capture an operations, part or production check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
 :::
 
 ## Overview
-Existing Check Sheets can be filtered by Asset, Product Set or Product and enabled/disabled state.
-Check sheets can be added <AddIcon fontSize="small" />, edited <EditIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" /> and duplicated <DuplicateIcon fontSize="small" />.
+Existing Check Sheets can be filtered by Asset <LayersIcon fontSize="small" />, Check Type and Enabled/Disabled state.
+![Check Sheets](/img/55.png)
+
+Check sheets can be edited <EditIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />, duplicated <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />, and added <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />.
 
 ![Check Sheets](/img/checksheets-1.png)
 
 ## Creating Check Sheets
-To create a new check sheet, click the Add icon <AddIcon fontSize="small" />. This opens the Check Sheet Editor where the check sheet’s specifications are added.
+To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />. This opens the Check Sheet Editor where the check sheet’s specifications are added.
+![Check Sheets](/img/56.png)
 
 ### Check Sheet Types
-There are three types of check sheets that can be created, Operations, Environmental, and Product. Operations and Environmental Checks can be used to perform housekeeping, environmental controls and safety checks, and do not require a product to be selected. Product Checks record the product being checked and apply any product or process specs.
+There are three types of check sheets that can be created, Operations, Part, and Production. Operations and Environmental Checks can be used to perform housekeeping, environmental controls and safety checks, and do not require a product to be selected. Product Checks record the product being checked and apply any product or process specs.
 
-![Check Sheets](/img/checksheets-2.png)
+![Check Sheets](/img/57.png)
 
-### Auto
-Select ‘Auto’ if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto checks requires plc tag paths to be added to the process attribute.
 
-### Require Signoff
-When disabled, ‘Submitted’ check sheets will automatically be set to an ‘Approved’ status and values will be used in SPC analysis. When enabled, ‘Submitted’ check sheets can be manually ‘Approved’ or ‘Rejected’.
-
-### Enabled
-If disabled, this check sheet will not be available.
-
-![Check Sheets](/img/checksheets-3.png)
 
 ### Assets(s)
 A check sheet can be configured to only be valid for certain assets. If left blank, this check sheet can be used for all assets. Use the selector on the right to select a list of assets that the check sheet is applicable to. Use the CTRL key to select multiple assets.
 
-### Product(s)
-A check sheet can be configured to only be valid for a certain product or a product set. If left blank, this check sheet can be used for all products. Use the dropdowns to select a specific product or product set.
+### Item(s)
+A check sheet can be configured to only be valid for a certain item. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item.
 
-![Check Sheets](/img/checksheets-4.png)
+### Item Sets
+A check sheet can be configured to only be valid for a certain item set. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item set.
+![Check Sheets](/img/59.png)
+
+### Tooling
+
+### Auto
+Select **Auto** if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto checks requires plc tag paths to be added to the process attribute.
+
+### Signoff
+This option indicates that this check requires signoff. When disabled, ‘Submitted’ check sheets will automatically be set to an ‘Approved’ status and values will be used in SPC analysis. When enabled, ‘Submitted’ check sheets can be manually ‘Approved’ or ‘Rejected’.
+
+### Enabled
+If disabled, this check sheet will not be available.
+
+![Check Sheets](/img/58.png)
 
 ### On Fail
-When enabled, a re-test will be automatically scheduled. The re-test can be the same check sheet or a different check sheet as specified in the dropdown. To refresh dropdown options, click the <RefreshIcon fontSize="small" /> button.
+A re-test will be automatically scheduled for the selected check sheet upon failure. The re-test can be the same check sheet or a different check sheet as specified in the dropdown.
 
 ### Notify
-If enabled, an email alert notification will be sent to the notification group(s) as specified in the dropdown.
+This options sends an email alert notification to the notification group(s) selected from the dropdown. If left blank, no notification will occur. 
 
-![Check Sheets](/img/checksheets-5.png)
+![Check Sheets](/img/60.png)
+
+### Sync Taken Date
 
 ### Instructions
-General instructions and information about the check sheet can be entered into the Instructions tab. Specific instructions for check can be entered on the ‘Check Items’ tab.
+General instructions and information about the check sheet can be entered into the **Instructions** tab. Specific instructions for check can be entered on the ‘Check Items’ tab.
 
 ![Check Sheets](/img/checksheets-6.png)
 
@@ -75,7 +88,7 @@ Instructions can be added for each check and are displayed when the check is sel
 
 ![Check Sheets](/img/checksheets-8.png)
 
-A check can be required to be completed by selecting the ‘Required’ field. 
+A check can be required to be completed by selecting the ‘Required’ field.
 
 Multiple measurements can be set to allow for sub-group measurement analysis. By default, the number of measurements is 1. 
 
