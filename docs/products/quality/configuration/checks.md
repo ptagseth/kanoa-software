@@ -32,7 +32,7 @@ To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="
 ![Check Sheets](/img/56.png)
 
 ### Check Sheet Types
-There are three types of check sheets that can be created, Operations, Part, and Production. Operations and Environmental Checks can be used to perform housekeeping, environmental controls and safety checks, and do not require a product to be selected. Product Checks record the product being checked and apply any product or process specs.
+There are three types of check sheets that can be created, Asset, Part, and Production. Operations and Environmental Checks can be used to perform housekeeping, environmental controls and safety checks, and do not require a product to be selected. Product Checks record the product being checked and apply any product or process specs.
 
 ![Check Sheets](/img/57.png)
 
@@ -49,6 +49,8 @@ A check sheet can be configured to only be valid for a certain item set. If left
 ![Check Sheets](/img/59.png)
 
 ### Tooling
+A check sheet can be configured to capture check values directly after a tooling change.
+![Check Sheets](/img/61.png)
 
 ### Auto
 Select **Auto** if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto checks requires plc tag paths to be added to the process attribute.
