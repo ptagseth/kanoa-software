@@ -43,7 +43,7 @@ When an asset is configured as ‘OEE_Calculated’, the OEE for this asset will
 Modify an Asset is just a variation of Create an Asset.  Select the asset to be modified and click the <EditIcon fontSize="small" /> icon.  Make the  necessary changes and Save.
 
 
-### Delete and Asset
+### Delete an Asset
 
 To Delete and Asset - select the asset to delete and click the <DeleteIcon fontSize="small" /> icon
 
