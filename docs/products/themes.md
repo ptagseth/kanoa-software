@@ -10,7 +10,7 @@ The Kanoa framework supports both light and dark modes. To switch themes, click 
 ![Summary View](/img/11.png) ![Summary View](/img/33.png)
 
 **Light Mode:**
-![Summary View](/img/12.png) 
+![Summary View](/img/themes-light.png) 
 
 **Dark Mode:**
-![Summary View](/img/13.png)
+![Summary View](/img/themes-dark.png)
