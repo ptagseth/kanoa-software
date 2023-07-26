@@ -7,7 +7,7 @@ sidebar_position: 1
 ### About
 This user manual provides documentation to help you get started with the Kanoa framework.
 
-### Kanoa Ops Framework
+### Kanoa Ops Framework 
 The Kanoa Ops Framework is a fully functioning Manufacturing Execution System application that is web based and mobile responsive. It is built on Ignition™ by Inductive Automation using SQL Server for the backend data store. The framework is written solely in python and T-SQL to provide a completely customizable foundation. All the provided screens, scripts, SQL functions can be customized or added onto to create the specific application needed by your organization. The framework includes the following features out-of-the-box:  
 * Work Order Management 
 * Product Management 
