@@ -8,7 +8,7 @@ import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
 
-The Asset Editor page under **Configuration > Asset Management** can be used to create and manage your assets.  A flexible architecture allows to configure assets in any hierarchy desired structure.
+The Asset Editor page under **Ops > Configuration > Asset Management > Assets** can be used to create and manage your assets.  A flexible architecture allows to configure assets in any hierarchy desired structure.
 
 ## Asset Types
 The different asset types are:
