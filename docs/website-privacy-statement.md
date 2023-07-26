@@ -80,3 +80,4 @@ Kanoa may change this Privacy Statement at any time.  It is the obligation of us
 If you would like to update or modify the personal information obtained by Kanoa through this Site, you may do so by:
 
 Sending an email to: info@kanoacon.com
+
