@@ -35,7 +35,7 @@ Use the search bar at the top to search for a specific page.
 
 To access help documentation, click on the bottom **Help** option.
 
-![Navigation Menu](/img/18.png)
+![Navigation Menu](/img/Navigation-SideBar.png)
 
 ## Navigation History
 Full navigation history can be accessed by clicking on the <RestoreIcon fontSize="small" /> button in the top navigation bar, which opens the navigation history pop-up. The navigation history pop-up displays recently visited pages in chronological order. To navigate back to any of these pages, click on the page title.  
