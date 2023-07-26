@@ -198,17 +198,17 @@ Step-by-step guide to adding a new language to the project
 ![Translation Manager](/img/translation-manager-35.png)
 
 
-8.  **Open** the MES Ignition designer
+8.  **Open** the Ops Ignition designer
 
 ![Translation Manager](/img/translation-manager-36.png)
 
 
-9.  **Repeat the previous steps** to add new locale settings in the **MES** designer
+9.  **Repeat the previous steps** to add new locale settings in the **Ops** designer
 
 ![Translation Manager](/img/translation-manager-37.png)
 
 
-10.  **Save** the MES project and **close** it
+10.  **Save** the Ops project and **close** it
 
 ![Translation Manager](/img/translation-manager-38.png)
 

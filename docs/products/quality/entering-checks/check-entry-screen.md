@@ -12,7 +12,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import Delete2Icon from '@mui/icons-material/DeleteForever';
 
 :::info
-The check entry screen can be accessed by double clicking a check sheet in **Quality > Scheduled** checks in the MES application.
+The check entry screen can be accessed by double clicking a check sheet in **Quality > Scheduled** checks in the Ops application.
 :::
 
 ![CHeck Entry](/img/check-entry-1.png)

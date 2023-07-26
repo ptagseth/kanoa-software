@@ -5,7 +5,7 @@ sidebar_position: 1
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 :::info
-The home page serves as the initial display in the MES application and provides a comprehensive overview of the current status of all assets across all enterprises.
+The home page serves as the initial display in the Ops application and provides a comprehensive overview of the current status of all assets across all enterprises.
 :::
 
 ## Asset Display Options

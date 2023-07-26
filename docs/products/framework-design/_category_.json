@@ -3,6 +3,6 @@
   "position": 11,
   "link": {
     "type": "generated-index",
-    "description": "The MES framework is built on Ignition and uses SQL Server for the backend data storage. The user interface is built solely in Perspective for mobile responsive, making it a fully web based application that can be run in a browser. All scripting is in Python and T-SQL making it fully customizable by anyone."
+    "description": "The Ops framework is built on Ignition and uses SQL Server for the backend data storage. The user interface is built solely in Perspective for mobile responsive, making it a fully web based application that can be run in a browser. All scripting is in Python and T-SQL making it fully customizable by anyone."
   }
 }
