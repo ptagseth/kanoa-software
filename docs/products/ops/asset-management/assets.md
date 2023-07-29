@@ -8,7 +8,7 @@ import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
 
-The Asset Editor page under **Configuration > Asset Management** can be used to create and manage your assets.  A flexible architecture allows to configure assets in any hierarchy desired structure.
+The Asset Editor page under **Ops > Configuration > Asset Management > Assets** can be used to create and manage your assets.  A flexible architecture allows to configure assets in any hierarchy desired structure.
 
 ## Asset Types
 The different asset types are:
@@ -36,6 +36,7 @@ To create an asset - click the <AddIcon fontSize="small" /> icon on the Asset Ma
 When an asset is configured as ‘OEE_Enabled’, a lineOEE tag UDT instance is created that can then be connected to a data source either plc from an OPC-UA source or MQTT reference tag.
 
 When an asset is configured as ‘OEE_Calculated’, the OEE for this asset will be calculated. Code stubs are provided for custom OEE calculations. This should be used for assets/production lines that comprise multiple operations with significant latency. An example of this would be a Bakery line that may consist of several in-line operations such as batching, baking and packaging. Trying to figure out OEE for a line of this magnitude can have significant issues for shift KPIs, so the 'OEE_Calculated' provides a method for creating your own custom calculation.
+Default values for OEE calculations provided as "starter values" when OEE Enabled.
 
 
 ### Modify an Asset
