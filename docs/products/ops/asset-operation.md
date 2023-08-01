@@ -25,7 +25,7 @@ In the **Mode** view, the mode of the asset can be changed to any mode configure
 ![Asset Operation](/img/53.png)
 
 ## Production Entry
-The [Production Data Entry](docs/products/mes/production-data-entry.md) view can be accessed from the asset operation page. 
+The [Production Data Entry](docs/products/ops/production-data-entry.md) view can be accessed from the asset operation page. 
 
 Click on the <CreateIcon fontSize="small" /> **Production Entry** tab and use the date range selector to select the relevant time frame.
    ![Editing Downtime](/img/54.png)
