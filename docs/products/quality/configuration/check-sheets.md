@@ -1,6 +1,6 @@
 ---
-id: checks
-title: Checks
+id: check-sheets
+title: Check Sheets
 sidebar_position: 1
 ---
 
