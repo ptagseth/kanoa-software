@@ -1,7 +1,7 @@
 ---
 id: product-sets
 title: Product Sets
-sidebar_position: 4
+sidebar_position: 3
 ---
 :::info
 Product Sets are logical groupings of product that share the same process and product specifications. By grouping products in a product set, specifications can be created just once that apply to multiple products. Product sets can also be used to associate check sheets with certain products. Product Sets and associated specifications can be configured in **Quality > Configuration > Product Sets**.

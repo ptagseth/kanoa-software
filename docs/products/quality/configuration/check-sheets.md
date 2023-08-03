@@ -15,11 +15,8 @@ import DownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ControlPointIcon from '@mui/icons-material/ControlPoint';
 import LayersIcon from '@mui/icons-material/Layers';
 
-:::info
-In order to perform and capture an operations, part or production check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**.
-:::
+In order to perform and capture a check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**. 
 
-## Overview
 Existing Check Sheets can be filtered by Asset <LayersIcon fontSize="small" />, Check Type and Enabled/Disabled state.
 ![Check Sheets](/img/55.png)
 
@@ -28,20 +25,33 @@ Check sheets can be edited <EditIcon fontSize="small" />, deleted <DeleteIcon fo
 ![Check Sheets](/img/checksheets-1.png)
 
 ## Creating Check Sheets
-To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />. This opens the Check Sheet Editor where the check sheet’s specifications are added.
+To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />. This opens the [Check Sheet Editor](#check-sheet-editor) where the check sheet’s specifications are added. Once the user enters a **Check Sheet Type** and **Name**, the check sheet is automatically created and the remaining fields become accessible.  
+**Estimated Minutes** is an optional field used to indicate the approximate time required for completing the check sheet.
 ![Check Sheets](/img/56.png)
 
 ### Check Sheet Types
-There are three types of check sheets that can be created, Asset, Part, and Production. Operations and Environmental Checks can be used to perform housekeeping, environmental controls and safety checks, and do not require a product to be selected. Product Checks record the product being checked and apply any product or process specs.
-
+There are three types of check sheets that can be created.
+* **Asset Checks**: Requires only an asset to be selected. 
+* **Item Checks**: Requires only an item to be selected. Can be applied to a part or a finished product.
+* **Production Checks**: Requires both an asset and item to be selected.  
 ![Check Sheets](/img/57.png)
 
+## Check Sheet Editor
 
 
-### Assets(s)
+### Info Tab
+
+### Settings Tab
+
+### Checks Tab
+
+### Triggers Tab
+
+
+### Assets
 A check sheet can be configured to only be valid for certain assets. If left blank, this check sheet can be used for all assets. Use the selector on the right to select a list of assets that the check sheet is applicable to. Use the CTRL key to select multiple assets.
 
-### Item(s)
+### Items
 A check sheet can be configured to only be valid for a certain item. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item.
 
 ### Item Sets
