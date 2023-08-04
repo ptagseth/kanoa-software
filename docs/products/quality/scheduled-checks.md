@@ -1,6 +1,6 @@
 ---
 title: Scheduled Checks
-sidebar_position: 1
+sidebar_position: 2
 ---
 import AddIcon from '@mui/icons-material/Add';
 import EditIcon from '@mui/icons-material/Edit';
