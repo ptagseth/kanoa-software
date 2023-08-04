@@ -26,18 +26,16 @@ Use filters above to manage the list of Scheduled Checks created. And use the bu
 
 ![Checks Create](/img/Checks-Create.png)
 
-To Create / Schedule a Check 
-
-Pick the type of check:
+To Create / Schedule a Check. Pick the type of check:
 - Asset Check
 - Item Check
 - Production Check
 
 Select which asset this check will utilize and also identify what specific items
 
-Select a configured Check Sheet - with all checks defined.
+Select a configured Check Sheet - with checks already defined.
 
-### Check Entry
+### Enter Checks
 
 
 ![Checks Entry](/img/Checks-Enter1.png)
