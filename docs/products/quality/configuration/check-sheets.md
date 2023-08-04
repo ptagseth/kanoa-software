@@ -26,7 +26,7 @@ Check sheets can be edited <EditIcon fontSize="small" />, deleted <DeleteIcon fo
 
 ## Creating Check Sheets
 To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />. This opens the [Check Sheet Editor](#check-sheet-editor) where the check sheet’s specifications are added. Once the user enters a **Check Sheet Type** and **Name**, the check sheet is automatically created and the remaining fields become accessible.  
-**Estimated Minutes** is an optional field used to indicate the approximate time required for completing the check sheet.
+**Estimated Minutes** is an optional field that indicates the approximate time required for completing the check sheet.
 ![Check Sheets](/img/56.png)
 
 ### Check Sheet Types
@@ -43,24 +43,22 @@ There are three types of check sheets that can be created.
 
 ### Settings Tab
 
+#### Assets
+A check sheet can be configured to only be valid for certain assets. If left blank, this check sheet can be used for all assets. Use the selector on the right to select a list of assets that the check sheet is applicable to. Use the CTRL key to select multiple assets.
+
+#### Items
+A check sheet can be configured to only be valid for a certain item. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item.
+
+#### Item Sets
+A check sheet can be configured to only be valid for a certain item set. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item set.
+
+#### Tooling
+A check sheet can be configured to trigger a check after a tooling change.
+![Check Sheets](/img/59.png)
+
 ### Checks Tab
 
 ### Triggers Tab
-
-
-### Assets
-A check sheet can be configured to only be valid for certain assets. If left blank, this check sheet can be used for all assets. Use the selector on the right to select a list of assets that the check sheet is applicable to. Use the CTRL key to select multiple assets.
-
-### Items
-A check sheet can be configured to only be valid for a certain item. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item.
-
-### Item Sets
-A check sheet can be configured to only be valid for a certain item set. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item set.
-![Check Sheets](/img/59.png)
-
-### Tooling
-A check sheet can be configured to trigger a check after a tooling change.
-![Check Sheets](/img/61.png)
 
 ### Auto
 Select **Auto** if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto checks requires plc tag paths to be added to the process attribute.
