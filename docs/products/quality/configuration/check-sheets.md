@@ -1,6 +1,6 @@
 ---
-id: checks
-title: Checks
+id: check-sheets
+title: Check Sheets
 sidebar_position: 1
 ---
 
@@ -49,7 +49,7 @@ A check sheet can be configured to only be valid for a certain item set. If left
 ![Check Sheets](/img/59.png)
 
 ### Tooling
-A check sheet can be configured to capture check values directly after a tooling change.
+A check sheet can be configured to trigger a check after a tooling change.
 ![Check Sheets](/img/61.png)
 
 ### Auto
