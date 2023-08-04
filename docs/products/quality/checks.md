@@ -11,28 +11,36 @@ import KeypadIcon from '@mui/icons-material/Keyboard';
 import DeleteIcon from '@mui/icons-material/Delete';
 import Delete2Icon from '@mui/icons-material/DeleteForever';
 
-### Scheduled Checks
+### Schedule Checks
 
 :::info
 The Schedule Check screen will schedule checks using already configured check sheets
 :::
 
-![Check Schedule](/img/Checks-Overview.png)
+![Checks Schedule](/img/Checks-Overview.png)
 
 
 Use filters above to manage the list of Scheduled Checks created. And use the buttons on the left to View, Edit, Create and Delete Scheduled Checks.
 
-#### Create Checks
+#### Create Check Sheet
+
+![Checks Create](/img/Checks-Create.png)
+
+To Create / Schedule a Check 
+
+Pick the type of check:
+- Asset Check
+- Item Check
+- Production Check
+
+Select which asset this check will utilize and also identify what specific items
+
+Select a configured Check Sheet - with all checks defined.
+
+### Check Entry
 
 
-### Checks Entry
-
-:::info
-The check entry screen can be accessed by double clicking a check sheet at **Quality > Checks** page in the Ops application.
-:::
-
-
-![Check Entry](/img/Checks-Enter1.png)
+![Checks Entry](/img/Checks-Enter1.png)
 
 To start entry of Checks - open up a Check by double click on the scheduled check.
 
