@@ -46,54 +46,62 @@ There are three types of check sheets that can be created.
 
 
 ### Info Tab
+#### DESCRIPTION
 
-### Settings Tab
+#### PROCEDURE
 
-#### Assets
-A check sheet can be configured to only be valid for certain assets. If left blank, this check sheet can be used for all assets. Use the selector on the right to select a list of assets that the check sheet is applicable to. Use the CTRL key to select multiple assets.
+#### ADD DOCUMENT
 
-#### Items
-A check sheet can be configured to only be valid for a certain item. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item.
-
-#### Item Sets
-A check sheet can be configured to only be valid for a certain item set. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item set.
-
-#### Tooling
-A check sheet can be configured to trigger a check after a tooling change.
-![Check Sheets](/img/59.png)
-
-### Checks Tab
-
-### Triggers Tab
-
-### Auto
-Select **Auto** if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto checks requires plc tag paths to be added to the process attribute.
-
-### Signoff
-This option indicates that this check requires signoff. When disabled, ‘Submitted’ check sheets will automatically be set to an ‘Approved’ status and values will be used in SPC analysis. When enabled, ‘Submitted’ check sheets can be manually ‘Approved’ or ‘Rejected’.
-
-### Enabled
-If disabled, this check sheet will not be available.
-
-![Check Sheets](/img/58.png)
-
-### On Fail
-A re-test will be automatically scheduled for the selected check sheet upon failure. The re-test can be the same check sheet or a different check sheet as specified in the dropdown.
-
-### Notify
-This options sends an email alert notification to the notification group(s) selected from the dropdown. If left blank, no notification will occur. 
-
-![Check Sheets](/img/60.png)
-
-### Sync Taken Date
-
-### Instructions
+#### INSTRUCTIONS
 General instructions and information about the check sheet can be entered into the **Instructions** tab. Specific instructions for check can be entered on the ‘Check Items’ tab.
 
 ![Check Sheets](/img/checksheets-6.png)
 
+### Settings Tab
 
-## Creating Check Items
+#### ASSETS
+A check sheet can be configured to only be valid for certain assets. If left blank, this check sheet can be used for all assets. Use the selector on the right to select a list of assets that the check sheet is applicable to. Use the CTRL key to select multiple assets.
+
+#### ITEMS
+A check sheet can be configured to only be valid for a certain item. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item.
+
+#### ITEM SETS
+A check sheet can be configured to only be valid for a certain item set. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item set.
+
+#### TOOLING
+A check sheet can be configured to trigger a check after a tooling change.
+![Check Sheets](/img/59.png)
+
+#### AUTO
+Select **Auto** if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto checks requires plc tag paths to be added to the process attribute.
+
+#### SIGNOFF
+This option indicates that this check requires signoff. When disabled, ‘Submitted’ check sheets will automatically be set to an ‘Approved’ status and values will be used in SPC analysis. When enabled, ‘Submitted’ check sheets can be manually ‘Approved’ or ‘Rejected’.
+
+#### ENABLED
+If disabled, this check sheet will not be available.  
+![Check Sheets](/img/58.png)
+
+#### ON FAIL
+A re-test will be automatically scheduled for the selected check sheet upon failure. The re-test can be the same check sheet or a different check sheet as specified in the dropdown.
+
+#### NOTIFY
+This options sends an email alert notification to the notification group(s) selected from the dropdown. If left blank, no notification will occur.
+
+#### SYNC TAKEN DATE
+
+![Check Sheets](/img/60.png)
+
+### Checks Tab
+
+#### CHECK GROUPS
+
+#### CREATING CHECK ITEMS
+
+### Triggers Tab
+
+
+
 A check sheet can have multiple checks. Check items can be added <AddIcon fontSize="small" />, edited <EditIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" />, and the order in which they appear can be set using the up <UpIcon fontSize="small" /> and down <DownIcon fontSize="small" /> arrows. 
 
 To create new check, click the add :add: icon. This opens the Check Item Selector where the check’s specifications are added. There are three types of checks that can be added to a check sheet, Simple, Process and Product. For more details on check types, see Check Item Types.
