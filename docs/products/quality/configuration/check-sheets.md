@@ -47,13 +47,16 @@ There are three types of check sheets that can be created.
 
 ### Info Tab
 #### DESCRIPTION
+A general description about the check sheet can be entered in the **Description** category. 
 
 #### PROCEDURE
+The check sheet's procedure can be entered in the **Procedure** tab. 
 
 #### ADD DOCUMENT
+Clicking on the _ icon opens a popup that allows the user to select and add a document to the check sheet. Compatible document types are ___. The document can be viewed on the right hand side in the PDF viewer. 
 
 #### INSTRUCTIONS
-General instructions and information about the check sheet can be entered into the **Instructions** tab. Specific instructions for check can be entered on the ‘Check Items’ tab.
+Instructions to complete the check sheet can be entered in the **Instructions** tab.
 
 ![Check Sheets](/img/checksheets-6.png)
 
@@ -95,8 +98,10 @@ This options sends an email alert notification to the notification group(s) sele
 ### Checks Tab
 
 #### CHECK GROUPS
+To create a new check group, click the **Add Group** icon. 
 
 #### CREATING CHECK ITEMS
+New check items can be created by clicking on the **Add Check** icon in the Checks tab. This will open the check entry screen. Further information on adding new check items can be located here.
 
 ### Triggers Tab
 
