@@ -3,11 +3,8 @@ id: attributes
 title: Attributes
 sidebar_position: 2
 ---
-:::info
-Whenever a check is to be compared against a specification that is dependent upon the asset, that check needs to reference a process attribute. Process Attributes and associated specifications can be configured in **Quality > Configuration > Process Attributes**.
-:::
 
-![Process Attributes](/img/ProcessAttributeOverview.png)
+All types of checks can have an attribute associated with it. 
 
 ## Adding a Process Attribute
 Each process attribute requires a name, an asset and a datatype. Process attribute names do not need to be unique and in fact identical names should be used such as ‘Dryer Temperature’ for comparison of similar attributes across assets. However, attribute name / asset combinations must be unique.
