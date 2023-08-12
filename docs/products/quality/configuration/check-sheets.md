@@ -20,30 +20,24 @@ import ArrowIcon from '@mui/icons-material/ArrowForward';
 import DateIcon from '@mui/icons-material/CalendarMonth';
 import KeypadIcon from '@mui/icons-material/Keyboard';
 import Delete2Icon from '@mui/icons-material/DeleteForever';
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import SnippetFolderIcon from '@mui/icons-material/SnippetFolder';
 
 In order to perform and capture a check, that check must be defined in a check sheet. A check sheet is a collection of one more check items to be taken as a group. Check sheets can be configured in **Quality > Configuration > Check Sheets**. 
 
-Existing Check Sheets can be filtered by Asset <LayersIcon fontSize="small" />, Check Type and Enabled/Disabled state.
+Existing Check Sheets can be filtered by Asset <LayersIcon fontSize="small" /> and Enabled/Disabled state.
 ![Check Sheets](/img/55.png)
 
-Check sheets can be edited <EditIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />, duplicated <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />, and added <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />.
+Check sheets can be viewed <RemoveRedEyeIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />, duplicated <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />, and added <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} /> using the sidebar. 
 
 ![Check Sheets](/img/checksheets-1.png)
 
 ## Creating Check Sheets
-To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />. This opens the [Check Sheet Editor](#check-sheet-editor) where the check sheet’s specifications are added. Once the user enters a **Check Sheet Type** and **Name**, the check sheet is automatically created and the remaining fields become accessible.  
+To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />. This opens the [Check Sheet Editor](#check-sheet-editor) where its specifications are added. Once the user enters a **Check Sheet Name**, the check sheet is automatically created and the remaining fields become accessible.  
 **Estimated Minutes** is an optional field that indicates the approximate time required for completing the check sheet.
 ![Check Sheets](/img/56.png)
 
-### Check Sheet Types
-There are three types of check sheets that can be created.
-* **Asset Checks**: Requires only an asset to be selected. 
-* **Item Checks**: Requires only an item to be selected. Can be applied to a part or a finished product.
-* **Production Checks**: Requires both an asset and item to be selected.  
-![Check Sheets](/img/57.png)
-
 ## Check Sheet Editor
-
 
 ### Info Tab
 #### DESCRIPTION
@@ -62,28 +56,28 @@ Instructions to complete the check sheet can be entered in the **Instructions** 
 
 ### Settings Tab
 
-#### ASSETS
-A check sheet can be configured to only be valid for certain assets. If left blank, this check sheet can be used for all assets. Use the selector on the right to select a list of assets that the check sheet is applicable to. Use the CTRL key to select multiple assets.
-
-#### ITEMS
-A check sheet can be configured to only be valid for a certain item. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item.
-
-#### ITEM SETS
-A check sheet can be configured to only be valid for a certain item set. If left blank, this check sheet can be used for all items. Use the dropdowns to select a specific item set.
-
-#### TOOLING
-A check sheet can be configured to trigger a check after a tooling change.
-![Check Sheets](/img/59.png)
-
 #### AUTO
-Select **Auto** if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto checks requires plc tag paths to be added to the process attribute.
+Select **Auto** if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto check requires PLC tag paths to be added to attributes.
 
 #### SIGNOFF
-This option indicates that this check requires signoff. When disabled, ‘Submitted’ check sheets will automatically be set to an ‘Approved’ status and values will be used in SPC analysis. When enabled, ‘Submitted’ check sheets can be manually ‘Approved’ or ‘Rejected’.
+This option indicates that this check requires signoff. When disabled, **Submitted** check sheets will automatically be set to an **Approved** status and values will be used in SPC analysis. When enabled, **Submitted** check sheets can be manually **Approved** or **Rejected**.
 
 #### ENABLED
-If disabled, this check sheet will not be available.  
-![Check Sheets](/img/58.png)
+If disabled, this check sheet will not be available.
+
+#### ASSET REQUIRED
+Select **Asset Required** to access the asset selector and choose assets applicable to the check sheet. Use the CTRL key to select multiple assets. By choosing **Asset Required**, all check items on this check sheet will require you to pick the asset for which you are conducting the assessment.
+
+#### ITEM REQUIRED
+Select **Item Required** to access the item and item set selectors and choose items applicable to the check sheet.  You can select multiple items using the CTRL key or through item sets. By choosing **Item Required**, all check items on this check sheet will require you to pick the item for which you are conducting the assessment.
+
+#### CHECK SHEET TYPES
+Check sheets are categorized by type into custom folders for convenient grouping with similar check sheets. The folder hierarchy enables the nesting of check sheet types within parent folders and sub-folders. Click on the <SnippetFolderIcon fontSize="small" /> icon to open the check sheet folder selector.  
+To add a new check sheet type, select a parent folder and click the **Add Check Type** <AddIcon fontSize="small" /> button. If no parent folder is selected, the check sheet type will stand alone or can be assigned sub-folders of its own. Enter a **Name** for the check sheet folder, select **Enabled** or **Disabled**, and press the **Save** button.  
+Check sheet folders can also be deleted by selecting the folder and pressing the **Delete** button. 
+
+#### TOOLING
+A check sheet can be configured to trigger a check after a tooling change using the tooling selector.
 
 #### ON FAIL
 A re-test will be automatically scheduled for the selected check sheet upon failure. The re-test can be the same check sheet or a different check sheet as specified in the dropdown.
@@ -96,17 +90,21 @@ This options sends an email alert notification to the notification group(s) sele
 ![Check Sheets](/img/60.png)
 
 ### Checks Tab
+The checks tab displays a table of check items associated with the check sheet.
 
 #### CHECK GROUPS
-To create a new check group, click the **Add Group** icon. 
+Checks can be broken up into groups. To create a new check group, click the **Add Group** icon. Enter a **Name** for the new group and click **Save**.
 
 #### CREATING CHECK ITEMS
 New check items can be created by clicking on the **Add Check** icon in the Checks tab. This will open the check entry screen. Further information on adding new check items can be located here.
 
 ### Triggers Tab
+The triggers tab displays a table of triggers associated with the check sheet.
 
 
 
+
+## Check Entry
 A check sheet can have multiple checks. Check items can be added <AddIcon fontSize="small" />, edited <EditIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" />, and the order in which they appear can be set using the up <UpIcon fontSize="small" /> and down <DownIcon fontSize="small" /> arrows. 
 
 To create new check, click the add :add: icon. This opens the Check Item Selector where the check’s specifications are added. There are three types of checks that can be added to a check sheet, Simple, Process and Product. For more details on check types, see Check Item Types.
