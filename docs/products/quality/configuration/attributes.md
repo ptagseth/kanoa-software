@@ -3,14 +3,17 @@ id: attributes
 title: Attributes
 sidebar_position: 2
 ---
-:::info
+import EditIcon from '@mui/icons-material/Edit';
+import DeleteIcon from '@mui/icons-material/DeleteForever';
+
 Whenever a check is to be compared against a specification that is dependent upon the asset, that check needs to reference an attribute. Any check type can have an attribute associated to it. Attributes and associated specifications can be configured in **Quality > Configuration > Attributes**.
-:::
 
 ![Attributes](/img/ProcessAttributeOverview.png)
 
 ## Adding an Attribute
-Each attribute requires a name, an asset and a datatype. Attribute names do not need to be unique and in fact identical names should be used such as ‘Dryer Temperature’ for comparison of similar attributes across assets. However, attribute name and asset combinations must be unique. Attributes have a hierarchy allowing the user to organize attributes in a tree structure. 
+Assets can be added and edited by clicking the <EditIcon fontSize="small" /> **Edit Attribute** button.
+Each attribute requires a name. Attribute names do not need to be unique and in fact identical names should be used such as ‘Dryer Temperature’ for comparison of similar attributes across assets. However, attribute name and asset combinations must be unique. Attributes are organized in a hierarchy and can be assigned a parent attribute.
+Attributes can be deleted by selecting an attribute and clicking the <DeleteIcon fontSize="small" sx={{color: "#a72525"}} /> **Delete Attribute** button.
 
 ![Attributes](/img/ProcessAttributeEditCreate.png)
 
