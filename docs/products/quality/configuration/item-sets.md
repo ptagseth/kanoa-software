@@ -1,6 +1,6 @@
 ---
-id: product-sets
-title: Product Sets
+id: item-sets
+title: Item Sets
 sidebar_position: 3
 ---
 :::info

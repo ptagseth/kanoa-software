@@ -4,13 +4,13 @@ title: Attributes
 sidebar_position: 2
 ---
 :::info
-Whenever a check is to be compared against a specification that is dependent upon the asset, that check needs to reference an attribute. Attributes and associated specifications can be configured in **Quality > Configuration > Attributes**.
+Whenever a check is to be compared against a specification that is dependent upon the asset, that check needs to reference an attribute. Any check type can have an attribute associated to it. Attributes and associated specifications can be configured in **Quality > Configuration > Attributes**.
 :::
 
 ![Attributes](/img/ProcessAttributeOverview.png)
 
 ## Adding an Attribute
-Each attribute requires a name, an asset and a datatype. Attribute names do not need to be unique and in fact identical names should be used such as ‘Dryer Temperature’ for comparison of similar attributes across assets. However, attribute name / asset combinations must be unique.
+Each attribute requires a name, an asset and a datatype. Attribute names do not need to be unique and in fact identical names should be used such as ‘Dryer Temperature’ for comparison of similar attributes across assets. However, attribute name and asset combinations must be unique. Attributes have a hierarchy allowing the user to organize attributes in a tree structure. 
 
 ![Attributes](/img/ProcessAttributeEditCreate.png)
 
@@ -46,7 +46,4 @@ When a process check is to be taken, it will first check to see if a tolerance e
 
 - **UEL - Upper Entry Limit** – Defines the maximum value that can be entered.
 
-:::info
-Whenever a check is to be compared against a product specification, that check needs to reference a product attribute.
-:::
 

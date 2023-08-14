@@ -34,7 +34,7 @@ Check sheets can be viewed <RemoveRedEyeIcon fontSize="small" />, deleted <Delet
 
 ## Creating Check Sheets
 To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />. This opens the [Check Sheet Editor](#check-sheet-editor) where its specifications are added. Once the user enters a **Check Sheet Name**, the check sheet is automatically created and the remaining fields become accessible.  
-**Estimated Minutes** is an optional field that indicates the approximate time required for completing the check sheet.
+**Estimated Minutes** is an optional field that indicates the approximate time required for completing the check sheet. If filled out, a check will automatically be added to the check sheet for a user to enter how much time it took for them to take all the checks.
 ![Check Sheets](/img/56.png)
 
 ## Check Sheet Editor
