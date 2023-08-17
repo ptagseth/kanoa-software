@@ -99,6 +99,7 @@ const config = {
         logo: {
           alt: 'Kanoa Docs',
           src: 'img/logo.svg',
+          srcDark: 'img/logo_dark.svg',
           href: '/',
           target: '_self',
         },
@@ -110,7 +111,7 @@ const config = {
         ],*/
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Connect',
