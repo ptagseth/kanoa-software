@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Kanoa Docs',
   tagline: 'Documentation to help you get started with the Kanoa MES framework',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/kanoa.ico',
 
   // Set the production url of your site here
   url: 'https://kanoa-software.netlify.app/',
