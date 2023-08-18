@@ -14,13 +14,13 @@ import Delete2Icon from '@mui/icons-material/DeleteForever';
 ### Schedule Checks
 
 :::info
-The Schedule Check screen will schedule checks using already configured check sheets
+The **Checks** screen allows the user to schedule checks using previously configured check sheets
 :::
 
 ![Checks Schedule](/img/Checks-Overview.png)
 
 
-Use filters above to manage the list of Scheduled Checks created. And use the buttons on the left to View, Edit, Create and Delete Scheduled Checks.
+Use the filters above to manage the list of Scheduled Checks created. Checks can be filtered by asset, item, manual versus auto, and active versus inactive. Use the buttons on the left to View, Edit, Create and Delete Scheduled Checks.
 
 #### Create Check Sheet
 
