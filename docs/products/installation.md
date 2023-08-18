@@ -23,7 +23,3 @@ Refer to [Asset Management](/category/asset-management) to see how to setup asse
 - MQTT Tags 
 - Manual Entry 
 - States, Modes, Counts
-
-:::caution Developer Note
-Need detailed discussion on how this works with the UDTs. Explain how counts are handled and that one, two or three counts can be added.
-:::
