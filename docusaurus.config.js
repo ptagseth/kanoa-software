@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: 'Our Company',
-                href: 'https://www.kanoacon.com',
+                href: 'https://www.kanoa.ai',
               },
               {
                 label: 'Linkedin',
@@ -131,7 +131,7 @@ const config = {
             items: [
                 {
                   label: 'Contact Us',
-                  href: '/contact-us',
+                  href: 'https://kanoa.ai/contact',
                 },
                 {
                   label: 'Terms & Conditions',
