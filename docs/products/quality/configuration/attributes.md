@@ -58,8 +58,8 @@ When a check is to be taken, it will first check if a tolerance exists for the c
 
 - **UEL - Upper Entry Limit** – Defines the maximum value that can be entered.
 
-- **LDL - Lower Division Limit** - 
-
-- **UDL - Upper Division Limit** - 
+:::note 
+Tolerance parameter values must make logical sense or will be highlighted in red as a warning. For instance, the Upper Entry Limit cannot be smaller than the Lower Entry Limit.
+:::
 
 

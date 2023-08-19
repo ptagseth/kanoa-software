@@ -28,7 +28,7 @@ In order to perform and capture a check, that check must be defined in a check s
 Existing Check Sheets can be filtered by Asset <LayersIcon fontSize="small" /> and Enabled/Disabled state.
 ![Check Sheets](/img/55.png)
 
-Check sheets can be viewed <RemoveRedEyeIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />, duplicated <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />, and added <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} /> using the sidebar. To edit a check sheet, click <RemoveRedEyeIcon fontSize="small" /> View Check Sheet then switch from <RemoveRedEyeIcon fontSize="small" sx={{color: "#489FE2"}} /> View Mode to  <EditIcon fontSize="small" sx={{color: "#a72525"}} /> **Edit Mode** by clicking the icon in the top right.
+Check sheets can be viewed <RemoveRedEyeIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />, duplicated <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />, and added <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} /> using the sidebar. To edit a check sheet, click the <RemoveRedEyeIcon fontSize="small" /> **View Check Sheet** button then switch from <RemoveRedEyeIcon fontSize="small" sx={{color: "#489FE2"}} /> **View Mode** to <EditIcon fontSize="small" sx={{color: "#a72525"}} /> **Edit Mode** by clicking the icon in the top right.
 
 ![Check Sheets](/img/checksheets-1.png)
 
