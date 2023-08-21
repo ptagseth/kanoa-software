@@ -98,7 +98,7 @@ const config = {
       navbar: {
         logo: {
           alt: 'Kanoa Docs',
-          src: 'img/logo.svg',
+          src: 'img/docs_logo.png',
           srcDark: 'img/logo_dark.svg',
           href: '/',
           target: '_self',

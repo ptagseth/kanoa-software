@@ -1,6 +1,6 @@
 ---
-title: Check Entry
-sidebar_position: 2
+title: Checks
+sidebar_position: 3
 ---
 
 import LayoutIcon from '@mui/icons-material/ViewCompact';
