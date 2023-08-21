@@ -59,8 +59,8 @@ Instructions to complete the check sheet can be entered in the **Instructions** 
 #### AUTO
 Select **Auto** if this check sheet will automatically capture check values directly from the equipment. Leave ‘Auto’ as false if checks are to be manually performed. An auto check requires PLC tag paths to be added to attributes.
 
-#### SIGNOFF
-This option indicates that this check requires signoff. When disabled, **Submitted** check sheets will automatically be set to an **Approved** status and values will be used in SPC analysis. When enabled, **Submitted** check sheets can be manually **Approved** or **Rejected**.
+#### SIGN-OFF
+This option indicates that this check requires sign-off. When disabled, **Submitted** check sheets will automatically be set to an **Approved** status and values will be used in SPC analysis. When enabled, **Submitted** check sheets can be manually **Approved** or **Rejected**.
 
 #### ENABLED
 If disabled, this check sheet will not be available.
@@ -111,18 +111,114 @@ To create new check, click the <AddIcon fontSize="small" /> add icon. This opens
 ![Check Sheets](/img/checksheets-7.png)
 
 ### General
-* Name: A name is required for all check items. 
-* Group: A check item can be organized with similar checks by adding it to a group.
-* Enabled: A check item can either be enabled or disabled. If enabled, it will appear in the check sheet. 
-* Required: A check item can be required to be completed before submitting the check sheet by selecting the **Required** field.
+#### NAME
+A name is required for all check items. 
+
+#### GROUP
+A check item can be organized with similar checks by adding it to a group.
+
+#### ENABLED
+A check item can either be enabled or disabled. If enabled, it will appear in the check sheet. 
+
+#### REQUIRED
+By selecting the **Required** field, a check item is required to be completed before submitting the check sheet.
+
+#### CHECK TYPE
+The three check types are Check, Calculated and Trigger.
+* **Check** – Check value data is collected manually or from a defined data source.
+* **Calculated** – Check value data is calculated based on other check values.
+* **Trigger** – Check value is used as a trigger to pull other check values.
 
 ### Data Properties
-* Data Type:
-* Number of Measurements: Multiple measurements can be set to allow for sub-group measurement analysis. By default, the number of measurements is 1.
-* Units:
-* Check Type: The three check types are Check, Calculated and Trigger.
-  * Check:
-  * Calculated:
-  * Trigger:
-* Format:
+#### DATA TYPE
+The data type dropdown specifies the type of data that users will provide for this check item. The data type options are as follows: 
+* **Boolean** – 
+* **Datetime** –
+* **Float** – (Number, time, fraction)
+* **Integer** – (Number, time, fraction)
+* **String** – (Tree, text, boolean)
 
+#### NUMBER OF MEASUREMENTS 
+Multiple measurements can be set to allow for subgroup measurement analysis. By default, the number of measurements is 1. 
+
+#### UNITS
+Use the dropdown to specify the engineering units for the sample. To add a new unit, enter it in the dropdown and select the **Create:** option that becomes visible.
+
+#### FORMAT
+Specify a formatting reference for the data recorded in this check item.
+
+* **Zero (0)** – Specifies a required digit
+* **Pound (\#)** – Specifies an optional digit 
+* **Comma (,)** – The grouping separator 
+* **Period (.)** – The decimal separator
+* **Dash (-)** – A minus sign 
+* **E** – Scientific notation 
+* **Semicolon (;)** – Used to separate positive and negative patterns. The negative subpattern will only be used to specify the prefix and suffix. The number of digits, minimal digits, and other characteristics are all the same as the positive pattern. 
+* **Percent (%)** – Multiplies the value by 100 and shows as a percent
+* **Apostrophe (')** – Used to quote special characters
+
+#### INSTRUCTIONS
+Instructions can be added for each check item and are displayed when the check is selected.
+
+### Advanced Settings
+#### DATA SOURCE AND TOLERANCE
+
+#### PICK LIST
+The pick list options provide a method for generating a set of buttons for the person taking the quality checks. If no pick list is selected, the numeric keypad is displayed for numeric value checks. Pick lists can only be configured on **Check** type check items.
+
+The pick list options are:
+
+* **TEXT BOX** – Generates buttons with the text defined in the pick list values. Pick list values are comma separated i.e. Green, Blue, Red. There are no pass/fail checks when using a text box.
+
+* **PASS BOX** – Generates buttons with the text defined in the pick list values. Pick list values are comma separated i.e. OK,NOT OK. The first value is the passing value, all other values are considered to have failed the check. The ‘Include N/A’ checkbox adds a button option that is not considered to have passed or failed.
+
+* **MULTI-PASS BOX** – Generates buttons with the text defined in the pick list values. Pick list values are in json format i.e. {'PASS':['Perfect', 'Good'], 'WARNING':['Fair', 'Average'], 'FAIL':['Bad'].
+
+* **NUMBER BOX** – Generates buttons with whole numbers between LSL and USL for process and product checks. For simple checks, buttons are generated for the range of values defined in the pick list values. Pick list value can be a number i.e. 10, to generate buttons ranging from 1 to 10, or a range such as 5-15, to generate buttons ranging from 5 to 15, or a comma separated list such as 1,3,5,7,9.
+
+* **FRACTION BOX** – Generates buttons with fractions between LSL and USL for process and product checks. The pick list value defines the fraction denominator i.e. 16 will generate 1/16, 1/8, 3/16, ½, 5/16, 3/8 etc. between the LSL and USL for the product or process specification
+
+* **DECIMAL BOX** – Generates buttons with real numbers between LSL and USL for process and product checks. The pick list value defines the precision i.e. 10 will generate buttons for 0.1, 0.2, 0.3 etc. between the LSL and USL for the product or process specification. 100 will generate buttons for 0.01, 0.02, 0.03 etc. between the LSL and USL for the product or process specification.
+
+* **TIME BOX** – Presents the user with a time key pad to enter duration in hours, minutes and seconds for a check. The value is stored in seconds.
+
+#### CALCULATIONS
+When a check item has multiple measurement counts associated with it, average, standard deviation and range values are automatically calculated and displayed in the Check Entry screen. If calculations however need to be performed on different check items, calculated check items can be added to the check sheet via the Calculation tab.
+
+Possible calculation formulas are Average, Sum, Range, Min, Max, Std Dev.
+
+Double-click on the check items in the table to add them to list that be will be passed to the calculator.
+
+Select the Product Attribute whose specification will be used to determine pass/fail status.
+
+#### TRIGGERED CHECKS
+- **Product Change** – Whenever the product changes on the line, a new check sheet will be generated if the line mode and shift criteria are met. Product Change triggers have a modifier option:
+
+  - Every Product –Quality check is required every time the product changes
+
+  - Unique Products Per Shift - Quality check is required only once per product per shift
+
+  - Once Per Shift – Only one quality check will be performed per shift
+
+- **Shift Change** – Whenever the shift changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
+
+- **Mode Change** – Whenever the mode changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
+
+- **Timed Interval** – A new check sheet will be generated every x mins if the line mode and shift criteria are met.
+
+### Trigger Settings
+- **Mode** – Line modes can be Production, Idle, Changeover, Maintenance depending on how line mode is determined. Select the valid mode for the check sheet.
+
+- **Shift** – If a check should only be taken on a certain, it can be defined here, otherwise select ‘All Shifts’.
+
+- **Delay** – When a check becomes due after the check sheet is triggered can be set using the ‘delay’ parameter.
+
+- **Coming Due** – This parameter can be set to inform the quality check person that a check is coming due x minutes before it is due.
+
+- **Overdue** – A check will change status to Overdue x minutes after it was due.
+
+- **Grace** – This parameter defines how long a check sheet will be available before its status is changed to missed.
+
+:::note
+If a new check is required based on the trigger and an existing check is already due, the existing check will be disabled and the new check created. Examples of this would a check driven by a timer interval and a shift change occurring. Checks that need to be triggered based on a plc tag change value, such as Glue station Check Weigher, are done through a special tagUDT. It is not configurable and must be set up by a manufacturing IT support person.
+:::
