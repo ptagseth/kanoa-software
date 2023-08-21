@@ -148,4 +148,4 @@ PO Box 25282
 Federal Way, Washington, 98093  
 USA
 
-E-mail: nicole@kanoacon.com
+E-mail: nicole@kanoa.ai
