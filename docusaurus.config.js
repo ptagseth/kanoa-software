@@ -89,7 +89,7 @@ const config = {
         //... other Algolia params
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/kanoa_logo.png',
       docs: {
         sidebar: {
           hideable: true,
