@@ -136,11 +136,11 @@ The three check types are Check, Calculated and Trigger.
 ### Data Properties
 #### DATA TYPE
 The data type dropdown specifies the type of data that users will provide for this check item. The data type options are as follows: 
-* **Boolean** – 
-* **Datetime** –
-* **Float** – (Number, time, fraction)
-* **Integer** – (Number, time, fraction)
-* **String** – (Tree, text, boolean)
+* **Boolean** – A data type representing true or false values.
+* **Datetime** – A data type for representing calendar dates and times.
+* **Float** – A data type for representing decimal numbers. Pick list options include number, time, and fraction.
+* **Integer** – A data type for representing whole numbers. Pick list options include number, time, and fraction.
+* **String** – A data type for representing sequences of characters. Pick list options include tree, text, and boolean.
 
 #### NUMBER OF MEASUREMENTS 
 Multiple measurements can be set to allow for subgroup measurement analysis. By default, the number of measurements is 1. 
