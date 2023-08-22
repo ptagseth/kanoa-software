@@ -28,12 +28,16 @@ In order to perform and capture a check, that check must be defined in a check s
 Existing Check Sheets can be filtered by Asset <LayersIcon fontSize="small" /> and Enabled/Disabled state.
 ![Check Sheets](/img/55.png)
 
-Check sheets can be viewed <RemoveRedEyeIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />, duplicated <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />, and added <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} /> using the sidebar. To edit a check sheet, click the <RemoveRedEyeIcon fontSize="small" /> **View Check Sheet** button then switch from <RemoveRedEyeIcon fontSize="small" sx={{color: "#489FE2"}} /> **View Mode** to <EditIcon fontSize="small" sx={{color: "#a72525"}} /> **Edit Mode** by clicking the icon in the top right.
+The following functionality is available to configure check sheets:
+* **View** <RemoveRedEyeIcon fontSize="small" />: Opens a check sheet in a view-only mode. To edit a check sheet, click the <RemoveRedEyeIcon fontSize="small" sx={{color: "#489fe2"}} /> View Mode icon on the top left to switch to <EditIcon fontSize="small" sx={{color: "#a72525"}} /> Edit Mode.
+* **Delete** <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />: Deletes the currently selected check sheet. Click OK in the popup to confirmation deletion.
+* **Duplicate** <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />: Creates a duplicate of the currently selected checklist, preserving all specifications and details. The new check sheet will have the same name with a (1) attached.
+* **Add** <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />: The add icon [creates a new empty check sheet](#creating-check-sheets).
 
 ![Check Sheets](/img/checksheets-1.png)
 
 ## Creating Check Sheets
-To create a new check sheet, click the **Add** icon <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />. This opens the [Check Sheet Editor](#check-sheet-editor) where its specifications are added. Once the user enters a **Check Sheet Name**, the check sheet is automatically created and the remaining fields become accessible.  
+To create a new check sheet, click the **Add** <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} /> icon. This opens the [Check Sheet Editor](#check-sheet-editor) where the check sheet's specifications are added. Once the user enters a **Check Sheet Name**, the check sheet is automatically created and the remaining fields become accessible.  
 **Estimated Minutes** is an optional field that indicates the approximate time required for completing the check sheet. If filled out, a check will automatically be added to the check sheet for the user to input time taken for all checks.
 ![Check Sheets](/img/56.png)
 
@@ -97,7 +101,7 @@ The checks tab displays a table of check items associated with the check sheet.
 Check items can be broken up into groups. To create a new check group, click the **Add Group** icon. Enter a **Name** for the new group and click **Save**.
 
 #### CREATING CHECK ITEMS
-New checks can be added by clicking on the **Add Check** icon in the Checks tab. This will open the check entry screen. Further information on check item entry can be located here.
+New checks can be added by clicking on the **Add Check** icon in the Checks tab. This will open the check entry screen. Further information on check item entry can be located [here](#check-item-entry).
 
 ### Triggers Tab
 The triggers tab displays a table of triggers associated with the check sheet.
@@ -153,7 +157,7 @@ Specify a formatting reference for the data recorded in this check item.
 * **Period (.)** – The decimal separator
 * **Dash (-)** – A minus sign 
 * **E** – Scientific notation 
-* **Semicolon (;)** – Used to separate positive and negative patterns. The negative subpattern will only be used to specify the prefix and suffix. The number of digits, minimal digits, and other characteristics are all the same as the positive pattern. 
+* **Semicolon (;)** – Used to separate positive and negative patterns. The negative sub-pattern will only be used to specify the prefix and suffix. The number of digits, minimal digits, and other characteristics are all the same as the positive pattern. 
 * **Percent (%)** – Multiplies the value by 100 and shows as a percent
 * **Apostrophe (')** – Used to quote special characters
 
@@ -187,7 +191,7 @@ When a check item has multiple measurement counts associated with it, average, s
 
 Possible calculation formulas are Average, Sum, Range, Min, Max, Std Dev.
 
-Double-click on the check items in the table to add them to list that be will be passed to the calculator.
+Double-click on the check items in the table to add them to list that will be passed to the calculator.
 
 Select the Product Attribute whose specification will be used to determine pass/fail status.
 
@@ -204,7 +208,7 @@ Select the Product Attribute whose specification will be used to determine pass/
 
 - **Mode Change** – Whenever the mode changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
 
-- **Timed Interval** – A new check sheet will be generated every x mins if the line mode and shift criteria are met.
+- **Timed Interval** – A new check sheet will be generated every x minutes if the line mode and shift criteria are met.
 
 ### Trigger Settings
 - **Mode** – Line modes can be Production, Idle, Changeover, Maintenance depending on how line mode is determined. Select the valid mode for the check sheet.
