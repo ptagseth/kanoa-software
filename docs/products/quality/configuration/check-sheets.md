@@ -104,8 +104,48 @@ Check items can be broken up into groups. To create a new check group, click the
 New checks can be added by clicking on the **Add Check** icon in the Checks tab. This will open the check entry screen. Further information on check item entry can be located [here](#check-item-entry).
 
 ### Triggers Tab
-The triggers tab displays a table of triggers associated with the check sheet.
+The triggers tab displays a table of triggers associated with the check sheet. Triggers allow you to schedule checks to correspond with different events. Triggers can be added, deleted or edited. Clicking the add or edit button will open the trigger editor. 
 
+#### TRIGGER TYPES
+Trigger type is selected in the **Select Trigger*** dropdown. The following trigger types are available:
+
+- **Manual** – The manual trigger cna be configured with any combination of the fields to create a custom trigger. 
+
+- **Mode Change** – Whenever the mode changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
+
+- **Product Change** – Whenever the product changes on the line, a new check sheet will be generated if the line mode and shift criteria are met. Product Change triggers have a modifier option:
+
+  - Every Product –Quality check is required every time the product changes
+
+  - Unique Products Per Shift - Quality check is required only once per product per shift
+
+  - Once Per Shift – Only one quality check will be performed per shift
+
+- **Re-test** – Whenever a check fails, a re-test check sheet will be generated that indicates what data needs to be collected for the re-test. The re-test check sheet can be scheduled to occur a specific amount of time after the failure occurs. 
+
+- **Shift Change** – Whenever the shift changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
+
+- **Timed Interval** – A new check sheet will be generated every x minutes if the line mode and shift criteria are met.
+
+#### TRIGGER SETTINGS
+
+- **Shift** – If a check should only be taken on a certain, it can be defined here, otherwise select ‘All Shifts’.
+
+- - **Mode** – Line modes can be Production, Idle, Changeover, Maintenance depending on how line mode is determined. Select the valid mode for the check sheet.
+
+- **Delay** – When a check becomes due after the check sheet is triggered can be set using the ‘delay’ parameter.
+
+- **Coming Due** – This parameter can be set to inform the quality check person that a check is coming due x minutes before it is due.
+
+- **Overdue** – A check will change status to Overdue x minutes after it was due.
+
+- **Grace** – This parameter defines how long a check sheet will be available before its status is changed to missed.
+
+- **Enabled** – Select the Enabled checkbox to make trigger available for use. Disabling the trigger allows it to be hidden without permanently deleting the configuration.
+
+:::note
+If a new check is required based on the trigger and an existing check is already due, the existing check will be disabled and the new check created. Examples of this would a check driven by a timer interval and a shift change occurring. Checks that need to be triggered based on a plc tag change value, such as Glue station Check Weigher, are done through a special tagUDT. It is not configurable and must be set up by a manufacturing IT support person.
+:::
 
 ## Check Item Entry
 A check sheet can have multiple checks. Check items can be added <AddIcon fontSize="small" />, edited <EditIcon fontSize="small" />, deleted <DeleteIcon fontSize="small" />, and the order in which they appear can be set using the up <UpIcon fontSize="small" /> and down <DownIcon fontSize="small" /> arrows. 
@@ -126,6 +166,8 @@ A check item can either be enabled or disabled. If enabled, it will appear in th
 
 #### REQUIRED
 By selecting the **Required** field, a check item is required to be completed before submitting the check sheet.
+
+#### DYNAMIC
 
 #### CHECK TYPE
 The three check types are Check, Calculated and Trigger.
@@ -166,6 +208,7 @@ Instructions can be added for each check item and are displayed when the check i
 
 ### Advanced Settings
 #### DATA SOURCE AND TOLERANCE
+Use the attribute selector to link the check item with a data source tag path and tolerance. 
 
 #### PICK LIST
 The pick list options provide a method for generating a set of buttons for the person taking the quality checks. If no pick list is selected, the numeric keypad is displayed for numeric value checks. Pick lists can only be configured on **Check** type check items.
@@ -195,34 +238,4 @@ Double-click on the check items in the table to add them to list that will be pa
 
 Select the Product Attribute whose specification will be used to determine pass/fail status.
 
-#### TRIGGERED CHECKS
-- **Product Change** – Whenever the product changes on the line, a new check sheet will be generated if the line mode and shift criteria are met. Product Change triggers have a modifier option:
-
-  - Every Product –Quality check is required every time the product changes
-
-  - Unique Products Per Shift - Quality check is required only once per product per shift
-
-  - Once Per Shift – Only one quality check will be performed per shift
-
-- **Shift Change** – Whenever the shift changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
-
-- **Mode Change** – Whenever the mode changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
-
-- **Timed Interval** – A new check sheet will be generated every x minutes if the line mode and shift criteria are met.
-
-### Trigger Settings
-- **Mode** – Line modes can be Production, Idle, Changeover, Maintenance depending on how line mode is determined. Select the valid mode for the check sheet.
-
-- **Shift** – If a check should only be taken on a certain, it can be defined here, otherwise select ‘All Shifts’.
-
-- **Delay** – When a check becomes due after the check sheet is triggered can be set using the ‘delay’ parameter.
-
-- **Coming Due** – This parameter can be set to inform the quality check person that a check is coming due x minutes before it is due.
-
-- **Overdue** – A check will change status to Overdue x minutes after it was due.
-
-- **Grace** – This parameter defines how long a check sheet will be available before its status is changed to missed.
-
-:::note
-If a new check is required based on the trigger and an existing check is already due, the existing check will be disabled and the new check created. Examples of this would a check driven by a timer interval and a shift change occurring. Checks that need to be triggered based on a plc tag change value, such as Glue station Check Weigher, are done through a special tagUDT. It is not configurable and must be set up by a manufacturing IT support person.
-:::
+#### TRIGGERED CHECK
