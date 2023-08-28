@@ -7,6 +7,8 @@ Production orders can be created and edited in the Production Order Management s
 
 This page will show the status of production orders along with assets they have been scheduled on and actual quantity produced against them.
 
+The data can be downloaded into an Excel format.
+
 ![Order Management](/img/OrderManagementOverview.png) 
 
 
