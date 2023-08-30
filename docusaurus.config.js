@@ -99,7 +99,7 @@ const config = {
         logo: {
           alt: 'Kanoa Docs',
           src: 'img/docs_logo.png',
-          srcDark: 'img/logo_dark.svg',
+          srcDark: 'img/docs_logo_white.png',
           href: '/',
           target: '_self',
         },

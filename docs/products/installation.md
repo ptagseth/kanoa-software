@@ -14,12 +14,3 @@ sidebar_position: 3
 ### Database
 1. SQL Server 2018 or higher must be used.
 2. A Kanoa_Ops database shall be added to the database server. The framework package provides a script that will create the necessary schemas, tables and functions.
-
-## Configuring Assets
-Refer to [Asset Management](/category/asset-management) to see how to setup assets, modes and states.
-
-## Connecting to Assets
-- OPC Tags 
-- MQTT Tags 
-- Manual Entry 
-- States, Modes, Counts
