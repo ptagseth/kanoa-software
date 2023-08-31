@@ -35,7 +35,7 @@ Use the Asset Selector and Tag Browser to select the tag. **Scale Factor** and *
 
 ### Attribute Specifications
 
-One or more specifications (or tolerances) can be added to an attribute. A tolerance can be applied to all items by leaving the Asset and Item fields blank. Otherwise, the Asset and Item selectors can be used to set tolerances by individual item, asset or item set. To add a new tolerance, click the <AddIcon fontSize="small" />**Add Tolerance** button on the left of the Tolerance tab.
+One or more specifications (or tolerances) can be added to an attribute. A tolerance can be applied to all items by leaving the Asset, Item and Item Set fields blank. Otherwise, the Asset and Item selectors can be used to set tolerances by individual item, asset or item set. To add a new tolerance, click the <AddIcon fontSize="small" />**Add Tolerance** button on the left of the Tolerance tab.
 
 When a check is to be taken, it will first check if a tolerance exists for the current item. If no tolerance is found, it will check if the current item belongs to an item set that has a tolerance. If no item set tolerance has been configured, it will use the tolerance defined for all items.
 

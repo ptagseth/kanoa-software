@@ -30,7 +30,7 @@ Existing Check Sheets can be filtered by Asset <LayersIcon fontSize="small" /> a
 
 The following functionality is available to configure check sheets:
 * **View** <RemoveRedEyeIcon fontSize="small" />: Opens a check sheet in a view-only mode. To edit a check sheet, click the <RemoveRedEyeIcon fontSize="small" sx={{color: "#489fe2"}} /> View Mode icon on the top left to switch to <EditIcon fontSize="small" sx={{color: "#a72525"}} /> Edit Mode.
-* **Delete** <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />: Deletes the currently selected check sheet. Click OK in the popup to confirmation deletion.
+* **Delete** <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />: Deletes the currently selected check sheet. Click OK in the popup to confirmation deletion. If there is historical data associated with the check sheet, the user will be prompted with another popup to see if they want to proceed with deletion.
 * **Duplicate** <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />: Creates a duplicate of the currently selected checklist, preserving all specifications and details. The new check sheet will have the same name with a (1) attached.
 * **Add** <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />: The add icon [creates a new empty check sheet](#creating-check-sheets).
 
@@ -51,7 +51,7 @@ A general description about the check sheet can be entered in the **Description*
 The check sheet's procedure can be entered in the **Procedure** tab. 
 
 #### ADD DOCUMENT
-Clicking on the _ icon opens a popup that allows the user to select and add a document to the check sheet. Compatible document types are ___. The document can be viewed on the right hand side in the PDF viewer. 
+Clicking on the _ icon opens a popup that allows the user to select and add a PDF document to the check sheet. The document can be viewed on the right hand side in the PDF viewer. 
 
 #### INSTRUCTIONS
 Instructions to complete the check sheet can be entered in the **Instructions** tab.
@@ -107,7 +107,7 @@ New checks can be added by clicking on the **Add Check** icon in the Checks tab.
 The triggers tab displays a table of triggers associated with the check sheet. Triggers allow you to schedule checks to correspond with different events. Triggers can be added, deleted or edited. Clicking the add or edit button will open the trigger editor. 
 
 #### TRIGGER TYPES
-Trigger type is selected in the **Select Trigger*** dropdown. The following trigger types are available:
+Trigger type is selected in the **Select Trigger** dropdown. The following trigger types are available:
 
 - **Manual** – The manual trigger cna be configured with any combination of the fields to create a custom trigger. 
 
@@ -115,7 +115,7 @@ Trigger type is selected in the **Select Trigger*** dropdown. The following trig
 
 - **Product Change** – Whenever the product changes on the line, a new check sheet will be generated if the line mode and shift criteria are met. Product Change triggers have a modifier option:
 
-  - Every Product –Quality check is required every time the product changes
+  - Every Product – Quality check is required every time the product changes
 
   - Unique Products Per Shift - Quality check is required only once per product per shift
 
@@ -125,15 +125,15 @@ Trigger type is selected in the **Select Trigger*** dropdown. The following trig
 
 - **Shift Change** – Whenever the shift changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
 
-- **Timed Interval** – A new check sheet will be generated every x minutes if the line mode and shift criteria are met.
+- **Timed Interval** – A new check sheet will be generated every x minutes if the line mode and shift criteria are met. The duration of the interval is specified in the field to the right of the trigger type.
 
 #### TRIGGER SETTINGS
 
-- **Shift** – If a check should only be taken on a certain, it can be defined here, otherwise select ‘All Shifts’.
+- **Shift** – If a check should only be taken on a certain shift, it can be defined here, otherwise select ‘All Shifts’.
 
-- - **Mode** – Line modes can be Production, Idle, Changeover, Maintenance depending on how line mode is determined. Select the valid mode for the check sheet.
+- **Mode** – If a check should only be taken on a certain mode, it can be defined here, otherwise select 'All Modes'.
 
-- **Delay** – When a check becomes due after the check sheet is triggered can be set using the ‘delay’ parameter.
+- **Delay** – When a check becomes due after the check sheet is triggered can be set using the ‘Delay’ parameter.
 
 - **Coming Due** – This parameter can be set to inform the quality check person that a check is coming due x minutes before it is due.
 
@@ -168,6 +168,7 @@ A check item can either be enabled or disabled. If enabled, it will appear in th
 By selecting the **Required** field, a check item is required to be completed before submitting the check sheet.
 
 #### DYNAMIC
+This option is only visible if there is a tolerance selected for the check item. 
 
 #### CHECK TYPE
 The three check types are Check, Calculated and Trigger.
@@ -183,6 +184,10 @@ The data type dropdown specifies the type of data that users will provide for th
 * **Float** – A data type for representing decimal numbers. Pick list options include number, time, and fraction.
 * **Integer** – A data type for representing whole numbers. Pick list options include number, time, and fraction.
 * **String** – A data type for representing sequences of characters. Pick list options include tree, text, and boolean.
+
+:::note 
+Only boolean and datetime data types are available for trigger checks. Boolean is used to indicate 'Take check' and datetime indicates 'Take check and get the value at the datetime selected'.
+:::
 
 #### NUMBER OF MEASUREMENTS 
 Multiple measurements can be set to allow for subgroup measurement analysis. By default, the number of measurements is 1. 
@@ -208,9 +213,11 @@ Instructions can be added for each check item and are displayed when the check i
 
 ### Advanced Settings
 #### DATA SOURCE AND TOLERANCE
+The data source and tolerance option is only available for check items of type **Check**.  
 Use the attribute selector to link the check item with a data source tag path and tolerance. 
 
 #### PICK LIST
+Pick lists are only available for check items of type **Check**.  
 The pick list options provide a method for generating a set of buttons for the person taking the quality checks. If no pick list is selected, the numeric keypad is displayed for numeric value checks. Pick lists can only be configured on **Check** type check items.
 
 The pick list options are:
@@ -230,12 +237,15 @@ The pick list options are:
 * **TIME BOX** – Presents the user with a time key pad to enter duration in hours, minutes and seconds for a check. The value is stored in seconds.
 
 #### CALCULATIONS
+The calculator option is only available for check items of type **Calculated**.  
 When a check item has multiple measurement counts associated with it, average, standard deviation and range values are automatically calculated and displayed in the Check Entry screen. If calculations however need to be performed on different check items, calculated check items can be added to the check sheet via the Calculation tab.
 
 Possible calculation formulas are Average, Sum, Range, Min, Max, Std Dev.
 
 Double-click on the check items in the table to add them to list that will be passed to the calculator.
 
-Select the Product Attribute whose specification will be used to determine pass/fail status.
+Select the Attribute whose specification will be used to determine pass/fail status.
 
 #### TRIGGERED CHECK
+The triggered check option is only available for check items of type **Check**.  
+If you have separate trigger checks defined within the check sheet, they can be selected in the Select Check Trigger dropdown. This allows you to synchronize this check to be prompted by another trigger. 

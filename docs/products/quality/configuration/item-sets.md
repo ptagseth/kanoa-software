@@ -21,7 +21,7 @@ To add, edit or delete item sets, click the <EditIcon fontSize="small" /> **Edit
 
 ### Associating Items to an Item Set
 
-You can select one or more items using the CTRL key. The **Item Set Linker** is located below the table. Use the dropdown to select the Item Set you wish the items to be grouped in and click the **Link** button. The **Unlink** button clears the item set from any selected items.
+You can select one or more items using the CTRL key. The **Item Set Linker** is located above the table and visible when you have items selected. Use the dropdown to select the Item Set you wish the items to be grouped in and click the **Link** button. The **Unlink** button is located to the left of the table and clears the item set associated with any selected items.
 ![Item Sets](/img/product-sets-2.png)
 
 :::note
