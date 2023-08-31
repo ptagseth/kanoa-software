@@ -30,7 +30,7 @@ Existing Check Sheets can be filtered by Asset <LayersIcon fontSize="small" /> a
 
 The following functionality is available to configure check sheets:
 * **View** <RemoveRedEyeIcon fontSize="small" />: Opens a check sheet in a view-only mode. To edit a check sheet, click the <RemoveRedEyeIcon fontSize="small" sx={{color: "#489fe2"}} /> View Mode icon on the top left to switch to <EditIcon fontSize="small" sx={{color: "#a72525"}} /> Edit Mode.
-* **Delete** <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />: Deletes the currently selected check sheet. Click OK in the popup to confirmation deletion.
+* **Delete** <DeleteIcon fontSize="small" sx={{color: "#a72525"}} />: Deletes the currently selected check sheet. Click OK in the popup to confirmation deletion. If there is historical data associated with the check sheet, the user will be prompted with another popup to see if they want to proceed with deletion.
 * **Duplicate** <DuplicateIcon fontSize="small" sx={{color: "#6823a8"}} />: Creates a duplicate of the currently selected checklist, preserving all specifications and details. The new check sheet will have the same name with a (1) attached.
 * **Add** <ControlPointIcon fontSize="small" sx={{color: "#89a726"}} />: The add icon [creates a new empty check sheet](#creating-check-sheets).
 
@@ -184,6 +184,10 @@ The data type dropdown specifies the type of data that users will provide for th
 * **Float** – A data type for representing decimal numbers. Pick list options include number, time, and fraction.
 * **Integer** – A data type for representing whole numbers. Pick list options include number, time, and fraction.
 * **String** – A data type for representing sequences of characters. Pick list options include tree, text, and boolean.
+
+:::note 
+Only boolean and datetime data types are available for trigger checks. Boolean is used to indicate 'Take check' and datetime indicates 'Take check and get the value at the datetime selected'.
+:::
 
 #### NUMBER OF MEASUREMENTS 
 Multiple measurements can be set to allow for subgroup measurement analysis. By default, the number of measurements is 1. 
