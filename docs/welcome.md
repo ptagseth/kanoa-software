@@ -7,7 +7,11 @@ title: Welcome
 ## Documentation to get you started with the Kanoa MES framework.
 
 ### Kanoa Ops 
-The Kanoa Ops Framework is a fully functioning Manufacturing Execution System application that is web based and mobile responsive. It is built on Ignition™ by Inductive Automation using SQL Server for the backend data store. The framework is written solely in python and T-SQL to provide a completely customizable foundation. All the provided screens, scripts, SQL functions can be customized or added onto to create the specific application needed by your organization. The framework includes the following features out-of-the-box:  
+Kanoa Ops provides the fundamental elements required to orchestrate manufacturing operations and delivers insights and analytics on plant performance.
+
+Kanoa Ops includes everything required for the day-to-day organization and operation of a manufacturing site, including classifying and organizing plant assets, defining products and materials, scheduling operators and shifts, and scheduling production runs and work orders. Once the work is organized and scheduled, Kanoa Ops also tracks performance, OEE, and downtime to provide production insights and analytics.
+
+Kanoa Ops includes the following features out-of-the-box:  
 * Work Order Management 
 * Product Management 
 * Operations Scheduling with recurrence rule support and auto-scheduling 
@@ -19,7 +23,13 @@ The Kanoa Ops Framework is a fully functioning Manufacturing Execution System ap
 * MQTT data transfer between edge devices and MES Server utilizing built-in store and forward capability for a robust network solution.
 
 ### Kanoa Quality
-The Quality System is a tool that helps implement the quality policies, processes and objectives as defined by a company. Required Quality Checks are defined and then automatically scheduled. In summary, the Quality System application provides the following:
+The Kanoa Quality Module for Ignition is a Quality Data system (QDS) that provides a comprehensive digital system for managing manufacturing quality.
+
+Kanoa Quality allows users to create various Check Sheets that describe all of the quality checks that may be required at any point in the manufacturing process. These Check Sheets can then be scheduled based on manufacturing operating conditions like product changeovers, shift changes, machine mode changes, or timed intervals. When it is time for a quality check to be executed, the proper Check Sheet is presented to the operator (with instructions) so they can enter quality data manually and validate any automatically collected data.
+
+Quality supervisors get a holistic view of all the Quality checks that are pending, due, in-progress, complete, or late; so they can take action to make sure tests are getting done. Kanoa Quality also provides out-of-the-box analytics on both the performance of quality checks and the data collected by those checks. 
+
+Kanoa Quality provides the following:
 * Environmental, Safety, Operations and Product Quality Management 
 * Ability to create quality checks 
 * Automatic scheduling of quality checks 
