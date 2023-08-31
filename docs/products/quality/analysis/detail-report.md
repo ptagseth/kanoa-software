@@ -2,19 +2,49 @@
 title: Detail Report
 sidebar_position: 2
 ---
+
+
 :::info 
-The detail report can be found by clicking the Detail button in **Quality > Analysis**.
+The Detail report can be found by clicking Check Details at **Quality > Analysis**.
 :::
 
-The Detail report provides a view on individual check values. 
+The Check Details report provides a view on individual check values.
 
-At this time, there are two SPC charting options, ‘Individual’ and ‘Histogram’. The Histogram chart provides Process Capability charting, while the Individual allows for individual data point analysis.
+![Check Details](/img/CheckDetailsOverview.png)
 
-The light blue chart at the top of each plot displays the density of data points and can be used to select time ranges of interest.
+## Customize Check Data
 
-The Min, Mean, Max, std Dev., LCL and UCL values are calculated based on the datapoints displayed. If Target, LSL and USL specifications have been defined for the attribute, then the cP and cPK values will be calculated.
+### Check Sheet Selector
+Select the specific Check for the detailed data
 
-![Detail Report](/img/detail-report-1.png)
+### Asset Selector
+Select the asset for the Check details
 
+### Item Selector
+Select Item.  This will filter the asset data to the specific items.
 
-![Detail Report](/img/detail-report-2.png)
+### Date and Time range
+Select the date range for the detailed check data
+
+### Content selections:
+Use select buttons to customize the data view:
+- Show Summary - Detailed data - select to display summary data (Sum, Avg, Min, Max, Range, Std Dev)
+- Show Group - Detailed data - select to display Group info
+- Show Resources - Detailed data - select to include resources as Item, Asset, Shift, etc.
+- Show Status - Detail data - select to include Status in displayed data
+- Show individual Measurements - Detail data - select to display individual measurements 
+
+### Filters
+Filters can be utilized to limit data to only the desired data set.
+
+### Column, Row Views
+Toggle Columns and Rows
+
+## Trend Views
+Select a Check Item and click the Trend View icon for a Trend View.  Trend Views provide data plotted in either a Time Series or in a histogram format.  Both Time Series and Histograms can filter out outlier data by setting min and max values.
+
+Select additional data sources to overlay multiple data plots.
+
+![Check Details](/img/CheckDetailsTimeSeries.png)
+
+![Check Details](/img/CheckDetailsHistogram.png)
