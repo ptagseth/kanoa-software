@@ -3,14 +3,24 @@ id: operations-management
 title: Operations Management
 sidebar_position: 2
 ---
-Any mode that has been configured for an asset and has the canSchedule attribute set can be scheduled for an asset in this screen.  
+Operatiopns Schedule will allow the user to set the Production events for an Operations schedule enabled asset. The Operations Schedule will change the modes for the Production Operations without overwriting PLC states.
 
-The Scheduler supports recurrence rules to allow for recurring events.  
+![Mode Editor](/img/Overview.png)
 
-Production orders that are in a ‘Released’ or ‘Scheduled’ state can also be dragged onto the scheduler.
 
-![Mode Editor](/img/24.png)
-![Mode Editor](/img/25.png)
-![Mode Editor](/img/26.png)
+### Calendar vs List View
+The schedule can be viewed in both Calendar view and List view.  Granularity of the view can be set to Month, Week or Day.
 
+### Create and modify Operations Schedule
+Only assets enabled for Operations Schedule can be scheduled.  Once the asset is selected - click the + icon to add an Operations event to the Schedule.  Choose Type, Create a name, set start and end data before event is saved.  Notes for the event is optional.
+
+Use Recurrence link on editor to setup recurrence of event.
+
+Production Work Orders in either 'Released' or 'Scheduled' state can be added to Operations Scheduler by drag and drop from the list of Work Orders.  
+
+Click on an event and select the edit button to modify an existing scheduled event - or click the delete button to remove a scheduled event.
+
+
+### Operations Scheduler Mode Changes
 When enabled, scheduled operations will automatically set the mode of the asset when the asset is not in an 'idle' mode. This helps in utilization analysis as scheduled maintenance periods will show up as maintenance and not idle. Any time asset is forced into a mode by a plc tag change or set by an operator, the scheduled mode will not be set.
+
