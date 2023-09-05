@@ -5,11 +5,11 @@ sidebar_position: 2
 ---
 Operatiopns Schedule will allow the user to set the Production events for an Operations schedule enabled asset. The Operations Schedule will change the modes for the Production Operations without overwriting PLC states.
 
-![Mode Editor](/img/Overview.png)
+![Mode Editor](/img/OperationsOverview.png)
 
 
-### Calendar vs List View
-The schedule can be viewed in both Calendar view and List view.  Granularity of the view can be set to Month, Week or Day.
+### Calendar and List View
+The schedule can be viewed in either Calendar view or List view.  Granularity of the view can be set to Month, Week or Day.
 
 ### Create and modify Operations Schedule
 Only assets enabled for Operations Schedule can be scheduled.  Once the asset is selected - click the + icon to add an Operations event to the Schedule.  Choose Type, Create a name, set start and end data before event is saved.  Notes for the event is optional.
