@@ -10,11 +10,10 @@ import EditIcon from '@mui/icons-material/Edit';
 import PersonIcon from '@mui/icons-material/Person';
 import LogoutIcon from '@mui/icons-material/Logout';
 
-    The application initially opens in Guest Mode, where the user has limited permissions and access to assets. To receive
-    the permissions associated with their pre-assigned role, the user must log in. 
+The application initially opens in Guest Mode, where the user has limited permissions and access to assets. To receive the permissions associated with their pre-assigned role, the user must log in. 
 
-    ### Login
-    From guest mode, you can log in by clicking the <PersonIcon fontSize="small" /> icon in the upper right corner.
+### Login
+From guest mode, you can log in by clicking the <PersonIcon fontSize="small" /> icon in the upper right corner.
 
 ![User Management](/img/UMLogin.png)
 

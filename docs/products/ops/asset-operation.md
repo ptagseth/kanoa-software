@@ -5,9 +5,8 @@ sidebar_position: 6
 ---
 import CreateIcon from '@mui/icons-material/Create';
 
-:::info
 The asset operation screen can be found under **Production/Asset Operation**.
-:::
+
 ## Operations
 The asset operation screen can be used by an operator to set the mode of a line or asset. Select a line using the **Asset Selector** in the top left.
 ![Asset Operation](/img/36.png)

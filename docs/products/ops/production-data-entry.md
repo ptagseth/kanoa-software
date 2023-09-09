@@ -13,9 +13,8 @@ import UndoIcon from '@mui/icons-material/Undo';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
 import SaveIcon from '@mui/icons-material/Save';
 
-:::info
 The **Production Data Entry** table records data pertaining to asset operation modes, downtime events, and production counts. It can be accessed from the [Asset Operation](docs/products/ops/asset-operation.md) and [Run Review](docs/products/ops/performance-analytics/run-review.md) screens.
-:::
+
 ## Accessing Production Data Entry
 1. Select a line using the **Asset Selector** in the top left.
 ![Production Data Entry](/img/36.png)
@@ -23,9 +22,6 @@ The **Production Data Entry** table records data pertaining to asset operation m
 ![Production Data Entry](/img/45.png)
 3. Use the date range selector to select the relevant time frame.
 ![Production Data Entry](/img/37.png)
-
-## Editing Asset Operation
-To edit asset operation, open the production data entry table. Then, click on an asset and select the **Operation** tab.
 
 ## Editing Downtime
 To access downtime data, open the production data entry table. Then, click on an asset and select the **Downtime** tab.
