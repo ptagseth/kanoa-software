@@ -158,6 +158,12 @@ To create new check, click the <AddIcon fontSize="small" /> add icon. This opens
 #### NAME
 A name is required for all check items. 
 
+#### CHECK TYPE
+The three check types are Check, Calculated and Trigger.
+* **Check** – Check value data is collected manually or from a defined data source.
+* **Calculated** – Check value data is calculated based on other check values.
+* **Trigger** – Check value is used as a trigger to pull other check values.
+
 #### GROUP
 A check item can be organized with similar checks by adding it to a group.
 
@@ -168,13 +174,7 @@ A check item can either be enabled or disabled. If enabled, it will appear in th
 By selecting the **Required** field, a check item is required to be completed before submitting the check sheet.
 
 #### DYNAMIC
-This option is only visible if there is a tolerance selected for the check item. 
-
-#### CHECK TYPE
-The three check types are Check, Calculated and Trigger.
-* **Check** – Check value data is collected manually or from a defined data source.
-* **Calculated** – Check value data is calculated based on other check values.
-* **Trigger** – Check value is used as a trigger to pull other check values.
+This option is only visible if there is a tolerance selected for the check item.
 
 ### Data Properties
 #### DATA TYPE
