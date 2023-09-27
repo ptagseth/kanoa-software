@@ -4,6 +4,7 @@ title: Reliability KPI's
 sidebar_position: 6
 ---
 
-![Reliability](/img/reliability-1.png)
+The Reliability KPI Matrix report
 
-![Reliability](/img/reliability-2.png)
+![Reliability](/img/KPIMatrixOverview.png) 
+
