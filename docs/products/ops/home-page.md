@@ -10,21 +10,28 @@ The home page serves as the initial display in the Ops application and provides 
 
 ## Asset Display Options
 To view an asset, click the <ChevronRightIcon fontSize="small" /> icon adjacent to the asset name. To expand or shrink all assets simultaneously, click the <ChevronRightIcon fontSize="small" /> icon in the home page header bar.
-![Home Page](/img/34.png)
+![Home Page](/img/HomeHeader.png)
 
 Individual assets can either be displayed in a compact view or an expanded view. Click on an individual asset to expand or shrink it.
 
-**Compact View:** In this view, all lines within an asset are shown, including the current mode of each line.
-  ![Summary View](/img/9.png)
+## Compact View
+In this view, all lines within an asset are shown, including the current mode of each line.
 
-**Expanded View:** This view provides a more detailed perspective. It includes the following information:
-  * Current mode
-  * Current state
-  * Mode and state overviews for the selected time frame 
-  * OEE (Overall Equipment Effectiveness)
-  * Availability 
-  * Performance 
-  * Quality
-  ![Detail View](/img/10.png)
+![Home Page](/img/HomeSummary.png)
 
-In the detail view, a date range dropdown allows you to select the time frame for which asset mode, state and OEE is displayed for. 
+
+## Expanded View
+This view provides a more detailed perspective. It includes the following information:
+- Current mode
+- Current state
+- Run Time
+- Work Order status
+- Mode and state overviews
+- OEE (Overall Equipment Effectiveness)
+- Availability 
+- Performance 
+- Quality
+
+  
+  ![Home Page](/img/HomeDetails.png)
+ 
