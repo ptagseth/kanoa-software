@@ -193,7 +193,7 @@ Only boolean and datetime data types are available for trigger checks. Boolean i
 Multiple measurements can be set to allow for subgroup measurement analysis. By default, the number of measurements is 1. 
 
 #### UNITS
-Use the dropdown to specify the engineering units for the sample. To add a new unit, enter it in the dropdown and select the **Create:** option that becomes visible.
+Use the dropdown to specify the engineering units for the sample. To add a new unit, enter it in the dropdown and select the **Create:** option that becomes visible. A unit can be deleted by clicking the Delete <DeleteIcon fontSize="small" sx={{color: "#a72525"}} /> button to the right of the units dropdown. If you attempt to delete a unit that is being used, an error will be thrown.
 
 #### FORMAT
 Specify a formatting reference for the data recorded in this check item.

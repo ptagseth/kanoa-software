@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kanoa Docs',
-  tagline: 'Documentation to help you get started with the Kanoa MES framework',
+  tagline: ' Help documentation to help you get started with the Kanoa MES framework',
   favicon: 'img/kanoa-icon.png',
 
   // Set the production url of your site here
@@ -56,6 +56,15 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+        "docusaurus-plugin-dotenv",
+        {
+          path: "./.env.local",
+          systemvars: true,
+        },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

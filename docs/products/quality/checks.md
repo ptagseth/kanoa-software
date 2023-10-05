@@ -19,21 +19,21 @@ The **Checks** screen allows the user to schedule checks using previously config
 
 ![Checks Schedule](/img/Checks-Overview.png)
 
-
 Use the filters above to manage the list of Scheduled Checks created. Checks can be filtered by asset, item, manual versus auto, and active versus inactive. Use the buttons on the left to View, Edit, Create and Delete Scheduled Checks.
 
-#### Create Check Sheet
+#### Create Check Sheet  
 
 ![Checks Create](/img/Checks-Create.png)
 
-To Create / Schedule a Check. Pick the type of check:
-- Asset Check
-- Item Check
-- Production Check
+To Create / Schedule a Check:
+1. Select the check type from the check folder hierarchy. 
+2. If this check requires an asset to be selected, the asset selector will appear below the check folder tree. Select which asset this check will utilize.
+3. If this check requires an item to be selected, the item selector will appear below the check folder tree. Select which item this check will utilize.
+4. Click the **Add Checksheet** icon at the bottom of the pop-up. 
 
-Select which asset this check will utilize and also identify what specific items
-
-Select a configured Check Sheet - with checks already defined.
+:::note
+If assets or items are required for this check sheet, the Add Check Sheet button will not be visible until selections have been made. 
+:::
 
 ### Enter Checks
 
