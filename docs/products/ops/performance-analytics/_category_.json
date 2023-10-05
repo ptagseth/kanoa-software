@@ -1,8 +1,7 @@
 {
   "label": "Performance Analytics",
-  "position": 7,
+  "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "Page description"
+    "type": "generated-index"
   }
 }

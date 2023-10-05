@@ -2,7 +2,6 @@
   "label": "Asset Management",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "Page description"
+    "type": "generated-index"
   }
 }
