@@ -1,14 +1,16 @@
 ---
 id: dashboard-marquee
-title: Marquee
-sidebar_position: 2
+title: Dashboard Marquee
+sidebar_position: 5
 ---
 
 
 A Marquee is a customizable list of Dashboards that can be played in order at a selection of displays.  Only Admin can create Marquees.
 To get started click Admin / Marquee Editor.
 
-Marquee image
+
+![Dashboard Marquee ](/img/db-marquee-display.png)
+
 
 ## Marquee tab
 
@@ -19,8 +21,8 @@ Add marquees to a list by clicking Dashboard select Icon in upper left.
 The default duration for each dashboard to display is 45 seconds, modify this setting as needed.  Lower limit is 1 second.  Select 0 to play the dashboard forever.
 Sort order for first will be 0 - set Sort order for each marquee to and it will reorder itself accordingly.  The up and down arrows can also be used to change sort order.
 
+![Dashboard Marquee ](/img/db-marquee-tab.png)
 
-Marquee Tab image
 
 ### Delete
 Remove dashboards from the selected marquee by selecting the dashboard from the list and click Delete Icon (trash can).
@@ -34,7 +36,8 @@ Preview of a marquee with no dashboards will just play a standard image.
 ## Marquee Display tab
 Click the Display tab to manage the marquees.  Each monitor used will have to be predefined with a Site Code, Location name, and Screen Name.
 
-Marquee Display tab image
+![Dashboard Marquee ](/img/db-marquee-display-tab.png)
+
 
 ### Site Code
 This will identify the geographical site for the marquee.
