@@ -3,7 +3,7 @@ id: dashboard-preview
 title: Dashboard Preview
 sidebar_position: 3
 ---
-
+import MobileView from '/img/db-mobile-preview.png';
 
 ## Dashboard Preview
 The Dashboard preview will show the actual view of the created dashboard - in the selected view.
@@ -18,6 +18,5 @@ A view to simulate mobile devices - default width is set to 590 px.
 ### Tablet View
 A view to simulate tablets - default width is set to 960 px.
 
-![Dashboard Preview ](/img/db-mobile-preview.png)
 
-
+<img src={MobileView} width="300"/>
