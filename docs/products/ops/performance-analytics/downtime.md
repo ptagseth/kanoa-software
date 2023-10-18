@@ -22,7 +22,7 @@ The report is also graphed in a day by day view - where codes can be toggled on 
 
 ![Downtime](/img/DowntimeCodeShift.png)
 
-### Downtime Data
+### Downtime Raw Data
 The downtime raw data is also available to view or export in excel format.
 
 ![Downtime](/img/DowntimeDataSummary.png)
