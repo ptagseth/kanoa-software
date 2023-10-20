@@ -80,7 +80,7 @@ Manage privileges for a role at Roles configuration tab.  Make sure the role has
 
 ![User Management](/img/UMConfigureRoles.png)
 
-For more details on how to configure roles and the security of roles - check the [Products > Security] page.
+For more details on how to configure roles and the security of roles - check the [Products > Security](/products/security) page.
 
 
 ### Delete Roles
