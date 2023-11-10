@@ -1,7 +1,7 @@
 ---
 id: language-support
 title: Language Support
-sidebar_position: 7
+sidebar_position: 8
 ---
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 

@@ -92,19 +92,24 @@ This options sends an email alert notification to the notification group(s) sele
 #### SYNC DATE
 Sync Date allows the user to override the date that the check was taken. By default, the 'Taken Date' is the date that the check sheet is submitted. In order to sync the check sheet's dates, create a check of type 'Datetime' and select it in the dropdown. 
 
-![Check Sheets](/img/60.png)
+![Check Sheets](/img/66.png)
 
 ### Checks Tab
 The checks tab displays a table of check items associated with the check sheet.
 
 #### CHECK GROUPS
 Check items can be broken up into groups. To create a new check group, click the **Add Group** icon. Enter a **Name** for the new group and click **Save**.
+![Check Sheets](/img/64.png)
 
 #### CREATING CHECK ITEMS
 New checks can be added by clicking on the **Add Check** icon in the Checks tab. This will open the check entry screen. Further information on check item entry can be located [here](#check-item-entry).
 
+![Check Sheets](/img/65.png)
+
 ### Triggers Tab
 The triggers tab displays a table of triggers associated with the check sheet. Triggers allow you to schedule checks to correspond with different events. Triggers can be added, deleted or edited. Clicking the add or edit button will open the trigger editor. 
+
+![Check Sheets](/img/61.png)
 
 #### TRIGGER TYPES
 Trigger type is selected in the **Select Trigger** dropdown. The following trigger types are available:
@@ -126,6 +131,8 @@ Trigger type is selected in the **Select Trigger** dropdown. The following trigg
 - **Shift Change** – Whenever the shift changes on the line, a new check sheet will be generated if the line mode and shift criteria are met.
 
 - **Timed Interval** – A new check sheet will be generated every x minutes if the line mode and shift criteria are met. The duration of the interval is specified in the field to the right of the trigger type.
+  
+![Check Sheets](/img/62.png)
 
 #### TRIGGER SETTINGS
 
@@ -142,6 +149,8 @@ Trigger type is selected in the **Select Trigger** dropdown. The following trigg
 - **Grace** – This parameter defines how long a check sheet will be available before its status is changed to missed.
 
 - **Enabled** – Select the Enabled checkbox to make trigger available for use. Disabling the trigger allows it to be hidden without permanently deleting the configuration.
+  
+![Check Sheets](/img/63.png)
 
 :::note
 If a new check is required based on the trigger and an existing check is already due, the existing check will be disabled and the new check created. Examples of this would a check driven by a timer interval and a shift change occurring. Checks that need to be triggered based on a plc tag change value, such as Glue station Check Weigher, are done through a special tagUDT. It is not configurable and must be set up by a manufacturing IT support person.
@@ -193,7 +202,7 @@ Only boolean and datetime data types are available for trigger checks. Boolean i
 Multiple measurements can be set to allow for subgroup measurement analysis. By default, the number of measurements is 1. 
 
 #### UNITS
-Use the dropdown to specify the engineering units for the sample. To add a new unit, enter it in the dropdown and select the **Create:** option that becomes visible.
+Use the dropdown to specify the engineering units for the sample. To add a new unit, enter it in the dropdown and select the **Create:** option that becomes visible. A unit can be deleted by clicking the Delete <DeleteIcon fontSize="small" sx={{color: "#a72525"}} /> button to the right of the units dropdown. If you attempt to delete a unit that is being used, an error will be thrown.
 
 #### FORMAT
 Specify a formatting reference for the data recorded in this check item.

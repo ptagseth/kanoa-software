@@ -9,6 +9,7 @@ The asset operation screen can be found under **Production/Asset Operation**.
 
 ## Operations
 The asset operation screen can be used by an operator to set the mode of a line or asset. Select a line using the **Asset Selector** in the top left.
+Note that you must select an individual line with the Asset Selector, you cannot select areas.
 ![Asset Operation](/img/36.png)
 
 Production orders can be started and ended in the **Work Order** view:

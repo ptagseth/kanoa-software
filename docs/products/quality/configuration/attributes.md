@@ -25,7 +25,7 @@ The form provides additional fields to add a description or Enable/Disable the a
 Attributes can be deleted from the main Attributes screen by selecting an attribute and clicking the <DeleteIcon fontSize="small" sx={{color: "#a72525"}} /> **Delete Attribute** button. Click OK when the deletion confirmation popup opens.
 
 ## Editing Attribute Settings
-To configure attribute settings, such as data source or tolerances, select the attribute from the table on the right. The, click the <EditIcon fontSize="small" /> **Edit Attribute Settings** button.
+To configure attribute settings, such as data source or tolerances, select the attribute from the table on the right. Then, click the <EditIcon fontSize="small" /> **View Attribute Settings** button. If you have security privileges, the fields can be edited from this popup. Otherwise, the Attribute Detail Editor will be in a view only mode.
 
 ### Automatic Tag Value Collectors
 If the value for the attribute can be pulled directly from an asset, configure the Data Source settings. To add a new data source, click the <AddIcon fontSize="small" />**Add Data Source** button on the left.  
