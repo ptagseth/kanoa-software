@@ -26,5 +26,9 @@ Returns a single value for the asset type as described by the paramsDict. If no 
 ### Code Examples
 
 ```py
+#This will return the asset type name of assetID 19
 
+field = 'assetTypeName'
+paramsDict = {'assetId': 19}
+system.kanoa.asset.getAssetTypeField(field, paramsDict)
 ```

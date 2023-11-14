@@ -23,5 +23,8 @@ tag path of asset
 ### Code Examples
 
 ```py
+#This returns the tag path for assetID 18
 
+paramsDict = {'assetId':18}
+data=system.kanoa.asset.getAssetTagPath(paramsDict)
 ```

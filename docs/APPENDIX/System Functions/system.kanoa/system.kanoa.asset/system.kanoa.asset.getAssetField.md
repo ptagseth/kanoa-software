@@ -25,5 +25,12 @@ Returns a single value for the asset as described by the paramsDict. If no asset
 
 ### Code Examples
 
+```py
 
+#This returns the assetPath for assetID 18
+
+field = 'assetPath'
+paramsDict = {'assetId':18}
+system.kanoa.asset.getAssetTypeField(field, paramsDict)
+```
 
