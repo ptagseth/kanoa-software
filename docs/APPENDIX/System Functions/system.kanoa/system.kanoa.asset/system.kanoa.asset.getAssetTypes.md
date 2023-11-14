@@ -24,5 +24,16 @@ Returns assetType Info
 ### Code Examples
 
 ```py
+# This returns the asset Type info for assetId 18
 
+paramsDict = {'assetId':18}
+data=system.kanoa.asset.getAssetTypes(paramsDict)
+
+```
+
+```py
+# This returns the asset Type info for all enabled assets
+
+paramsDict = {'enabled': True}
+data=system.kanoa.asset.getAssetTypes(paramsDict)
 ```
