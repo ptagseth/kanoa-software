@@ -12,5 +12,5 @@ We currently support English, Spanish, French, German, Italian, Chinese and Kore
 ![Language Support](/img/20.png)
 
 :::note
-See [Translation Manager](docs/products/framework-design/translation-manager.md) for more details on adding a new language.
+See [Translation Manager] for more details on adding a new language.
 :::  
