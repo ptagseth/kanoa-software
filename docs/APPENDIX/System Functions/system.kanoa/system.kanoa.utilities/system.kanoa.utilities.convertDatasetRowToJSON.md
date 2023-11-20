@@ -4,10 +4,9 @@ title: system.kanoa.utilities.convertDatasetRowToJSON
 sidebar_position: 1
 hide_table_of_contents: true
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 ### Description
 Takes a dataset or pyDataset and converts the first row to json. If no rows are found, it creates json will null for values. 
