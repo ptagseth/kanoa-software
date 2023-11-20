@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 
 :::info
-This function is used in Python Scripting
+This function requires KanoaCore module
 :::
 
 ### Description
@@ -26,5 +26,8 @@ Takes a dataset or pyDataset and converts the first row to json. If no rows are 
 ### Code Examples
 
 ```py
+# This returns the first line of JSON list of the data entered in col1 and col2
 
+data = system.dataset.toDataSet(["col1","col2"], [[1,2]])
+system.kanoa.utilities.convertDatasetRowToJSON(data, 0)
 ```

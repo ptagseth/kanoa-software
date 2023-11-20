@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 
 :::info
-This function is used in Python Scripting
+This function requires KanoaCore module
 :::
 
 ### Description
