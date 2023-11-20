@@ -25,5 +25,8 @@ Returns itemClass info for given parameters
 ### Code Examples
 
 ```py
+#This will return the ItemClasses with ItemClassId set to 50 and Enabled
 
+paramsDict = {'enabled' : True, 'ItemClassId':50}
+system.kanoa.items.getItemClasses(paramsDict)
 ```

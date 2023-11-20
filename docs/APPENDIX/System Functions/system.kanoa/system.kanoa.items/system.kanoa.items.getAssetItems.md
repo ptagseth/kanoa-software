@@ -27,5 +27,8 @@ Returns items linked to assets for given parameters. Can be used to return asset
 ### Code Examples
 
 ```py
+# This returns the asset info for assets using the Items enabled and ItemClassId set to 1
 
+paramsDict = {'enabled' : True, 'itemClassId':1}
+system.kanoa.items.getAssetItems(paramsDict)
 ```

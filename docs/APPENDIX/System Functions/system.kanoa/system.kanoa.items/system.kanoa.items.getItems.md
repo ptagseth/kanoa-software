@@ -26,5 +26,9 @@ Returns item info for given parameters
 ### Code Examples
 
 ```py
+# This returns the info for the enabled assets
+
+paramsDict = {'enabled': True}
+data = system.kanoa.items.getItems(paramsDict)
 
 ```

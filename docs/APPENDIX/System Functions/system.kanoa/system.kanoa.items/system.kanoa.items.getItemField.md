@@ -28,5 +28,8 @@ Returns a single value for the item as described by the paramsDict
 ### Code Examples
 
 ```py
+# This returns the ItemName of ItemId 95 
 
+paramsDict = {'itemId' : 95 }
+system.kanoa.items.getItemField('itemName', paramsDict)
 ```

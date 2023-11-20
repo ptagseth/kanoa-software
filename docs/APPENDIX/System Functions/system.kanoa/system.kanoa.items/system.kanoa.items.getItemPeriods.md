@@ -26,5 +26,9 @@ Returns an item period
 ### Code Examples
 
 ```py
+# This returns the time period info for time period item named 'Hour' and enabled
+
+paramsDict = {'enabled': True, 'itemPeriodName': 'Hour'}
+system.kanoa.items.getItemPeriods(paramsDict)
 
 ```

@@ -27,5 +27,9 @@ Returns a single value for the item class as described by the paramsDict.
 ### Code Examples
 
 ```py
+# This returns the ItemClassField for ItemClassId 50 and enabled Items
+
+paramsDict = {'enabled' : True, 'ItemClassId':50}
+system.kanoa.items.getItemClassField('itemClassName', paramsDict)
 
 ```
