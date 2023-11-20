@@ -53,6 +53,10 @@ color: var(--ifm-footer-link-color);
 line-height: 2;
 }
 
+.theme-doc-toc-desktop {
+   display: none;
+}
+
 .hidden {
     display: none !important;
 }
