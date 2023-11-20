@@ -3,10 +3,9 @@ id: getAssetItems
 title: system.kanoa.items.getAssetItems
 sidebar_position: 2
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 
 ### Description

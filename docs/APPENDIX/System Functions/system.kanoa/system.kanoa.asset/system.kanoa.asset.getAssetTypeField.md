@@ -4,10 +4,9 @@ title: system.kanoa.asset.getAssetTypeField
 sidebar_position: 5
 hide_table_of_contents: true
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 
 ### Description

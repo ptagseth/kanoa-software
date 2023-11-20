@@ -4,10 +4,10 @@ title: system.kanoa.asset.getAssetField
 sidebar_position: 1
 hide_table_of_contents: true
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
+
 
 ### Description
 Returns a single value for the asset as described by the paramsDict. If no asset is found, null will be returned

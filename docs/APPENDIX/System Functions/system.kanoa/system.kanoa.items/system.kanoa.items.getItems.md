@@ -3,10 +3,9 @@ id: getItems
 title: system.kanoa.items.getItems
 sidebar_position: 8
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 
 ### Description

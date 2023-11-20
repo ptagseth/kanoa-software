@@ -3,10 +3,9 @@ id: getItemPeriods
 title: system.kanoa.items.getItemPeriods
 sidebar_position: 7
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 
 ### Description

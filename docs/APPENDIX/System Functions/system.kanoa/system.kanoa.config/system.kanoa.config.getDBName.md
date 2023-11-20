@@ -4,10 +4,9 @@ title: system.kanoa.config.getDBName
 sidebar_position: 1
 hide_table_of_contents: true
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 ### Description
 Returns the database name, based on a project name 

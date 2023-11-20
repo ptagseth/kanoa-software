@@ -68,6 +68,26 @@ line-height: 2;
     display: none !important;
 }
 
+.headerBox {
+  border: 1px solid #e6e8eb;
+  padding: 15px;
+  margin: 30px 0 0 0;
+}
+
+.headerBox :first-child {
+  padding: 5px 0;
+  padding-left: 15px;
+  width: calc(100% + 30px);
+  margin: -15px -15px 10px -15px;
+  background-color: #f8f7f7;
+  color: black;
+}
+
+p {
+   margin: 0px;
+   padding: 0px;
+}
+
 [data-theme='light'] .DocSearch {
   /* --docsearch-primary-color: var(--ifm-color-primary); */
   /* --docsearch-text-color: var(--ifm-font-color-base); */

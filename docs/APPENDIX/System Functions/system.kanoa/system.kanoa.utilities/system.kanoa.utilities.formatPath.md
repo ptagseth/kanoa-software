@@ -4,25 +4,23 @@ title: system.kanoa.utilities.formatPath
 sidebar_position: 2
 hide_table_of_contents: true
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
-### Description
-Takes a string 'path' and replaces the splitKey with the delimiter 
+<HeaderBox header="Description">Takes a string 'path' and replaces the splitKey with the delimiter</HeaderBox>
 
-### Syntax
-**formatPath(path, paramsDict)**
-
-- **Parameters**  
-    path: PyObject - path string, i.e. 'Kanoa Industries\Adelaide Hills\Packaging'
-
-    paramsDict: PyDictionary - Dictionary i.e. {'drop': 'Kanoa Industries', 'delimiter': ' > ', 'splitKey': '\', 'locale': 'en-US'}
-
-- **Returns**  
-    path string after being reformatted i.e. 'Adelaide Hills > Packaging'
-
+<HeaderBox header="Syntax">
+    <b>formatPath(path, paramsDict)</b>
+    <li> Parameters <br />
+        <ul> path: PyObject - path string, i.e. 'Kanoa Industries\Adelaide Hills\Packaging' <br /> </ul>
+        <ul> paramsDict: PyDictionary - Dictionary i.e. &#123; 'drop': 'Kanoa Industries', 'delimiter': ' > ', 'splitKey': '\', 'locale': 'en-US'} </ul>
+    </li>
+    <li> Returns <br />
+        <ul> path string after being reformatted i.e. 'Adelaide Hills > Packaging' <br /> </ul>
+    </li>
+</HeaderBox>
 
 ### Code Examples
 

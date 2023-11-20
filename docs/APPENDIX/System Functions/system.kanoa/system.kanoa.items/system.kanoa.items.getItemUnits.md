@@ -3,10 +3,9 @@ id: getItemUnits
 title: system.kanoa.items.getItemUnits
 sidebar_position: 9
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function requires KanoaCore module
-:::
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 ### Description
 Returns an item unit 
