@@ -5,23 +5,22 @@ sidebar_position: 7
 hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
+<HeaderBox header="Description">Returns a parent asset of the given type for the given asset. e.g. getParentAsset('site', 'Kanoa IndustriesAdelaide HillsPackagingLine 1') will return the asset for 'Kanoa IndustriesAdelaide Hills'</HeaderBox>
 
-### Description
-Returns a parent asset of the given type for the given asset. e.g. getParentAsset('site', 'Kanoa IndustriesAdelaide HillsPackagingLine 1') will return the asset for 'Kanoa IndustriesAdelaide Hills'
-
-### Syntax
-**getParentAsset(assetTypeName: PyObject, assetPath: PyObject)**
-
-- **Parameters**  
-    assetTypeName: PyObject - name of asset type i.e. 'enterprise', 'site'
-
-    assetPath: PyObject
-
-- **Returns**  
-    (PyDataset) the resultant query
+<HeaderBox header="Syntax">
+    <b>getParentAsset(assetTypeName: PyObject, assetPath: PyObject)</b>
+    <li> Parameters <br />
+        <ul> assetTypeName: PyObject - name of asset type i.e. 'enterprise', 'site' </ul>
+        <ul> assetPath: PyObject </ul>
+    </li>
+    <li> Returns <br />
+        <ul> (PyDataset) the resultant query </ul>
+    </li>
+</HeaderBox>
 
 ### Code Examples
 

@@ -5,21 +5,21 @@ sidebar_position: 3
 hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
+<HeaderBox header="Description">Returns asset info for given parameters</HeaderBox>
 
-### Description
-Returns asset info for given parameters
-
-### Syntax
-**getAssets(paramsDict:PyDictionary)**
-
-- **Parameters**  
-    paramsDict: PyDictionary - Dictionary i.e. {'enabled':True, 'assetPath': 'Kanoa Industries%', 'assetId': 1, 'assetIdList': [1,2,3], 'oeeTypeList':['OEE_Enabled'], 'assetTypeIdList':[1,2,5], 'assetGroupIdList':[2]}
-
-- **Returns**  
-    (PyDataset) the resultant query
+<HeaderBox header="Syntax">
+    <b>getAssets(paramsDict:PyDictionary)</b>
+    <li> Parameters <br />
+        <ul> paramsDict: PyDictionary - Dictionary i.e. &#123;'enabled':True, 'assetPath': 'Kanoa Industries%', 'assetId': 1, 'assetIdList': [1,2,3], 'oeeTypeList':['OEE_Enabled'], 'assetTypeIdList':[1,2,5], 'assetGroupIdList':[2]} </ul>
+    </li>
+    <li> Returns <br />
+        <ul> (PyDataset) the resultant query <br /> </ul>
+    </li>
+</HeaderBox>
 
 
 ### Code Examples

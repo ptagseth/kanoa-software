@@ -5,20 +5,21 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
-### Description
-Returns the database name, based on a project name 
+<HeaderBox header="Description">Returns the database name, based on a project name </HeaderBox>
 
-### Syntax
-**getDBName(app)**
-
-- **Parameters**  
-    (String) name of the project, to find the database name of
-
-- **Returns**  
-    (String) database name of the project
+<HeaderBox header="Syntax">
+    <b>getDBName(app)</b>
+    <li> Parameters <br />
+        <ul> (String) name of the project, to find the database name of </ul>
+    </li>
+    <li> Returns <br />
+        <ul> (String) database name of the project </ul>
+    </li>
+</HeaderBox>
 
 
 ### Code Examples

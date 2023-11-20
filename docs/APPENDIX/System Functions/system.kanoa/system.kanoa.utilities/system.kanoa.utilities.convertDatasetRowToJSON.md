@@ -5,23 +5,22 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
-### Description
-Takes a dataset or pyDataset and converts the first row to json. If no rows are found, it creates json will null for values. 
+<HeaderBox header="Description">Takes a dataset or pyDataset and converts the first row to json. If no rows are found, it creates json will null for values. </HeaderBox>
 
-### Syntax
-**convertDatasetRowToJSON(data, rowindex)**
-
-- **Parameters**  
-    data: PyObject - dataset or PyDataset
-
-    rowIndex: PyObject - index of the row to be converted to JSON
-
-- **Returns**  
-    Dictionary, with the data's column names as keys, and the row's values as values
-
+<HeaderBox header="Syntax">
+    <b>convertDatasetRowToJSON(data, rowindex)</b>
+    <li> Parameters <br />
+        <ul> data: PyObject - dataset or PyDataset </ul>
+        <ul> rowIndex: PyObject - index of the row to be converted to JSON </ul>
+    </li>
+    <li> Returns <br />
+        <ul> Dictionary, with the data's column names as keys, and the row's values as values </ul>
+    </li>
+</HeaderBox>
 
 ### Code Examples
 

@@ -5,21 +5,21 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
-### Description
-Returns the tag provider name, based on a project name 
+<HeaderBox header="Description">Returns the tag provider name, based on a project name</HeaderBox>
 
-### Syntax
-**getTagProvider(app)**
-
-- **Parameters**  
-    (String)name of the project, to find the tag provider name of
-
-- **Returns**  
-    (String) tag provider of the project
-
+<HeaderBox header="Syntax">
+    <b>getTagProvider(app)</b>
+    <li> Parameters <br />
+        <ul> (String)name of the project, to find the tag provider name of </ul>
+    </li>
+    <li> Returns <br />
+        <ul> (String) tag provider of the project </ul>
+    </li>
+</HeaderBox>
 
 ### Code Examples
 

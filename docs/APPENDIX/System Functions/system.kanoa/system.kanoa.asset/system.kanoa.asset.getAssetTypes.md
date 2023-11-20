@@ -5,21 +5,21 @@ sidebar_position: 6
 hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
+<HeaderBox header="Description">Returns assetType Info </HeaderBox>
 
-### Description
-Returns assetType Info 
-
-### Syntax
-**getAssetTypes(paramsDict: PyDictionary)**
-
-- **Parameters**  
-    paramsDict: PyDictionary - Dictionary i.e. {'enabled': True, 'assetTypeName': 'site', 'assetTypePath': 'enterprise/region/site', 'assetTypeId': 6, 'parentId': 4}
-
-- **Returns**  
-    (PyDataset) the resultant query
+<HeaderBox header="Syntax">
+    <b>getAssetTypes(paramsDict: PyDictionary)</b>
+    <li> Parameters <br />
+        <ul> paramsDict: PyDictionary - Dictionary i.e. &#123;'enabled': True, 'assetTypeName': 'site', 'assetTypePath': 'enterprise/region/site', 'assetTypeId': 6, 'parentId': 4} </ul>
+    </li>
+    <li> Returns <br />
+        <ul> (PyDataset) the resultant query <br /> </ul>
+    </li>
+</HeaderBox>
 
 ### Code Examples
 
