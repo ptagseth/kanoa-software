@@ -2,6 +2,7 @@
 id: materials-management
 title: Materials Management
 sidebar_position: 3
+hide_table_of_contents: true
 ---
 Products can be created in this screen or pulled via web service call or middleware tables from an ERP system.  
 

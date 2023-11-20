@@ -2,6 +2,7 @@
 id: dashboard-roles
 title: Dashboard Roles
 sidebar_position: 4
+hide_table_of_contents: true
 ---
 
 

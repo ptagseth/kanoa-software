@@ -3,6 +3,7 @@ slug: /
 sidebar_position: 1
 hide_title: true
 title: Welcome
+hide_table_of_contents: true
 ---
 ## Documentation to get you started with the Kanoa MES framework.
 

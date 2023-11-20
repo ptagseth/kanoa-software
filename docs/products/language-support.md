@@ -2,6 +2,7 @@
 id: language-support
 title: Language Support
 sidebar_position: 8
+hide_table_of_contents: true
 ---
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 

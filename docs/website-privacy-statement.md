@@ -2,6 +2,7 @@
 sidebar_class_name: hidden
 id: website-privacy-statement
 title: Website Privacy Statement
+hide_table_of_contents: true
 ---
 This Privacy Statement sets forth the information gathering, use, and dissemination practices of www.kanoa.ai and/or its affiliates, partners, and assigns, ("Kanoa") in connection with the World Wide Web site located at www.kanoa.ai, and any affiliated subpages ("Site").  This Privacy Statement applies solely to information Kanoa learns about you or obtains from you when you visit Kanoa’s Site.  This Privacy Statement does not address or govern any information gathering, use, or dissemination practices related to information collected in any other way.
 

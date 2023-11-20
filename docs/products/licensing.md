@@ -3,6 +3,7 @@ id: licensing
 title: Licensing
 hide_title: true
 sidebar_position: 2
+hide_table_of_contents: true
 ---
 # Software Licensing
 The Kanoa Ops Framework can be purchased for an enterprise. With that purchase, the framework can be installed for as many sites, production lines and servers as required for the client.  

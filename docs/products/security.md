@@ -2,6 +2,7 @@
 id: security
 title: Security
 sidebar_position: 6
+hide_table_of_contents: true
 ---
 import Admonition from '@theme/Admonition';
 import InfoIcon from '@mui/icons-material/Info';

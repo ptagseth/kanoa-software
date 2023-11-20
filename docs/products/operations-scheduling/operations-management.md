@@ -2,6 +2,7 @@
 id: operations-management
 title: Operations Management
 sidebar_position: 2
+hide_table_of_contents: true
 ---
 The Operations Schedule allows the user to schedule the Production modes for Operations schedule enabled asset. The Operations Schedule will change the modes for the Production Operations without overwriting states set by a PLC tag.
 

@@ -2,6 +2,7 @@
 id: attributes
 title: Attributes
 sidebar_position: 2
+hide_table_of_contents: true
 ---
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteForever';

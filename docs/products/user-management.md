@@ -2,6 +2,7 @@
 id: user-management
 title: User Management
 sidebar_position: 5
+hide_table_of_contents: true
 ---
 
 import AddIcon from '@mui/icons-material/Add';

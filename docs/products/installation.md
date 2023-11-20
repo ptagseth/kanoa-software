@@ -3,6 +3,7 @@ id: installation
 title: Installation
 hide_title: true
 sidebar_position: 3
+hide_table_of_contents: true
 ---
 # Installing the Framework
 ### Gateway Server

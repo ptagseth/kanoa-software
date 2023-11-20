@@ -23,6 +23,7 @@
   --ifm-heading-font-family: 'Roto Sans', sans-serif;
   --ifm-footer-title-color: #fff;
   --ifm-footer-link-hover-color: #1C2731;
+  --ifm-container-width: 100%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -48,9 +49,19 @@ html[data-theme='dark'] {
   --ifm-background-surface-color: #1C2731;
 }
 
+article {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer__link-item {
 color: var(--ifm-footer-link-color);
 line-height: 2;
+}
+
+.theme-doc-toc-desktop {
+   display: none;
 }
 
 .hidden {

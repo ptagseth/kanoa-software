@@ -2,6 +2,7 @@
 id: formatPath
 title: system.kanoa.utilities.formatPath
 sidebar_position: 2
+hide_table_of_contents: true
 ---
 
 :::info

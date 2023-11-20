@@ -2,6 +2,7 @@
 id: convertDatasetRowToJSON
 title: system.kanoa.utilities.convertDatasetRowToJSON
 sidebar_position: 1
+hide_table_of_contents: true
 ---
 
 :::info

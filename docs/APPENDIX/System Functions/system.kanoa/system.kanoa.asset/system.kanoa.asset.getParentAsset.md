@@ -2,6 +2,7 @@
 id: getParentAsset
 title: system.kanoa.asset.getParentAsset
 sidebar_position: 7
+hide_table_of_contents: true
 ---
 
 :::info

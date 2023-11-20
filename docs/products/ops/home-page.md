@@ -1,6 +1,7 @@
 ---
 title: Home Page
 sidebar_position: 1
+hide_table_of_contents: true
 ---
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 

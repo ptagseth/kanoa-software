@@ -2,6 +2,7 @@
 id: item-sets
 title: Item Sets
 sidebar_position: 3
+hide_table_of_contents: true
 ---
 import EditIcon from '@mui/icons-material/Edit';
 import AddIcon from '@mui/icons-material/Add';
