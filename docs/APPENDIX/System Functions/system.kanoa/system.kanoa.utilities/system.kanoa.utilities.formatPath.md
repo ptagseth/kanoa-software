@@ -4,10 +4,10 @@ title: system.kanoa.utilities.formatPath
 sidebar_position: 2
 hide_table_of_contents: true
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function is used in Python Scripting
-:::
+<PurpleBox>This function is used in <b>Python Scripting</b></PurpleBox>
+
 
 ### Description
 Takes a string 'path' and replaces the splitKey with the delimiter 

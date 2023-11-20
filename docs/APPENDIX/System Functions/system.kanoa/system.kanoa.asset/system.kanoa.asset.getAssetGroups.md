@@ -5,9 +5,9 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
-:::info
-This function is used in Python Scripting
-:::
+import PurpleBox from '@site/src/components/PurpleBox';
+
+<PurpleBox>This function is used in <b>Python Scripting</b></PurpleBox>
 
 
 ### Description

@@ -4,10 +4,10 @@ title: system.kanoa.asset.getAssets
 sidebar_position: 3
 hide_table_of_contents: true
 ---
+import PurpleBox from '@site/src/components/PurpleBox';
 
-:::info
-This function is used in Python Scripting
-:::
+<PurpleBox>This function is used in <b>Python Scripting</b></PurpleBox>
+
 
 ### Description
 Returns asset info for given parameters
