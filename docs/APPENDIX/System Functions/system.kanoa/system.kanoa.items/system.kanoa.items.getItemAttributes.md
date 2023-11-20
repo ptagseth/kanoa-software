@@ -26,4 +26,8 @@ Returns an item's attributes
 
 ```py
 
+# This returns the rows of attributes with itemID 54 
+
+system.kanoa.items.getItemAttributes(54)
+
 ```

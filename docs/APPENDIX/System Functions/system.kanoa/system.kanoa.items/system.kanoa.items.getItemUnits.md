@@ -24,5 +24,8 @@ Returns an item unit
 ### Code Examples
 
 ```py
+# This returns the info for asset with assetID 3
+
+system.kanoa.items.getItemUnits({'itemUnitId': 3})
 
 ```

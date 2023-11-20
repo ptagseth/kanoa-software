@@ -27,5 +27,8 @@ Returns a single value for the asset item as described by the paramsDict
 ### Code Examples
 
 ```py
+# This returns the ItemClassName for the ItemClassId = 1 and enabled
 
+paramsDict = {'enabled' : True, 'itemClassId':1}
+system.kanoa.items.getAssetItemField('itemClassName', paramsDict)
 ```
