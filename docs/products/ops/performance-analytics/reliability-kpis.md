@@ -2,6 +2,7 @@
 id: reliability-kpis
 title: Reliability KPI's
 sidebar_position: 6
+hide_table_of_contents: true
 ---
 
 The Reliability KPI Matrix report provides an analtytical insight into the asset utilization and process quality.

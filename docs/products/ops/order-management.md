@@ -2,6 +2,7 @@
 id: order-management
 title: Order Management
 sidebar_position: 4
+hide_table_of_contents: true
 ---
 Production orders can be created and edited in the Production Order Management screen. Production orders can also come from an ERP system via web service calls or middle ware tables. 
 

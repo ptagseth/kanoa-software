@@ -2,6 +2,7 @@
 id: getDBName
 title: system.kanoa.config.getDBName
 sidebar_position: 1
+hide_table_of_contents: true
 ---
 
 :::info

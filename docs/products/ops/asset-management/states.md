@@ -2,6 +2,7 @@
 id: states
 title: States
 sidebar_position: 3
+hide_table_of_contents: true
 ---
 The Asset State represents the local state of a line or the cells of the line, i.e. Running, idle, faulted, CIP, inspection, etc.
 

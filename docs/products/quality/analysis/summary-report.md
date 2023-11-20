@@ -1,6 +1,7 @@
 ---
 title: Summary Report
 sidebar_position: 1
+hide_table_of_contents: true
 ---
 :::info
 The summary report can be found by clicking Check Summary at **Quality > Analysis**.

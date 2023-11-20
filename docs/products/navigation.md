@@ -2,6 +2,7 @@
 id: navigation
 title: Navigation
 sidebar_position: 4
+hide_table_of_contents: true
 ---
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';

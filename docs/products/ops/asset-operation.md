@@ -2,6 +2,7 @@
 id: asset-operation
 title: Asset Operation
 sidebar_position: 6
+hide_table_of_contents: true
 ---
 import CreateIcon from '@mui/icons-material/Create';
 

@@ -2,6 +2,7 @@
 sidebar_class_name: hidden
 id: terms-and-conditions
 title: Website Terms & Conditions
+hide_table_of_contents: true
 ---
 Welcome to Kanoa Consulting and/or its affiliates, partners, and assigns ("Kanoa"), provides website features to you subject to the following Terms and Conditions ("Terms and Conditions”).  The Terms and Conditions govern your use of the World Wide Web site located at www.kanoa.ai, and any associated subpages ("Site").  By accessing, viewing, or using the content, material, or services available on or through this Site, you indicate that you have read and understand these Terms and Conditions, and that you agree to them and intend to be legally bound by them. If you do not agree to these Terms and Conditions, you are not granted permission to use this Site and must exit immediately.
 

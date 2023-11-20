@@ -2,6 +2,7 @@
 id: dashboard-preview
 title: Dashboard Preview
 sidebar_position: 3
+hide_table_of_contents: true
 ---
 import MobileView from '/img/db-mobile-preview.png';
 

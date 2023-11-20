@@ -1,6 +1,7 @@
 ---
 title: Checks
 sidebar_position: 4
+hide_table_of_contents: true
 ---
 
 import LayoutIcon from '@mui/icons-material/ViewCompact';

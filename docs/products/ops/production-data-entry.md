@@ -2,6 +2,7 @@
 id: production-data-entry
 title: Production Data Entry
 sidebar_position: 5
+hide_table_of_contents: true
 ---
 import CreateIcon from '@mui/icons-material/Create';
 import CallSplitIcon from '@mui/icons-material/CallSplit';

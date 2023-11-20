@@ -2,6 +2,7 @@
 id: dashboard-edit
 title: Dashboard - Create and Edit
 sidebar_position: 2
+hide_table_of_contents: true
 ---
 
 ## Dashboard Editor - Create and Edit Dashboard

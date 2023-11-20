@@ -2,6 +2,7 @@
 sidebar_class_name: hidden
 id: contact-us
 title: Contact Us
+hide_table_of_contents: true
 ---
 
 ### Phone:

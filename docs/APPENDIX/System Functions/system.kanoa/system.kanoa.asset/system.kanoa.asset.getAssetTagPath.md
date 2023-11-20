@@ -2,6 +2,7 @@
 id: getAssetTagPath
 title: system.kanoa.asset.getAssetTagPath
 sidebar_position: 4
+hide_table_of_contents: true
 ---
 
 :::info

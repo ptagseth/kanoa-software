@@ -1,6 +1,7 @@
 ---
 title: Summary
 sidebar_position: 5
+hide_table_of_contents: true
 ---
 
 This is a summary report for the selected assets within the date range desired.
