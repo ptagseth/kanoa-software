@@ -5,9 +5,9 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
-import PurpleBox from '@site/src/components/PurpleBox';
-
-<PurpleBox>This function is used in <b>Python Scripting</b></PurpleBox>
+:::info
+This function requires KanoaCore module
+:::
 
 
 ### Description

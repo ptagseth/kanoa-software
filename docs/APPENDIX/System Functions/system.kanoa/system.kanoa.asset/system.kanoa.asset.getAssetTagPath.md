@@ -4,10 +4,10 @@ title: system.kanoa.asset.getAssetTagPath
 sidebar_position: 4
 hide_table_of_contents: true
 ---
-import PurpleBox from '@site/src/components/PurpleBox';
 
-<PurpleBox>This function is used in <b>Python Scripting</b></PurpleBox>
-
+:::info
+This function requires KanoaCore module
+:::
 
 ### Description
 Given an assetPath or assetId, this function will return the tag path 
