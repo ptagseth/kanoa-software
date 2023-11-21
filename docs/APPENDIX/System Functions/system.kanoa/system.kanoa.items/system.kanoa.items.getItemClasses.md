@@ -5,23 +5,23 @@ sidebar_position: 4
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 
+### Description
+Returns itemClass info for given parameters 
 
-<HeaderBox header="Description">Returns itemClass info for given parameters  </HeaderBox>
+### Syntax
+**getItemClasses(paramsDict: PyDictionary)**
 
-<HeaderBox header="Syntax">
-    <b>getItemClasses(paramsDict: PyDictionary)</b>
-    <li> Parameters <br /> 
-        <ul>  </ul>
-        <ul> paramsDict: PyDictionary - (Dictionary) i.e. &#123;'enabled':True, 'itemClassName': 'FG', 'itemClassPath':'FGBread%', 'itemClassId':1, 'itemClassIdList':[1,2,3]}  </ul> 
-    </li>
-    <li> Returns <br /> 
-        <ul>(PyDataset) resultant query </ul>
-    </li>
-</HeaderBox>
+- **Parameters**  
+    paramsDict: PyDictionary - (Dictionary) i.e. {'enabled':True, 'itemClassName': 'FG', 'itemClassPath':'FGBread%', 'itemClassId':1, 'itemClassIdList':[1,2,3]} 
+
+- **Returns**  
+    (PyDataset) resultant query
+
 
 ### Code Examples
 
