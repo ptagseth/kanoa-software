@@ -2,14 +2,13 @@
 id: getParentAsset
 title: system.kanoa.asset.getParentAsset
 sidebar_position: 7
-hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
-<HeaderBox header="Description">Returns a parent asset of the given type for the given asset. e.g. getParentAsset('site', 'Kanoa IndustriesAdelaide HillsPackagingLine 1') will return the asset for 'Kanoa IndustriesAdelaide Hills'</HeaderBox>
+<HeaderBox header="Description">Returns a parent asset of the given type for the given asset. e.g. getParentAsset('site', 'Kanoa Industries\Adelaide Hills\Packaging\Line 1') will return the asset for 'Kanoa Industries\Adelaide Hills'</HeaderBox>
 
 <HeaderBox header="Syntax">
     <b>getParentAsset(assetTypeName: PyObject, assetPath: PyObject)</b>

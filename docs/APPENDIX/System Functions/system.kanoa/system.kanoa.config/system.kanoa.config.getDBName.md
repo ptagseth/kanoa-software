@@ -2,7 +2,6 @@
 id: getDBName
 title: system.kanoa.config.getDBName
 sidebar_position: 1
-hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';

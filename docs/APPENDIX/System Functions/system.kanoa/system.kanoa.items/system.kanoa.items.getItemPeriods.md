@@ -4,22 +4,22 @@ title: system.kanoa.items.getItemPeriods
 sidebar_position: 7
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 
-### Description
-Returns an item period 
+<HeaderBox header="Description">Returns an item period  </HeaderBox>
 
-### Syntax
-**getItemPeriods(paramsDict: PyDictionary)**
-
-- **Parameters**  
-    paramsDict: PyDictionary - (Dictionary) i.e. {'enabled':True, 'itemPeriodId': 2, 'itemPeriodName': 'Minute'} 
-
-
-- **Returns**  
-    (PyDataset) row corresponding to searched item period
+<HeaderBox header="Syntax">
+    <b>getItemPeriods(paramsDict: PyDictionary)</b>
+    <li> Parameters <br /> 
+        <ul> paramsDict: PyDictionary - (Dictionary) i.e. &#123;'enabled':True, 'itemPeriodId': 2, 'itemPeriodName': 'Minute'} </ul> 
+    </li>
+    <li> Returns <br /> 
+        <ul>(PyDataset) row corresponding to searched item period </ul>
+    </li>
+</HeaderBox>
 
 
 ### Code Examples

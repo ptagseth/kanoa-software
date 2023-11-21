@@ -4,22 +4,23 @@ title: system.kanoa.items.getItemAttributes
 sidebar_position: 3
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 
-### Description
-Returns an item's attributes 
 
-### Syntax
-**getItemAttributes(itemId: PyObject)**
+<HeaderBox header="Description">Returns an item's attributes  </HeaderBox>
 
-- **Parameters**  
-    itemId: PyObject - (int) id of item 
-
-
-- **Returns**  
-    (PyDataset) row of item's attributes 
+<HeaderBox header="Syntax">
+    <b>getItemAttributes(itemId: PyObject)</b>
+    <li> Parameters <br /> 
+        <ul>itemId: PyObject - (int) id of item </ul>
+    </li>
+    <li> Returns <br /> 
+        <ul>(PyDataset) row of item's attributes  </ul>
+    </li>
+</HeaderBox>
 
 
 ### Code Examples

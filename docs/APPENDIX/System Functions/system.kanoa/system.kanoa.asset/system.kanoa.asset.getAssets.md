@@ -2,7 +2,6 @@
 id: getAssets
 title: system.kanoa.asset.getAssets
 sidebar_position: 3
-hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
