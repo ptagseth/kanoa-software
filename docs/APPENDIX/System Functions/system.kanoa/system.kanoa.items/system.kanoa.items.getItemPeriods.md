@@ -10,20 +10,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Description">Returns an item period</HeaderBox>
 
-<<<<<<< HEAD
-<HeaderBox header="Description">Returns an item period  </HeaderBox>
-
-<HeaderBox header="Syntax">
-    <b>getItemPeriods(paramsDict: PyDictionary)</b>
-    <li> Parameters <br /> 
-        <ul> paramsDict: PyDictionary - (Dictionary) i.e. &#123;'enabled':True, 'itemPeriodId': 2, 'itemPeriodName': 'Minute'} </ul> 
-    </li>
-    <li> Returns <br /> 
-        <ul>(PyDataset) row corresponding to searched item period </ul>
-    </li>
-</HeaderBox>
-
-=======
 <HeaderBox header="Syntax">
     <b>getItemPeriods(paramsDict: PyDictionary)</b>
     <li> Parameters <br />
@@ -33,7 +19,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
         <ul> (PyDataset) row corresponding to searched item period </ul>
     </li>
 </HeaderBox>
->>>>>>> c88e7f26e15cb9dfd4c7ab9d2c33eb6e0fdb7da9
 
 ### Code Examples
 

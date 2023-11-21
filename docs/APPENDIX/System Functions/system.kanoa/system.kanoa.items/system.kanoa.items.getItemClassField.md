@@ -9,19 +9,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Returns a single value for the item class as described by the paramsDict. </HeaderBox>
 
-<<<<<<< HEAD
-
-<HeaderBox header="Description">Returns a single value for the item class as described by the paramsDict </HeaderBox>
-
-<HeaderBox header="Syntax">
-    <b>getItemClassField(field: PyObject, paramsDict: PyDictionary)</b>
-    <li> Parameters <br /> 
-        <ul>(String) name of item class field </ul>
-        <ul> paramsDict: PyDictionary - (Dictionary) i.e. &#123;'enabled':True, 'itemClassName': 'FG', 'itemClassPath':'FGBread%', 'itemClassId':1, 'itemClassIdList':[1,2,3]}  </ul> 
-    </li>
-    <li> Returns <br /> 
-        <ul>(PyObject) value of item class field </ul>
-=======
 <HeaderBox header="Syntax">
     <b>getItemClassField(field: PyObject, paramsDict: PyDictionary)</b>
     <li> Parameters <br />
@@ -30,7 +17,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
     </li>
     <li> Returns <br />
         <ul> (PyObject) value of item class field </ul>
->>>>>>> c88e7f26e15cb9dfd4c7ab9d2c33eb6e0fdb7da9
     </li>
 </HeaderBox>
 
