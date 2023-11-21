@@ -21,19 +21,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 </HeaderBox>
 
 
-<HeaderBox header="Description">Returns an item's attributes  </HeaderBox>
-
-<HeaderBox header="Syntax">
-    <b>getItemAttributes(itemId: PyObject)</b>
-    <li> Parameters <br /> 
-        <ul>itemId: PyObject - (int) id of item </ul>
-    </li>
-    <li> Returns <br /> 
-        <ul>(PyDataset) row of item's attributes  </ul>
-    </li>
-</HeaderBox>
-
-
 ### Code Examples
 
 ```py

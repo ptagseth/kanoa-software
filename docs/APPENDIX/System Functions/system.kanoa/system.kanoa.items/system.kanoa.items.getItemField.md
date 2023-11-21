@@ -9,19 +9,18 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 
-### Description
-Returns a single value for the item as described by the paramsDict 
+<HeaderBox header="Description">Returns a single value for the item as described by the paramsDict  </HeaderBox>
 
-### Syntax
-**getItemField(field: PyObject, paramsDict: PyDictionary)**
-
-- **Parameters**  
-    field: PyObject - (String) name of field
-
-    paramsDict: PyDictionary - (Dictionary) i.e. {'enabled':True, 'itemName': 'Bangers', 'itemPath':'FGBread%', 'itemId':1, 'itemIdList':[1,2,3], 'itemClassName': 'Bread%', itemClassId':1, 'itemClassIdList':[1,2,3]} 
-
-- **Returns**  
-    (PyObject) value of field for item found
+<HeaderBox header="Syntax">
+    <b>getItemField(field: PyObject, paramsDict: PyDictionary) </b>
+    <li> Parameters <br /> 
+        <ul>field: PyObject - (String) name of field </ul>
+        <ul> paramsDict: PyDictionary - (Dictionary) i.e. &#123;'enabled':True, 'itemName': 'Bangers', 'itemPath':'FGBread%', 'itemId':1, 'itemIdList':[1,2,3], 'itemClassName': 'Bread%', itemClassId':1, 'itemClassIdList':[1,2,3]}  </ul> 
+    </li>
+    <li> Returns <br /> 
+        <ul>(PyObject) value of field for item found </ul>
+    </li>
+</HeaderBox>
 
 
 ### Code Examples
