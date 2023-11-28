@@ -1,7 +1,7 @@
 ---
 id: getTagProvider
 title: system.kanoa.config.getTagProvider
-sidebar_position: 2
+sidebar_position: 5
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
