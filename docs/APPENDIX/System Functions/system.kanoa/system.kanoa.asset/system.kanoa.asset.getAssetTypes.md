@@ -1,7 +1,7 @@
 ---
 id: getAssetTypes
 title: system.kanoa.asset.getAssetTypes
-sidebar_position: 6
+sidebar_position: 8
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';

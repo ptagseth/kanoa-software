@@ -1,7 +1,7 @@
 ---
 id: getAssetTagPath
 title: system.kanoa.asset.getAssetTagPath
-sidebar_position: 4
+sidebar_position: 6
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
