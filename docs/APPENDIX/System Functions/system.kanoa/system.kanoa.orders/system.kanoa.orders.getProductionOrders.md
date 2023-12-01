@@ -25,6 +25,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Examples
 
 ```py
+#This returns the list of orders linked to assetId 2
 
+paramsDict = {'assetId': 2}
+system.kanoa.orders.getProductionOrders(paramsDict)
 
 ```

@@ -25,6 +25,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Examples
 
 ```py
+#This will return a true value if user is Gateway admin or false if not for the requested userId 
 
+userId = 7
+system.kanoa.security.checkIsGatewayAdmin(userId)
 
 ```

@@ -25,6 +25,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Examples
 
 ```py
+#This returns the Production Orders states for orders enabled and StatusName set to Released
 
-
+paramsDict = {'enabled':True, 'workOrderStatusName': 'Released'}
+system.kanoa.orders.getProductionOrderStates(paramsDict)
 ```

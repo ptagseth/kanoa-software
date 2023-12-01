@@ -25,6 +25,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Examples
 
 ```py
+#This returns the security configuration for ConfigId 1 and Security set to allow guests
 
+system.kanoa.security.getConfig({'configId': 1, 'configName': 'allowGuest'})
 
 ```

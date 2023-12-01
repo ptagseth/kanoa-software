@@ -25,6 +25,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Examples
 
 ```py
+#This returs the list of role functions for roleId 1
 
+roleId = 1
+system.kanoa.security.getRoleFunctions(roleId)
 
 ```
