@@ -1,7 +1,7 @@
 ---
 id: getModes
 title: system.kanoa.asset.getModes
-sidebar_position: 10
+sidebar_position: 8
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';

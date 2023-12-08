@@ -1,7 +1,7 @@
 ---
 id: getItemAttributes
 title: system.kanoa.items.getItemAttributes
-sidebar_position: 3
+sidebar_position: 2
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';

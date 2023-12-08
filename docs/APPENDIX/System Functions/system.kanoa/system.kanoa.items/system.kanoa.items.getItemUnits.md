@@ -1,7 +1,7 @@
 ---
 id: getItemUnits
 title: system.kanoa.items.getItemUnits
-sidebar_position: 9
+sidebar_position: 6
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
