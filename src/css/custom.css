@@ -15,7 +15,6 @@
   --ifm-color-primary-light: #489FE2;
   --ifm-color-primary-lighter: #489FE2;
   --ifm-color-primary-lightest: #489FE2;
-  --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-footer-background-color: #489FE2;
   --ifm-font-color-base: #1C2731;
@@ -25,7 +24,10 @@
   --ifm-footer-link-hover-color: #1C2731;
   --ifm-container-width: 100%;
   --doc-sidebar-width: 450px !important;
+  --ifm-code-font-size: 95%;
 }
+
+h2 { font-size: 1.8rem !important; }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
