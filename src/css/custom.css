@@ -30,6 +30,9 @@
 h2 { font-size: 1.8rem !important; }
 h1 { font-size: 2.4rem !important; }
 
+.pagination-nav {
+display: none;
+}
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #489FE2;
@@ -112,6 +115,9 @@ p {
   --docsearch-hit-background: var(--ifm-color-white);
   /* Footer */
   --docsearch-footer-background: var(--ifm-color-white);
+}
+
+@media screen and (min-width: 996px) {
 }
 
 [data-theme='dark'] .DocSearch {
