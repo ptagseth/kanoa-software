@@ -14,11 +14,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addAssetType(paramsDict, userId)</b>
     <li> Parameters <br />
-        <ul><br />paramsDict - PyDictionary </ul>
-        <ul><br />int - userId</ul>
+        <ul>paramsDict - PyDictionary </ul>
+        <ul>int - userId</ul>
     </li>
     <li> Returns <br />
-        <ul>int assetTypeId<br /> </ul>
+        <ul>(int) assetTypeId<br /> </ul>
     </li>
 </HeaderBox>
 

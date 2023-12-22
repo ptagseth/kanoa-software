@@ -19,7 +19,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
         <ul>int - assetGroupId<br /> </ul>
     </li>
     <li> Returns <br />
-        <ul>String - Records modified or error message<br /> </ul>
+        <ul>(String) Records modified or error message<br /> </ul>
     </li>
 </HeaderBox>
 

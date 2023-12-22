@@ -14,12 +14,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteAssetType(assetTypeId, userId)</b>
     <li> Parameters <br />
-        <ul>int - assetTypeId <br /> </ul>
-        <ul>int - userId<br /> </ul>
-        <ul><br /> </ul>
+        <ul>int - assetTypeId </ul>
+        <ul>int - userId </ul>
     </li>
     <li> Returns <br />
-        <ul>String - Records modified or error message<br /> </ul>
+        <ul>(String) Records modified or error message<br /> </ul>
     </li>
 </HeaderBox>
 

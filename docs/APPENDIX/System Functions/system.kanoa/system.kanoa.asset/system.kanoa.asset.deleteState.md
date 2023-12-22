@@ -17,7 +17,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
         <ul>int - stateId<br /> </ul>
     </li>
     <li> Returns <br />
-        <ul>int - Number of records modified, String - Message
+        <ul>(int) Number of records modified, String - Message
 Parameters<br /> </ul>
     </li>
 </HeaderBox>

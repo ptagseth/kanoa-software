@@ -12,11 +12,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Description">Given a date, an assetPath, and the client timezone offset in hours, this function will return the date adjusted for the site</HeaderBox>
 
 <HeaderBox header="Syntax">
-    <b>adjustTimeForSite(dateIn: PyObject, assetPath: PyObject, deviceUTCOffsetHrs: PyObject ) </b>
+    <b>adjustTimeForSite(dateIn, assetPath, deviceUTCOffsetHrs) </b>
     <li> Parameters <br />
         <ul>dateIn: PyObject - (datetime) date parameter  <br /> </ul>
         <ul>assetPath: PyObject - (String) asset path <br /> </ul>
-        <ul>deviceUTCOffsetHrs: PyObject - (float) timezone difference between device and site's, in hours<br /> </ul>
+        <ul>deviceUTCOffsetHrs - PyObject - (float) timezone difference between device and site's, in hours<br /> </ul>
     </li>
     <li> Returns <br />
         <ul>(datetime) adjusted datetime <br /> </ul>

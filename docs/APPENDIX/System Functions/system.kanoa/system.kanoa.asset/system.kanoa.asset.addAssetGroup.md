@@ -14,11 +14,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addAssetGroup(assetGroupName, userId)</b>
     <li> Parameters <br />
-        <ul>int userId - User ID <br /></ul>
-        <ul>String assetGroupName - The asset group name<br /> </ul>
+        <ul>int userId - User ID</ul>
+        <ul>String assetGroupName - The asset group name</ul>
     </li>
     <li> Returns <br />
-        <ul>int - Newly created asset group ID<br /> </ul>
+        <ul>(int) Newly created asset group ID<br /> </ul>
     </li>
 </HeaderBox>
 

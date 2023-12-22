@@ -7,7 +7,7 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 
-<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 <HeaderBox header="Description">Gets asset attributes</HeaderBox>
 

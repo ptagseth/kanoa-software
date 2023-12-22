@@ -17,7 +17,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
         <ul>paramsDict - PyDictionary (Dictionary) i.e. &#123;'enabled':True, 'assetPath': 'Kanoa Industries%', 'assetId': 1, 'assetTypeName': 'site', 'stateId':1, 'stateName':'Running', 'stateTypeName':'Running'} <br /> </ul>
     </li>
     <li> Returns <br />
-        <ul>PyDataset - the resultant query<br /> </ul>
+        <ul>(PyDataset) the resultant query<br /> </ul>
     </li>
 </HeaderBox>
 

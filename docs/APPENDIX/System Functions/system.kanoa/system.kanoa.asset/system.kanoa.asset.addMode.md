@@ -18,7 +18,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
         <ul>int - userId<br /> </ul>
     </li>
     <li> Returns <br />
-        <ul>int - assetTypeId<br /> </ul>
+        <ul>(int) assetTypeId<br /> </ul>
     </li>
 </HeaderBox>
 
