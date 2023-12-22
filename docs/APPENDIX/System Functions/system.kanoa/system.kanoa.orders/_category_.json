@@ -1,7 +1,4 @@
 {
-    "label": "system.kanoa.orders",
-    "position": 4,
-    "link": {
-      "type": "generated-index"
-    }
-  }
+  "label": "system.kanoa.orders",
+  "position": 4
+}

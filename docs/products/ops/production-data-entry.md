@@ -62,7 +62,7 @@ The user can manually replace infeed, outfeed, or waste values through the produ
 To clear a value, press the <ClearIcon fontSize="small" /> to the right of the placeholder. Once cleared, a calculator icon will be displayed, indicating that the new value has been calculated automatically.
 ![Editing Counts](/img/49.png)
 
-Infeed, outfeed and waste units can be configured in [Asset Management](/category/asset-management). Additionally, the user can configure package count to seamlessly handle the conversions between infeed units (i.e. bottles) and outfeed units (i.e. cases).
+Infeed, outfeed and waste units can be configured in [Asset Management](docs/products/ops/asset-management/assets.md). Additionally, the user can configure package count to seamlessly handle the conversions between infeed units (i.e. bottles) and outfeed units (i.e. cases).
 
 If there is a discrepancy in the recorded infeed, outfeed and waste units, a warning will be displayed.
 ![Editing Counts](/img/48.png)
