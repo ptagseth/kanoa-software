@@ -1,7 +1,7 @@
 ---
 id: getSiteTimezoneOffset
 title: system.kanoa.asset.getSiteTimezoneOffset
-sidebar_position: 11
+sidebar_position: 25
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';

@@ -1,7 +1,7 @@
 ---
 id: adjustTimeForSite
 title: system.kanoa.asset.adjustTimeForSite
-sidebar_position: 1
+sidebar_position: 4
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
