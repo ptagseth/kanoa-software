@@ -27,9 +27,14 @@
   font-size: 0.8rem;
 }
 
-li {
-  color: black; /* bullet color */
+[data-theme='dark'] li {
+  color: white; /* bullet color */
 }
+
+[data-theme='light'] li {
+  color: #1C2731; /* bullet color */
+}
+
 li span {
   color: #489FE2; /* text color */
 }
