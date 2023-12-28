@@ -34,7 +34,7 @@ function DocCategoryGeneratedIndexPageContent({categoryGeneratedIndex}) {
           {categoryGeneratedIndex.title}
         </Heading>
         {categoryGeneratedIndex.description && (
-          <p>{categoryGeneratedIndex.description}</p>
+          <p style={{marginLeft: '20px'}}>{categoryGeneratedIndex.description}</p>
         )}
       </header>
       <article className="margin-top--lg">
