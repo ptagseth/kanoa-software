@@ -7,6 +7,7 @@
 .title {
   --ifm-h1-font-size: 2.4rem;
   margin-bottom: calc(1.25 * var(--ifm-leading));
+  margin-left: 25px;
 }
 
 .list article:last-child {
