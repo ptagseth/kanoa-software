@@ -21,6 +21,7 @@
 .cardTitle {
   font-size: 1.0rem;
   line-height: 1.0;
+  margin-bottom: -10px;
 }
 
 .cardDescription {
