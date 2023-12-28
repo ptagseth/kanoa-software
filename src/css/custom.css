@@ -23,7 +23,7 @@
   --ifm-footer-title-color: #fff;
   --ifm-footer-link-hover-color: #1C2731;
   --ifm-container-width: 100%;
-  --doc-sidebar-width: 450px !important;
+  --doc-sidebar-width: 284px !important;
   --ifm-code-font-size: 95%;
   --ifm-heading-color: #1C2731;
 }
@@ -77,6 +77,10 @@ line-height: 2;
 }
 
 .sidebar-wrapper {
+    overflow-x: scroll;
+}
+
+.menu {
     overflow-x: scroll;
 }
 
