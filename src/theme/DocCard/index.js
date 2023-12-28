@@ -19,7 +19,7 @@ function CardLayout({href, title, description}) {
   return (
     <CardContainer href={href}>
       <div className={clsx('text--truncate', styles.cardTitle)} title={title}>
-        <li><span>{title}</span></li>
+        <li style={{ marginLeft: '20px' }}><span>{title}</span></li>
       </div>
       {description && (
         <p
