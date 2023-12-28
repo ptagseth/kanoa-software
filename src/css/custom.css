@@ -25,6 +25,7 @@
   --ifm-container-width: 100%;
   --doc-sidebar-width: 450px !important;
   --ifm-code-font-size: 95%;
+  --ifm-heading-color: #1C2731;
 }
 
 h2 { font-size: 1.8rem !important; }
@@ -44,6 +45,7 @@ display: none;
   --ifm-color-primary-lightest: #489FE2;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-font-color-base: #fff;
+  --ifm-heading-color: #FFFFFF;
 }
 
 html[data-theme='light'] {

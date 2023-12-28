@@ -27,7 +27,7 @@ function DocCategoryGeneratedIndexPageContent({categoryGeneratedIndex}) {
   return (
     <div className={styles.generatedIndexPage}>
       <DocVersionBanner />
-      <DocBreadcrumbs />
+      <DocBreadcrumbs/>
       <DocVersionBadge />
       <header>
         <Heading as="h1" className={styles.title}>
