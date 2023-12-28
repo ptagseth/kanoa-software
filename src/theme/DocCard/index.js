@@ -20,12 +20,12 @@ function CardLayout({href, title, description}) {
     <CardContainer href={href}>
       {!description && (
               <div className={clsx('text--truncate', styles.cardTitle)} title={title}>
-                      <li style={{ marginLeft: '20px' }}><span>{title}</span></li>
+                      <li style={{ marginLeft: '45px' }}><span>{title}</span></li>
               </div>
       )}
       {description && (
         <div className={clsx('text--truncate', styles.cardTitle)} title={title}>
-                <li style={{ marginLeft: '20px' }}><span>{title} </span> — {description}</li>
+                <li style={{ marginLeft: '45px' }}><span>{title} </span> — {description}</li>
         </div>
       )}
     </CardContainer>
