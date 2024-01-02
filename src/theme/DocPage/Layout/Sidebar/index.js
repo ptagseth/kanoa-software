@@ -8,7 +8,6 @@ import ExpandButton from '@theme/DocPage/Layout/Sidebar/ExpandButton';
 import styles from './styles.module.css';
 import { ResizableBox, Resizable } from 'react-resizable';
 import './resizable.css';
-import '/Users/sophia/kanoa-software/src/css/custom.css';
 // Reset sidebar state when sidebar changes
 // Use React key to unmount/remount the children
 // See https://github.com/facebook/docusaurus/issues/3414
