@@ -24,13 +24,16 @@
   --ifm-footer-link-hover-color: #1C2731;
   --ifm-container-width: 100%;
   --doc-sidebar-width: 284px !important;
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size:--doc-sidebar-width: 284px 95%;
   --ifm-heading-color: #1C2731;
 }
 
 h2 { font-size: 1.8rem !important; }
 h1 { font-size: 2.4rem !important; }
 
+.menu__list-item-collapsible {
+  flex-wrap: nowrap;
+}
 .pagination-nav {
 display: none;
 }
