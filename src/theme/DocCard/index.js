@@ -18,15 +18,15 @@ function CardContainer({href, children}) {
 function CardLayout({href, title, description}) {
   return (
     <CardContainer href={href}>
-      <div className={clsx('text--truncate', styles.cardTitle)} title={title}>
-        <li><span>{title}</span></li>
-      </div>
+      {!description && (
+              <div className={clsx('text--truncate', styles.cardTitle)} title={title}>
+                      <li style={{ marginLeft: '45px' }}><span>{title}</span></li>
+              </div>
+      )}
       {description && (
-        <p
-          className={clsx('text--truncate', styles.cardDescription)}
-          title={description}>
-          {description}
-        </p>
+        <div className={clsx('text--truncate', styles.cardTitle)} title={title}>
+                <li style={{ marginLeft: '45px' }}><span>{title} </span> — {description}</li>
+        </div>
       )}
     </CardContainer>
   );
@@ -37,24 +37,45 @@ function CardCategory({item}) {
   if (!href) {
     return null;
   }
-  return (
-    <CardLayout
-      href={href}
-      title={item.label}
-      description={
-        item.description ??
-        translate(
-          {
-            message: '{count} items',
-            id: 'theme.docs.DocCard.categoryDescription',
-            description:
-              'The default description for a category card in the generated index about how many items this category includes',
-          },
-          {count: item.items.length},
-        )
-      }
-    />
-  );
+  if (item.items.length > 1) {
+    return (
+        <CardLayout
+          href={href}
+          title={item.label}
+          description={
+            item.description ??
+            translate(
+              {
+                message: '{count} items',
+                id: 'theme.docs.DocCard.categoryDescription',
+                description:
+                  'The default description for a category card in the generated index about how many items this category includes',
+              },
+              {count: item.items.length},
+            )
+          }
+        />
+      );
+  } else {
+    return (
+            <CardLayout
+              href={href}
+              title={item.label}
+              description={
+                item.description ??
+                translate(
+                  {
+                    message: '{count} item',
+                    id: 'theme.docs.DocCard.categoryDescription',
+                    description:
+                      'The default description for a category card in the generated index about how many items this category includes',
+                  },
+                  {count: item.items.length},
+                )
+              }
+            />
+          );
+  }
 }
 function CardLink({item}) {
   const doc = useDocById(item.docId ?? undefined);

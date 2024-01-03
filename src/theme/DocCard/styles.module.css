@@ -21,16 +21,21 @@
 .cardTitle {
   font-size: 1.0rem;
   line-height: 1.0;
+  margin-bottom: -10px;
 }
 
 .cardDescription {
   font-size: 0.8rem;
 }
 
-li {
-  color: black; /* bullet color */
-  margin-left: 20px;
+[data-theme='dark'] li {
+  color: white; /* bullet color */
 }
+
+[data-theme='light'] li {
+  color: #1C2731; /* bullet color */
+}
+
 li span {
   color: #489FE2; /* text color */
 }
