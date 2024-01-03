@@ -1,0 +1,17 @@
+.react-resizable-handle {
+    display: block;
+    background-color: #D3D3D3;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(./image-removebg-preview.png);
+}
+
+.react-resizable-handle-e {
+    width: 10px;
+    min-width: 10px;
+    height: 100%;
+    cursor: col-resize;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
