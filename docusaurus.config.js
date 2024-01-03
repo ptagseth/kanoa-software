@@ -101,7 +101,7 @@ const config = {
       image: 'img/kanoa_logo.png',
       docs: {
         sidebar: {
-          hideable: true,
+          hideable: false,
         },
       },
       navbar: {

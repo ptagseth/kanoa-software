@@ -63,11 +63,13 @@ export default function DocPageLayoutSidebar({
       }}>
       <ResetOnSidebarChange>
       <Resizable
-                    resizeHandles={['e']}
-                    height={Infinity}
-                    width={width}
-                    onResize={onResize}
-              >
+        resizeHandles={['e']}
+        height={Infinity}
+        width={width}
+        onResize={onResize}
+        minConstraints={[20, Infinity]}
+        maxConstraints={[1500, Infinity]}
+      >
         <div
           className={clsx(
             styles.sidebarViewport,
