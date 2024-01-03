@@ -12,11 +12,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Description">Deletes an asset group </HeaderBox>
 
 <HeaderBox header="Syntax">
-    <b>deleteAssetGroup(assetGroupId)
+    <b>deleteAssetGroup(assetGroupId, userId)
 </b>
     <li> Parameters <br />
         <ul>PyObject - assetGroupId<br /> </ul>
-        <ul>int - assetGroupId<br /> </ul>
+        <ul>int - userId<br /> </ul>
     </li>
     <li> Returns <br />
         <ul>(String) Records modified or error message<br /> </ul>
