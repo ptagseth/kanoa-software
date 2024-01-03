@@ -41,7 +41,8 @@ export default function DocPageLayoutSidebar({
 
   const onResize = (event, {size}) => {
       setWidth(size.width);
-      document.documentElement.style.setProperty('--doc-sidebar-width', `${size.width}px`);
+      const r = document.querySelector(":root");
+      r.style.setProperty('--doc-sidebar-width', `${size.width}px`);
       console.log('Resized to', size.width);
   };
 
@@ -62,11 +63,13 @@ export default function DocPageLayoutSidebar({
       }}>
       <ResetOnSidebarChange>
       <Resizable
-                    resizeHandles={['e']}
-                    height={Infinity}
-                    width={width}
-                    onResize={onResize}
-              >
+        resizeHandles={['e']}
+        height={Infinity}
+        width={width}
+        onResize={onResize}
+        minConstraints={[20, Infinity]}
+        maxConstraints={[1500, Infinity]}
+      >
         <div
           className={clsx(
             styles.sidebarViewport,

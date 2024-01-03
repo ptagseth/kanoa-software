@@ -23,8 +23,8 @@
   --ifm-footer-title-color: #fff;
   --ifm-footer-link-hover-color: #1C2731;
   --ifm-container-width: 100%;
-  --doc-sidebar-width: 284px !important;
-  --ifm-code-font-size:--doc-sidebar-width: 284px 95%;
+  --doc-sidebar-width: 284px important!;
+  --ifm-code-font-size: 95%;
   --ifm-heading-color: #1C2731;
 }
 
