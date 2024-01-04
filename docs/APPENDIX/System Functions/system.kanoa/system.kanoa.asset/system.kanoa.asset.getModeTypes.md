@@ -1,31 +1,27 @@
 ---
 id: getModeTypes
 title: system.kanoa.asset.getModeTypes
-sidebar_position: 22
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Returns mode types filtered by the given parameters  </HeaderBox>
-
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
+<HeaderBox header="Description">Retrieve mode types based on specified parameters.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getModeTypes(paramsDict: PyDictionary) </b>
+    <b>getModeTypes(paramsDict, enabled)</b>
     <li> Parameters <br />
-        <ul> paramsDict: PyDictionary - Dictionary i.e. &#123;'enabled':True, 'modeTypeId':1, 'modeTypeName':'Production'} </ul>
+        <ul>paramsDict (dictionary) - A dictionary of key/value pairs used to filter the returned dataset</ul>
+        <ul>enabled (boolean) - Indicates whether the mode type is enabled or not</ul>
     </li>
     <li> Returns <br />
-        <ul>(PyDataset) the resultant query <br /> </ul>
+        <ul>pyDataset - A pyDataset containing mode types filtered by the provided parameters</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-# This returns the enabled Mode Types
-
-paramsDict = {'enabled':True }
-system.kanoa.asset.getModeTypes(paramsDict)
-```
+```python
+# Example Usage:
+params = {'enabled': True, 'modeTypeId': 1, 'modeTypeName': 'Production'}
+enabled_mode_types = getModeTypes(params, True)

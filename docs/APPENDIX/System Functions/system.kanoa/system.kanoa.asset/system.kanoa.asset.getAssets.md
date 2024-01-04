@@ -1,90 +1,42 @@
 ---
 id: getAssets
 title: system.kanoa.asset.getAssets
-sidebar_position: 12
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Returns asset info for given parameters</HeaderBox>
-
+<HeaderBox header="Description">Returns asset information based on the provided parameters from the 'kanoaCore' system.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getAssets(paramsDict:PyDictionary)</b>
+    <b>getAssets(paramsDict)</b>
     <li> Parameters <br />
-        <ul> paramsDict: PyDictionary - Dictionary i.e. &#123;'enabled':True, 'assetPath': 'Kanoa Industries%', 'assetId': 1, 'assetIdList': [1,2,3], 'oeeTypeList':['OEE_Enabled'], 'assetTypeIdList':[1,2,5], 'assetGroupIdList':[2]} </ul>
+        <ul>paramsDict (dict) - A dictionary containing parameters to filter assets. Available keys include:
+            - 'enabled' (bool): Filter by asset's enabled status.
+            - 'assetPath' (str): Filter by asset path.
+            - 'assetTypeName' (str): Filter by asset type name.
+            - 'parentId' (int): Filter by parent asset ID.
+            - 'assetId' (int): Filter by asset ID.
+            - 'assetIdList' (list): Filter by a list of asset IDs.
+            - 'oeeType' (str): Filter by OEE type.
+            - 'oeeTypeList' (list): Filter by a list of OEE types.
+            - 'assetTypeId' (int): Filter by asset type ID.
+            - 'assetTypeIdList' (list): Filter by a list of asset type IDs.
+            - 'assetGroupIdList' (list): Filter by a list of asset group IDs.
+            - 'userId' (int): The ID of the user to apply security filtering.
+            - 'userFunction' (str): The function used for user asset role filtering.
+        </ul>
     </li>
     <li> Returns <br />
-        <ul> (PyDataset) the resultant query <br /> </ul>
+        <ul>pyDataset - A dataset containing asset information.</ul>
     </li>
 </HeaderBox>
 
-
 ### Code Examples
 
-```py
-# This returns a list of all assets NOT set to enabled
+```python
+# Example Usage:
+asset_data = getAssets({'enabled': True, 'assetPath': 'Kanoa Industries%', 'assetId': 1})
 
-paramsDict = {'enabled':False}
-data = system.kanoa.asset.getAssets(paramsDict)
 
-```
-
-```py
-# This returns a list of all assets set to TRUE
-
-paramsDict = {'enabled':True}
-data = system.kanoa.asset.getAssets(paramsDict)
-
-```
-
-```py
-# This returns a list of all assets set to OEE Enabled AND with assets path set to start with "Kanoa Industries\Adelaide Hills"
-
-paramsDict = {'assetPath':'Kanoa Industries\Adelaide Hills%', 'oeeTypeList': ['OEE_Enabled']}
-data = system.kanoa.asset.getAssets(paramsDict)
-
-```
-
-```py
-# This brings back the Asset with Asset ID set to 10
-
-paramsDict = {'assetId':10}
-data=system.kanoa.asset.getAssets(paramsDict)
-
-```
-
-```py
-# This brings back the list of Assets with Asset ID set to 1, 7 and 10
-
-paramsDict = {'assetIdList':[10,1,7]}
-data=system.kanoa.asset.getAssets(paramsDict)
-
-```
-
-```py
-# This brings back the list of Assets with OEEType set to OEE_Enabled
- Other values for query:  No OEE
-
-paramsDict = {'oeeTypeList':['OEE_Enabled']}
-data=system.kanoa.asset.getAssets(paramsDict)
-
-```
-
-```py
-# This brings back the list of Assets with AssetType IDs set to 1, 2 and 5
-
-paramsDict = {'assetTypeIdList':[1,2,5]}
-data=system.kanoa.asset.getAssets(paramsDict)
-
-```
-
-```py
-# This returns the Asset with Asset GroupID set to 2
-
-paramsDict = {'assetGroupIdList':[2]}
-data=system.kanoa.asset.getAssets(paramsDict)
-
-```
 
