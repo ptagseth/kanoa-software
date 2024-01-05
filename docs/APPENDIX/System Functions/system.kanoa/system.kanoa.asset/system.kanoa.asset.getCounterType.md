@@ -1,29 +1,30 @@
 ---
 id: getCounterType
 title: system.kanoa.asset.getCounterType
-sidebar_position: 18
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-
-<HeaderBox header="Description">Returns the counter type</HeaderBox>
-
+<HeaderBox header="Description">Returns the counter type (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getCounterType(paramsDict)</b>
     <li> Parameters <br />
-        <ul>paramsDict - Dictionary i.e. &#123;'enabled':True, 'counterTypeId': 1, 'counterTypeName':'infeed'} <br /> </ul>
+        <ul>paramsDict (dict) - Dictionary containing filter parameters.</ul>
     </li>
     <li> Returns <br />
-        <ul>PyDataset - the resultant query<br /> </ul>
+        <ul>data (pyDataset).</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-
-
-```
+```python
+# Example Usage:
+parameters = {
+    'enabled': True,
+    'counterTypeId': 1,
+    'counterTypeName': 'infeed'
+}
+counter_type_data = getCounterType(parameters)

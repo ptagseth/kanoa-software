@@ -1,30 +1,37 @@
 ---
 id: addMode
 title: system.kanoa.asset.addMode
-sidebar_position: 3
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-
-<HeaderBox header="Description">Add a new mode</HeaderBox>
-
+<HeaderBox header="Description">Adds a new mode (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>addMode(paramsDict, userId)</b>
+    <b>addMode(modeInfo, userId)</b>
     <li> Parameters <br />
-        <ul>PyDictionary - paramsDict<br /></ul>
-        <ul>int - userId<br /> </ul>
+        <ul>modeInfo (dictionary) - Dictionary containing mode information.</ul>
+        <ul>userId (int) - User ID for tracking changes.</ul>
     </li>
     <li> Returns <br />
-        <ul>(int) assetTypeId<br /> </ul>
+        <ul>modeId (int).</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
+```python
+# Example Usage:
+mode_info = {
+    'modeName': 'NewMode',
+    'modeTypeId': 1,
+    'enabled': True,
+    'canSelect': True,
+    'canSchedule': False,
+    'modeColor': '#00FF00',
+    'iconPath': '/path/to/icon'
+}
+user_id = 5
+mode_id = addMode(mode_info, user_id)
 
-
-```

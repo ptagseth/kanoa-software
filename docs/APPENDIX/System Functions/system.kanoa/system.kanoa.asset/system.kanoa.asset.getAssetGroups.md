@@ -1,39 +1,30 @@
 ---
 id: getAssetGroups
 title: system.kanoa.asset.getAssetGroups
-sidebar_position: 10
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Returns assetGroups. Used for filtering assets and also for grouping asset states</HeaderBox>
-
+<HeaderBox header="Description">Returns assetGroups. Used for filtering assets and also for grouping asset states by (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getAssetGroups(paramsDict: PyDictionary)</b>
+    <b>getAssetGroups(paramsDict)</b>
     <li> Parameters <br />
-        <ul> paramsDict: PyDictionary - Dictionary i.e. &#123;'enabled': True, 'assetGroupId': 1, 'assetGroupName': 'Packaging'} </ul>
+        <ul>paramsDict (dict) - Dictionary containing filter parameters.</ul>
     </li>
     <li> Returns <br />
-        <ul> (PyDataset) the resultant query <br /> </ul>
+        <ul>data (pyDataSet).</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-#
-# This returns the group info for the group with ID 1
-#
-paramsDict = {'assetGroupId': 1}
-data=system.kanoa.asset.getAssetGroups(paramsDict)
-```
-
-```py
-#
-#This returns the Enabled Groups
-#
-paramsDict = {'enabled': True}
-data=system.kanoa.asset.getAssetGroups(paramsDict)
-```
+```python
+# Example Usage:
+parameters = {
+    'enabled': True,
+    'assetGroupId': 1,
+    'assetGroupName': 'Group1'
+}
+asset_groups = getAssetGroups(parameters)

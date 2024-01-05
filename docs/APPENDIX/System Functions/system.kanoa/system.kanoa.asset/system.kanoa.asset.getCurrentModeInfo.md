@@ -1,29 +1,26 @@
 ---
 id: getCurrentModeInfo
 title: system.kanoa.asset.getCurrentModeInfo
-sidebar_position: 19
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-
-<HeaderBox header="Description">Returns the current mode info for a given assetPath</HeaderBox>
-
+<HeaderBox header="Description">Returns the current mode info for a given assetPath (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getCurrentModeInfo(assetPath)</b>
     <li> Parameters <br />
-        <ul>String - assetPath<br /> </ul>
+        <ul>assetPath (string) - Path of the asset.</ul>
     </li>
     <li> Returns <br />
-        <ul>Dictionary - modeInfo<br /> </ul>
+        <ul>modeInfo (dictionary).</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-
-
-```
+```python
+# Example Usage:
+asset_path = 'SampleAsset'
+mode_info = getCurrentModeInfo(asset_path)

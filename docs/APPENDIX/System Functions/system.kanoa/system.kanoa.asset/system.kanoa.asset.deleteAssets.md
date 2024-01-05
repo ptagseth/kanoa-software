@@ -1,17 +1,17 @@
 ---
-id: deleteAssetGroup
-title: system.kanoa.asset.deleteAssetGroup
+id: deleteAssets
+title: system.kanoa.asset.deleteAssets
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-<HeaderBox header="Description">Deletes an asset group (kanoaOPS).</HeaderBox>
+<HeaderBox header="Description">Deletes the asset and all children underneath using SQL cascade function (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>deleteAssetGroup(assetGroupId, userId)</b>
+    <b>deleteAssets(assetId, userId)</b>
     <li> Parameters <br />
-        <ul>assetGroupId (int) - ID of the asset group to be deleted.</ul>
+        <ul>assetId (int) - ID of the asset to be deleted.</ul>
         <ul>userId (int) - User ID.</ul>
     </li>
     <li> Returns <br />
@@ -24,6 +24,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-group_id = 123
+asset_id = 123
 user_id = 456
-success, message = deleteAssetGroup(group_id, user_id)
+success, message = deleteAssets(asset_id, user_id)

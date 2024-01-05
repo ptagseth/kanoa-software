@@ -1,43 +1,33 @@
 ---
 id: getStates
 title: system.kanoa.asset.getStates
-sidebar_position: 27
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-
-
-getStates(     paramsDict: PyDictionary )
-Method on Ignition.kanoa.asset
-Returns state info for the given parameters (kanoaOPS) 
-Returns:
-(PyDataset) the resultant query
-Parameters
-paramsDict: PyDictionary 
-(Dictionary) i.e. {'enabled':True}    
-
-
-<PurpleBox>This function requires <b>Kanoa</b> module</PurpleBox>
-
-<HeaderBox header="Description"></HeaderBox>
-
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
+<HeaderBox header="Description">Returns state info for the given parameters (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getStates(paramsDict)</b>
     <li> Parameters <br />
-        <ul>PyDictionary - paramsDict, (Dictionary) i.e. &#123;'enabled':True} <br /> </ul>
-        <ul><br /> </ul>
-        <ul><br /> </ul>
+        <ul>paramsDict (dict) - Dictionary containing filter parameters.</ul>
     </li>
     <li> Returns <br />
-        <ul>PyDataset - the resultant query<br /> </ul>
+        <ul>pyDataset.</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-
-
-```
+```python
+# Example Usage:
+parameters = {
+    'enabled': True,
+    'stateName': 'Running',
+    'stateId': 1,
+    'stateTypeName': 'Type1',
+    'stateTypeId': 2,
+    'assetGroupId': 1
+}
+state_info = getStates(parameters)

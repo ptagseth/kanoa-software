@@ -1,29 +1,30 @@
 ---
 id: getStateType
 title: system.kanoa.asset.getStateType
-sidebar_position: 28
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-
-<HeaderBox header="Description">Gets State Type data </HeaderBox>
-
+<HeaderBox header="Description">Gets State Type data (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getStateType(paramsDict)</b>
     <li> Parameters <br />
-        <ul>PyDictionary - paramsDict<br /> </ul>
+        <ul>paramsDict (dict) - Dictionary containing filter parameters.</ul>
     </li>
     <li> Returns <br />
-        <ul>PyDataset - the resultant query<br /> </ul>
+        <ul>data (pyDataset).</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-
-
-```
+```python
+# Example Usage:
+parameters = {
+    'enabled': True,
+    'stateTypeId': 1,
+    'stateTypeName': 'Running'
+}
+state_type_data = getStateType(parameters)

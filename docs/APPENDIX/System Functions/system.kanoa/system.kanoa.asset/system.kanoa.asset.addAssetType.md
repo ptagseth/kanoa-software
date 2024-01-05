@@ -1,30 +1,33 @@
 ---
 id: addAssetType
 title: system.kanoa.asset.addAssetType
-sidebar_position: 2
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
-    
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-
-<HeaderBox header="Description">Add a new asset type</HeaderBox>
-
+<HeaderBox header="Description">Adds a new asset type (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>addAssetType(paramsDict, userId)</b>
+    <b>addAssetType(assetTypeInfo, userId)</b>
     <li> Parameters <br />
-        <ul>paramsDict - PyDictionary </ul>
-        <ul>int - userId</ul>
+        <ul>assetTypeInfo (dict) - Dictionary containing asset type information.</ul>
+        <ul>userId (int) - User ID for tracking changes.</ul>
     </li>
     <li> Returns <br />
-        <ul>(int) assetTypeId<br /> </ul>
+        <ul>assetTypeId (int).</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-
-
-```
+```python
+# Example Usage:
+type_info = {
+    'assetTypeName': 'Type1',
+    'parentId': 1,
+    'enabled': True,
+    'iconPath': '/path/to/icon'
+}
+user_id = 5
+asset_type_id = addAssetType(type_info, user_id)

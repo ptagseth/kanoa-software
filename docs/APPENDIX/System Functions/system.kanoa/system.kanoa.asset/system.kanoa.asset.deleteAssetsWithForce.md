@@ -1,17 +1,17 @@
 ---
-id: deleteAssetGroup
-title: system.kanoa.asset.deleteAssetGroup
+id: deleteAssetsWithForce
+title: system.kanoa.asset.deleteAssetsWithForce
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-<HeaderBox header="Description">Deletes an asset group (kanoaOPS).</HeaderBox>
+<HeaderBox header="Description">Stored procedure that will forcibly delete an asset including child assets and any entries in mode, start, shift, and quality tables (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>deleteAssetGroup(assetGroupId, userId)</b>
+    <b>deleteAssetsWithForce(assetId, userId)</b>
     <li> Parameters <br />
-        <ul>assetGroupId (int) - ID of the asset group to be deleted.</ul>
+        <ul>assetId (int) - ID of the asset to be forcibly deleted.</ul>
         <ul>userId (int) - User ID.</ul>
     </li>
     <li> Returns <br />
@@ -24,6 +24,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-group_id = 123
+asset_id = 123
 user_id = 456
-success, message = deleteAssetGroup(group_id, user_id)
+success, message = deleteAssetsWithForce(asset_id, user_id)
+

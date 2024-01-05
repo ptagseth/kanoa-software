@@ -1,33 +1,29 @@
 ---
 id: getParentAsset
 title: system.kanoa.asset.getParentAsset
-sidebar_position: 24
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Returns a parent asset of the given type for the given asset. e.g. getParentAsset('site', 'Kanoa Industries\Adelaide Hills\Packaging\Line 1') will return the asset for 'Kanoa Industries\Adelaide Hills'</HeaderBox>
-
+<HeaderBox header="Description">Returns the parent asset of the given type for the given asset. (kanoaCore)</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getParentAsset(assetTypeName: PyObject, assetPath: PyObject)</b>
+    <b>getParentAsset(assetTypeName, assetPath)</b>
     <li> Parameters <br />
-        <ul> assetTypeName: PyObject - name of asset type i.e. 'enterprise', 'site' </ul>
-        <ul> assetPath: PyObject </ul>
+        <ul>assetTypeName (string) - e.g. 'site'</ul>
+        <ul>assetPath (string) - e.g. 'Kanoa Industries\Adelaide Hills\Packaging\Line 1'</ul>
     </li>
     <li> Returns <br />
-        <ul> (PyDataset) the resultant query </ul>
+        <ul>asset data (pyDataSet).</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-# This returns the parent asset site of Kanoa Industries\Adelaide Hills\Packaging\Line 1
+```python
+# Example Usage:
+asset_type_name = 'site'
+asset_path = 'Kanoa Industries\Adelaide Hills\Packaging\Line 1'
+parent_asset_data = getParentAsset(asset_type_name, asset_path)
 
-assetType = 'site'
-path = 'Kanoa Industries\Adelaide Hills\Packaging\Line 1'
-data=system.kanoa.asset.getParentAsset(assetType, path)
-
-```

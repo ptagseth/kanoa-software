@@ -1,29 +1,30 @@
 ---
 id: getStateCategory
 title: system.kanoa.asset.getStateCategory
-sidebar_position: 26
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-
-<HeaderBox header="Description">Gets state category data</HeaderBox>
-
+<HeaderBox header="Description">Gets State category data (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getStateCategory(paramsDict)</b>
     <li> Parameters <br />
-        <ul>PyDictionary - paramsDict, (Dictionary) i.e. &#123;'enabled':True, 'stateCategoryId': 1, 'stateCategoryName':'Electrical'}  <br /> </ul>
+        <ul>paramsDict (dict) - Dictionary containing filter parameters.</ul>
     </li>
     <li> Returns <br />
-        <ul>PyDataset - the resultant query<br /> </ul>
+        <ul>data (pyDataset).</ul>
     </li>
 </HeaderBox>
 
 ### Code Examples
 
-```py
-
-
-```
+```python
+# Example Usage:
+parameters = {
+    'enabled': True,
+    'stateCategoryId': 1,
+    'stateCategoryName': 'Electrical'
+}
+state_category_data = getStateCategory(parameters)
