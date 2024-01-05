@@ -1,6 +1,6 @@
 ---
 id: getItemPeriods
-title: system.kanoa.items.getItemPeriods
+title: system.kanoa.item.getItemPeriods
 sidebar_position: 4
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
