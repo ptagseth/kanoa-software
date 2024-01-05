@@ -1,6 +1,6 @@
 ---
-id: getConfig
-title: system.kanoa.config.getConfig
+id: writeConfig
+title: system.kanoa.config.writeConfig
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -9,12 +9,14 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Get the application configuration settings (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getConfig(paramsDict)</b>
+    <b>writeConfig(project, configName, configValue)</b>
     <li>Parameters <br />
-        <ul>paramsDict (Dictionary) - Dictionary containing parameters (e.g., &#123;'project': 'kanoaCore', 'configName': 'backgroundColor'}).</ul>
+        <ul>project (String) - Name of the associated project.</ul>
+        <ul>configName (String) - Name of the configuration parameter.</ul>
+        <ul>configValue (String) - Value of the parameter.</ul>
     </li>
     <li>Returns <br />
-        <ul>Dataset - Resulting dataset.</ul>
+        <ul>Record ID (Integer).</ul>
     </li>
 </HeaderBox>
 
@@ -22,6 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-configData = getConfig({'project': 'kanoaCore', 'configName': 'backgroundColor'})
-
-```
+recordId = writeConfig('kanoaCore', 'backgroundColor', '#FFFFFF')

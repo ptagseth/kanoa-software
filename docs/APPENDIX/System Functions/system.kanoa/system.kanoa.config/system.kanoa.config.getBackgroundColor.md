@@ -1,32 +1,25 @@
 ---
 id: getBackgroundColor
 title: system.kanoa.config.getBackgroundColor
-sidebar_position: 1
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Gets the background color from the database </HeaderBox>
-
+<HeaderBox header="Description">Get the background color from the database (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getBackgroundColor </b>
-    <li> Parameters <br />
-        <ul>(String) name of theme, either 'light' or 'dark' </ul>
+    <b>getBackgroundColor(theme)</b>
+    <li>Parameters <br />
+        <ul>theme (String) - Theme name (e.g., 'dark').</ul>
     </li>
-    <li> Returns <br />
-        <ul>(String) background color based on the theme </ul>
+    <li>Returns <br />
+        <ul>The color stored in the database (String).</ul>
     </li>
 </HeaderBox>
 
+### Code Example
 
-### Code Examples
-
-```py
-#This returns the hex background color defined for dark mode
-
-theme = 'dark'
-system.kanoa.config.getBackgroundColor(theme)
-
-```
+```python
+# Example Usage:
+bgColor = getBackgroundColor('light')
