@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 asset_path = 'SampleAsset'
-mode_info = getCurrentModeInfo(asset_path)
+mode_info = system.kanoa.asset.getCurrentModeInfo(asset_path)

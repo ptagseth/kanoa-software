@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 data_set = system.db.runQuery("SELECT * FROM myTable", "myDB")
-json_data = convertDatasetRowToJSON(data_set, 0)
+json_data = system.kanoa.asset.convertDatasetRowToJSON(data_set, 0)

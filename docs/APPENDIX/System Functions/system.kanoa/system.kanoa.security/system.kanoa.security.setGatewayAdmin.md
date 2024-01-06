@@ -1,21 +1,21 @@
 ---
-id: addRole
-title: system.kanoa.security.addRole
+id: setGatewayAdmin
+title: system.kanoa.security.setGatewayAdmin
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaConfig</b> module</PurpleBox>
-<HeaderBox header="Description">Adds a user role.</HeaderBox>
+<HeaderBox header="Description">Adds or removes the Gateway Admin role from the user.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>addRole(roleName, userId)</b>
+    <b>setGatewayAdmin(userId, enable)</b>
     <li>Parameters <br />
-        <ul>roleName (String) - Role name.</ul>
         <ul>userId (Integer) - User ID.</ul>
+        <ul>enable (Bool) - Enable or disable the role.</ul>
     </li>
     <li>Returns <br />
-        <ul>roleId (Integer).</ul>
+        <ul>Error message (String).</ul>
     </li>
 </HeaderBox>
 
@@ -23,5 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-roleId = system.kanoa.security.addRole('Operator', 123)
-
+errorMessage = system.kanoa.security.setGatewayAdmin(123, True)

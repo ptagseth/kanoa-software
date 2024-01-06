@@ -25,4 +25,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modified_records = updateStateField(123, 'field_name', 'new_value', 789)
+modified_records = system.kanoa.asset.updateStateField(123, 'field_name', 'new_value', 789)

@@ -36,7 +36,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-asset_data = getAssets({'enabled': True, 'assetPath': 'Kanoa Industries%', 'assetId': 1})
+asset_data = system.kanoa.asset.getAssets({'enabled': True, 'assetPath': 'Kanoa Industries%', 'assetId': 1})
 
 
 

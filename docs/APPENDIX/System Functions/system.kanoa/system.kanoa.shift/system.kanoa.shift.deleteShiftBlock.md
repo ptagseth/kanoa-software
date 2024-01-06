@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-deletedRecords = deleteShiftBlock(1, 123)
+system.kanoa.shift.deletedRecords = deleteShiftBlock(1, 123)

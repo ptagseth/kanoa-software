@@ -25,4 +25,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 asset_id = 123
 user_id = 456
-new_asset_id = copyAsset(asset_id, user_id)
+new_asset_id = system.kanoa.asset.copyAsset(asset_id, user_id)

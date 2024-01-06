@@ -27,4 +27,4 @@ parameters = {
     'assetGroupId': 1,
     'assetGroupName': 'Group1'
 }
-asset_groups = getAssetGroups(parameters)
+asset_groups = system.kanoa.asset.getAssetGroups(parameters)

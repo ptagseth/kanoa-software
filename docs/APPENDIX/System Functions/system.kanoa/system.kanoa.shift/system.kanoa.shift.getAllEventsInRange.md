@@ -27,4 +27,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-scheduleData = getAllEventsInRange(someStartDate, someEndDate, 'someAssetPath', True, True, 5.5)
+scheduleData = system.kanoa.shift.getAllEventsInRange(someStartDate, someEndDate, 'someAssetPath', True, True, 5.5)

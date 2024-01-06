@@ -28,4 +28,4 @@ parameters = {
     'itemUnitId': 2,
     'itemUnitName': 'unit'
 }
-itemUnitsData = getItemUnits(parameters)
+itemUnitsData = system.kanoa.item.getItemUnits(parameters)

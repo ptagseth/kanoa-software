@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-newUnitId = addItemUnit('KanoaUnit', 123)
+newUnitId = system.kanoa.item.addItemUnit('KanoaUnit', 123)
 

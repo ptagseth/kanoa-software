@@ -37,4 +37,4 @@ parameters = {
     'itemClassId': 1,
     'itemClassIdList': [1, 2, 3]
 }
-assetItemsData = getAssetItems(parameters)
+assetItemsData = system.kanoa.item.getAssetItems(parameters)

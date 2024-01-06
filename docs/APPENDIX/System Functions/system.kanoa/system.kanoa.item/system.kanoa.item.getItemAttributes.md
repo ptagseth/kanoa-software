@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-attributesData = getItemAttributes({'itemAttrName': 'weight', 'itemId': 1})
+attributesData = system.kanoa.item.getItemAttributes({'itemAttrName': 'weight', 'itemId': 1})
 

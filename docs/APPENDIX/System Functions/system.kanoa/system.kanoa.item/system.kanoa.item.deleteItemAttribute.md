@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-deletedRecords = deleteItemAttribute(56)
+deletedRecords = system.kanoa.item.deleteItemAttribute(56)
 

@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-updateShiftEvents({'assetPath': 'somePath', 'startDate': someDate, 'endDate': someDate})
+system.kanoa.shift.updateShiftEvents({'assetPath': 'somePath', 'startDate': someDate, 'endDate': someDate})
 

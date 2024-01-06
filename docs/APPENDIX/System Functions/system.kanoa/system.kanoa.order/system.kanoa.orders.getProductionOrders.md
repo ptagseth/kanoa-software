@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-productionOrders = getProductionOrders({'enabled': True, 'assetPath': 'Kanoa Industries%', ...})
+productionOrders = system.kanoa.order.getProductionOrders({'enabled': True, 'assetPath': 'Kanoa Industries%', ...})
 

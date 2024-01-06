@@ -30,6 +30,6 @@ parameters = {
     'assetTypeName': 'site',
     'assetTypePath': 'enterprise\site'
 }
-asset_types_info = getAssetTypes(parameters)
+asset_types_info = system.kanoa.asset.getAssetTypes(parameters)
 
 

@@ -31,5 +31,5 @@ state_info = {
     'enabled': True
 }
 user_id = 456
-state_id = addState(state_info, user_id)
+state_id = system.kanoa.asset.addState(state_info, user_id)
 

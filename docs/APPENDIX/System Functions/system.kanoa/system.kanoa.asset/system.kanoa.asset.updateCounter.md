@@ -30,4 +30,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 count_info = {'assetId': 18, 'counterName': 'caps', 'counterTypeId': 1, 'counterId': 10}
 user_id = 123
-modified_records = updateCounter(count_info, user_id)
+modified_records = system.kanoa.asset.updateCounter(count_info, user_id)

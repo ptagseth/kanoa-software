@@ -43,4 +43,4 @@ mode_info = {
     'modeId': 10
 }
 user_id = 123
-updated_mode_id = updateMode(mode_info, user_id)
+updated_mode_id = system.kanoa.asset.updateMode(mode_info, user_id)

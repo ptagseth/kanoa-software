@@ -23,6 +23,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modifiedRecords = updateItemAssetRate({'itemAssetRateId': 1, 'itemId': 1, 'assetId': 56, 'standardRate': '100.0', 'scheduleRate': 50.0, 'itemPeriodId': 1, 'infeedUnitId': 7, 'outfeedUnitId': 5, 'wasteUnitId': 7, 'packageCount': 24, 'itemSourceId': 1, 'enabled': True}, 123)
+modifiedRecords = system.kanoa.item.updateItemAssetRate({'itemAssetRateId': 1, 'itemId': 1, 'assetId': 56, 'standardRate': '100.0', 'scheduleRate': 50.0, 'itemPeriodId': 1, 'infeedUnitId': 7, 'outfeedUnitId': 5, 'wasteUnitId': 7, 'packageCount': 24, 'itemSourceId': 1, 'enabled': True}, 123)
 
 

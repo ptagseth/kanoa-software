@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-statusId = addProductionOrderStatus({'workOrderStatusName': 'Released', 'statusColor': '#FFFFFF', 'enabled': True}, 123)
+statusId = system.kanoa.order.addProductionOrderStatus({'workOrderStatusName': 'Released', 'statusColor': '#FFFFFF', 'enabled': True}, 123)
 

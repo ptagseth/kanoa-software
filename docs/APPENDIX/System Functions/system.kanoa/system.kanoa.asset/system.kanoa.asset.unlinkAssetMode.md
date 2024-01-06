@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-result = unlinkAssetMode(123)
+result = system.kanoa.asset.unlinkAssetMode(123)
 print(f"Result: {result}")

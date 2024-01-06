@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modifiedRecords = updateShiftBlock({'shiftBlockId': 1, 'shiftId': 2, 'startDate': newDate, 'endDate': newDate, 'rruleStr': 'FREQ=WEEKLY;COUNT=10'}, 123)
+modifiedRecords = system.kanoa.shift.updateShiftBlock({'shiftBlockId': 1, 'shiftId': 2, 'startDate': newDate, 'endDate': newDate, 'rruleStr': 'FREQ=WEEKLY;COUNT=10'}, 123)
 

@@ -31,4 +31,4 @@ itemInfo = {
     'enabled': True,
     'itemId': 1
 }
-updatedItemId = updateItem(itemInfo, 123)
+updatedItemId = system.kanoa.item.updateItem(itemInfo, 123)

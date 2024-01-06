@@ -1,31 +1,26 @@
 ---
 id: getUserCRUD
 title: system.kanoa.security.getUserCRUD
-sidebar_position: 13
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description"> </HeaderBox>
-
+<PurpleBox>This function requires <b>KanoaSecurity</b> and <b>KanoaConfig</b> modules</PurpleBox>
+<HeaderBox header="Description">Returns the CRUD object for security configuration.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getUserCRUD(userId: PyObject) </b>
-    <li> Parameters <br />
-        <ul>userId: PyObject ¿SecurityModule.getUserCRUD.param.userId? <br /> </ul>
-        <ul> </ul>
+    <b>getUserCRUD(userId)</b>
+    <li>Parameters <br />
+        <ul>userId (Integer) - User ID.</ul>
     </li>
-    <li> Returns <br />
-        <ul>No return value. <br /> </ul>
+    <li>Returns <br />
+        <ul>Dictionary.</ul>
     </li>
 </HeaderBox>
 
+### Code Example
 
-### Code Examples
+```python
+# Example Usage:
+userCrudObject = system.kanoa.security.getUserCRUD(123)
 
-```py
-
-
-```

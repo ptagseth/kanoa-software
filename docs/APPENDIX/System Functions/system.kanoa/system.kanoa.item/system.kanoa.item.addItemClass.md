@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-newItemClassId = addItemClass({'parentId': 56, 'itemClassName': 'FG', 'itemClassDescription': 'Finished Goods', 'itemId': 1, 'itemClassColor': '#FF00FF', 'enabled': True}, 123)
+newItemClassId = system.kanoa.item.addItemClass({'parentId': 56, 'itemClassName': 'FG', 'itemClassDescription': 'Finished Goods', 'itemId': 1, 'itemClassColor': '#FF00FF', 'enabled': True}, 123)
 

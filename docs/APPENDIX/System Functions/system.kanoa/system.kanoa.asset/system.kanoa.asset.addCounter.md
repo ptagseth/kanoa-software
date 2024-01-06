@@ -29,4 +29,4 @@ asset_id = 18
 counter_name = 'caps'
 counter_type_name = 'infeed'
 user_id = 123
-counter_id = addCounter(asset_id, counter_name, counter_type_name, user_id)
+counter_id = system.kanoa.asset.addCounter(asset_id, counter_name, counter_type_name, user_id)

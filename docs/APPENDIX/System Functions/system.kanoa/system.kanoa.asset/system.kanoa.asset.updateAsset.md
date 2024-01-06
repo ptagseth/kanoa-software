@@ -39,5 +39,5 @@ asset_info = {
     'assetId': 1234
 }
 user_id = 456
-records_modified = updateAsset(asset_info, user_id)
+records_modified = system.kanoa.asset.updateAsset(asset_info, user_id)
 

@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-state_category_id = addStateCategory('Category_Name', 789)
+state_category_id = system.kanoa.asset.addStateCategory('Category_Name', 789)

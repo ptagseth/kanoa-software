@@ -31,5 +31,5 @@ parameters = {
     'canSelect': True,
     'canSchedule': True
 }
-asset_modes = getAssetModes(parameters)
+asset_modes = system.kanoa.asset.getAssetModes(parameters)
 

@@ -29,4 +29,4 @@ parameters = {
     'itemClassId': 1,
     'itemClassIdList': [1, 2, 3]
 }
-itemClassesData = getItemClasses(parameters)
+itemClassesData = system.kanoa.item.getItemClasses(parameters)

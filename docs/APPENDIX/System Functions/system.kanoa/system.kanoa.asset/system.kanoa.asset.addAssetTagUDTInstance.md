@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 asset_id = 123
-addAssetTagUDTInstance(asset_id)
+system.kanoa.asset.addAssetTagUDTInstance(asset_id)

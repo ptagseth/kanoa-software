@@ -30,5 +30,5 @@ asset_id = 123
 attr_name = 'Attribute1'
 attr_value = 'Value1'
 user_id = 456
-attribute_id, message = addAssetAttribute(asset_id, attr_name, attr_value, user_id)
+attribute_id, message = system.kanoa.asset.addAssetAttribute(asset_id, attr_name, attr_value, user_id)
 

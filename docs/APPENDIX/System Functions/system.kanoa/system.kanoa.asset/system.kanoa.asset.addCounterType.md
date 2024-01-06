@@ -27,4 +27,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 count_type_info = {'counterTypeName': 'general'}
 user_id = 123
-counter_type_id = addCounterType(count_type_info, user_id)
+counter_type_id = system.kanoa.asset.addCounterType(count_type_info, user_id)

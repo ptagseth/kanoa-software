@@ -1,31 +1,26 @@
 ---
 id: getUserFunctions
 title: system.kanoa.security.getUserFunctions
-sidebar_position: 14
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description"> </HeaderBox>
-
+<PurpleBox>This function requires <b>KanoaConfig</b> module</PurpleBox>
+<HeaderBox header="Description">Returns user functions filtered by key values passed in the paramsDict.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getUserFunctions(paramsDict: PyDictionary) </b>
-    <li> Parameters <br />
-        <ul>paramsDict: PyDictionary ¿SecurityModule.getUserFunctions.param.paramsDict? <br /> </ul>
-        <ul> </ul>
+    <b>getUserFunctions(paramsDict)</b>
+    <li>Parameters <br />
+        <ul>paramsDict (Dictionary) - Dictionary with keys such as functionName, label, functionId, enabled, and category.</ul>
     </li>
-    <li> Returns <br />
-        <ul>No return value. <br /> </ul>
+    <li>Returns <br />
+        <ul>PyDataSet.</ul>
     </li>
 </HeaderBox>
 
+### Code Example
 
-### Code Examples
+```python
+# Example Usage:
+userFunctionData = system.kanoa.security.getUserFunctions({'functionName': 'configureAssets', 'label': 'Configure Assets', 'functionId': 7, 'enabled': True})
 
-```py
-
-
-```

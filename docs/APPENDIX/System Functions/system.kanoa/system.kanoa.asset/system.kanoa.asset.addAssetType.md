@@ -30,4 +30,4 @@ type_info = {
     'iconPath': '/path/to/icon'
 }
 user_id = 5
-asset_type_id = addAssetType(type_info, user_id)
+asset_type_id = system.kanoa.asset.addAssetType(type_info, user_id)

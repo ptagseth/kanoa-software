@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-deletedRecords, errorMessage = deleteItemClass(1)
+deletedRecords, errorMessage = system.kanoa.item.deleteItemClass(1)
 

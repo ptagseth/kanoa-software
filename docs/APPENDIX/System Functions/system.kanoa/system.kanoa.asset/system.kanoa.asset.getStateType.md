@@ -27,4 +27,4 @@ parameters = {
     'stateTypeId': 1,
     'stateTypeName': 'Running'
 }
-state_type_data = getStateType(parameters)
+state_type_data = system.kanoa.asset.getStateType(parameters)

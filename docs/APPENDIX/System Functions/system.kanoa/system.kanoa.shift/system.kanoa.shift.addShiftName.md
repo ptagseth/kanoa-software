@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-shiftNameId = addShiftName('Evening Shift', 123)
+shiftNameId = system.kanoa.shift.addShiftName('Evening Shift', 123)
 

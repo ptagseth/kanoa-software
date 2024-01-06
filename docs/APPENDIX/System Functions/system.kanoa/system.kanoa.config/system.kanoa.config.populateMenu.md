@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-menuTree = populateMenu(['kanoaCore', 'kanoaOPS'], ['Admin', 'User'])
+menuTree = system.kanoa.config.populateMenu(['kanoaCore', 'kanoaOPS'], ['Admin', 'User'])

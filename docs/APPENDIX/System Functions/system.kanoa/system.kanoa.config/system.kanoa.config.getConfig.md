@@ -22,6 +22,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-configData = getConfig({'project': 'kanoaCore', 'configName': 'backgroundColor'})
+configData = system.kanoa.config.getConfig({'project': 'kanoaCore', 'configName': 'backgroundColor'})
 
 ```

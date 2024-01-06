@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-workOrderId = addWorkOrder({'workOrderName': 'WO-0001', 'modeId': 1, 'itemId': 47, ...}, 123)
+workOrderId = system.kanoa.order.addWorkOrder({'workOrderName': 'WO-0001', 'modeId': 1, 'itemId': 47, ...}, 123)

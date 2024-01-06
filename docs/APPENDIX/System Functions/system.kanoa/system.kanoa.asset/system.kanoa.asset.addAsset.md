@@ -38,4 +38,4 @@ asset_info = {
     'enabled': True
 }
 user_id = 5
-asset_id = addAsset(asset_info, user_id)
+asset_id = system.kanoa.asset.addAsset(asset_info, user_id)

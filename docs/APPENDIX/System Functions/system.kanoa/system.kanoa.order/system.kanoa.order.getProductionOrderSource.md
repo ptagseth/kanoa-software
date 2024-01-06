@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-orderSource = getProductionOrderSource({'enabled': True, 'workOrderSourceId': 1, 'workOrderSourceName': 'ERP'})
+orderSource = system.kanoa.order.getProductionOrderSource({'enabled': True, 'workOrderSourceId': 1, 'workOrderSourceName': 'ERP'})
 

@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-itemPeriodData = getItemPeriod({'itemPeriodId': 1, 'itemPeriodName': 'Hour'})
+itemPeriodData = system.kanoa.item.getItemPeriod({'itemPeriodId': 1, 'itemPeriodName': 'Hour'})

@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modifiedRecords = updateItemPeriod({'itemPeriodId': 1, 'itemPeriodName': 'second', 'enabled': True}, 123)
+modifiedRecords = system.kanoa.item.updateItemPeriod({'itemPeriodId': 1, 'itemPeriodName': 'second', 'enabled': True}, 123)
 

@@ -30,4 +30,4 @@ parameters = {
     'stateTypeId': 2,
     'assetGroupId': 1
 }
-state_info = getStates(parameters)
+state_info = system.kanoa.asset.getStates(parameters)

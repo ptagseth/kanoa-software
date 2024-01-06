@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 state_id = 1
-records_modified, status_msg = deleteState(state_id)
+records_modified, status_msg = system.kanoa.asset.deleteState(state_id)

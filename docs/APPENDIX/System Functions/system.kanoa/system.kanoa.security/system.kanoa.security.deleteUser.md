@@ -1,31 +1,25 @@
 ---
 id: deleteUser
 title: system.kanoa.security.deleteUser
-sidebar_position: 5
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description"> </HeaderBox>
-
+<PurpleBox>This function requires <b>KanoaSecurity</b> and <b>KanoaConfig</b> modules</PurpleBox>
+<HeaderBox header="Description">Deletes a user specified by the userId. SQL cascade will delete the user from the userAssetRole table.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b> </b>
-    <li> Parameters <br />
-        <ul> <br /> </ul>
-        <ul> </ul>
+    <b>deleteUser(userId)</b>
+    <li>Parameters <br />
+        <ul>userId (Integer) - User ID.</ul>
     </li>
-    <li> Returns <br />
-        <ul> <br /> </ul>
+    <li>Returns <br />
+        <ul>List of dictionaries (List).</ul>
     </li>
 </HeaderBox>
 
+### Code Example
 
-### Code Examples
-
-```py
-
-
-```
+```python
+# Example Usage:
+deletedUserRecords = system.kanoa.security.deleteUser(123)

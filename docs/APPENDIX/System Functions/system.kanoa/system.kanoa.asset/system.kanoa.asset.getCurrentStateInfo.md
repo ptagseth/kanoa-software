@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 asset_path = 'SampleAsset'
-state_info = getCurrentStateInfo(asset_path)
+state_info = system.kanoa.asset.getCurrentStateInfo(asset_path)
 

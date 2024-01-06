@@ -23,6 +23,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 params = {'enabled': True, 'assetPath': 'Kanoa Industries%', 'assetId': 1}
-asset_attributes = getAssetAttributes(params)
+asset_attributes = system.kanoa.asset.getAssetAttributes(params)
 
 

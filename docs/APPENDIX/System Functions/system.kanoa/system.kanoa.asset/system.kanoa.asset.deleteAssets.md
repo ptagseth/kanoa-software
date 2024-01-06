@@ -26,4 +26,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 asset_id = 123
 user_id = 456
-success, message = deleteAssets(asset_id, user_id)
+success, message = system.kanoa.asset.deleteAssets(asset_id, user_id)

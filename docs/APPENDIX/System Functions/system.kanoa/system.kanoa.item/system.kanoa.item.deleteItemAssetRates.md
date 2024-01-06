@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-deletedRecords = deleteItemAssetRates(56)
+deletedRecords = system.kanoa.item.deleteItemAssetRates(56)

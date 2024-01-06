@@ -22,6 +22,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-mode_source_id = getModeSourceId('Operator')
+mode_source_id = system.kanoa.asset.getModeSourceId('Operator')
 print(f"The modeSourceId for 'Operator' is {mode_source_id}.")
 

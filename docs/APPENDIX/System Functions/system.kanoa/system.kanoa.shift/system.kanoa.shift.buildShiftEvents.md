@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-buildShiftEvents(1, someStartDate, someEndDate)
+system.kanoa.shift.buildShiftEvents(1, someStartDate, someEndDate)

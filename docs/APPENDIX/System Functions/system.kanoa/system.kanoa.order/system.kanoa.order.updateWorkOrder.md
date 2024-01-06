@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-recordsModified = updateWorkOrder({'workOrderId': 1, 'workOrderName': 'WO-0001', ...}, 123)
+recordsModified = system.kanoa.order.updateWorkOrder({'workOrderId': 1, 'workOrderName': 'WO-0001', ...}, 123)
 

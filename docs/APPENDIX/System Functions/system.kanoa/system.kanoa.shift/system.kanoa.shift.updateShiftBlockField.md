@@ -25,4 +25,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modifiedRecords = updateShiftBlockField(1, 'startDate', newStartDate, 123)
+modifiedRecords = system.kanoa.shift.updateShiftBlockField(1, 'startDate', newStartDate, 123)

@@ -1,30 +1,25 @@
 ---
 id: getRoles
 title: system.kanoa.security.getRoles
-sidebar_position: 10
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description"> </HeaderBox>
-
+<PurpleBox>This function requires <b>KanoaConfig</b> module</PurpleBox>
+<HeaderBox header="Description">Returns roles based on the provided parameters.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getRoles(paramsDict: PyDictionary) </b>
-    <li> Parameters <br />
-        <ul>paramsDict: PyDictionary ¿SecurityModule.getRoles.param.paramsDict? <br /> </ul>
+    <b>getRoles(paramsDict)</b>
+    <li>Parameters <br />
+        <ul>paramsDict (Dictionary) - Dictionary with keys such as roleId, roleName, and enabled.</ul>
     </li>
-    <li> Returns <br />
-        <ul>No return value. <br /> </ul>
+    <li>Returns <br />
+        <ul>PyDataSet.</ul>
     </li>
 </HeaderBox>
 
+### Code Example
 
-### Code Examples
-
-```py
-
-
-```
+```python
+# Example Usage:
+rolesData = system.kanoa.security.getRoles({'roleId': 1, 'roleName': 'Operator', 'enabled': True})

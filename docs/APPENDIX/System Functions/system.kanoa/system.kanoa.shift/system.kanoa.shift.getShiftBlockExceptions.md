@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-shiftBlockExceptions = getShiftBlockExceptions({'shiftBlockId': 1})
+shiftBlockExceptions = system.kanoa.shift.getShiftBlockExceptions({'shiftBlockId': 1})

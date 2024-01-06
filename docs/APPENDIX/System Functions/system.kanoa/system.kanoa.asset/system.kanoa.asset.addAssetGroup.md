@@ -25,5 +25,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 group_name = 'Group1'
 user_id = 5
-asset_group_id = addAssetGroup(group_name, user_id)
+asset_group_id = system.kanoa.asset.addAssetGroup(group_name, user_id)
 

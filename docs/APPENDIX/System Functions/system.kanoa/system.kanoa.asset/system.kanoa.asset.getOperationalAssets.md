@@ -32,5 +32,5 @@ parameters = {
     'userId': 5,
     'userFunction': 'configureAssets'
 }
-operational_assets = getOperationalAssets(parameters)
+operational_assets = system.kanoa.asset.getOperationalAssets(parameters)
 

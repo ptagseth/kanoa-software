@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-shifts = getShifts({'shiftNameId': 1, 'assetPath': 'Factory%', 'assetTypeName': 'Production Line'})
+shifts = system.kanoa.shift.getShifts({'shiftNameId': 1, 'assetPath': 'Factory%', 'assetTypeName': 'Production Line'})

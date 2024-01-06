@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modifiedRecords = updateItemClass({'itemClassId': 1, 'parentId': 56, 'itemClassName': 'FG', 'itemClassDescription': 'Finished Goods', 'itemId': 1, 'itemClassColor': '#FF00FF', 'enabled': True}, 123)
+modifiedRecords = system.kanoa.item.updateItemClass({'itemClassId': 1, 'parentId': 56, 'itemClassName': 'FG', 'itemClassDescription': 'Finished Goods', 'itemId': 1, 'itemClassColor': '#FF00FF', 'enabled': True}, 123)
 

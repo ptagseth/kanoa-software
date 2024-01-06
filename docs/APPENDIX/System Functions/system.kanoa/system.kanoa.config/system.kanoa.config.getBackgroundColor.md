@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-bgColor = getBackgroundColor('light')
+bgColor = system.kanoa.config.getBackgroundColor('light')

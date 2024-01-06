@@ -26,6 +26,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # This returns the time period info for time period item named 'Hour' and enabled
 
 paramsDict = {'enabled': True, 'itemPeriodName': 'Hour'}
-system.kanoa.items.getItemPeriods(paramsDict)
+system.kanoa.item.getItemPeriods(paramsDict)
 
 ```

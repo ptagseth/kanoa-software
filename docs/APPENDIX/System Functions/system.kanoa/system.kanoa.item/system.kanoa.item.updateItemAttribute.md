@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modifiedRecords = updateItemAttribute({'itemAttrId': 56, 'itemAttrName': 'weight', 'itemId': 1, 'itemAttrValue': 60}, 123)
+modifiedRecords = system.kanoa.item.updateItemAttribute({'itemAttrId': 56, 'itemAttrName': 'weight', 'itemId': 1, 'itemAttrValue': 60}, 123)

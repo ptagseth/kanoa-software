@@ -1,33 +1,25 @@
 ---
 id: checkIsGatewayAdmin
 title: system.kanoa.security.checkIsGatewayAdmin
-sidebar_position: 3
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Checks to see if a user is a Gateway Admin  </HeaderBox>
-
+<PurpleBox>This function requires <b>KanoaConfig</b> module</PurpleBox>
+<HeaderBox header="Description">Returns true if the user has the Gateway Admin role.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>checkIsGatewayAdmin(userId: PyObject) </b>
-    <li> Parameters <br />
-        <ul>userId: PyObject (int) id of user <br /> </ul>
+    <b>checkIsGatewayAdmin(userId)</b>
+    <li>Parameters <br />
+        <ul>userId (Integer) - User ID.</ul>
     </li>
-    <li> Returns <br />
-        <ul>(boolean) True if user is Gateway Admin, False if not <br /> </ul>
+    <li>Returns <br />
+        <ul>True / False (Bool).</ul>
     </li>
 </HeaderBox>
 
+### Code Example
 
-### Code Examples
-
-```py
-#This will return a true value if user is Gateway admin or false if not for the requested userId 
-
-userId = 7
-system.kanoa.security.checkIsGatewayAdmin(userId)
-
-```
+```python
+# Example Usage:
+isAdmin = system.kanoa.security.checkIsGatewayAdmin(123)

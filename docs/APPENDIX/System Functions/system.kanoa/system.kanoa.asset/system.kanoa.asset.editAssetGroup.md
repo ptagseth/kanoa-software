@@ -27,4 +27,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 group_name = 'NewAssetGroup'
 group_id = 123
 user_id = 456
-updated_records = editAssetGroup(group_name, group_id, user_id)
+updated_records = system.kanoa.asset.editAssetGroup(group_name, group_id, user_id)

@@ -25,4 +25,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 mode_id = 123
 user_id = 456
-records_modified, message = deleteMode(mode_id, user_id)
+records_modified, message = system.kanoa.asset.deleteMode(mode_id, user_id)

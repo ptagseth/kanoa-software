@@ -25,5 +25,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-linkAssetStates([1, 2, 3], [101, 102, 103], 456, ['Code1', 'Code2', 'Code3'])
+system.kanoa.asset.linkAssetStates([1, 2, 3], [101, 102, 103], 456, ['Code1', 'Code2', 'Code3'])
 ``

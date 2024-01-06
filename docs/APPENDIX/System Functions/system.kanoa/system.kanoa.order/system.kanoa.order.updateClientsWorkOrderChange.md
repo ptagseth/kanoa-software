@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-updateClientsWorkOrderChange()
+system.kanoa.order.updateClientsWorkOrderChange()

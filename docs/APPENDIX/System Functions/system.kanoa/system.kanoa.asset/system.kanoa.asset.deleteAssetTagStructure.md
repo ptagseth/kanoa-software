@@ -25,4 +25,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 asset_id = 123
 user_id = 456
-deleteAssetTagStructure(asset_id, user_id)
+system.kanoa.asset.deleteAssetTagStructure(asset_id, user_id)

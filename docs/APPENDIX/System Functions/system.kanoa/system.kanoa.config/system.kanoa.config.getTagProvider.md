@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-tagProvider = getTagProvider('core')
+tagProvider = system.kanoa.config.getTagProvider('core')

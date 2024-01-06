@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-shiftBlocks = getShiftBlocks({'shiftNameId': 1, 'recurring': True})
+shiftBlocks = system.kanoa.shift.getShiftBlocks({'shiftNameId': 1, 'recurring': True})
 

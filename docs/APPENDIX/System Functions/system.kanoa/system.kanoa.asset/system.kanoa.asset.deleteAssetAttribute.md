@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modified_records = deleteAssetAttribute(123, 456)
+modified_records = system.kanoa.asset.deleteAssetAttribute(123, 456)

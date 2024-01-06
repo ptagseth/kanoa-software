@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 params = {'enabled': True, 'modeTypeId': 1, 'modeTypeName': 'Production'}
-enabled_mode_types = getModeTypes(params, True)
+enabled_mode_types = system.kanoa.asset.getModeTypes(params, True)

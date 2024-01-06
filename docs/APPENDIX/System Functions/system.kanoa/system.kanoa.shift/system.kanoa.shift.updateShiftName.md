@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modifiedRecords = updateShiftName('Updated Shift Name', 1, 123)
+modifiedRecords = system.kanoa.shift.updateShiftName('Updated Shift Name', 1, 123)

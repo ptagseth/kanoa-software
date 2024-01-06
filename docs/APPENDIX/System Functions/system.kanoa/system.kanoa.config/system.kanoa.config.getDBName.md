@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-dbName = getDBName('core')
+dbName = system.kanoa.config.getDBName('core')

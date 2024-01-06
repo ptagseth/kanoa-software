@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-modified_records, error_msg = setAssetStateLinkCode(123, 456, 789)
+modified_records, error_msg = system.kanoa.asset.setAssetStateLinkCode(123, 456, 789)

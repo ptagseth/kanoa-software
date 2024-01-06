@@ -27,5 +27,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 input_date = system.date.now()
 asset_path = 'Kanoa Industries\Site1'
 device_offset = 5.5
-adjusted_date = adjustTimeForSite(input_date, asset_path, device_offset)
+adjusted_date = system.kanoa.asset.adjustTimeForSite(input_date, asset_path, device_offset)
 

@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-orderStates = getProductionOrderStates({'enabled': True, 'workOrderStatusId': 1, 'workOrderStatusName': 'Released'})
+orderStates = system.kanoa.order.getProductionOrderStates({'enabled': True, 'workOrderStatusId': 1, 'workOrderStatusName': 'Released'})
 

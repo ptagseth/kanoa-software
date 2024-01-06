@@ -31,5 +31,5 @@ parameters = {
     'canSelect': True,
     'canSchedule': True
 }
-modes_info = getModes(parameters)
+modes_info = system.kanoa.asset.getModes(parameters)
 

@@ -25,4 +25,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 mode_id = 123
 enabled = True
-records_modified = enableMode(mode_id, enabled)
+records_modified = system.kanoa.asset.enableMode(mode_id, enabled)

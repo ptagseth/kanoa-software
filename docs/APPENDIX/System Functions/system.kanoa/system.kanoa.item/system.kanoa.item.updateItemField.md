@@ -25,4 +25,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-updatedItemId = updateItemField(1, 'itemName', 'NewName', 123)
+updatedItemId = system.kanoa.item.updateItemField(1, 'itemName', 'NewName', 123)

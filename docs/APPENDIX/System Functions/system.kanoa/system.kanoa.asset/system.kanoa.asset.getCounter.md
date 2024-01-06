@@ -31,4 +31,4 @@ parameters = {
     'counterTypeId': 2,
     'counterTypeName': 'infeed'
 }
-counter_data = getCounter(parameters)
+counter_data = system.kanoa.asset.getCounter(parameters)

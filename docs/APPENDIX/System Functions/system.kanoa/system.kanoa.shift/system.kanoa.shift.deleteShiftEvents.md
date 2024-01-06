@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 shiftEventInfo = {'assetId': 1, 'startDate': someStartDate, 'endDate': someEndDate}
-deletedRecords = deleteShiftEvents(shiftEventInfo)
+deletedRecords = system.kanoa.shift.deleteShiftEvents(shiftEventInfo)
 

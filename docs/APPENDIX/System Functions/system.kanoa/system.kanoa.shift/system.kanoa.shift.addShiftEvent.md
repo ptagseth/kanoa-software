@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 shiftEventInfo = {'assetId': 1, 'shiftId': 2, 'tStamp': someDate}
-shiftEventId = addShiftEvent(shiftEventInfo, 123)
+shiftEventId = system.kanoa.shift.addShiftEvent(shiftEventInfo, 123)

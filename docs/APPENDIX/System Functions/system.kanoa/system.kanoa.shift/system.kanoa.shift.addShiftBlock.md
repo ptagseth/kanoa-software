@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 shiftBlockInfo = {'shiftId': 1, 'startDate': someDate, 'endDate': someDate, 'rruleStr': None}
-shiftBlockId = addShiftBlock(shiftBlockInfo, 123)
+shiftBlockId = system.kanoa.shift.addShiftBlock(shiftBlockInfo, 123)

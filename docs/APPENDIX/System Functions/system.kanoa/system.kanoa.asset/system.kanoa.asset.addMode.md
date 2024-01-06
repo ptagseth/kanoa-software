@@ -33,5 +33,5 @@ mode_info = {
     'iconPath': '/path/to/icon'
 }
 user_id = 5
-mode_id = addMode(mode_info, user_id)
+mode_id = system.kanoa.asset.addMode(mode_info, user_id)
 

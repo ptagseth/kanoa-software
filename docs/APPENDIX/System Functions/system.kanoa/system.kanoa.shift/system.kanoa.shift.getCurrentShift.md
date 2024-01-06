@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-currentShift = getCurrentShift({'assetId': 1})
+currentShift = system.kanoa.shift.getCurrentShift({'assetId': 1})
 

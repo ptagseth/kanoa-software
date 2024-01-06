@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-tag_path = getAssetTagPath({'assetPath': 'Kanoa Industries\Adelaide Hills\Packaging\Line 1'})
+tag_path = system.kanoa.asset.getAssetTagPath({'assetPath': 'Kanoa Industries\Adelaide Hills\Packaging\Line 1'})
 print(f"The tag path is: {tag_path}")

@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-success, recordsModified = deleteWorkOrder(1, 123)
+success, recordsModified = system.kanoa.order.deleteWorkOrder(1, 123)

@@ -27,4 +27,4 @@ parameters = {
     'stateCategoryId': 1,
     'stateCategoryName': 'Electrical'
 }
-state_category_data = getStateCategory(parameters)
+state_category_data = system.kanoa.asset.getStateCategory(parameters)

@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-recordId = writeConfig('kanoaCore', 'backgroundColor', '#FFFFFF')
+recordId = system.kanoa.config.writeConfig('kanoaCore', 'backgroundColor', '#FFFFFF')

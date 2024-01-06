@@ -26,4 +26,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-closestAncestor = getClosestAncestorWithShifts('someAssetPath', someStartDate, someEndDate, 60, 5.5)
+closestAncestor = system.kanoa.shift.getClosestAncestorWithShifts('someAssetPath', someStartDate, someEndDate, 60, 5.5)

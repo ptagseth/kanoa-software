@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-records_modified = enableModeAssetLink(123, True)
+records_modified = system.kanoa.asset.enableModeAssetLink(123, True)
 print(f"{records_modified} records modified for modeAssetLink with ID 123.")

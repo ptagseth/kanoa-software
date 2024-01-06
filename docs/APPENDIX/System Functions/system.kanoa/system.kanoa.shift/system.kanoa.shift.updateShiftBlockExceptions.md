@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-updateShiftBlockExceptions(1, newStartDate)
+system.kanoa.shift.updateShiftBlockExceptions(1, newStartDate)

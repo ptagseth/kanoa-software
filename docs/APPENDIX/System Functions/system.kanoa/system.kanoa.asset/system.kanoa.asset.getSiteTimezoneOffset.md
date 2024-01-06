@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-timezone_offset, timezone_info = getSiteTimezoneOffset({'assetId': 1})
+timezone_offset, timezone_info = system.kanoa.asset.getSiteTimezoneOffset({'assetId': 1})

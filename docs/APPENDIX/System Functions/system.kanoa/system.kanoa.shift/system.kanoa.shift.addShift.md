@@ -24,4 +24,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 shiftInfo = {'shiftNameId': 1, 'assetId': 18, 'shiftColor': '#00FF00'}
-shiftId = addShift(shiftInfo, 123)
+shiftId = system.kanoa.shift.addShift(shiftInfo, 123)

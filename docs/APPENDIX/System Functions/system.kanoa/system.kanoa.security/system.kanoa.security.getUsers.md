@@ -1,31 +1,28 @@
 ---
 id: getUsers
 title: system.kanoa.security.getUsers
-sidebar_position: 16
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description"> </HeaderBox>
-
+<PurpleBox>This function requires <b>KanoaSecurity</b> and <b>KanoaConfig</b> modules</PurpleBox>
+<HeaderBox header="Description">Returns user information based on the provided parameters.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b> </b>
-    <li> Parameters <br />
-        <ul> <br /> </ul>
-        <ul> </ul>
+    <b>getUsers(paramsDict)</b>
+    <li>Parameters <br />
+        <ul>paramsDict (Dictionary) - Dictionary with keys such as userName, userId, or idpUserId.</ul>
     </li>
-    <li> Returns <br />
-        <ul> <br /> </ul>
+    <li>Returns <br />
+        <ul>Data (PyDataSet).</ul>
     </li>
 </HeaderBox>
 
+### Code Example
 
-### Code Examples
+```python
+# Example Usage:
+userData = system.kanoa.security.getUsers({'userName': 'johndoe'})
 
-```py
 
 
-```

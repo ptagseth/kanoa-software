@@ -30,4 +30,4 @@ itemInfo = {
     'itemColor': None,
     'enabled': True
 }
-newItemId = addItem(itemInfo, 123)
+newItemId = system.kanoa.item.addItem(itemInfo, 123)

@@ -23,7 +23,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-records_modified, error_msg = setAssetModeCode(123, 456)
+records_modified, error_msg = system.kanoa.asset.setAssetModeCode(123, 456)
 if records_modified is not None:
     print(f"{records_modified} records modified for modeAssetLink with ID 123.")
 else:

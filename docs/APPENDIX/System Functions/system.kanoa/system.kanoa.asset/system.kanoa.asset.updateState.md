@@ -32,5 +32,5 @@ state_info = {
     'enabled': False
 }
 user_id = 456
-records_modified = updateState(state_info, user_id)
+records_modified = system.kanoa.asset.updateState(state_info, user_id)
 

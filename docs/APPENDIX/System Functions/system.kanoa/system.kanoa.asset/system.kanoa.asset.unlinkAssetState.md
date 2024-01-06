@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Example Usage:
 state_asset_link_id = 123
-status_message = unlinkAssetState(state_asset_link_id)
+status_message = system.kanoa.asset.unlinkAssetState(state_asset_link_id)

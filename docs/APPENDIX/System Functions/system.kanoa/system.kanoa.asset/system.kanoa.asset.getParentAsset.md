@@ -25,5 +25,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 asset_type_name = 'site'
 asset_path = 'Kanoa Industries\Adelaide Hills\Packaging\Line 1'
-parent_asset_data = getParentAsset(asset_type_name, asset_path)
+parent_asset_data = system.kanoa.asset.getParentAsset(asset_type_name, asset_path)
 

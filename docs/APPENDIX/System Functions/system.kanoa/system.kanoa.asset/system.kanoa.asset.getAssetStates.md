@@ -44,4 +44,4 @@ state_params = {
     'stateName': 'Running',
     'stateTypeName': 'Running'
 }
-asset_states = getAssetStates(state_params)
+asset_states = system.kanoa.asset.getAssetStates(state_params)
