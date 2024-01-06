@@ -7,7 +7,7 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-<HeaderBox header="Description">Returns all schedule blocks for the given parameters (kanoaScheduler).</HeaderBox>
+<HeaderBox header="Description">Returns all schedule blocks for the given parameters.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getScheduleBlocks(paramsDict)</b>
     <li>Parameters <br />

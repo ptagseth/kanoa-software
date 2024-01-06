@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    Returns downtime data by interval filtered by the given parameters. (CURRENTLY NOT WORKING)
+    Returns downtime data by interval filtered by the given parameters. 
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>getDowntimeDataByInterval(assetId, startDate, endDate, interval, offsetMins=0)</b>

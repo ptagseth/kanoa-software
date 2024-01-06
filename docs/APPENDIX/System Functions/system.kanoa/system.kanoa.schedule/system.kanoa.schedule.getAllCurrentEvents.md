@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    Returns scheduled events for the current day for the passed-in assetPath (kanoaScheduler).
+    Returns scheduled events for the current day for the passed-in assetPath.
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>getAllCurrentEvents(assetPath='%')</b>

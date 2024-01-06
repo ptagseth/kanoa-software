@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    Used in Reliability analysis to compare the amount of time modes were scheduled for compared to how long they were actually in that mode (kanoaScheduler).
+    Used in Reliability analysis to compare the amount of time modes were scheduled for compared to how long they were actually in that mode.
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>getScheduledEventDurations(assetPath, rangeStart, rangeEnd)</b>

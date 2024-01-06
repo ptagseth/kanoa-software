@@ -7,7 +7,7 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-<HeaderBox header="Description">Returns schedule block exceptions. Formerly called getAllRecurringExceptions / getRecurringExceptions (kanoaScheduler).</HeaderBox>
+<HeaderBox header="Description">Returns schedule block exceptions.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getScheduleBlockExceptions(paramsDict)</b>
     <li>Parameters <br />

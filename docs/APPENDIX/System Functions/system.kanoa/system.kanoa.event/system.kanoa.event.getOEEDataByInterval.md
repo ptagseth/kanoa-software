@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    Returns OEE data by interval filtered by the given parameters. (Currently not working, ticket in with IA)
+    Returns OEE data by interval filtered by the given parameters.
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>getOEEDataByInterval(assetId, startDate, endDate, interval)</b>

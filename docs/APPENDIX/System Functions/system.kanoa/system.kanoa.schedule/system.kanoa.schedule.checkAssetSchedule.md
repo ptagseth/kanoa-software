@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    This function is called by a gateway timer script. It will check the schedule to see what is scheduled for the line in which case it will set the line mode accordingly (kanoaOPS).
+    This function is called by a gateway timer script. It will check the schedule to see what is scheduled for the line in which case it will set the line mode accordingly.
     It will also check if any currently scheduled operations should have ended, in which case it will put the asset into an idle mode.
 </HeaderBox>
 <HeaderBox header="Syntax">

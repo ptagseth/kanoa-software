@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    Updates schedule block exceptions when an event block's startDate gets updated. This function is private and only gets called by updateScheduledEventTime and updateScheduleBlock (kanoaScheduler).
+    Updates schedule block exceptions when an event block's startDate gets updated. This function is private and only gets called by updateScheduledEventTime and updateScheduleBlock.
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>updateScheduleBlockExceptions(scheduleBlockId, newStartDate, userId)</b>

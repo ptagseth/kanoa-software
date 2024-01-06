@@ -7,7 +7,7 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-<HeaderBox header="Description">Updates the passed field value for the given scheduleBlockId. (kanoaScheduler)</HeaderBox>
+<HeaderBox header="Description">Updates the passed field value for the given scheduleBlockId.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>updateScheduleBlockField(scheduleBlockId, field, value, userId)</b>
     <li>Parameters <br />

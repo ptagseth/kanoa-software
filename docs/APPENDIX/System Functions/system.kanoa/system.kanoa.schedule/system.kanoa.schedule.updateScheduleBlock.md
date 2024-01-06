@@ -7,7 +7,7 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-<HeaderBox header="Description">Updates a schedule block (kanoaScheduler).</HeaderBox>
+<HeaderBox header="Description">Updates a schedule block.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>updateScheduleBlock(scheduleBlockInfo, userId)</b>
     <li>Parameters <br />

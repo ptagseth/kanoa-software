@@ -7,7 +7,7 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-<HeaderBox header="Description">Deletes a schedule block. Formerly called 'deleteLineScheduleEvent' (kanoaScheduler).</HeaderBox>
+<HeaderBox header="Description">Deletes a schedule block. Formerly called 'deleteLineScheduleEvent'.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>deleteScheduleBlock(scheduleBlockId, userId)</b>
     <li>Parameters <br />

@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    After a change has been made to the schedule, this function updates the tag schedule dataset. It informs any open views that a change to the schedule has been made. (kanoaScheduler). It also checks if there are any currently running scheduled events that need to be updated.
+    After a change has been made to the schedule, this function updates the tag schedule dataset. It informs any open views that a change to the schedule has been made. It also checks if there are any currently running scheduled events that need to be updated.
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>updateClientsScheduleChange(assetPath)</b>

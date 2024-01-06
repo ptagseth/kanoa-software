@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    Decodes the passed-in event record using the startDate and rruleStr (kanoaScheduler).
+    Decodes the passed-in event record using the startDate and rruleStr.
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>decodeScheduleBlock(scheduleBlock, rangeStart, rangeEnd, deviceUTCOffsetHrs=0, siteOffsetMins=0)</b>

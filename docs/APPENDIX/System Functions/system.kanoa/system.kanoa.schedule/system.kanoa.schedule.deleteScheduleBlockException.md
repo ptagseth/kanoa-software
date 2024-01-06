@@ -7,7 +7,7 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
-<HeaderBox header="Description">Deletes a schedule block exception. Formerly called deleteRecurringException (kanoaScheduler).</HeaderBox>
+<HeaderBox header="Description">Deletes a schedule block exception. Formerly called deleteRecurringException.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>deleteScheduleBlockException(scheduleBlockExceptionId)</b>
     <li>Parameters <br />

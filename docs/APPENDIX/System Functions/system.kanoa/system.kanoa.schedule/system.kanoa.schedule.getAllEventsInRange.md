@@ -8,7 +8,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    Gets all events in the specified range. Applies an offset to all the dates for the dates to show correctly on the calendar component (kanoaScheduler).
+    Gets all events in the specified range. Applies an offset to all the dates for the dates to show correctly on the calendar component.
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>getAllEventsInRange(rangeStart, rangeEnd, assetPath='%', deviceUTCOffsetHrs=None)</b>
