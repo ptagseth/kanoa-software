@@ -28,4 +28,4 @@ parameters = {
     'startDate': '2023-01-01',
     'endDate': '2023-12-31'
 }
-modeEventsData = getModeEvents(parameters)
+mode_events_data = system.kanoa.event.getModeEvents(params_dict)
