@@ -7,7 +7,6 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
 <HeaderBox header="Description">Takes a dataset or pyDataset and converts the first row to json. If no rows are found, it creates json will null for values. </HeaderBox>
 
 <HeaderBox header="Syntax">

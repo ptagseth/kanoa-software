@@ -6,7 +6,7 @@ title: system.kanoa.event.getModeEvents
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox> 
 <HeaderBox header="Description">Returns mode events (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getModeEvents(paramsDict)</b>

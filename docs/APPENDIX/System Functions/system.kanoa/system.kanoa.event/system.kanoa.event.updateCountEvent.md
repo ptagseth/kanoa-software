@@ -6,7 +6,7 @@ title: system.kanoa.event.updateCountEvent
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
     Updates a count value in the counterEvent table. If it can't find a value at the timestamp, it will add a count value.
 </HeaderBox>

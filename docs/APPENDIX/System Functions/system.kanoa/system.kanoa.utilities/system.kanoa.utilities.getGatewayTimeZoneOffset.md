@@ -6,7 +6,7 @@ title: system.kanoa.utilities.getGatewayTimeZoneOffset
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Returns the timezone offset for the gateway server (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getGatewayTimeZoneOffset()</b>

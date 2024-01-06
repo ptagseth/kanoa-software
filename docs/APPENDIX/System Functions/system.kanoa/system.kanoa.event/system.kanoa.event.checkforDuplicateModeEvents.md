@@ -6,7 +6,7 @@ title: system.kanoa.event.checkforDuplicateModeEvents
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
     Checks for duplicate contiguous modeEvent entries and removes them.
 </HeaderBox>

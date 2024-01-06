@@ -6,7 +6,7 @@ title: system.kanoa.utilities.storeDateRangeSelection
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Stores the passed-in date range to make it persistent across views in the current tab (page) (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>storeDateRangeSelection(self, startDate, endDate, selectedDateRange)</b>

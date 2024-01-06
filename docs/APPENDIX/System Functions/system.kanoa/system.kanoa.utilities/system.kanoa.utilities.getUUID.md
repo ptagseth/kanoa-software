@@ -6,7 +6,7 @@ title: system.kanoa.utilities.getUUID
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Returns a universally unique 65-character string value (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getUUID()</b>

@@ -6,7 +6,7 @@ title: system.kanoa.event.updateModeEvent
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
     Updates any of the mode event table fields such as modeId, workOrderId, or itemId fields.
 </HeaderBox>

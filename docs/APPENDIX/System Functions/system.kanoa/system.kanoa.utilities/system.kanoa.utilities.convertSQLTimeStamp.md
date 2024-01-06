@@ -6,7 +6,7 @@ title: system.kanoa.utilities.convertSQLTimeStamp
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Converts a java.util.date or SQL Timestamp object to a java.util.date object (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>convertSQLTimeStamp(timeStamp)</b>

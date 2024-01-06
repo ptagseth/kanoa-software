@@ -6,7 +6,7 @@ title: system.kanoa.security.addUserAssetRole
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function requires <b>KanoaConfig</b> module</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Updates user roles for assets.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>addUserAssetRole(paramsDict, userId)</b>

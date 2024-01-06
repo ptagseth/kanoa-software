@@ -6,7 +6,7 @@ title: system.kanoa.security.checkIsGatewayAdmin
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function requires <b>KanoaConfig</b> module</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Returns true if the user has the Gateway Admin role.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>checkIsGatewayAdmin(userId)</b>

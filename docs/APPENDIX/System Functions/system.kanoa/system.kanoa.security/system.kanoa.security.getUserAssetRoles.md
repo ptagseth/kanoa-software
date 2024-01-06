@@ -6,7 +6,7 @@ title: system.kanoa.security.getUserAssetRoles
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function requires <b>KanoaConfig</b> module</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Given a user and a requested function, returns the allowed assets, functions, and roles.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getUserAssetRoles(paramsDict)</b>

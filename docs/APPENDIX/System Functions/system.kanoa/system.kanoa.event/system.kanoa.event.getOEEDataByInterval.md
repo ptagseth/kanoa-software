@@ -6,7 +6,7 @@ title: system.kanoa.event.getOEEDataByInterval
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
     Returns OEE data by interval filtered by the given parameters. (Currently not working, ticket in with IA)
 </HeaderBox>

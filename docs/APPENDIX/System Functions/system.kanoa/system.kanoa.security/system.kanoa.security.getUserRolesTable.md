@@ -8,7 +8,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
 <HeaderBox header="Description"> </HeaderBox>
 
 <HeaderBox header="Syntax">

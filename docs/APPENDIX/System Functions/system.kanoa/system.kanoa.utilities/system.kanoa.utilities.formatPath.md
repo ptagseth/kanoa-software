@@ -6,7 +6,7 @@ title: system.kanoa.utilities.formatPath
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Takes a string 'path' and replaces the split key with the delimiter (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>formatPath(path, paramsDict)</b>

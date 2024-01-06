@@ -6,7 +6,7 @@ title: system.kanoa.utilities.translateData
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Translates the list of columns of the passed-in dataset into the given local language (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>translateData(data, colList, locale)</b>

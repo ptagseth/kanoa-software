@@ -6,7 +6,7 @@ title: system.kanoa.utilities.getStoredDateRange
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Gets the stored date range for the page to make the date selector persistent across views in the current tab (page) (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getStoredDateRange(self)</b>

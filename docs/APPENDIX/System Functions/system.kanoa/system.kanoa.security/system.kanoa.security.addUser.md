@@ -6,7 +6,7 @@ title: system.kanoa.security.addUser
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function requires <b>KanoaSecurity</b> and <b>KanoaConfig</b> modules</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Creates a new user with the provided information.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>addUser(paramsDict, userId)</b>

@@ -6,7 +6,7 @@ title: system.kanoa.utilities.convertDatasetToDict
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Given the name of a key column and value column, this function converts a dataset into a dictionary of key-value pairs (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>convertDatasetToDict(data, keyCol, valueCol)</b>

@@ -6,7 +6,7 @@ title: system.kanoa.utilities.getComplementaryColors
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">This function will return a list of ordered colors which are tetradic complements of the provided RGB value (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getComplementaryColors(count, r, g, b)</b>

@@ -6,7 +6,7 @@ title: system.kanoa.event.updateStateEventInfo
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
     Adds, inserts, or updates an entry in the stateEventInfo table. This can be used to hold metadata about any stateEvent.
 </HeaderBox>

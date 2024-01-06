@@ -8,7 +8,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
 <HeaderBox header="Description">Returns a single value for the security config as described by the paramsDict </HeaderBox>
 
 <HeaderBox header="Syntax">

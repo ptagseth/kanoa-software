@@ -6,7 +6,7 @@ title: system.kanoa.utilities.getRandomNumber
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Returns a random number between the start and end values (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getRandomNumber(start, end)</b>

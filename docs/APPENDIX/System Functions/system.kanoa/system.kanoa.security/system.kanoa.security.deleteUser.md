@@ -6,7 +6,7 @@ title: system.kanoa.security.deleteUser
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function requires <b>KanoaSecurity</b> and <b>KanoaConfig</b> modules</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Deletes a user specified by the userId. SQL cascade will delete the user from the userAssetRole table.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>deleteUser(userId)</b>

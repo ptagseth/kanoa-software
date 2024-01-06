@@ -6,7 +6,7 @@ title: system.kanoa.utilities.filterDataToDict
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Given a dataset, this function returns a dictionary of key-value pairs using the specified key and value columns (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>filterDataToDict(data, keyCol, valueCol)</b>

@@ -6,7 +6,7 @@ title: system.kanoa.utilities.getFieldValue
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Helper function that returns a scalar value for the passed-in column ('field') from a dataset. Expects there to be 0 or 1 rows in the dataset (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getFieldValue(self, field, data)</b>

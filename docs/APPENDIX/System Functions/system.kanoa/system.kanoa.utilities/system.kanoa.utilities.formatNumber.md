@@ -6,7 +6,7 @@ title: system.kanoa.utilities.formatNumber
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Given a number or string representation of a number, this function will return the number formatted to the passed-in format (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>formatNumber(format, value)</b>

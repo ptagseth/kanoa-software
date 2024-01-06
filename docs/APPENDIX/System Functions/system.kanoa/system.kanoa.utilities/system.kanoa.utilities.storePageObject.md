@@ -6,7 +6,7 @@ title: system.kanoa.utilities.storePageObject
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 <HeaderBox header="Description">Stores the passed-in object as a session object specific to the current page (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>storePageObject(self, objName, dictObject)</b>

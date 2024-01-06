@@ -6,7 +6,7 @@ title: system.kanoa.event.deleteCountEvents
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
     Sometimes we want to clear a count so that it can be auto-calculated. We probably will want to store old values in case a user wants to revert.
 </HeaderBox>
