@@ -1,29 +1,26 @@
 ---
 id: getGatewayTimeZoneOffset
 title: system.kanoa.utilities.getGatewayTimeZoneOffset
-sidebar_position: 15
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Returns the timezone offset for the gateway server </HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">Returns the timezone offset for the gateway server (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
     <b>getGatewayTimeZoneOffset()</b>
-    <li> Parameters <br />
-        <ul>No Parameters</ul>
+    <li>Parameters <br />
+        <ul>None</ul>
     </li>
-    <li> Returns <br />
-        <ul>Returns the timezone offset for the gateway server </ul>
+    <li>Returns <br />
+        <ul>mins (Integer) - The timezone offset in minutes.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
+```python
+# Example Usage:
+timezone_offset = system.kanoa.utilities.getGatewayTimeZoneOffset()
 
-
-```

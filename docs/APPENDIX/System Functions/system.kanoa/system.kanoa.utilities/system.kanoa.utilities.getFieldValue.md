@@ -1,33 +1,28 @@
 ---
 id: getFieldValue
 title: system.kanoa.utilities.getFieldValue
-sidebar_position: 13
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-TBD
-
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description"> </HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">Helper function that returns a scalar value for the passed-in column ('field') from a dataset. Expects there to be 0 or 1 rows in the dataset (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b> </b>
-    <li> Parameters <br />
-        <ul> </ul>
-        <ul> </ul>
+    <b>getFieldValue(self, field, data)</b>
+    <li>Parameters <br />
+        <ul>self (Class Instance) - The instance of the class where this method is defined.</ul>
+        <ul>field (String) - The name of the column for which the value is retrieved, e.g., 'assetGroupName'.</ul>
+        <ul>data (Dataset) - The dataset containing the specified column ('field').</ul>
     </li>
-    <li> Returns <br />
-        <ul>  </ul>
+    <li>Returns <br />
+        <ul>Object or None (Object) - The scalar value corresponding to the specified column ('field'). Returns None if the column does not exist.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
+```python
+# Example Usage:
+value = system.kanoa.utilities.getFieldValue(self, 'assetGroupName', data)
 
-
-```

@@ -1,29 +1,27 @@
 ---
 id: getDateRange
 title: system.kanoa.utilities.getDateRange
-sidebar_position: 12
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Returns a start and end date based on the passed in parameters</HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">Returns predefined date ranges (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getDateRange(paramsDict: PyDictionary) </b>
-    <li> Parameters <br />
-        <ul>paramsDict: PyDictionary (Dictionary) i.e. i.e. &#123;'selectedDateRange': 'Today', 'clientOffset': 0} </ul>
+    <b>getDateRange(paramsDict)</b>
+    <li>Parameters <br />
+        <ul>paramsDict (Dictionary) - A dictionary containing 'selectedDateRange' and 'clientTZOffset' values.</ul>
     </li>
-    <li> Returns <br />
-        <ul>two values, startDate and endDate of time range  </ul>
+    <li>Returns <br />
+        <ul>startDate (Datetime) - The start date of the selected range.</ul>
+        <ul>endDate (Datetime) - The end date of the selected range.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
+```python
+# Example Usage:
+date_range = system.kanoa.utilities.getDateRange({'selectedDateRange': 'Today', 'clientTZOffset': 0})
 
-
-```

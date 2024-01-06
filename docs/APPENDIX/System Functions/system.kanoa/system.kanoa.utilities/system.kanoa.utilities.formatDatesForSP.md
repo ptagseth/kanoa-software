@@ -1,32 +1,26 @@
 ---
 id: formatDatesForSP
 title: system.kanoa.utilities.formatDatesForSP
-sidebar_position: 7
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-TBD
-
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description"> </HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">When passing a date to a stored procedure, it needs to be converted to the timezone of the SQL Server (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b> </b>
-    <li> Parameters <br />
-        <ul> </ul>
-        <ul> </ul>
+    <b>formatDatesForSP(datesIn)</b>
+    <li>Parameters <br />
+        <ul>datesIn (List) - List of dates to be converted (e.g., [startDate, endDate]).</ul>
     </li>
-    <li> Returns <br />
-        <ul>  </ul>
+    <li>Returns <br />
+        <ul>datesOut (List) - List of converted dates.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
+```python
+# Example Usage:
+converted_dates = system.kanoa.utilities.formatDatesForSP([startDate, endDate])
 
-
-```

@@ -1,29 +1,25 @@
 ---
 id: convertSQLTimeStamp
 title: system.kanoa.utilities.convertSQLTimeStamp
-sidebar_position: 4
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Some functions have a habit of returning a java.util.date or a SQL Timestamp object. This function will take a java.util.date or sql.timestamp object and always return a java.util.date object </HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">Converts a java.util.date or SQL Timestamp object to a java.util.date object (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>convertSQLTimeStamp(timeStamp: PyObject) </b>
-    <li> Parameters <br />
-        <ul>timeStamp: PyObject (java.util.date or sql.timestamp) </ul>
+    <b>convertSQLTimeStamp(timeStamp)</b>
+    <li>Parameters <br />
+        <ul>timeStamp (java.util.date or SQL Timestamp) - The input timestamp object.</ul>
     </li>
-    <li> Returns <br />
-        <ul>(java.util.date) </ul>
+    <li>Returns <br />
+        <ul>java.util.date - A java.util.date object.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
-
-
-```
+```python
+# Example Usage:
+converted_date = system.kanoa.utilities.convertSQLTimeStamp(timeStamp)

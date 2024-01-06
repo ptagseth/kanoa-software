@@ -1,29 +1,26 @@
 ---
 id: hexToRGB
 title: system.kanoa.utilities.hexToRGB
-sidebar_position: 21
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Converts HEX value to RGB color value </HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">Converts HEX value to RGB color value (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>hexToRGB(hexNumber: PyObject)</b>
-    <li> Parameters <br />
-        <ul>hexNumber: PyObject (String) hex number</ul>
+    <b>hexToRGB(hexNumber)</b>
+    <li>Parameters <br />
+        <ul>hexNumber (String) - The HEX color value.</ul>
     </li>
-    <li> Returns <br />
-        <ul>(int) red, green, and blue values</ul>
+    <li>Returns <br />
+        <ul>rgb (Tuple) - A tuple representing the RGB color values.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
+```python
+# Example Usage:
+rgb_values = system.kanoa.utilities.hexToRGB('#FF0000')
 
-
-```

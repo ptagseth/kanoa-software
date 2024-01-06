@@ -1,32 +1,28 @@
 ---
 id: convertDatasetToDict
 title: system.kanoa.utilities.convertDatasetToDict
-sidebar_position: 2
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-TBD
-
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description"> </HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">Given the name of a key column and value column, this function converts a dataset into a dictionary of key-value pairs (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b> </b>
-    <li> Parameters <br />
-        <ul> </ul>
-        <ul> </ul>
+    <b>convertDatasetToDict(data, keyCol, valueCol)</b>
+    <li>Parameters <br />
+        <ul>data (Dataset) - The input dataset.</ul>
+        <ul>keyCol (String) - The name of the key column, e.g., 'configName'.</ul>
+        <ul>valueCol (String) - The name of the value column, e.g., 'configValue'.</ul>
     </li>
-    <li> Returns <br />
-        <ul>  </ul>
+    <li>Returns <br />
+        <ul>dictionary - A dictionary of key-value pairs.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
+```python
+# Example Usage:
+data_dict = system.kanoa.utilities.convertDatasetToDict(data, 'configName', 'configValue')
 
-
-```

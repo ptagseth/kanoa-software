@@ -1,29 +1,27 @@
+
 ---
 id: getFraction
 title: system.kanoa.utilities.getFraction
-sidebar_position: 14
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Given a number, this function will return a string representation of the number as a fraction </HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">Given a number, this function returns a string representation of the number as a fraction (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getFraction(number: PyObject) </b>
-    <li> Parameters <br />
-        <ul>number: PyObject (Float) number to convert to fraction</ul>
+    <b>getFraction(number)</b>
+    <li>Parameters <br />
+        <ul>number (Float) - The input float number.</ul>
     </li>
-    <li> Returns <br />
-        <ul>(String) fraction representation of number</ul>
+    <li>Returns <br />
+        <ul>fraction (String) - A string representation of the number as a fraction.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
+```python
+# Example Usage:
+fraction_string = system.kanoa.utilities.getFraction(number)
 
-
-```

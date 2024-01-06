@@ -1,29 +1,25 @@
 ---
 id: convertDatasetToJSON
 title: system.kanoa.utilities.convertDatasetToJSON
-sidebar_position: 3
 ---
+
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
-
-<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-
-<HeaderBox header="Description">Takes a dataset or pyDataset and converts all rows to a list of JSON. If no rows are found, returns an empty list  </HeaderBox>
-
+<PurpleBox>This function is part of a class and requires proper class instantiation.</PurpleBox>
+<HeaderBox header="Description">Converts the dataset to a list of dictionaries (kanoaCore).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>convertDatasetToJSON(data: PyObject) </b>
-    <li> Parameters <br />
-        <ul>data: PyObject (PyDataset) dataset to be converted to list of JSON </ul>
+    <b>convertDatasetToJSON(data)</b>
+    <li>Parameters <br />
+        <ul>data (Dataset) - The input dataset.</ul>
     </li>
-    <li> Returns <br />
-        <ul>(List) list of JSON rows  </ul>
+    <li>Returns <br />
+        <ul>list of dictionaries - A list containing dictionaries representing each row of the dataset.</ul>
     </li>
 </HeaderBox>
 
-### Code Examples
+### Code Example
 
-```py 
-
-
-```
+```python
+# Example Usage:
+json_data = system.kanoa.utilities.convertDatasetToJSON(data)
