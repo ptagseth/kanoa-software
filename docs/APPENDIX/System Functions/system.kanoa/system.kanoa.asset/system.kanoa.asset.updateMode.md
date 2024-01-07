@@ -11,15 +11,15 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateMode(modeInfo, userId)</b>
     <li> Parameters <br />
-        <ul>modeInfo (dict) - A dictionary containing mode information with the following keys:
-            - 'modeName' (str): Name of the mode.
-            - 'modeTypeId' (int): ID of the mode type.
-            - 'enabled' (bool): Enabled status of the mode.
-            - 'canSelect' (bool): Whether mode can be selected.
-            - 'canSchedule' (bool): Whether mode can be scheduled.
-            - 'modeColor' (str): Color code for the mode.
-            - 'iconPath' (str): Path to the mode's icon.
-            - 'modeId' (int): ID of the mode to be updated.
+        <ul>modeInfo (dict) - A dictionary containing mode information with the following keys:<br />
+            - 'modeName' (str): Name of the mode.<br />
+            - 'modeTypeId' (int): ID of the mode type.<br />
+            - 'enabled' (bool): Enabled status of the mode.<br />
+            - 'canSelect' (bool): Whether mode can be selected.<br />
+            - 'canSchedule' (bool): Whether mode can be scheduled.<br />
+            - 'modeColor' (str): Color code for the mode.<br />
+            - 'iconPath' (str): Path to the mode's icon.<br />
+            - 'modeId' (int): ID of the mode to be updated.<br />
         </ul>
         <ul>userId (int) - ID of the user performing the update.</ul>
     </li>

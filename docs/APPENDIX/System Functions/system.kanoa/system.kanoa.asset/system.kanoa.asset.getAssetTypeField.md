@@ -1,13 +1,12 @@
 ---
 id: getAssetTypeField
 title: system.kanoa.asset.getAssetTypeField
-sidebar_position: 15
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 
-<PurpleBox>This function requires <b>Kanoa</b> module</PurpleBox>
+<PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
 
 <HeaderBox header="Description">Returns a single value for the asset type as described by the paramsDict. If no asset is found, null will be returned </HeaderBox>
 
