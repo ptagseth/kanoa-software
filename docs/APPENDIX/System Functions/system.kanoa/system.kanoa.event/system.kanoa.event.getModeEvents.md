@@ -25,6 +25,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 parameters = {
     'assetId': 18,
     'modeEventId': 1,
+    'WorkOrderId': 1234,
     'startDate': '2023-01-01',
     'endDate': '2023-12-31'
 }

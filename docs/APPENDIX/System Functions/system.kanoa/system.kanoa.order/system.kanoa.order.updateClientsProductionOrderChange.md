@@ -1,6 +1,6 @@
 ---
-id: updateClientsWorkOrderChange
-title: system.kanoa.order.updateClientsWorkOrderChange
+id: updateClientsProductionOrderChange
+title: system.kanoa.order.updateClientsProductionOrderChange
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -9,7 +9,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">Updates clients when a work order changes (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>updateClientsWorkOrderChange()</b>
+    <b>updateClientsProductionOrderChange()</b>
     <li>Parameters <br />
         <ul>None.</ul>
     </li>
@@ -22,4 +22,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-system.kanoa.order.updateClientsWorkOrderChange()
+system.kanoa.order.updateClientsProductionOrderChange()

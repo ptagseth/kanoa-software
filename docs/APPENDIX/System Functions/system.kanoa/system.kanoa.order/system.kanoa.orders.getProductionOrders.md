@@ -24,3 +24,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Example Usage:
 productionOrders = system.kanoa.order.getProductionOrders({'enabled': True, 'assetPath': 'Kanoa Industries%', ...})
 
+#			Dictionary i.e. {'enabled':True, 'assetPath': 'Kanoa Industries%', 'assetId': 1, 'assetIdList':[1,2], 'itemSourceId':[1]}
+#						i.e. {itemName': 'Bangers', 'itemPath':'FG\Bread%', 'itemId':1, 'itemIdList':[1,2,3], 'itemClassName': 'Bread%', itemClassId':1, 'itemClassIdList':[1,2,3]}
+#						i.e {'workOrderName': 'WO-0001', 'workOrderId': 1, 'workOrderStatusList: ['Released'], 'workOrderStatusName' = ['In Progress'']}
+#						i.e {'startDate': someDate, 'endDate': someDate}
+#

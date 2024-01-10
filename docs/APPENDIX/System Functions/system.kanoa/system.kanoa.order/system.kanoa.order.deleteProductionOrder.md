@@ -1,6 +1,6 @@
 ---
-id: deleteWorkOrder
-title: system.kanoa.order.deleteWorkOrder
+id: deleteProductionOrder
+title: system.kanoa.order.deleteProductionOrder
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -9,7 +9,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">Deletes a work order (kanoaOPS).</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>deleteWorkOrder(workOrderId, userId)</b>
+    <b>deleteProductionOrder(workOrderId, userId)</b>
     <li>Parameters <br />
         <ul>workOrderId (Integer) - Work order ID.</ul>
         <ul>userId (Integer) - User ID.</ul>
@@ -23,4 +23,4 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-success, recordsModified = system.kanoa.order.deleteWorkOrder(1, 123)
+success, recordsModified = system.kanoa.order.deleteProductionOrder(1, 123)

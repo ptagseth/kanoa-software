@@ -13,8 +13,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
     <li> Parameters <br />
         <ul>assetIdList (list) - List of assetId's</ul>
         <ul>stateIdList (list) - List of stateIds</ul>
+        <ul>stateCodeList (list) - A list of stateCodes to be used. Can be an empty list</ul>
         <ul>userId (int) - User ID</ul>
-        <ul>stateCodeList (list) - List of state codes (optional)</ul>
     </li>
     <li> Returns <br />
         <ul># of records created (int)</ul>
