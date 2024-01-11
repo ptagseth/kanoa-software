@@ -23,5 +23,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-newUserObj = system.kanoa.security.addUser({'userName': 'JohnDoe', 'firstName': 'John', 'lastName': 'Doe', 'email': 'johndoe@gmail.com'}, 123)
+newUserObj = system.kanoa.security.addUser({'userName': 'JohnDoe', 'firstName': 'John', 'lastName': 'Doe', 'email': 'johndoe@gmail.com', 'password': 'password'}, 123)
 

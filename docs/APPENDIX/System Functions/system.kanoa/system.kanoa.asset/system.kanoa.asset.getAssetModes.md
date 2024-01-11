@@ -29,7 +29,8 @@ parameters = {
     'modeTypeId': 1,
     'modeTypeName': 'Production',
     'canSelect': True,
-    'canSchedule': True
+    'canSchedule': True,
+    'autoSchedule': True
 }
 asset_modes = system.kanoa.asset.getAssetModes(parameters)
 

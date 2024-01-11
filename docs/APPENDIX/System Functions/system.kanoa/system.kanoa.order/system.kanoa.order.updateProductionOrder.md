@@ -1,6 +1,6 @@
 ---
 id: updateProductionOrder
-title: system.kanoa.order.updateProductionkOrder
+title: system.kanoa.order.updateProductionOrder
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

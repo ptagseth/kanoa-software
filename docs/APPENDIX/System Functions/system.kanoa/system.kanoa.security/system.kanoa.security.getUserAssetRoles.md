@@ -22,5 +22,5 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-userAssetRoles = system.kanoa.security.getUserAssetRoles({'userId': 1, 'function': 'someFunction', 'assetPathList': ['/asset/path1', '/asset/path2']})
+userAssetRoles = system.kanoa.security.getUserAssetRoles({'userId': 1, 'function': configureSecurity', 'assetPathList' ; ['Kanoa Industries']})
 
