@@ -11,7 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getItemUnits(paramsDict)</b>
     <li>Parameters <br />
-        <ul>paramsDict (Dictionary) - Dictionary containing filter parameters.</ul>
+        <ul>paramsDict (Dictionary) - Dictionary i.e. &#123;'enabled': True, 'itemUnitId': 3, 'itemUnitName': 'bags'}</ul>
     </li>
     <li>Returns <br />
         <ul>data (pyDataset).</ul>
