@@ -1,0 +1,8 @@
+{
+  "label": "New Folder Structure",
+  "position": 1,
+  "link": {
+    "type": "generated-index"
+  },
+  className: hidden
+}
