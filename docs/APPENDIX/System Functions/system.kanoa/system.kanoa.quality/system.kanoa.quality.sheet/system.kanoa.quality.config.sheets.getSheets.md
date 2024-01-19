@@ -1,6 +1,6 @@
 ---
 id: getSheets
-title: system.kanoa.qds.config.sheets.getSheets
+title: system.kanoa.quality.config.sheets.getSheets
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -30,7 +30,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Usage example
 params_dict = {'enabled': True, 'chkShtTypeId': 1, 'chkShtId': 2, 'chkShtName': 'QA Check 1', 'chkShtTypeName': 'QA Checks', 'path': 'QA Checks\QA Check%'}
-sheets_data = system.kanoa.qds.config.sheets.getSheets(paramsDict=params_dict)
+sheets_data = system.kanoa.quality.config.sheets.getSheets(paramsDict=params_dict)
 
 print(sheets_data)
 

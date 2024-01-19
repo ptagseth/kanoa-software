@@ -1,22 +1,22 @@
 ---
-id: getTooling
-title: system.kanoa.qds.config.sheets.getTooling
+id: getItems
+title: system.kanoa.quality.config.sheets.getItems
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaQDS</b> module</PurpleBox>
-<HeaderBox header="Description">Gets tooling linked to a check sheet in KanoaQDS.</HeaderBox>
+<HeaderBox header="Description">Gets all items linked to a check sheet in KanoaQDS.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>getTooling(chkShtId)</b>
+    <b>getItems(chkShtId)</b>
     <li> Parameters <br />
         <ul>
             <li>chkShtId - ID of the check sheet (int).</li>
         </ul>
     </li>
     <li> Returns <br />
-        <ul>data - A dataset containing information about tooling linked to the check sheet (pyDataset).</ul>
+        <ul>data - A dataset containing information about items linked to the check sheet (pyDataset).</ul>
     </li>
 </HeaderBox>
 
@@ -24,6 +24,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Usage example
 chk_sht_id = 56
-tooling_data = system.kanoa.qds.config.sheets.getTooling(chkShtId=chk_sht_id)
+items_data = system.kanoa.quality.config.sheets.getItems(chkShtId=chk_sht_id)
 
-print(tooling_data)
+print(items_data)

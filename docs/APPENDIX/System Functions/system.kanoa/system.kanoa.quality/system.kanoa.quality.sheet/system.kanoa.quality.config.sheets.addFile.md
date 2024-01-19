@@ -1,6 +1,6 @@
 ---
 id: addFile
-title: system.kanoa.qds.config.sheets.addFile
+title: system.kanoa.quality.config.sheets.addFile
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -34,7 +34,7 @@ file_blob = b'This is the file content.'
 description = "Example file description."
 thumbnail = b'Thumbnail content.'
 user_id = 123
-records_created = system.kanoa.qds.config.sheets.addFile(chkShtId=chk_sht_id, fileName=file_name, fileBlob=file_blob, description=description, thumbnail=thumbnail, userId=user_id)
+records_created = system.kanoa.quality.config.sheets.addFile(chkShtId=chk_sht_id, fileName=file_name, fileBlob=file_blob, description=description, thumbnail=thumbnail, userId=user_id)
 
 print(records_created)
 

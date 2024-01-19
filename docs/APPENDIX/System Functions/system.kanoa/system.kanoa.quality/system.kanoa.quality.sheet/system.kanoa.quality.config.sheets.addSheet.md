@@ -1,19 +1,18 @@
 ---
-id: updateSheet
-title: system.kanoa.qds.config.sheets.updateSheet
+id: addSheet
+title: system.kanoa.quality.config.sheets.addSheet
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaQDS</b> module</PurpleBox>
-<HeaderBox header="Description">Updates a check sheet in KanoaQDS.</HeaderBox>
+<HeaderBox header="Description">Adds a new check sheet in KanoaQDS.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>updateSheet(chkShtInfo, userId)</b>
+    <b>addSheet(chkShtInfo, userId)</b>
     <li> Parameters <br />
         <ul>
             <li>chkShtInfo - Dictionary containing check sheet information:</li>
-            <li>  - 'chkShtId': ID of the check sheet (int).</li>
             <li>  - 'chkShtTypeId': ID of the check sheet type (int).</li>
             <li>  - 'chkShtName': Name of the check sheet (string).</li>
             <li>  - 'procName': Process name (string, optional).</li>
@@ -32,14 +31,14 @@ import HeaderBox from '@site/src/components/HeaderBox';
         </ul>
     </li>
     <li> Returns <br />
-        <ul># of records modified - Number of records modified (int).</ul>
+        <ul>chkShtTriggerId - ID of the added check sheet (int).</ul>
     </li>
 </HeaderBox>
 
 ### Code Example
 ```python
 # Usage example
-chk_sht_info = {'chkShtId': 56, 'chkShtTypeId': 2, 'chkShtName': 'some name', 'procName': None, 'description': None, 'instructions': None, 'enabled': True, 'assetReqd': False, 'itemReqd': False, 'auto': False, 'reTestChkShtId': None, 'reTestMins': None, 'signOffReqd': None, 'durationSeconds': None, 'takenDateChkItemId': None}
-records_modified = system.kanoa.qds.config.sheets.updateSheet(chkShtInfo=chk_sht_info, userId=123)
+chk_sht_info = {'chkShtTypeId': 2, 'chkShtName': 'some name', 'procName': None, 'description': None, 'instructions': None, 'enabled': True, 'assetReqd': False, 'itemReqd': False, 'auto': False, 'reTestChkShtId': None, 'reTestMins': None, 'signOffReqd': None, 'durationSeconds': None, 'takenDateChkItemId': None}
+chk_sht_trigger_id = system.kanoa.quality.config.sheets.addSheet(chkShtInfo=chk_sht_info, userId=123)
 
-print(records_modified)
+print(chk_sht_trigger_id)

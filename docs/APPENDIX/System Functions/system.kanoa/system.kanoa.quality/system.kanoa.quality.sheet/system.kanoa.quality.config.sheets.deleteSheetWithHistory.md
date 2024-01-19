@@ -1,15 +1,15 @@
 ---
-id: deleteSheet
-title: system.kanoa.qds.config.sheets.deleteSheet
+id: deleteSheetWithHistory
+title: system.kanoa.quality.config.sheets.deleteSheetWithHistory
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaQDS</b> module</PurpleBox>
-<HeaderBox header="Description">Deletes a check sheet and its associated data from KanoaQDS.</HeaderBox>
+<HeaderBox header="Description">Deletes a check sheet and its associated check event data from KanoaQDS.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>deleteSheet(chkShtId, userId)</b>
+    <b>deleteSheetWithHistory(chkShtId, userId)</b>
     <li> Parameters <br />
         <ul>
             <li>chkShtId - ID of the check sheet to delete (int).</li>
@@ -17,10 +17,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
         </ul>
     </li>
     <li> Returns <br />
-        <ul>
-            <li>success - True if the check sheet is deleted successfully (bool).</li>
-            <li>message - A message indicating the result (string).</li>
-        </ul>
+        <ul>success - True if the check sheet and associated data are deleted successfully (bool).</ul>
     </li>
 </HeaderBox>
 
@@ -29,7 +26,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 # Usage example
 chk_sht_id = 56
 user_id = 123
-success, message = system.kanoa.qds.config.sheets.deleteSheet(chkShtId=chk_sht_id, userId=user_id)
+success = system.kanoa.quality.config.sheets.deleteSheetWithHistory(chkShtId=chk_sht_id, userId=user_id)
 
-print(success, message)
+print(success)
 

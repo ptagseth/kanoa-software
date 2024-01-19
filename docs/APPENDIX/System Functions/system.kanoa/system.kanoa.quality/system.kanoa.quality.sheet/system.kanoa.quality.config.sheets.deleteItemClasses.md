@@ -1,19 +1,18 @@
 ---
-id: deleteAssets
-title: system.kanoa.qds.config.sheets.deleteAssets
+id: deleteItemClasses
+title: system.kanoa.quality.config.sheets.deleteItemClasses
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaQDS</b> module</PurpleBox>
-<HeaderBox header="Description">Deletes asset links for a check sheet in KanoaQDS.</HeaderBox>
+<HeaderBox header="Description">Deletes item class links for a check sheet in KanoaQDS.</HeaderBox>
 <HeaderBox header="Syntax">
-    <b>deleteAssets(chkShtId, assetIdList, userId)</b>
+    <b>deleteItemClasses(chkShtId, userId)</b>
     <li> Parameters <br />
         <ul>
             <li>chkShtId - ID of the check sheet (int).</li>
-            <li>assetIdList - List of asset IDs (list of int).</li>
             <li>userId - User ID (int).</li>
         </ul>
     </li>
@@ -26,8 +25,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Usage example
 chk_sht_id = 56
-asset_id_list = [1, 2, 3]
 user_id = 123
-records_modified = system.kanoa.qds.config.sheets.deleteAssets(chkShtId=chk_sht_id, assetIdList=asset_id_list, userId=user_id)
+records_modified = system.kanoa.quality.config.sheets.deleteItemClasses(chkShtId=chk_sht_id, userId=user_id)
 
 print(records_modified)

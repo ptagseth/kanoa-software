@@ -1,6 +1,6 @@
 ---
 id: getUniqueChecksOnly
-title: system.kanoa.qds.config.sheets.getUniqueChecksOnly
+title: system.kanoa.quality.config.sheets.getUniqueChecksOnly
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -22,7 +22,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Usage example
 asset_chk_shts = system.kanoa.qds.config.sheets.getSheetsFilteredBy(paramsDict={'enabled': True, 'triggerTypeId': 1, 'modeId': 2, 'shiftNameId': 3, 'toolingId': 6, 'chkShtTypeId': 7, 'chkShtId': 2, 'assetReqd': True, 'assetId': 56})
-unique_chk_sht_ids = system.kanoa.qds.config.sheets.getUniqueChecksOnly(assetChkShts=asset_chk_shts)
+unique_chk_sht_ids = system.kanoa.quality.config.sheets.getUniqueChecksOnly(assetChkShts=asset_chk_shts)
 
 print(unique_chk_sht_ids)
 

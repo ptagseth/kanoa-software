@@ -1,6 +1,6 @@
 ---
 id: getSheetsByAsset
-title: system.kanoa.qds.config.sheets.getSheetsByAsset
+title: system.kanoa.quality.config.sheets.getSheetsByAsset
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -27,6 +27,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ```python
 # Usage example
 params_dict = {'enabled': True, 'chkShtStateId': 1, 'chkShtStateName': 'Approved'}
-sheets_data = system.kanoa.qds.config.sheets.getSheetsByAsset(paramsDict=params_dict)
+sheets_data = system.kanoa.quality.config.sheets.getSheetsByAsset(paramsDict=params_dict)
 
 print(sheets_data)

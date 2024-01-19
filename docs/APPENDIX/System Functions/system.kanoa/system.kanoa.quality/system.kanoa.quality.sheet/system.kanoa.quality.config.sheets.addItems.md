@@ -1,6 +1,6 @@
 ---
 id: addItems
-title: system.kanoa.qds.config.sheets.addItems
+title: system.kanoa.quality.config.sheets.addItems
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -28,6 +28,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 chk_sht_id = 56
 item_id_list = [1, 2, 3]
 user_id = 123
-records_created = system.kanoa.qds.config.sheets.addItems(chkShtId=chk_sht_id, itemIdList=item_id_list, userId=user_id)
+records_created = system.kanoa.quality.config.sheets.addItems(chkShtId=chk_sht_id, itemIdList=item_id_list, userId=user_id)
 
 print(records_created)
