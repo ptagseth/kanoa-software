@@ -5,7 +5,7 @@ sidebar_position: 2
 hide_table_of_contents: true 
 ---
 
-# Kanoa Ops: Concept of a Mode
+# Understanding the Concept of a Mode in Kanoa Ops
 
 ## Overview
 

@@ -4,7 +4,7 @@ title: Item Sets
 sidebar_position: 6
 hide_table_of_contents: true
 ---
-# Kanoa Quality Item Sets Configuration Screen
+# Kanoa Quality Item Sets Configuration
 
 ## Overview
 The Kanoa Quality Item Sets Configuration screen is a critical feature in the Kanoa manufacturing software, designed for managing and organizing quality control parameters. This screen primarily deals with item classes and item sets, facilitating the creation of quality check sheets and the assignment of tolerances.

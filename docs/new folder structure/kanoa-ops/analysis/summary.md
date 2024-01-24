@@ -5,7 +5,7 @@ sidebar_position: 6
 hide_table_of_contents: true
 ---
 
-# Summary Report
+# Summary Report in Kanoa Ops
 
 ## Overview
 

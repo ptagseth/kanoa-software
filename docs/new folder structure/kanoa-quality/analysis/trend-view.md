@@ -4,7 +4,7 @@ title: Trend View
 sidebar_position: 3
 hide_table_of_contents: true
 ---
-# Kanoa Quality Trend View
+# Trend View in Kanoa Quality
 
 ### Overview
 The Kanoa Quality Trend View is a sophisticated tool that allows users to analyze data over time through time series or histograms. It also provides the functionality to apply Statistical Process Control (SPC) rules against collected data, enhancing the understanding of trends and patterns.

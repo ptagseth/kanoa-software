@@ -4,7 +4,7 @@ title: Active Checks
 sidebar_position: 1
 hide_table_of_contents: true
 ---
-# Kanoa Quality Active Checks Dashboard
+# Active Checks Dashboard in Kanoa Quality
 
 ## Overview
 

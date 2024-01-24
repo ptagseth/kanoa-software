@@ -5,7 +5,7 @@ sidebar_position: 1
 hide_table_of_contents: true 
 ---
 
-# Asset Configuration in Kanoa Ops
+# Kanoa Ops Asset Configuration
 
 ## Overview
 

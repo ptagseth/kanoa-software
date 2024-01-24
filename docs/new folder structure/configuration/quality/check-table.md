@@ -4,7 +4,7 @@ title: Check Table
 sidebar_position: 1
 hide_table_of_contents: true
 ---
-# Kanoa Quality Check Sheet Configuration Screen
+# Kanoa Quality Check Sheet Configuration
 
 ### Overview
 The Kanoa Quality Check Sheet Configuration Screen is a crucial interface for managing check sheet configurations within the Kanoa quality system. This screen enables users to create, view, edit, and manage various aspects of check sheets. This documentation will explore the functionalities offered by this screen.

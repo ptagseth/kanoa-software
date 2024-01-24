@@ -4,7 +4,7 @@ title: Check Table
 sidebar_position: 2
 hide_table_of_contents: true
 ---
-# Kanoa Quality Check Table
+# Check Table in Kanoa Quality
 
 ## Overview
 

@@ -5,7 +5,7 @@ sidebar_position: 1
 hide_table_of_contents: true 
 ---
 
-# Navigating the Kanoa MES Application Settings Screen
+# Kanoa MES Application Settings 
 
 ## Introduction
 The Kanoa MES Application Settings Screen is an essential part of the Kanoa MES system, providing users with options to customize themes, access UX component references, and explore beta features. This document guides users through each tab of the Application Settings screen.

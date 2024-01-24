@@ -5,7 +5,7 @@ sidebar_position: 8
 hide_table_of_contents: true
 ---
 
-# Asset Status Indicator
+# Asset Status Indicator in Kanoa Ops
 
 ## Overview
 

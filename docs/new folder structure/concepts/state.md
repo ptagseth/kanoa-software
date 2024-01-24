@@ -5,7 +5,7 @@ sidebar_position: 4
 hide_table_of_contents: true 
 ---
 
-# Kanoa Ops: Concept of States
+# Understanding the Concept of States in Kanoa Ops
 
 ## Overview
 

@@ -4,7 +4,7 @@ title: Line Operation
 sidebar_position: 1
 hide_table_of_contents: true
 ---
-# Line Operation
+# Line Operation in Kanoa Ops
 
 ## Overview
 

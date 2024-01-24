@@ -5,7 +5,7 @@ sidebar_position: 2
 hide_table_of_contents: true 
 ---
 
-# Kanoa MES Security Settings Screen
+# Kanoa MES Security Settings
 
 ## Overview
 The Kanoa MES Security Settings page is a pivotal component of the Kanoa Manufacturing Execution System, focusing on user and role management based on a robust security model. It allows administrators to assign roles and permissions to users for various modules and functions within the system.

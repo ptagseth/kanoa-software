@@ -4,7 +4,7 @@ title: Attribute Detail Editor
 sidebar_position: 5
 hide_table_of_contents: true
 ---
-# Kanoa Quality Attribute Detail Editor Screen
+# Kanoa Quality Attribute Detail Editor
 
 ## Introduction
 This document provides detailed instructions for using the Kanoa Quality Attribute Detail Editor screen. This feature is essential for configuring and managing quality attributes within the Kanoa quality configuration system.

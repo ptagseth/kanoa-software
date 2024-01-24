@@ -4,7 +4,7 @@ title: Check Sheets
 sidebar_position: 2
 hide_table_of_contents: true
 ---
-# Kanoa Quality Check Sheet Configuration Screen
+# Kanoa Quality Check Sheet Configuration
 
 ### Introduction
 This documentation provides a step-by-step guide on configuring a check sheet in Kanoa Quality through the Check Sheet Configuration Screen.

@@ -5,7 +5,7 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 
-# Downtime Report
+# Downtime Report in Kanoa Ops
 
 ## Overview
 

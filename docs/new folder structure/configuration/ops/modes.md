@@ -5,7 +5,7 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
-# Mode Configuration in Kanoa Ops
+# Kanoa Ops Mode Configuration
 
 ## Overview
 

@@ -4,7 +4,7 @@ title: Check Details
 sidebar_position: 2
 hide_table_of_contents: true
 ---
-# Kanoa Quality Check Details Report
+# Check Details Report in Kanoa Quality
 
 ### Overview
 The Kanoa Quality Check Details Report is designed to analyze data across multiple instances of a check sheet. This report is ideal for users who need to view aggregated data from various completions of a check sheet, offering a comprehensive view of the performance and outcomes over time.

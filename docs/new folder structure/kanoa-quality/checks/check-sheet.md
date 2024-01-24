@@ -4,7 +4,7 @@ title: Check Sheet
 sidebar_position: 3
 hide_table_of_contents: true
 ---
-# Kanoa Quality Check Sheets
+# Check Sheets in Kanoa Quality
 
 ## Overview
 

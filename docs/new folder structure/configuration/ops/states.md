@@ -5,7 +5,7 @@ sidebar_position: 3
 hide_table_of_contents: true
 ---
 
-# State Configuration in Kanoa Ops
+# Kanoa Ops State Configuration
 
 ## Overview
 

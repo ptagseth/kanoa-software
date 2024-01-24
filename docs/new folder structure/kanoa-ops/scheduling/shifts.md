@@ -5,7 +5,7 @@ sidebar_position: 3
 hide_table_of_contents: true
 ---
 
-# Shift Scheduling 
+# Shift Scheduling in Kanoa Ops
 
 ## Overview
 

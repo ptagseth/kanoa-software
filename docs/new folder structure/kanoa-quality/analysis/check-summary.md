@@ -4,7 +4,7 @@ title: Check Summary
 sidebar_position: 1
 hide_table_of_contents: true
 ---
-# Kanoa Quality Check Summary Report
+# Check Summary Report in Kanoa Quality
 
 ### Overview
 The Kanoa Quality Check Summary Report is a versatile tool designed to analyze and present data regarding the status of check sheets within the Kanoa quality system. This report allows users to 'slice and dice' data in various ways, offering insights into every stage of a check sheet's lifecycle, including statuses like approved, canceled, coming due, disabled, missed, overdue, rejected, or submitted.

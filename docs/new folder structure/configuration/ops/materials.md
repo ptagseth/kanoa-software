@@ -4,7 +4,7 @@ title: Materials
 sidebar_position: 4
 hide_table_of_contents: true
 ---
-# Material Configuration in Kanoa Ops
+# Kanoa Ops Material Configuration
 
 ## Overview
 

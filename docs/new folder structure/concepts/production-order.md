@@ -5,7 +5,7 @@ sidebar_position: 5
 hide_table_of_contents: true 
 ---
 
-# Kanoa Ops: Concept of Production Orders
+# Understanding the Concept of Production Orders in Kanoa Ops
 
 ## Overview
 

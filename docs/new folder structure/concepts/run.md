@@ -5,7 +5,7 @@ sidebar_position: 3
 hide_table_of_contents: true 
 ---
 
-# Kanoa Ops: Concept of a Run
+# Understanding the Concept of a Run in Kanoa Ops
 
 ## Overview
 

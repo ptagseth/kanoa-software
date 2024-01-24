@@ -5,7 +5,7 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
-# Reliability KPIs Report
+# Reliability KPIs Report in Kanoa Ops
 
 ## Overview
 
