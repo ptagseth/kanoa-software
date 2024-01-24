@@ -11,6 +11,8 @@ hide_table_of_contents: true
 
 The Run Review screen is a comprehensive tool designed for analyzing production runs in a detailed and customizable manner. It is structured into three key sections: a filter bar, action buttons, and the main content table. This documentation provides an overview of each section and their functionalities.
 
+![Run Review](/img/ops-operations-run-review.png)
+
 ## Screen Layout
 
 1. **Filter Bar**: Located at the top of the screen, it allows users to refine the data displayed based on specific criteria.

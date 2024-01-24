@@ -11,6 +11,8 @@ hide_table_of_contents: true
 
 The Kanoa Ops Production Orders Screen is a comprehensive interface for managing production orders. It allows users to view, create, and import production orders from ERP systems, providing a centralized platform for handling production workflows.
 
+![Schedule Production Orders](/img/ops-scheduling-production-orders.png)
+
 ## Interface Components
 
 ### Date Filter

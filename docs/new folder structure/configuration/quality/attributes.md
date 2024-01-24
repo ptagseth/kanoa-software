@@ -10,6 +10,8 @@ hide_table_of_contents: true
 ## Introduction
 This manual provides guidance on using the Kanoa Quality Attributes Configuration screen. This interface is pivotal for managing quality attributes within the Kanoa platform.
 
+![Configure Attribute](/img/quality-config-attribute.png)
+
 ## Overview
 The Quality Attributes Configuration screen is divided into two primary sections:
 

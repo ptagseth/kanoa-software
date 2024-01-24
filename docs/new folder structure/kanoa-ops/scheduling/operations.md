@@ -10,6 +10,8 @@ hide_table_of_contents: true
 
 The Operations Scheduling screen in the application is a vital tool for planning and managing work orders and production runs on specific assets within your plants. It provides a clear view of the current and planned production activities, aligning them with your production plans. The screen consists of two main sections: the filtering control section and the main calendar content area.
 
+![Schedule Operations](/img/ops-scheduling-operations.png)
+
 ## Screen Layout
 
 1. **Filtering Control Section**: Situated at the top, this section offers various controls to customize the view of the schedule.

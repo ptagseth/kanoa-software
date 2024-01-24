@@ -28,6 +28,10 @@ Users can access the Trend View by:
    - **Time Series**: Displays a time series chart of the check sheet data, including calculated upper and lower control limits.
    - **Histogram**: Shows a histogram of all collected data, with hover-over functionality for detailed counts in each bar.
 
+![Trend View Time Series](/img/quality-analysis-trend-view1.png)
+
+![Trend View Histogram](/img/quality-analysis-trend-view2.png)
+
 #### 4. **SPC Rules Application**
    - **Rule Sets Selection**: Users can choose from sets like Nelson, Western Electric, or custom rules.
    - **Rule Violations Highlighting**: Once rules are applied, any violations are highlighted on the chart.

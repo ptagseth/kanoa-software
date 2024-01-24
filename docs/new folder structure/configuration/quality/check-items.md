@@ -9,6 +9,8 @@ hide_table_of_contents: true
 ### Introduction
 This guide outlines the process of configuring check items in Kanoa Quality. Check items are individual tests within a check sheet, and a check sheet is a collection of these items organized into groups.
 
+![Configure Check Items](/img/quality-config-check-items.png)
+
 ### Accessing Check Item Configuration
 1. Navigate to the Check Sheet Configuration Screen.
 2. Access the 'Check' tab.

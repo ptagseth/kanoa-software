@@ -10,6 +10,8 @@ hide_table_of_contents: true
 
 The Line Operation screen is crucial for the day-to-day management of operations in Kanoa Ops. This screen integrates various components found throughout the application and is structured into three main sections for streamlined asset management and operational control.
 
+![Line Operation](/img/ops-operations-line-operation.png)
+
 ## Screen Layout
 
 ### 1. Asset Selector (Top Section)

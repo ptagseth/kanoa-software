@@ -27,6 +27,8 @@ The Production Entry screen in the application is designed to allow users to edi
   - Use the 'Clear Discount' button to reset and auto-calculate the count based on other data collected.
   - Directly enter the new count and hit 'Save' to update the field.
 
+![Production Entry](/img/ops-operations-production-entry1.png)
+
 ## Downtime Tab
 
 ### Layout
@@ -47,6 +49,8 @@ The Production Entry screen in the application is designed to allow users to edi
   - Select a downtime event.
   - Click the 'Edit' button to modify the associated asset, state, type, and add comments.
   - Updated downtimes are marked with a checkbox.
+
+![Production Entry](/img/ops-operations-production-entry2.png)
 
 ### Additional Actions
 - **Splitting Downtime**: Allows splitting a single downtime event into multiple events. You can specify the duration for the split and re-code as necessary.

@@ -10,6 +10,8 @@ hide_table_of_contents: true
 
 Kanoa's Quality Check Sheets are versatile tools designed to accommodate various types of quality checks. Their flexible design allows for different tabs, data entry methods, and check configurations, making them highly adaptable to specific quality control needs.
 
+![Check Sheet](/img/quality-checks-check-sheet.png)
+
 ## Anatomy of a Check Sheet
 
 ### Top Section: Check Information

@@ -17,6 +17,10 @@ This document provides detailed instructions for using the Kanoa Quality Attribu
 ## Attribute Detail Editor Overview
 The Detail Editor is divided into two main tabs: **Data Source** and **Tolerance**.
 
+![Attribute Detail Editor](/img/quality-config-attribute-detail-editor1.png)
+
+![Attribute Detail Editor](/img/quality-config-attribute-detail-editor2.png)
+
 ### Data Source Tab
 - **Purpose**: To associate an attribute with a tag in the commission.
 - **Initial View**: Displays a list of existing data connections and an option to add a new data source.

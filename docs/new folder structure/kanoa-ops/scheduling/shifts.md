@@ -11,6 +11,8 @@ hide_table_of_contents: true
 
 The Kanoa Ops Shift Scheduling screen is a versatile tool designed for managing personnel shifts across your entire enterprise, whether at the plant level or for specific assets. This screen allows for the creation, viewing, and editing of shifts in a user-friendly interface, accommodating the diverse scheduling needs of different areas or lines within your enterprise.
 
+![Schedule Shifts](/img/ops-scheduling-shifts.png)
+
 ## Screen Layout
 
 1. **Filter and Control Section**: Located at the top, this section includes various controls for filtering and viewing shifts.

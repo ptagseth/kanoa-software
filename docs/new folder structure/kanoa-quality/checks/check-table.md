@@ -10,6 +10,8 @@ hide_table_of_contents: true
 
 The Kanoa Quality Check Table Screen is an integral interface in the Kanoa quality system, offering comprehensive management and review of check sheets. This screen is divided into three distinct sections: the Dayton Asset Filter Section, the Action Panel, and the Main Content Area, featuring the Check Table. This documentation will detail the functionalities and navigation of each section.
 
+![Check Table](/img/quality-checks-check-table.png)
+
 ## Screen Layout
 
 1. **Filter Section**: Located at the top, it includes filters for assets, items, check types, and date ranges.

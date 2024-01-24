@@ -10,6 +10,8 @@ hide_table_of_contents: true
 
 The Kanoa Quality Active Checks Dashboard is designed to provide a real-time overview of quality checks within the system that require attention. It is an essential tool for quality control, highlighting checks in various states and facilitating immediate action.
 
+![Active Checks](/img/quality-checks-active-checks.png)
+
 ## Dashboard Layout
 
 ### Top Section: Numeric Indicators

@@ -9,6 +9,8 @@ hide_table_of_contents: true
 ### Introduction
 This documentation provides a step-by-step guide on configuring a check sheet in Kanoa Quality through the Check Sheet Configuration Screen.
 
+![Configure Check Sheets](/img/quality-config-check-sheets.png)
+
 ### Accessing the Configuration Screen
 1. Navigate to the Configuration section.
 2. Select ‘Quality Check Sheets’.
