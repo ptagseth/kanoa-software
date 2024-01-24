@@ -4,29 +4,34 @@ title: Line Operation
 sidebar_position: 1
 hide_table_of_contents: true
 ---
-import CreateIcon from '@mui/icons-material/Create';
+# Line Operation
 
-The asset operation screen can be found under **Production/Asset Operation**.
+## Overview
 
-## Operations
-The asset operation screen can be used by an operator to set the mode of a line or asset. Select a line using the **Asset Selector** in the top left.
-Note that you must select an individual line with the Asset Selector, you cannot select areas.
-![Asset Operation](/img/36.png)
+The Line Operation screen is crucial for the day-to-day management of operations in Kanoa Ops. This screen integrates various components found throughout the application and is structured into three main sections for streamlined asset management and operational control.
 
-Production orders can be started and ended in the **Work Order** view:
-![Asset Operation](/img/51.png)
+## Screen Layout
 
-Production runs can be started and ended in the **Product** view: 
-![Asset Operation](/img/52.png)
+### 1. Asset Selector (Top Section)
+- **Functionality**: Provides an asset filter to focus on specific assets.
+- **Usage**: Click on the asset selector to access the asset tree and select assets for operations.
+- **Small Asset Card**: Offers a brief overview of the asset. Detailed documentation is available elsewhere.
 
-Scheduled production runs can be started in the **Schedule** view:
-![Asset Operation](/img/50.png)
+### 2. Asset Card (Middle Section)
+- **Asset Card**: Presents detailed information about the selected asset. This is documented separately.
 
-In the **Mode** view, the mode of the asset can be changed to any mode configured as *canSelect*:
-![Asset Operation](/img/53.png)
+### 3. Activities and Actions Panel (Bottom Section)
+- **Operations Tab**: 
+  - **Manual Operation Control**: Users can start and stop line operations manually. This includes running specific work orders or products.
+  - **Work Order/Product Selection**: Utilize radio buttons to select either a work order or product, then click the 'Start' button to initiate.
+  - **Schedule Integration**: The 'Schedule' button allows for finding and starting specific orders from the schedule.
+  - **Non-Production Modes**: Set the machine to modes like 'Changeover', 'Cleaning', or 'Engineering' via the 'Mode' button. These modes are configured in the Mode Configuration screen.
+  - **Ending Operations**: Clicking the 'End' button will conclude the current run and set the line to idle mode. In idle mode, if there's a scheduled order, the system will automatically start it.
 
-## Production Entry
-The [Production Data Entry](docs/products/ops/production-data-entry.md) view can be accessed from the asset operation page. 
+- **Production Entry Tab**:
+  - **Functionality**: Documented in the Run Review section of the Kanoa Ops documentation. This tab is used for entering and reviewing production data.
 
-Click on the <CreateIcon fontSize="small" /> **Production Entry** tab and use the date range selector to select the relevant time frame.
-   ![Editing Downtime](/img/54.png)
+## Summary
+
+The Line Operation screen is a comprehensive interface for managing assets and operations in Kanoa Ops. It combines asset selection, detailed asset information, and operational control into a cohesive and user-friendly environment. This screen is essential for effectively overseeing daily production activities and managing work orders, product runs, and machine modes.
+

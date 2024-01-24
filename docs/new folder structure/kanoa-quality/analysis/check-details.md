@@ -1,50 +1,40 @@
 ---
+id: check-details
 title: Check Details
 sidebar_position: 2
 hide_table_of_contents: true
 ---
+# Kanoa Quality Check Details Report
 
-:::info 
-The Detail report can be found by clicking Check Details at **Quality > Analysis**.
-:::
+### Overview
+The Kanoa Quality Check Details Report is designed to analyze data across multiple instances of a check sheet. This report is ideal for users who need to view aggregated data from various completions of a check sheet, offering a comprehensive view of the performance and outcomes over time.
 
-The Check Details report provides a view on individual check values.
+### Screen Layout and Functionalities
 
-![Check Details](/img/CheckDetailsOverview.png)
+#### 1. **Top Filter Section**
+   - **Select Check Sheets**: Opens a pop-up to choose the specific check sheet(s) for the report.
+   - **Filter Assets**: Activates an asset filter pop-up to display check sheets related to a chosen asset.
+   - **Filter Items**: Opens an item filter pop-up to limit the report to checks pertaining to a specific item.
+   - **Date Range Selection**: Includes a dropdown and fields for custom start and end dates.
+   - **Select Group Dropdown**: Allows filtering data from a specific tab or check group in the check sheet.
 
-## Customize Check Data
+#### 2. **Action Panel (Left Side)**
+   - **View/Column View Button**: Switches the data display orientation based on user preference.
+   - **Clear Table Button**: Clears data from the main content area.
+   - **Export Button**: Downloads all report data to a CSV file.
+   - **Trend View Button**: Activates a trend view for selected data columns (covered in a separate video).
 
-### Check Sheet Selector
-Select the specific Check for the detailed data
+#### 3. **Main Content Area**
+   - **Data Display**: Shows all data across selected checks that meet the filter criteria.
+   - **Summary Data Options**: Includes buttons to show summarized values (average, sum, max, range, standard deviation).
+   - **Additional Data Display**: Options to show group names, resources (shift, item, asset), and check status (approved/rejected).
+   - **Text Filter Field**: Allows filtering of the table based on text input.
 
-### Asset Selector
-Select the asset for the Check details
+### Navigating the Report
 
-### Item Selector
-Select Item.  This will filter the asset data to the specific items.
+- Use the top filter section to define the scope of the report, including check sheets, assets, items, date ranges, and specific groups.
+- The action panel provides tools for customizing the view and exporting data.
+- The main content area is where the aggregated data is displayed, with various options to tailor the data presentation.
 
-### Date and Time range
-Select the date range for the detailed check data
 
-### Content selections:
-Use select buttons to customize the data view:
-- Show Summary - Detailed data - select to display summary data (Sum, Avg, Min, Max, Range, Std Dev)
-- Show Group - Detailed data - select to display Group info
-- Show Resources - Detailed data - select to include resources as Item, Asset, Shift, etc.
-- Show Status - Detail data - select to include Status in displayed data
-- Show individual Measurements - Detail data - select to display individual measurements 
 
-### Filters
-Filters can be utilized to limit data to only the desired data set.
-
-### Column, Row Views
-Toggle Columns and Rows
-
-## Trend Views
-Select a Check Item and click the Trend View icon for a Trend View.  Trend Views provide data plotted in either a Time Series or in a histogram format.  Both Time Series and Histograms can filter out outlier data by setting min and max values.
-
-Select additional data sources to overlay multiple data plots.
-
-![Check Details](/img/CheckDetailsTimeSeries.png)
-
-![Check Details](/img/CheckDetailsHistogram.png)

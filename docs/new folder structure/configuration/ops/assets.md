@@ -5,49 +5,55 @@ sidebar_position: 1
 hide_table_of_contents: true 
 ---
 
-import AddIcon from '@mui/icons-material/Add';
-import DeleteIcon from '@mui/icons-material/DeleteForever';
-import EditIcon from '@mui/icons-material/Edit';
+# Asset Configuration in Kanoa Ops
 
-The Asset Editor page at **Ops > Configuration > Asset Management > Assets** is to create and manage your assets.  A flexible architecture allows to configure assets in any hierarchy desired structure.
+## Overview
 
-## Asset Types
-The different asset types are:
- - Enterprise
- - Region
- - Site 
- - Area
- - Line
- - Cell
+The Asset Configuration page in Kanoa Ops is designed for comprehensive management of assets within the application. This document provides detailed instructions on how to use the page for filtering, editing, and managing assets.
 
-Cells can be grouped in Cell Groups and Lines can be configured to have Sub-Lines.
+### Screen Layout
 
-Logged in users can see the Asset management screen, but privileges are needed to add, modify or delete assets.  The necessary privileges can be set at the Security pages.
+The Asset Configuration screen is divided into three main sections:
 
+1. **Filtering Information**: Located at the top of the screen, it allows users to narrow down the list of assets.
+2. **Actions Panel**: Situated on the left, this panel includes options for adding, editing, duplicating, and deleting assets.
+3. **Main Content Area**: Displays the assets in the middle of the screen.
 
-## Asset Modification
+## Managing Assets
 
-### Create an Asset
+### Filtering Assets
 
-To create an asset - click the <AddIcon fontSize="small" /> icon on the Asset Management page - and next click the <AddIcon fontSize="small" /> icon on the Asset Editor to clear the form.  Select the asset parent in the editor - and enter the asset information as needed.  Save the asset.
+- **Asset Selector**: Use this button to narrow down the list of assets in your table.
+- **Filter by Type**: A dropdown to filter assets based on their type.
 
-![Asset Manager](/img/AssetsCreateAsset.png)
+### Editing Asset Types
 
+- **Access**: Click the pencil button next to the filter dropdown.
+- **Function**: This opens the Asset Type Editor, allowing you to define new asset types in your hierarchy.
 
-When an asset is configured as ‘OEE_Enabled’, a lineOEE tag UDT instance is created that can then be connected to a data source with either a plc from an OPC-UA source or with a MQTT reference tag.
+### Actions Panel
 
-When an asset is configured as ‘OEE_Calculated’, the OEE for this asset will be calculated. Code stubs are provided for custom OEE calculations. This should be used for assets/production lines that comprise multiple operations with significant latency. An example of this would be a Bakery line that may consist of several in-line operations such as batching, baking and packaging. Trying to figure out OEE for a line of this magnitude can have significant issues for shift KPIs, so the 'OEE_Calculated' provides a method for creating your own custom calculation.
-Default values for OEE calculations provided as "starter values" when OEE Enabled and can be customized.
+- **Add Asset**: Click the 'Add' button and decide where in the hierarchy you want the asset. Fill in the required information, including asset name, type, groups, and sort order.
+- **Edit Asset**: Select an asset from the hierarchy, click the 'Edit' button, and change the necessary information.
+- **Duplicate Asset**: Facilitates creating multiple similar assets quickly.
+- **Delete Asset**: Remove assets from your hierarchy.
 
+### Asset Information Fields
 
-### Modify an Asset
+- **Asset Name**: The unique identifier for the asset.
+- **Asset Type**: Defined in the Asset Type Editor.
+- **Asset Groups**: Used for additional reporting on assets.
+- **Sort Order**: Determines the asset's position relative to others.
+- **OEE Section**: If OEE is enabled, set thresholds for performance, availability, quality, and overall threshold. These are the objectives and warning thresholds.
 
-Modify an Asset is just a variation of Create an Asset.  Select the asset to be modified and click the <EditIcon fontSize="small" /> icon.  Make the  necessary changes and Save.
+### Custom Attributes
 
+- Use the custom tab for adding specific attributes like time zones to enterprises and sites.
 
-### Delete an Asset
+### Assets Table
 
-To Delete and Asset - select the asset to delete and click the <DeleteIcon fontSize="small" /> icon
+- The table displays a summary of all assets in the system, including asset ID, path, type, group, OEE enablement, and OEE thresholds.
 
-![Asset Manager](/img/AssetsDeleteAsset.png)
+## Summary
 
+This guide outlines the process of managing assets in Kanoa Ops, including how to filter, add, edit, duplicate, and delete assets. Custom attributes and OEE configurations are also covered, providing a comprehensive overview of asset management within the application.

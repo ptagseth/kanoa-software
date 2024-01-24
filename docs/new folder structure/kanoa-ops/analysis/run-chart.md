@@ -5,7 +5,35 @@ sidebar_position: 5
 hide_table_of_contents: true
 ---
 
-The Run Chart can be used to visualize the asset schedule, utilization and state all in one view. The state can only be viewed when a single site is selected. Modes and states can be viewed for a line, it’s sub-lines and cells if they are OEE_Enabled.
+# Run Chart
 
-![Run Chart](/img/RunChartOverview.png)
+## Overview
+
+The Kanoa Ops Run Chart is a dynamic visualization tool designed to provide an at-a-glance overview of how production lines are operating versus their planned operations. This tool is particularly useful for monitoring multiple assets across a full area or site.
+
+## Filter Section
+
+### Asset Selector
+- **Function**: Choose individual assets or a group of assets for reporting.
+- **Optimal Use**: Best when used to report on an entire area or site, encompassing multiple assets.
+
+### Time Frame Selector
+- **Date Range Dropdown**: Select a predefined time range for the report.
+- **Start and End Date Fields**: Customize the date range as needed.
+
+### Display Section
+- Offers options for what data is displayed in the run chart.
+- **Sections**: 
+  - **Mode Reporting**: Shows each mode that the lines went through over the selected time period.
+  - **State Reporting**: Displays the actual state reported back from the machine.
+  - **Schedule Reporting**: Illustrates all scheduled modes, current and future.
+
+### Asset Type Selector
+- **Function**: Filter to show only assets of a specific type in the chart.
+
+## Chart Content
+
+- Presents the chosen display data for each selected asset over the specified timeframe.
+- Groups data by asset, allowing simultaneous viewing of scheduled mode, actual mode, and state for each asset.
+
 

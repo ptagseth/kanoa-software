@@ -3,26 +3,65 @@ id: operations1
 title: Operations
 sidebar_position: 2
 hide_table_of_contents: true
-sidebar_class_name: hidden
 ---
-The Operations Schedule allows the user to schedule the Production modes for Operations schedule enabled asset. The Operations Schedule will change the modes for the Production Operations without overwriting states set by a PLC tag.
+# Operations Scheduling
 
-![Mode Editor](/img/OperationsOverview.png)
+## Overview
 
+The Operations Scheduling screen in the application is a vital tool for planning and managing work orders and production runs on specific assets within your plants. It provides a clear view of the current and planned production activities, aligning them with your production plans. The screen consists of two main sections: the filtering control section and the main calendar content area.
 
-### Calendar and List View
-The schedule can be viewed in either Calendar view or List view.  Granularity of the view can be set to Month, Week or Day.
+## Screen Layout
 
-### Create and modify Operations Schedule
-Only assets enabled for Operations Schedule can be scheduled.  Once the asset is selected - click the + icon to add an Operations event to the Schedule.  Choose Type, Create a name, set start and end data before event is saved.  Notes for the event is optional.
+1. **Filtering Control Section**: Situated at the top, this section offers various controls to customize the view of the schedule.
+2. **Main Calendar Content Area**: Displays the operation schedule for the selected asset.
 
-Use Recurrence link on editor to setup recurrence of event.
+## Filtering Control Section
 
-Production Work Orders in either 'Released' or 'Scheduled' state can be added to Operations Scheduler by drag and drop from the list of Work Orders.  
+### Viewing Modes
+- Toggle between calendar view and list view.
 
-Click on an event and select the edit button to modify an existing scheduled event - or click the delete button to remove a scheduled event.
+### Time Range Controls
+- Switch the display of the schedule by month, week, or day.
 
+### Asset Selector
+- Choose the specific asset or area to display in the calendar.
 
-### Operations Scheduler Mode Changes
-When enabled, scheduled operations will automatically set the mode of the asset when the asset is not in an 'idle' mode. This helps in utilization analysis as scheduled maintenance periods will show up as maintenance and not idle. Any time asset is forced into a mode by a plc tag change or set by an operator, the scheduled mode will not be set.
+### Time Zone Reminder
+- Note that calendar times are shown in the current site's time zone.
 
+### Show Work Orders Button
+- An option to display work orders in the scheduling area.
+
+## Main Calendar Content Area
+
+### Current Schedule Display
+- Shows the production operation schedule for the selected asset.
+
+### Editing and Deleting Events
+- Click on any entry to access the 'Edit Selected Event' button, allowing changes to the event.
+- Option to delete selected events.
+
+## Managing Events
+
+### Adding a New Event
+1. Click 'Create New Event' button.
+2. Select the asset and type of event.
+3. Name the event, set start and end times, and add any relevant notes.
+4. For recurring events, use the 'Does Not Repeat' link to edit recurrence options.
+
+### Scheduling via Calendar
+1. Click in the calendar, dragging to the desired event duration.
+2. Click the 'New Event' button, which will use the selected time frames.
+
+### Scheduling Production Orders
+1. Click the 'Work Orders' button in the top bar to view a list of available production orders.
+2. Drag and drop selected orders into the schedule for automatic scheduling on the chosen asset.
+
+### Scheduling Production Orders - Additional Options
+- When selecting a production order for an event, additional options include:
+  - Selecting a specific work order or item.
+  - Setting the scheduled quantity for the run.
+
+## Summary
+
+The Operations Scheduling screen is a comprehensive tool for effectively scheduling and managing production activities. It offers flexibility in viewing and organizing production schedules, allowing for precise control over work orders and production runs. This screen is essential for ensuring that production activities are aligned with overall operational plans and are efficiently managed across various assets in the plants.
