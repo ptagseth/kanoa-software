@@ -11,6 +11,8 @@ hide_table_of_contents: true
 
 The Kanoa Ops Production Count Report is a specialized tool designed to provide detailed insights into production counts across selected assets or areas. The report is structured into two main sections: Filters and Main Report Content.
 
+![Production Counts Report](/img/ops-analytics-production-counts.png)
+
 ## Filters Section
 
 ### Asset Filter

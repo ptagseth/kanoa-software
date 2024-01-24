@@ -39,6 +39,8 @@ The Kanoa Ops Downtime Report is a comprehensive tool designed to analyze and re
 2. **Downtime by Asset Reason**
    - Column chart detailing downtime by individual reasons.
 
+![Downtime Report](/img/ops-analytics-downtime1.png)
+
 3. **Downtime by Category, Reason Code, and Shift**
    - Displays downtime minutes grouped by category, reason code, and shift.
 
@@ -51,3 +53,6 @@ The Kanoa Ops Downtime Report is a comprehensive tool designed to analyze and re
 - Includes filters for on-the-fly examination.
 - **Data Columns**: Line, state ID, category, state type, code, start and end time, total duration (seconds), notes, and last modified details.
 - **Export Function**: Exports the table data to a CSV file.
+
+![Downtime Report](/img/ops-analytics-downtime2.png)
+

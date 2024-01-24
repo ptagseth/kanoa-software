@@ -15,6 +15,8 @@ The Material Configuration screen in Kanoa Ops is an essential tool for managing
 1. **Material Definition Editor**: Central section for adding, editing, and deleting materials.
 2. **Production Rates Association Screen**: Top tabs switch between materials and production rates.
 
+![Materials Edit](/img/ops-config-materials2.png)
+
 ## Managing Item Classes
 
 ### Item Class Editor
@@ -41,6 +43,8 @@ The Material Configuration screen in Kanoa Ops is an essential tool for managing
 - You can delete materials directly from this screen.
 
 ## Production Rates
+
+![Material Configuration](/img/ops-config-materials1.png)
 
 ### Viewing Production Rates
 - **Access**: Click on the 'Production Rates' tab.

@@ -33,9 +33,15 @@ The Kanoa Ops Reliability KPIs Report is an extensive tool designed to offer in-
 - **Stacked Column Chart**: Displays time-in for each asset by mode.
 - **Pie Chart**: Shows a distribution of time-in across all selected assets.
 
+![Reliability KPIs Report](/img/ops-analytics-kpis1.png)
+
+
 #### Lost Bucket Summary and Details
 - **Left Pane (Lost Bucket Summary)**: Categorizes downtime (e.g., breakdown, speed loss, quality loss) and displays total time spent in each category per asset.
 - **Right Pane (Details)**: Offers a granular breakdown of reasons behind each downtime category in a stacked column format.
+
+![Reliability KPIs Report](/img/ops-analytics-kpis2.png)
+
 
 ### KPIs Tab
 
@@ -44,6 +50,9 @@ The Kanoa Ops Reliability KPIs Report is an extensive tool designed to offer in-
   - Availability (Setups, Adjustments, Process Failures, Breakdowns)
   - Performance (Minor Stops, Speed Losses)
   - Quality (Quality Losses)
+
+![Reliability KPIs Report](/img/ops-analytics-kpis3.png)
+
 
 ### Additional Features
 

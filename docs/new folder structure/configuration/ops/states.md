@@ -19,6 +19,8 @@ The State Configuration screen is divided into three main sections:
 2. **Action Buttons**: Situated in the middle, these buttons are used for various actions like adding, editing, and deleting states.
 3. **Master State List**: This is the main content area on the right, showing a comprehensive list of all states.
 
+![State Configuration](/img/ops-config-state.png)
+
 ### Master State List
 
 Kanoa Ops maintains a master state list similar to modes. This list is used throughout the application and can be assigned to individual assets as needed.

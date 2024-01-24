@@ -36,6 +36,11 @@ The Kanoa Ops Summary Report provides a comprehensive overview of operational pe
 - **Column Chart**: Displays total line utilization and time in each mode per interval.
 - **Stacked Column Chart**: Shows total downtime by reason per interval.
 
+
+![Summary Report](/img/ops-analytics-summary2.png)
+
+![Summary Report](/img/ops-analytics-summary1.png)
+
 ### Report Repetition
 - The report content is repeated for each asset within the selected area, based on the applied filters.
 

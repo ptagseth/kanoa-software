@@ -28,6 +28,11 @@ The Kanoa Ops Run Chart is a dynamic visualization tool designed to provide an a
   - **State Reporting**: Displays the actual state reported back from the machine.
   - **Schedule Reporting**: Illustrates all scheduled modes, current and future.
 
+![Run Chart](/img/ops-analytics-run-chart1.png)
+
+![Run Chart](/img/ops-analytics-run-chart2.png)
+
+
 ### Asset Type Selector
 - **Function**: Filter to show only assets of a specific type in the chart.
 

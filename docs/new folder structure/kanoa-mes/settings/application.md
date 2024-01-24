@@ -20,6 +20,8 @@ The Application Settings screen in Kanoa MES is divided into three tabs: Theme, 
   - Instant application of the selected theme.
   - A color palette guide for developers and UX designers, detailing key colors used in each theme.
 
+![Application Themes](/img/settings-application.png)
+
 ### 2. UX Components Tab
 - **Purpose**: Serves as a reference for the user interface standards used in the application.
 - **Functionality**:

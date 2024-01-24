@@ -11,6 +11,8 @@ hide_table_of_contents: true
 
 Kanoa Asset Cards are designed to concisely summarize critical information about an OEE-enabled asset, presenting it in a user-friendly manner. These cards are comprised of four main components: the Title and Action Section, and three content areas - Mode & State Section, Production Order Section, and OEE Section.
 
+![Asset Card](/img/ops-analytics-asset-card.png)
+
 ## Components of the Asset Card
 
 ### 1. Title and Action Section

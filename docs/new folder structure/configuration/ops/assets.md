@@ -19,6 +19,8 @@ The Asset Configuration screen is divided into three main sections:
 2. **Actions Panel**: Situated on the left, this panel includes options for adding, editing, duplicating, and deleting assets.
 3. **Main Content Area**: Displays the assets in the middle of the screen.
 
+![Asset Configuration](/img/ops-config-asset.png)
+
 ## Managing Assets
 
 ### Filtering Assets

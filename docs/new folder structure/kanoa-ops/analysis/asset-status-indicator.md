@@ -11,6 +11,8 @@ hide_table_of_contents: true
 
 The Asset Status Indicator in Decatur is a feature designed to provide users with critical, at-a-glance information about OEE (Overall Equipment Effectiveness) enabled assets. This tool is essential for quickly understanding the operational status of assets in a manufacturing or production environment.
 
+![Asset Status Indicator](/img/ops-analytics-asset-status-indicator.png)
+
 ## Main Components
 
 The Asset Status Indicator consists of four primary elements, each offering specific insights into the asset's status:

@@ -19,6 +19,8 @@ Upon accessing the Mode Configuration screen, you will observe the following lay
 - **Action Buttons (Middle Section):** Provides options to add, edit, or remove modes.
 - **Master Mode List (Main View):** Shows all globally defined modes available in Kanoa Ops.
 
+![Mode Configuration](/img/ops-config-mode.png)
+
 ## Managing Global Mode List
 
 Modes in Kanoa Ops are defined globally and can be utilized across various assets.

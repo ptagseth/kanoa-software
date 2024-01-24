@@ -10,6 +10,8 @@ hide_table_of_contents: true
 
 The Kanoa Ops OEE (Overall Equipment Effectiveness) Report is a powerful analytical tool that provides insights into asset performance. It comprises two main sections: Filters and Report Content, designed to offer a detailed analysis of OEE metrics for selected assets or areas.
 
+![OEE Report](/img/ops-analytics-oee.png)
+
 ## Filters Section
 
 ### Asset Filter
