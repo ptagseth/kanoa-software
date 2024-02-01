@@ -1,7 +1,7 @@
 ---
 id: line-operation
 title: Line Operation
-sidebar_position: 1
+sidebar_position: 2
 hide_table_of_contents: true
 ---
 # Line Operation in Kanoa Ops
