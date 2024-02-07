@@ -44,7 +44,7 @@ The Asset Configuration screen is divided into three main sections:
 
 - **Asset Name**: The unique identifier for the asset.
 - **Asset Type**: Defined in the Asset Type Editor.
-- **Asset Groups**: Used for additional reporting on assets.
+- **Asset Groups**: Used for additional reporting on assets. Asset  Groups can be managed in the Asset Editor.
 - **Sort Order**: Determines the asset's position relative to others.
 - **OEE Section**: If OEE is enabled, set thresholds for performance, availability, quality, and overall threshold. These are the objectives and warning thresholds.
 
