@@ -14,18 +14,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>getAttributeAssetLinks(paramsDict)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>dictionary paramsDict - &#123;'assetId': 18, 'enabled': True, 'attributeName': 'some attribute', 'attributeId': 7, 'attributePath': 'some path'}</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>dictionary paramsDict - &#123;'assetId': 18, 'enabled': True, 'attributeName': 'some attribute', 'attributeId': 7, 'attributePath': 'some path'}</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>dataSource data - pyDataset</li>
-      </ul>
+    <li>Returns <br />
+      <ul>dataSource data - pyDataset</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

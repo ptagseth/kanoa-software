@@ -14,19 +14,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>addLot(lotInfo, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>Dictionary lotInfo - Information about the lot to be added, including lotName and itemId.</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>Dictionary lotInfo - Information about the lot to be added, including lotName and itemId.</ul>
+        <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Lot ID</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Lot ID</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

@@ -14,20 +14,14 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>unlinkAssetLotState(lotStateReasonAssetLinkId, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>int lotStateReasonAssetLinkId - Lot state reason asset link ID</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>int lotStateReasonAssetLinkId - Lot state reason asset link ID</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Number of records modified</li>
-        <li>string - Message indicating whether the link was deleted or disabled</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Number of records modified</ul>
+      <ul>string - Message indicating whether the link was deleted or disabled</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

@@ -14,20 +14,14 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>deleteAttribute(attributeId, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>int attributeId - Attribute ID</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>int attributeId - Attribute ID</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>bit success - Success flag</li>
-        <li>string message - Message indicating the result</li>
-      </ul>
+    <li>Returns <br />
+      <ul>bit success - Success flag</ul>
+      <ul>string message - Message indicating the result</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

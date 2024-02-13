@@ -14,19 +14,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>updateAttributeEvent(attributeEventInfo, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>dictionary attributeEventInfo - &#123;'attributeEventId': 23, 'attributeAssetLinkId': 18, 'value': 'sausages', 'tStamp': somedate}</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>dictionary attributeEventInfo - &#123;'attributeEventId': 23, 'attributeAssetLinkId': 18, 'value': 'sausages', 'tStamp': somedate}</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Number of records modified</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Number of records modified</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

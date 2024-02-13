@@ -14,18 +14,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>getAssetLotStateReasons(paramsDict)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>Dictionary paramsDict - Parameters for filtering asset lot state reasons. Valid keys include lotStateReasonAssetLinkId, lotStateReasonEnabled, linkEnabled, assetPath, assetId, assetIdList, lotStateId, lotStateName, lotStateReasonId, and lotStateReasonName.</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>Dictionary paramsDict - Parameters for filtering asset lot state reasons. Valid keys include lotStateReasonAssetLinkId, lotStateReasonEnabled, linkEnabled, assetPath, assetId, assetIdList, lotStateId, lotStateName, lotStateReasonId, and lotStateReasonName.</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>pyDataset - Asset lot state reasons dataset</li>
-      </ul>
+    <li>Returns <br />
+      <ul>pyDataset - Asset lot state reasons dataset</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

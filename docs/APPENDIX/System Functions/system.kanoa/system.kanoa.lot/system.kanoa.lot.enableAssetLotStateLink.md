@@ -14,19 +14,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>enableAssetLotStateLink(lotStateReasonAssetLinkId, enabled)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>int lotStateReasonAssetLinkId - Lot state reason asset link ID</li>
-        <li>boolean enabled - New enabled state</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>int lotStateReasonAssetLinkId - Lot state reason asset link ID</ul>
+      <ul>boolean enabled - New enabled state</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Number of records modified</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Number of records modified</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

@@ -14,19 +14,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>deleteAttributeEvent(attributeEventId, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>int attributeEventId - Attribute event ID</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+        <ul>int attributeEventId - Attribute event ID</ul>
+        <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Number of records modified</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Number of records modified</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

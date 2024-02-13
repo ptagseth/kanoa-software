@@ -14,18 +14,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>getLotStateReasons(paramsDict)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>Dictionary paramsDict - Parameters for filtering lot state reasons. Valid keys include lotStateReasonId, lotStateReasonName, and enabled.</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>Dictionary paramsDict - Parameters for filtering lot state reasons. Valid keys include lotStateReasonId, lotStateReasonName, and enabled.</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>pyDataset - Lot state reasons dataset</li>
-      </ul>
+    <li>Returns <br />
+      <ul>pyDataset - Lot state reasons dataset</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

@@ -14,21 +14,15 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>updateLotStateReasonField(lotStateReasonId, field, value, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>int lotStateReasonId - Lot state reason ID</li>
-        <li>string field - Name of the column to be updated</li>
-        <li>pyObject value - New value for the specified field</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>int lotStateReasonId - Lot state reason ID</ul>
+      <ul>string field - Name of the column to be updated</ul>
+      <ul>pyObject value - New value for the specified field</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Number of records modified</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Number of records modified</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

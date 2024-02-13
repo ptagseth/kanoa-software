@@ -14,19 +14,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>addLotEvent(lotEventInfo, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>Dictionary lotEventInfo - Information about the lot event, including lotId, lotEventQty, itemUnitId, assetId, itemSourceId, lotStateId, lotStateReasonId, workOrderId, shiftId, tStamp, and comment.</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>Dictionary lotEventInfo - Information about the lot event, including lotId, lotEventQty, itemUnitId, assetId, itemSourceId, lotStateId, lotStateReasonId, workOrderId, shiftId, tStamp, and comment.</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Lot event ID</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Lot event ID</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

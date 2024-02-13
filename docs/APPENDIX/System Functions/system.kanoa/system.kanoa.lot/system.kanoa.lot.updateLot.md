@@ -14,19 +14,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>updateLot(lotInfo, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>Dictionary lotInfo - Information about the lot to be updated, including lotEventId, lotName, and itemId.</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>Dictionary lotInfo - Information about the lot to be updated, including lotEventId, lotName, and itemId.</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Number of records modified</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Number of records modified</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

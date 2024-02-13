@@ -14,20 +14,14 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>linkAssetLotStates(assetIdList, lotStateReasonIdList, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>list assetIdList - List of asset IDs</li>
-        <li>list lotStateReasonIdList - List of lot state reason IDs</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>list assetIdList - List of asset IDs</ul>
+      <ul>list lotStateReasonIdList - List of lot state reason IDs</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Number of records created</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Number of records created</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

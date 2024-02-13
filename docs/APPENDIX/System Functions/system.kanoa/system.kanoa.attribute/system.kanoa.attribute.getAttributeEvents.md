@@ -14,18 +14,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>getAttributeEvents(paramsDict)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>dictionary paramsDict - &#123;'attributeId': 5}. Valid keys are assetPath, startDate, endDate, assetId, attributeName, attributePath, attributeAssetLinkId</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>dictionary paramsDict - &#123;'attributeId': 5}. Valid keys are assetPath, startDate, endDate, assetId, attributeName, attributePath, attributeAssetLinkId</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>data - pyDataset</li>
-      </ul>
+    <li>Returns <br />
+      <ul>data - pyDataset</ul>
     </li>
-  </ul>
+
 </HeaderBox>
 
 ### Code Examples

@@ -14,19 +14,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>addAttribute(attrInfo, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>dictionary attrInfo - &#123;'attributeName': 'some attribute name', 'attributeDescription': 'some description', 'parentId': 6, 'enabled': True}</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>dictionary attrInfo - &#123;'attributeName': 'some attribute name', 'attributeDescription': 'some description', 'parentId': 6, 'enabled': True}</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int attributeId - Newly created attribute ID</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int attributeId - Newly created attribute ID</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

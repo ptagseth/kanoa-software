@@ -14,20 +14,14 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>deleteLotStateReason(lotStateReasonId, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>int lotStateReasonId - Lot state reason ID</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>int lotStateReasonId - Lot state reason ID</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Number of records modified</li>
-        <li>string - Message indicating whether the reason was deleted or disabled</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Number of records modified</ul>
+      <ul>string - Message indicating whether the reason was deleted or disabled</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

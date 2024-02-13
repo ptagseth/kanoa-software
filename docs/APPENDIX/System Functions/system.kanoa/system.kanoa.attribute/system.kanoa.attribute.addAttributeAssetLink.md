@@ -14,20 +14,14 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>addAttributeAssetLink(attrAssetInfo, userId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>dictionary attrAssetInfo - &#123;'attributeId': 3, 'assetId': 5, 'sourceTagPath': 'some tag path', 'scaleFactor': 1.0, 'ignoreZeroValues': True, 'enabled': True}</li>
-        <li>int userId - User ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>dictionary attrAssetInfo - &#123;'attributeId': 3, 'assetId': 5, 'sourceTagPath': 'some tag path', 'scaleFactor': 1.0, 'ignoreZeroValues': True, 'enabled': True}</ul>
+      <ul>int userId - User ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int attributeAssetLinkId - Newly created attribute asset link ID</li>
-        <li>string msg - Message indicating the result</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int attributeAssetLinkId - Newly created attribute asset link ID</ul>
+      <ul>string msg - Message indicating the result</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples

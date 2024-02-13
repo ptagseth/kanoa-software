@@ -14,18 +14,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>getNextLotName(workOrderId)</b>
-  <ul>
-    <li>Parameters
-      <ul>
-        <li>int workOrderId - Work order ID</li>
-      </ul>
+    <li>Parameters <br />
+      <ul>int workOrderId - Work order ID</ul>
     </li>
-    <li>Returns
-      <ul>
-        <li>int - Next lot name</li>
-      </ul>
+    <li>Returns <br />
+      <ul>int - Next lot name</ul>
     </li>
-  </ul>
 </HeaderBox>
 
 ### Code Examples
