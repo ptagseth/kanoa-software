@@ -1,0 +1,40 @@
+---
+id: delete-lot-event
+title: system.kanoa.lot.deleteLotEvent
+---
+
+import PurpleBox from '@site/src/components/PurpleBox';
+import HeaderBox from '@site/src/components/HeaderBox';
+
+<PurpleBox>This function is part of the <b>kanoaOPS</b> module</PurpleBox>
+
+<HeaderBox header="Description">
+  Deletes a lot event.
+</HeaderBox>
+
+<HeaderBox header="Syntax">
+  <b>deleteLotEvent(lotEventId, userId)</b>
+  <ul>
+    <li>Parameters
+      <ul>
+        <li>int lotEventId - Lot event ID to be deleted</li>
+        <li>int userId - User ID</li>
+      </ul>
+    </li>
+    <li>Returns
+      <ul>
+        <li>int - Number of records modified</li>
+      </ul>
+    </li>
+  </ul>
+</HeaderBox>
+
+### Code Examples
+
+```python
+# Example usage
+lotEventId = 76
+userId = 123
+recordsModified = system.kanoa.lot.deleteLotEvent(lotEventId, userId)
+print(recordsModified)  # Print the number of records modified
+
