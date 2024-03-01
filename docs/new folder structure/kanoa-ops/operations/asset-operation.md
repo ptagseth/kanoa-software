@@ -13,11 +13,11 @@ The Kanoa Ops Asset Operation Screen serves as a comprehensive interface for ope
 ![Asset Operation](/img/asset-ops-run-control.png)
 
 ### Run Control
-- To start and stop orders and change modes on the line.
-  - **Scheduled:** Provides the production operations schedule for the asset. The user will be able to start and end scheduled production runs.
-  - **Work Order:** The user will manage start and end of the scheduled work orders 
-  - **Product:** The user will manually manage start and end of production of the requested items
-  - **Mode:** This is where the user will manually manage the different modes available
+To start and stop orders and change modes on the line.
+- **Scheduled:** Provides the production operations schedule for the asset. The user will be able to start and end scheduled production runs.
+- **Work Order:** The user will manage start and end of the scheduled work orders 
+- **Product:** The user will manually manage start and end of production of the requested items
+- **Mode:** This is where the user will manually manage the different modes available
 
 ![Run Control](/img/asset-ops-run-control-wo.png)
 
@@ -37,7 +37,7 @@ The Kanoa Ops Asset Operation Screen serves as a comprehensive interface for ope
 ![Asset Operation](/img/asset-ops-manual-entry.png)
 
 ### Schedule View
-- **Display:** Shows a calendar with the current week's schedule for the selected asset.
+Shows a calendar with the current week's schedule for the selected asset.
 
 ![Asset Operation](/img/asset-ops-schedule.png)
 
