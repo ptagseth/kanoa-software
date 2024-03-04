@@ -7,16 +7,15 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 
 <PurpleBox>This function requires <b>KanoaCore</b> module</PurpleBox>
-<HeaderBox header="Description">TBD </HeaderBox>
+<HeaderBox header="Description">Updates the specific asset roles of the user</HeaderBox>
 
 <HeaderBox header="Syntax">
-    <b> </b>
+    <b>updateUserAssetRoles(paramsDict) </b>
     <li> Parameters <br />
-        <ul>TBD <br /> </ul>
-        <ul> </ul>
+        <ul>paramsDict: (Dictionary)  i.e. &#123;'userId': 18, 'userAssetRole': 3, 'assetId': 16, 'roleId': 1}<br /> </ul>
     </li>
     <li> Returns <br />
-        <ul>TBD <br /> </ul>
+        <ul>none<br /> </ul>
     </li>
 </HeaderBox>
 
@@ -24,6 +23,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Examples
 
 ```py
-TBD
+system.kanoa.security.updateUserAssetRoles({'userId': 18, 'userAssetRole': 3, 'assetId': 16, 'roleId': 1})
 
 ```
