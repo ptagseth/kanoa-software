@@ -12,26 +12,24 @@ The Line Operation screen is crucial for the day-to-day management of operations
 
 ![Line Operation](/img/ops-operations-line-operation.png)
 
-## Screen Layout
 
-### 1. Asset Selector (Top Section)
-- **Functionality**: Provides an asset filter to focus on specific assets.
-- **Usage**: Click on the asset selector to access the asset tree and select assets for operations.
-- **Small Asset Card**: Offers a brief overview of the asset. Detailed documentation is available elsewhere.
+### Asset Selector
+Provides an asset filter to focus on specific assets. Click on the asset selector to access the asset tree and select assets for operations.
 
-### 2. Asset Card (Middle Section)
-- **Asset Card**: Presents detailed information about the selected asset. This is documented separately.
+### Asset Card
+Presents detailed information about the selected asset.
 
-### 3. Activities and Actions Panel (Bottom Section)
-- **Operations Tab**: 
+### Activities and Actions Panel
+#### Operations Tab
   - **Manual Operation Control**: Users can start and stop line operations manually. This includes running specific work orders or products.
   - **Work Order/Product Selection**: Utilize radio buttons to select either a work order or product, then click the 'Start' button to initiate.
   - **Schedule Integration**: The 'Schedule' button allows for finding and starting specific orders from the schedule.
   - **Non-Production Modes**: Set the machine to modes like 'Changeover', 'Cleaning', or 'Engineering' via the 'Mode' button. These modes are configured in the Mode Configuration screen.
   - **Ending Operations**: Clicking the 'End' button will conclude the current run and set the line to idle mode. In idle mode, if there's a scheduled order, the system will automatically start it.
 
-- **Production Entry Tab**:
-  - **Functionality**: Documented in the Run Review section of the Kanoa Ops documentation. This tab is used for entering and reviewing production data.
+
+#### Production Entry Tab
+Documented in the Run Review section of the Kanoa Ops documentation. This tab is used for entering and reviewing production data.
 
 ## Summary
 

@@ -12,17 +12,14 @@ hide_table_of_contents: true
 The Production Entry screen in the application is designed to allow users to edit data captured during a production run. This screen is critical for ensuring the accuracy and reliability of production data. It is divided into two main sections: Counts and Downtime, each offering specific functionalities for managing production run data.
 
 ## Screen Layout
-
-1. **Counts Tab**: Focused on editing feed, outfeed, and waste counts.
-2. **Downtime Tab**: Dedicated to managing downtime events recorded during a production run.
+**Counts Tab**: Focused on editing feed, outfeed, and waste counts.<br />
+**Downtime Tab**: Dedicated to managing downtime events recorded during a production run.
 
 ## Counts Tab
-
-### Key Features
-- **Date and Time Information**: Displays the dates and times when the feed, outfeed, and waste counts were recorded.
-- **Editable Counts**: Allows operators to edit the infeed, outfeed, and waste counts along with their respective units.
-- **Calculated Counts**: A calculator icon indicates when a count (infeed, outfeed, or waste) has been calculated based on the other two counts.
-- **Editing Counts**: 
+**Date and Time Information**: Displays the dates and times when the feed, outfeed, and waste counts were recorded.<br />
+**Editable Counts**: Allows operators to edit the infeed, outfeed, and waste counts along with their respective units.<br />
+**Calculated Counts**: A calculator icon indicates when a count (infeed, outfeed, or waste) has been calculated based on the other two counts.<br />
+**Editing Counts**: 
   - Select the count to be edited.
   - Use the 'Clear Discount' button to reset and auto-calculate the count based on other data collected.
   - Directly enter the new count and hit 'Save' to update the field.
@@ -30,22 +27,21 @@ The Production Entry screen in the application is designed to allow users to edi
 ![Production Entry](/img/ops-operations-production-entry1.png)
 
 ## Downtime Tab
-
 ### Layout
-- **Action Bar**: Located on the left, used for editing downtime events.
-- **Downtime Table**: Central table displaying detailed downtime information.
-- **Filters**: At the bottom of the screen, for sorting and displaying downtime events.
+**Action Bar**: Located on the left, used for editing downtime events.<br />
+**Downtime Table**: Central table displaying detailed downtime information.<br />
+**Filters**: At the bottom of the screen, for sorting and displaying downtime events.
 
 ### Functionality
-- **Filters**: Options to show all downtimes, uncoded downtimes, or coded downtimes only. Includes a duration filter.
-- **Downtime Information**: 
+**Filters**: Options to show all downtimes, uncoded downtimes, or coded downtimes only. Includes a duration filter.<br />
+**Downtime Information**:
   - Unique identifier of the downtime.
   - Associated asset.
   - State and type of downtime.
   - Category, starting and ending time, and total duration.
   - Notes added to the downtime.
   - Checkbox indicating if the downtime has been manually updated.
-- **Editing Downtime**: 
+**Editing Downtime**:
   - Select a downtime event.
   - Click the 'Edit' button to modify the associated asset, state, type, and add comments.
   - Updated downtimes are marked with a checkbox.
@@ -53,9 +49,9 @@ The Production Entry screen in the application is designed to allow users to edi
 ![Production Entry](/img/ops-operations-production-entry2.png)
 
 ### Additional Actions
-- **Splitting Downtime**: Allows splitting a single downtime event into multiple events. You can specify the duration for the split and re-code as necessary.
-- **Delete Button**: Removes recorded downtime events.
-- **Revert Changes**: Reverts any modifications made to the downtime data.
+**Splitting Downtime**: Allows splitting a single downtime event into multiple events. You can specify the duration for the split and re-code as necessary.<br />
+**Delete Button**: Removes recorded downtime events.<br />
+**Revert Changes**: Reverts any modifications made to the downtime data.
 
 ## Summary
 

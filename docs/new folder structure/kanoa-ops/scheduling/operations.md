@@ -14,34 +14,21 @@ The Operations Scheduling screen in the application is a vital tool for planning
 
 ## Screen Layout
 
-1. **Filtering Control Section**: Situated at the top, this section offers various controls to customize the view of the schedule.
-2. **Main Calendar Content Area**: Displays the operation schedule for the selected asset.
+**Filtering Control Section**: Situated at the top, this section offers various controls to customize the view of the schedule.<br />
+**Main Calendar Content Area**: Displays the operation schedule for the selected asset.
 
 ## Filtering Control Section
 
-### Viewing Modes
-- Toggle between calendar view and list view.
-
-### Time Range Controls
-- Switch the display of the schedule by month, week, or day.
-
-### Asset Selector
-- Choose the specific asset or area to display in the calendar.
-
-### Time Zone Reminder
-- Note that calendar times are shown in the current site's time zone.
-
-### Show Work Orders Button
-- An option to display work orders in the scheduling area.
+**Viewing Modes**:  Toggle between calendar view and list view.<br />
+**Time Range Controls**:  Switch the display of the schedule by month, week, or day.<br />
+**Asset Selector**:  Choose the specific asset or area to display in the calendar.<br />
+**Time Zone Reminder**:  Note that calendar times are shown in the current site's time zone.<br />
+**Show Work Orders Button**:  An option to display work orders in the scheduling area.
 
 ## Main Calendar Content Area
 
-### Current Schedule Display
-- Shows the production operation schedule for the selected asset.
-
-### Editing and Deleting Events
-- Click on any entry to access the 'Edit Selected Event' button, allowing changes to the event.
-- Option to delete selected events.
+**Current Schedule Display**:  Shows the production operation schedule for the selected asset.<br />
+**Editing and Deleting Events**:  Click on any entry to access the 'Edit Selected Event' button, allowing changes to the event.  Option to delete selected events.
 
 ## Managing Events
 
@@ -60,7 +47,7 @@ The Operations Scheduling screen in the application is a vital tool for planning
 2. Drag and drop selected orders into the schedule for automatic scheduling on the chosen asset.
 
 ### Scheduling Production Orders - Additional Options
-- When selecting a production order for an event, additional options include:
+When selecting a production order for an event, additional options include:
   - Selecting a specific work order or item.
   - Setting the scheduled quantity for the run.
 
