@@ -12,10 +12,6 @@ The Operations Scheduling screen in the application is a vital tool for planning
 
 ![Schedule Operations](/img/ops-scheduling-operations.png)
 
-## Screen Layout
-
-**Filtering Control Section**: Situated at the top, this section offers various controls to customize the view of the schedule.<br />
-**Main Calendar Content Area**: Displays the operation schedule for the selected asset.
 
 ## Filtering Control Section
 

@@ -8,7 +8,6 @@ hide_table_of_contents: true
 # Production Entry in Kanoa Ops
 
 ## Overview
-
 The Production Entry screen in the application is designed to allow users to edit data captured during a production run. This screen is critical for ensuring the accuracy and reliability of production data. It is divided into two main sections: Counts and Downtime, each offering specific functionalities for managing production run data.
 
 ## Screen Layout
@@ -54,6 +53,5 @@ The Production Entry screen in the application is designed to allow users to edi
 **Revert Changes**: Reverts any modifications made to the downtime data.
 
 ## Summary
-
 The Production Entry screen is an essential tool for operators to accurately manage and revise production run data. The functionality to edit counts and downtime ensures that the production data reflects the actual performance and events on the production floor. This screen is instrumental in maintaining the integrity of production data, which is crucial for effective operational analysis and decision-making.
 

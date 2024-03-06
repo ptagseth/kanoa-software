@@ -8,7 +8,6 @@ hide_table_of_contents: true
 # Run Review in Kanoa Ops
 
 ## Overview
-
 The Run Review screen is a comprehensive tool designed for analyzing production runs in a detailed and customizable manner. It is structured into three key sections: a filter bar, action buttons, and the main content table. This documentation provides an overview of each section and their functionalities.
 
 ![Run Review](/img/ops-operations-run-review.png)
@@ -19,25 +18,16 @@ The Run Review screen is a comprehensive tool designed for analyzing production 
 **Run Review Content Table**: The central part of the screen displaying detailed information about each run.<br />
 
 ## Filter Bar
-
-**Asset Filter**:  Filter runs by selecting OEE-enabled assets from your asset hierarchy.
-
-**Date Range Filter**:  Allows users to specify a start and end date to focus on a particular time period.
-
-**Select Mode Dropdown**:  Offers the ability to filter runs based on specific operational modes.
-
+**Asset Filter**:  Filter runs by selecting OEE-enabled assets from your asset hierarchy.<br />
+**Date Range Filter**:  Allows users to specify a start and end date to focus on a particular time period.<br />
+**Select Mode Dropdown**:  Offers the ability to filter runs based on specific operational modes.<br />
 **By Shift Toggle Button**:  Enables breaking down a single run or work order into multiple shifts, providing separate entries for different shifts in the same work order.
 
 ## Action Buttons
-
-**Data Refresh Button**:  Refreshes the run review data based on the current asset and timeframe selected.
-
-**Clear Table Button**:  Removes all data from the run review table.
-
-**Clear Selection Button**:  Clears any selected run for quick deselection.
-
-**View Details Button**:  Opens the production details screen for the selected run (covered in separate documentation).
-
+**Data Refresh Button**:  Refreshes the run review data based on the current asset and timeframe selected.<br />
+**Clear Table Button**:  Removes all data from the run review table.<br />
+**Clear Selection Button**:  Clears any selected run for quick deselection.<br />
+**View Details Button**:  Opens the production details screen for the selected run (covered in separate documentation).<br />
 **Export Button**:  Exports the data from the run review table to a CSV file.
 
 ## Run Review Content Table
@@ -58,5 +48,4 @@ Users can apply a text filter directly within the table for more specific search
 The 'Details' button next to each run entry allows for editing of counts or downtime (as detailed in separate documentation).
 
 ## Summary
-
 The Run Review screen in the application is an essential tool for detailed analysis and management of production runs. Its comprehensive filtering options, action buttons, and detailed content table make it an invaluable resource for monitoring and optimizing manufacturing processes.

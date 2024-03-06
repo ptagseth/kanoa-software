@@ -12,9 +12,6 @@ The Kanoa Ops Shift Scheduling screen is a versatile tool designed for managing 
 
 ![Schedule Shifts](/img/ops-scheduling-shifts.png)
 
-## Screen Layout
-**Filter and Control Section**: Located at the top, this section includes various controls for filtering and viewing shifts.<br />
-**Calendar Area**: The primary content area displaying the shift schedule.
 
 ## Filter and Control Section
 **View Toggle**: Switch between a calendar view and a list view of shifts.<br />
@@ -26,10 +23,10 @@ The Kanoa Ops Shift Scheduling screen is a versatile tool designed for managing 
 ## Calendar Area
 
 ### Calendar Actions
-- **Add New Event**: Create new shifts.
-- **Refresh Calendar**: Update the display with the latest shift data.
-- **Rebuild Shift Table**: Regenerate the shift table for updated scheduling.
-- **Calendar Navigation**: Move the calendar to view different time periods.
+**Add New Event**: Create new shifts.<br />
+**Refresh Calendar**: Update the display with the latest shift data.<br />
+**Rebuild Shift Table**: Regenerate the shift table for updated scheduling.<br />
+**Calendar Navigation**: Move the calendar to view different time periods.
 
 ## Creating and Editing Shifts
 ### Adding a New Shift
