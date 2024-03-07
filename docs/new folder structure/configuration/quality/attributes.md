@@ -13,38 +13,37 @@ This manual provides guidance on using the Kanoa Quality Attributes Configuratio
 ![Configure Attribute](/img/quality-config-attribute.png)
 
 ## Overview
-The Quality Attributes Configuration screen is divided into two primary sections:
+The Quality Attributes Configuration screen is divided into two primary sections:<br />
+**Attributes and Folder Structure**<br />
+**Attribute Editor**
 
-1. **Attributes and Folder Structure (Left Section)**
-2. **Attribute Editor (Right Section)**
-
-### Left Section: Attributes and Folder Structure
-- **Functionality**: This section displays a folder structure containing various attributes used in the platform.
-- **Initial State**: Initially, no options are selected. The only available action is to edit attributes.
-- **Editing Attributes**:
-  - To edit, click the "Edit Attributes" button. This opens the Attribute Editor pop-up.
-  - The pop-up displays all attributes on the left and editing options on the right.
-  - **Editing Process**:
-    - Select an attribute to edit.
-    - Modify the name, description, and enabled status.
-    - Click "Save" to confirm changes.
+### Attributes and Folder Structure
+This section displays a folder structure containing various attributes used in the platform.<br />
+**Initial State**: Initially, no options are selected. The only available action is to edit attributes.<br />
+**Editing Attributes**:
+- To edit, click the "Edit Attributes" button. This opens the Attribute Editor pop-up.
+- The pop-up displays all attributes on the left and editing options on the right.
+- **Editing Process**:
+  1. Select an attribute to edit.
+  2. Modify the name, description, and enabled status.
+  3. Click "Save" to confirm changes.
 
 ### Adding New Attributes
-- **Process**:
-  - Select the parent folder for the new attribute.
-  - Click the "Add" button.
-  - Enter the name, description, and set the enabled status.
-  - Click "Save" or "Close" as needed.
+**Process**:
+  1. Select the parent folder for the new attribute.
+  2. Click the "Add" button.
+  3. Enter the name, description, and set the enabled status.
+  4. Click "Save" or "Close" as needed.
 
 ### Attribute Management
-- **Options**:
+**Options**:
   - Delete an attribute.
   - Clear attribute selection.
 
-### Right Section: Attribute Settings
-- **Functionality**: Displays attributes based on the folder selected on the left.
-- **Contents**: May contain one or several attributes.
-- **Actions Available**:
+### Attribute Settings
+This section displays attributes based on the folder selected on the left.<br />
+**Contents**: May contain one or several attributes.<br />
+**Actions Available**:
   - "Data" button: Links to the database.
   - "Clear Table" button: Clears the displayed table.
   - "Clear Selection" button: Clears the current selection.
@@ -53,10 +52,10 @@ The Quality Attributes Configuration screen is divided into two primary sections
   - "Filter Table" feature: Filters attributes displayed.
 
 ### Editing Attribute Settings
-- **Process**:
-  - Select an attribute from the settings list.
-  - Click "View Attribute Settings" to open the Detail Editor pop-up.
-  - The Detail Editor contains two tabs (details to be covered in a separate video).
+**Process**:
+  1. Select an attribute from the settings list.
+  2. Click "View Attribute Settings" to open the Detail Editor pop-up.
+  3. The Detail Editor contains two tabs (details to be covered in a separate video).
 
 ## Conclusion
 This manual outlines the key functionalities of the Kanoa Quality Attributes Configuration screen. For further details on specific tabs within the Attribute Detail Editor, please refer to the relevant video documentation.

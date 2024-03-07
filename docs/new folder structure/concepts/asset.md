@@ -33,8 +33,8 @@ Assets are managed via the Asset Management screen in the Kanoa system. This int
 
 ### Asset Types and Groups
 
-- **Asset Types:** Used for categorizing Assets at a broader level, akin to the ISA 95 hierarchy (e.g., enterprise, site, region).
-- **Asset Groups:** Useful for grouping Assets that may not be in the same hierarchical area but need to be reported similarly. For instance, Assets like 'box formers' across different lines can be grouped under a single Asset group for consolidated reporting.
+**Asset Types:** Used for categorizing Assets at a broader level, akin to the ISA 95 hierarchy (e.g., enterprise, site, region).<br />
+**Asset Groups:** Useful for grouping Assets that may not be in the same hierarchical area but need to be reported similarly. For instance, Assets like 'box formers' across different lines can be grouped under a single Asset group for consolidated reporting.
 
 ## Assets in Kanoa Ops
 

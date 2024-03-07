@@ -13,29 +13,28 @@ In Kanoa Ops, Production Orders are essential elements in manufacturing processe
 
 ## Key Attributes of a Production Order
 
-1. **Source**: Indicates whether the order came from an external source (like an ERP system) or was generated internally within the Kanoa MES.
-2. **Order Number**: A unique identifier for each production order.
-3. **Product Association**: Specifies the product involved in the order.
-4. **Mode**: Usually set to 'production', indicating the type of operation.
-5. **Required Quantity and Units**: The total quantity requested in the order.
-6. **Scheduled Quantity**: The amount scheduled to be produced in the specific order.
-7. **Actual Quantity**: The quantity that has been actually produced against the order.
-8. **Due Date**: The deadline for order completion.
-9. **Status**: Includes various stages like scheduled, released, closed, in progress, on hold, or completed.
-10. **Asset Association**: Links the order to specific assets.
-11. **Notes**: Additional information or instructions related to the order.
+**Source**: Indicates whether the order came from an external source (like an ERP system) or was generated internally within the Kanoa MES.<br />
+**Order Number**: A unique identifier for each production order.<br />
+**Product Association**: Specifies the product involved in the order.<br />
+**Mode**: Usually set to 'production', indicating the type of operation.<br />
+**Required Quantity and Units**: The total quantity requested in the order.<br />
+**Scheduled Quantity**: The amount scheduled to be produced in the specific order.<br />
+**Actual Quantity**: The quantity that has been actually produced against the order.<br />
+**Due Date**: The deadline for order completion.<br />
+**Status**: Includes various stages like scheduled, released, closed, in progress, on hold, or completed.<br />
+**Asset Association**: Links the order to specific assets.<br />
+**Notes**: Additional information or instructions related to the order.
 
 ## Integration and Execution
 
 ### ERP System Integration
-- Production orders can be imported from ERP systems or defined within Kanoa Ops.
+Production orders can be imported from ERP systems or defined within Kanoa Ops.
 
 ### Scheduling and Execution
 - Production orders are scheduled on lines using the Operations Scheduler.
 - Orders can be executed on demand via the Line Operation Screen, where they can be pulled up from the schedule or run immediately.
 
 ## Importance in Manufacturing
-
 Production Orders in Kanoa Ops serve as:
 - Direct responses to customer orders requiring specific production runs.
 - Tools for organizing and managing the manufacturing workflow.

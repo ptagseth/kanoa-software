@@ -13,24 +13,24 @@ The Kanoa Quality Check Details Report is designed to analyze data across multip
 
 ### Screen Layout and Functionalities
 
-#### 1. **Top Filter Section**
-   - **Select Check Sheets**: Opens a pop-up to choose the specific check sheet(s) for the report.
-   - **Filter Assets**: Activates an asset filter pop-up to display check sheets related to a chosen asset.
-   - **Filter Items**: Opens an item filter pop-up to limit the report to checks pertaining to a specific item.
-   - **Date Range Selection**: Includes a dropdown and fields for custom start and end dates.
-   - **Select Group Dropdown**: Allows filtering data from a specific tab or check group in the check sheet.
+#### Filter Section
+**Select Check Sheets**: Opens a pop-up to choose the specific check sheet(s) for the report.<br />
+**Filter Assets**: Activates an asset filter pop-up to display check sheets related to a chosen asset.<br />
+**Filter Items**: Opens an item filter pop-up to limit the report to checks pertaining to a specific item.<br />
+**Date Range Selection**: Includes a dropdown and fields for custom start and end dates.<br />
+**Select Group Dropdown**: Allows filtering data from a specific tab or check group in the check sheet.
 
-#### 2. **Action Panel (Left Side)**
-   - **View/Column View Button**: Switches the data display orientation based on user preference.
-   - **Clear Table Button**: Clears data from the main content area.
-   - **Export Button**: Downloads all report data to a CSV file.
-   - **Trend View Button**: Activates a trend view for selected data columns (covered in a separate video).
+#### Action Panel
+**View/Column View Button**: Switches the data display orientation based on user preference.<br />
+**Clear Table Button**: Clears data from the main content area.<br />
+**Export Button**: Downloads all report data to a CSV file.<br />
+**Trend View Button**: Activates a trend view for selected data columns (covered in a separate video).
 
-#### 3. **Main Content Area**
-   - **Data Display**: Shows all data across selected checks that meet the filter criteria.
-   - **Summary Data Options**: Includes buttons to show summarized values (average, sum, max, range, standard deviation).
-   - **Additional Data Display**: Options to show group names, resources (shift, item, asset), and check status (approved/rejected).
-   - **Text Filter Field**: Allows filtering of the table based on text input.
+#### Main Content Area
+**Data Display**: Shows all data across selected checks that meet the filter criteria.<br />
+**Summary Data Options**: Includes buttons to show summarized values (average, sum, max, range, standard deviation).<br />
+**Additional Data Display**: Options to show group names, resources (shift, item, asset), and check status (approved/rejected).<br />
+**Text Filter Field**: Allows filtering of the table based on text input.
 
 ### Navigating the Report
 

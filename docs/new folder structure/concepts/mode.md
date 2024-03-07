@@ -13,38 +13,38 @@ In Kanoa Ops, a 'Mode' is a fundamental concept intricately linked to 'States.' 
 
 ## Key Attributes of a Mode
 
-1. **Name**: Identifies the mode.
-2. **Type**: Helps categorize specific modes.
-3. **Enabled/Disabled Status**: Indicates if the mode is active and usable within the system.
-4. **Can Select Option**: Determines if the mode is available in line operation screens and if qualified users can manually set the equipment to this mode.
-5. **Can Schedule Flag**: Shows whether the mode is available to be scheduled within the Kanoa scheduling system.
-6. **Additional Attributes**: Colors, icons, etc., are used for easy identification and categorization but are secondary to the core attributes.
+**Name**: Identifies the mode.<br />
+**Type**: Helps categorize specific modes.<br />
+**Enabled/Disabled Status**: Indicates if the mode is active and usable within the system.<br />
+**Can Select Option**: Determines if the mode is available in line operation screens and if qualified users can manually set the equipment to this mode.<br />
+**Can Schedule Flag**: Shows whether the mode is available to be scheduled within the Kanoa scheduling system.<br />
+**Additional Attributes**: Colors, icons, etc., are used for easy identification and categorization but are secondary to the core attributes.
 
 ## Default Modes and Their Use Cases
 
-- **Unknown Mode**: Serves as a catch-all state for uncertain scenarios or unclassified states of the asset.
-- **Production Mode**: The primary mode where assets are actively producing products. This mode indicates readiness for production and active engagement in the manufacturing process.
-- **Idle Mode**: The default state for an asset when it is not actively working but is available to produce. It represents a standby or waiting condition.
-- **Changeover Mode**: Used during the transition between different production runs. It covers setup activities, cleaning, and other preparatory tasks needed to switch products or start production.
+**Unknown Mode**: Serves as a catch-all state for uncertain scenarios or unclassified states of the asset.<br />
+**Production Mode**: The primary mode where assets are actively producing products. This mode indicates readiness for production and active engagement in the manufacturing process.<br />
+**Idle Mode**: The default state for an asset when it is not actively working but is available to produce. It represents a standby or waiting condition.<br />
+**Changeover Mode**: Used during the transition between different production runs. It covers setup activities, cleaning, and other preparatory tasks needed to switch products or start production.
 
 ## Utilization of Modes in Kanoa Ops
 
 ### Scheduling Modes
-- Modes are scheduled for assets using the Operations Scheduler in Kanoa Ops. This tool allows for the planned assignment of modes to various assets, ensuring that each piece of equipment is in the correct mode for its intended operation at any given time.
+Modes are scheduled for assets using the Operations Scheduler in Kanoa Ops. This tool allows for the planned assignment of modes to various assets, ensuring that each piece of equipment is in the correct mode for its intended operation at any given time.
 
 ### Manual Control of Modes
-- In addition to being scheduled, Modes can also be manually controlled via the Line Operation screen. This feature enables operators or supervisors to dynamically adjust the mode of an asset based on real-time operational needs or changes in the production environment.
+In addition to being scheduled, Modes can also be manually controlled via the Line Operation screen. This feature enables operators or supervisors to dynamically adjust the mode of an asset based on real-time operational needs or changes in the production environment.
 
 ## Mode Configuration
 
 ### Configuration Screen
-- Modes are configured in the Mode Configuration screen within Kanoa Ops. This interface allows users to define a master list of all modes available in the system.
+Modes are configured in the Mode Configuration screen within Kanoa Ops. This interface allows users to define a master list of all modes available in the system.
 
 ### Linking Modes to Assets
-- Once created, modes are linked to individual assets. This linkage specifies which modes are applicable to a particular asset.
+Once created, modes are linked to individual assets. This linkage specifies which modes are applicable to a particular asset.
 
 ### Mode Codes
-- Each mode is assigned a unique Mode Code, serving as a reference ID in the database. These codes are crucial for identifying and tracking modes across the system.
+Each mode is assigned a unique Mode Code, serving as a reference ID in the database. These codes are crucial for identifying and tracking modes across the system.
 
 ## Importance of Modes
 

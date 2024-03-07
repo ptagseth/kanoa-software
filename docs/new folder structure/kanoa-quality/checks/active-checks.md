@@ -14,20 +14,19 @@ The Kanoa Quality Active Checks Dashboard is designed to provide a real-time ove
 
 ## Dashboard Layout
 
-### Top Section: Numeric Indicators
-- **Function**: Displays the current state of all quality checks in the system.
-- **Indicators**: Show total counts of checks that are overdue, coming due, submitted, rejected, or missed.
+### Numeric Indicators
+Displays the current state of all quality checks in the system. Shows the total counts of checks that are overdue, coming due, submitted, rejected, or missed.
 
 ### Manual Check Addition
-- **Button**: Allows users to manually add a check, opening a manual check pop-up.
+Allows users to manually add a check, opening a manual check pop-up.
 
 ### Checks Table
-- **Content**: Lists all quality checks needing attention.
-- **Filter**: Enables searching for specific checks within the system.
-- **Displayed Information**: For each quality check, the table shows:
+Lists all quality checks needing attention.
+**Filter**: Enables searching for specific checks within the system.<br />
+For each quality check, the table shows:
   - Name of the check
   - Current status
   - Minutes remaining in the status
   - Associated items and assets
   - Scheduled time and trigger for the test
-- **Interaction**: Double-click on any test in the list to open and start completing that test.
+Double-click on any test in the list to open and start completing that test.

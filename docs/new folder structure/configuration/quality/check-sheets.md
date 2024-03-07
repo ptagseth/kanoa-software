@@ -17,19 +17,19 @@ This documentation provides a step-by-step guide on configuring a check sheet in
 3. Choose an existing check sheet or create a new one.
 
 ### Configuration Screen Overview
-- **Close Button**: Located at the top, used to exit the editor.
-- **Edit Mode Toggle**: Switch between 'Edit' and 'View Only' modes.
-- **Name Field**: Mandatory field for the check sheet's name.
-- **Estimated Minutes Field**: Enter the expected duration of the test.
+**Close Button**: Located at the top, used to exit the editor.<br />
+**Edit Mode Toggle**: Switch between 'Edit' and 'View Only' modes.<br />
+**Name Field**: Mandatory field for the check sheet's name.<br />
+**Estimated Minutes Field**: Enter the expected duration of the test.
 
 ### Test Configuration Sections
 The test configuration is divided into four main sections: Info, Settings, Checks, and Triggers.
 
 #### Info Section
-- **Description**: Add a description for the test.
-- **Procedure Name**: Type in a procedure name.
-- **Instructions**: Add detailed instructions.
-- **PDF Attachments**: Attach PDF files via Ignition Designer.
+**Description**: Add a description for the test.<br />
+**Procedure Name**: Type in a procedure name.<br />
+**Instructions**: Add detailed instructions.<br />
+**PDF Attachments**: Attach PDF files via Ignition Designer.
 
 #### Settings Section
 Consists of several subsections:
@@ -58,13 +58,13 @@ Consists of several subsections:
    - **Sync Date Option**: Use only under Kanoa support technician guidance.
 
 #### Checks Section
-- **Group Editor**: Manage tags/pages for checks. Options to add, edit, delete, and move groups.
-- **Check Items**: Edit check items. Options to add, edit, duplicate, or delete checks.
+**Group Editor**: Manage tags/pages for checks. Options to add, edit, delete, and move groups.<br />
+**Check Items**: Edit check items. Options to add, edit, duplicate, or delete checks.
 
 #### Triggers Section
-- **Existing Triggers List**: View configured triggers.
-- **Add Trigger Button**: Choose trigger types: Manual, Product Change, Retest, Shift Change, Time Interval.
-- **Trigger Configuration**: Select shift, mode, enable trigger, and set threshold numeric entries (Delayed Minutes, Over Minutes, Grace Minutes).
+**Existing Triggers List**: View configured triggers.<br />
+**Add Trigger Button**: Choose trigger types: Manual, Product Change, Retest, Shift Change, Time Interval.<br />
+**Trigger Configuration**: Select shift, mode, enable trigger, and set threshold numeric entries (Delayed Minutes, Over Minutes, Grace Minutes).
 
 ### Completion and Saving
 - Ensure all necessary information is entered.

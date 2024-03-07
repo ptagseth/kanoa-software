@@ -22,9 +22,9 @@ The Detail Editor is divided into two main tabs: **Data Source** and **Tolerance
 ![Attribute Detail Editor](/img/quality-config-attribute-detail-editor2.png)
 
 ### Data Source Tab
-- **Purpose**: To associate an attribute with a tag in the commission.
-- **Initial View**: Displays a list of existing data connections and an option to add a new data source.
-- **Actions**:
+Use the data source tab to associate an attribute with a tag in the commission.<br />
+Displays a list of existing data connections and an option to add a new data source.<br />
+**Actions**:
   - **Selecting a Data Source**: Reveals options to clear selection or delete the association.
   - **Viewing Configuration**: Selecting an existing data source shows its configuration settings.
   - **Asset Selection**: Click to open the Asset Selection pop-up.
@@ -35,13 +35,13 @@ The Detail Editor is divided into two main tabs: **Data Source** and **Tolerance
     - Checkbox to enable the association.
 
 ### Creating a New Data Source
-- **Process**: Click the "Data Source" button for a blank setup.
-- **Options**: Asset selection, tag association, scale factor, and checkboxes for ignoring zero values and enabling the connection.
+**Process**: Click the "Data Source" button for a blank setup.<br />
+**Options**: Asset selection, tag association, scale factor, and checkboxes for ignoring zero values and enabling the connection.
 
 ### Tolerance Tab
-- **Functionality**: Similar to the Data Source tab.
-- **Initial View**: Options to add a tolerance and a list of existing tolerances.
-- **Actions**:
+**Functionality**: Similar to the Data Source tab.<br />
+**Initial View**: Options to add a tolerance and a list of existing tolerances.<br />
+**Actions**:
   - **Selecting a Tolerance**: Options to clear selection or delete the association.
   - **Asset and Item Association**:
     - Asset field: Opens the Asset Selector pop-up.

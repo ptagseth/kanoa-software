@@ -31,29 +31,29 @@ The Check Item Editor comprises several dynamic sections, changing based on the 
 Depending on the selected check type, different subsections will appear:
 
 #### Check Type: Check
-- **Data Properties**:
+**Data Properties**:
   - **Number of Measurements**: Set default measurements; enables variation analysis.
   - **Assign Attribute**: Assign an attribute to the check item.
   - **Units**: Define engineering units for data display.
   - **Format**: Enter a format string for data presentation.
-- **Entry Options**:
+**Entry Options**:
   - **Entry Method Dropdown**: Select an entry method; options vary based on data type.
   - **Trigger Dropdown**: Choose a trigger from existing check sheet triggers.
   - **Pick List Options**: Edit, clear, or test pick list values.
-- **Instructions**: Text field for detailed check instructions.
+**Instructions**: Text field for detailed check instructions.
 
 #### Check Type: Calculated
-- **Data Properties**:
+**Data Properties**:
   - **Number of Measurements**: Define the number of measurements for the calculated check.
-- **Calculator**:
+**Calculator**:
   - **Select Calculation Dropdown**: Choose a mathematical formula (Average, Sum, Range, Min/Max, Standard Deviation, etc.).
   - **Select Calculation Dropdown - Eval**: Incorporates other check item data points into a formula, requiring a complete eval statement for functionality.
   - **Select Calculation Dropdown - Script**: Allows the setup of scripts called from the Ignition Designer for check item calculation.
   - **Formula Section**: Displays formula and previews results.
-- **Instructions**: Enter instructions for operators.
+**Instructions**: Enter instructions for operators.
 
 #### Check Type: Trigger
-- **Instructions**: A single section for entering text instructions related to the trigger.
+**Instructions**: A single section for entering text instructions related to the trigger.
 
 ### Saving and Closing
 At the bottom of the Check Item Editor, there are two action buttons:
