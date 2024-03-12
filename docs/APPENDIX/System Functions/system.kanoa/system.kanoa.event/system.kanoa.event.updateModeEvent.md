@@ -8,17 +8,17 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaOPS</b> module</PurpleBox>
 <HeaderBox header="Description">
-    Updates any of the mode event table fields such as modeId, workOrderId, or itemId fields.
+    Updates any of the mode event table fields such as modeId, workOrderId, itemId or comment fields.
 </HeaderBox>
 <HeaderBox header="Syntax">
     <b>updateModeEvent(field, value, modeSourceId, userId, modeEventId)</b>
     <li>Parameters <br />
         <ul>
-            field - Column name.
-            value - PyObject.
-            modeSourceId - Mode source ID.
-            userId - User ID.
-            modeEventId - ModeEvent ID.
+            field - string colName i.e. 'modeCode', 'workOrderId', 'itemId', 'tStamp', 'comment'<br />
+            value - PyObject<br />
+            modeSourceId - int<br />
+            userId - int<br />
+            modeEventId - int<br />
         </ul>
     </li>
     <li>Returns <br />
@@ -30,10 +30,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-field = 'modeColumn'
-value = 'NewModeValue'
 modeSourceId = 789
-userId = 999
+userId = 5
 modeEventId = 123
-recordsModified = system.kanoa.event.updateModeEvent(field, value, modeSourceId, userId, modeEventId)
+recordsModified = system.kanoa.event.updateModeEvent('comment', 'we just added a comment', modeSourceId, userId, modeEventId)
 
