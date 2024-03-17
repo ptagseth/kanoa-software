@@ -4,11 +4,14 @@ id: demo-help
 title: Demo Help
 hide_table_of_contents: true
 ---
-Welcome to Kanoa Consulting and/or its affiliates, partners, and assigns ("Kanoa"), provides website features to you subject to the following Terms and Conditions ("Terms and Conditions”).  The Terms and Conditions govern your use of the World Wide Web site located at www.kanoa.ai, and any associated subpages ("Site").  By accessing, viewing, or using the content, material, or services available on or through this Site, you indicate that you have read and understand these Terms and Conditions, and that you agree to them and intend to be legally bound by them. If you do not agree to these Terms and Conditions, you are not granted permission to use this Site and must exit immediately.
 
-These Terms and Conditions may be changed at any time.  It is your obligation as a user visiting the Site to familiarize yourself with these Terms and Conditions.  Any change to these Terms and Conditions shall also be effective as to any visitor who has visited the Site before the change was made.
+We have created a self-guided demo project that sits on top of the KanoaMES application. Click on any of the cards to navigate to that page. Hover over the header of a card to 
+see the help about that page. Drag the handle on the left hand side or hit the menu button on the top bar to navigate to any part of the application. You can also use the built-in
+navigation history to go back or forward to any page you have visited in the application.
 
+Don't like our colors? No problem. Got to 'options' (cog on the right hand side) and select the theme you identify most with/
 
-### 1. Proprietary Rights
+English not your first language? Then feel free to change to one of the languages we've have already provided. If your language isn't there yet, no problem. 
+We built this on Ignition so you can add whatever language you like through the designer.
 
-#### LICENSE AND SITE ACCESS
+We appreciate you taking the time to look at our what we have to offer. We hope you like it!

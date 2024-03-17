@@ -7,52 +7,61 @@ hide_table_of_contents: true
 
 # Downtime
 
-A ready made downtime analysis page is provided as part of the standard Kanoa OPS project. As with every other part of the kanoaMES application, this page can be copied and entirely customized
-to suit your specific needs.
-There are many ways to look at downtime. We have provided charts to display the downtime analysis is broken
+We've provided a ready made downtime analysis page for you in the KanoaOPS project. As with every other part of the kanoaMES application, 
+this page can be copied and entirely customized to suit your specific needs.<br />
 
-## Filters Section
+![Downtime Report](/img/downtime/downtimeDashboard.png)
 
-![Downtime Report](/img/filterbar.png)
+As there are many ways to slice and dice downtime to make sense of what the drivers are, we have provided an array of charts. 
+At the end of the day, analysis is driven by the underlying data and so data is key, which is why we have focused on ensuring we have the most
+performant and comprehensive manufacturing data schema out there. There is no aggregated data; any changes you make to production data, downtime states, 
+production counts will be immediately reflected in any analysis performed thereafter. The data pulled to display in our downtime charts is the same data 
+that can be shared with any other system such as PowerBI, Tableau, MathLab via our stored procedurte and view tables.<br />
 
-### Asset Filter
-Opens the asset selector pop-up to choose the desired asset. 
+With all that said, let's go over some of the parts of this downtime anaylsis screen.
 
-### Time Settings
-**Date Range Dropdown**: Allows selection of predefined date ranges for the report.<br />
-**Start and End Date Selectors**: Enables setting a custom date range.
+## Filtering Downtime
 
-### Custom Filters
-**Duration Filter**: Filters out downtimes shorter than a specified duration (in minutes).<br />
-**Top Downtime Filter**: Limits the report to show the top 'N' distinct downtime states or reasons.
+We're looking at a lot of downtime data in different ways on this page, so we've limited it to one at asset at a time. You can change that if you like for your application, 
+but for a 30,000ft view of downtime and utilization across all assets within your enterprise, may we recommend the 'Asset Utilization - Reliability KPIs page'.
 
-### Report Generation Buttons
-**Run Report**: Collects and displays data based on the set filters.<br />
-**Clear Button**: Resets all filters to their default settings.
+![Downtime Report](/img/downtime/filterBar.png)
 
-## Report Content Section
-### Charts
-**Downtime Minutes by Asset Category**
-   - Column chart showing downtime minutes categorized by asset.
-   - Includes a red line indicating the percentage of overall downtime for each category.
+**Asset Selector**: Click on the asset selector ![Downtime Report](/img/components/assetSelector.png) to choose the desired 'OEE_Enabled' asset (this needs to be a line or cell that we have been collecting data for). <br />
+**Date Range Selector**: Select form our pre-defined list of time periods such as 'Today', 'Yesterday', 'Last Week', 'This Month', 'Last Month', 'Year To Date'
+or select a custom range.
+**Duration Filter**: Filter out downtimes shorter than a specified duration (in minutes).<br />
+**Top Downtime Filter**: Limit to just show the top 'N' distinct downtime states or reasons.
 
-**Downtime by Asset Reason**
-   - Column chart detailing downtime by individual reasons.
 
-![Downtime Report](/img/ops-analytics-downtime1.png)
+### Downtime By Category Chart
+Each downtime state can be configured to belong to a certain category. This way you can group certain states to be 
+say 'maintenance', 'quality', 'equipment', 'personnel' related. figure out which  category of downtime affects your operations the most.<br />
 
-**Downtime by Category, Reason Code, and Shift**
-   - Displays downtime minutes grouped by category, reason code, and shift.
+The pareto line indicates the 80/20 breakpoint.
 
-**Stacked Column Chart**
-   - Represents total downtime over the selected time span.
-   - Stacked downtime events to show reason codes behind each downtime instance.
+![Downtime Report](/img/downtime/downtimeByCategory.png)
+
+### Downtime By Reason Chart
+All possible reasons (states) why an asset may be down are displayed in this chart. A reason may be unplanned or planned, but ewither way it caused the asset not be running
+during a production run. Use this chart to identify specifc reasons why your asset sis not producing.
+
+![Downtime Report](/img/downtime/downtimeByCategory.png)
+
+### Downtime By Day
+Looking for trouble on a particular day? This chart stacks all the different downtime reasons that occurred on each day.
+
+![Downtime Report](/img/downtime/downtimeByDay.png)
+
+### Downtime By Pie
+A trio of pie charts show downtime by category and reason in a slightly different way and also throws in a 'Downtime By Shift' pie. 
+If downtime occurred outside of any scheduled shift, it will be thrown into a 'no Shift defined' bucket.
+
+![Downtime Report](/img/downtime/downtimeByPie.png)
 
 ### Downtime Table
-- Detailed table of all downtimes contributing to the report.
-- Includes filters for on-the-fly examination.
-- **Data Columns**: Line, state ID, category, state type, code, start and end time, total duration (seconds), notes, and last modified details.
-- **Export Function**: Exports the table data to a CSV file.
+It doesn't really matter how we organize or display all the downtime, someones going to want to see the data in a different way. 
+So we've provided a table view of the raw data that can be exported ![Downtime Report](/img/components/exportButton.png) and thrown into Excel. Pivot away!
 
-![Downtime Report](/img/ops-analytics-downtime2.png)
+![Downtime Report](/img/downtime/downtimeTable.png)
 
