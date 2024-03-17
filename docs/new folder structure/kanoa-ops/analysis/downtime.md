@@ -6,7 +6,6 @@ hide_table_of_contents: true
 ---
 
 # Downtime
-
 We've provided a ready made downtime analysis page for you in the KanoaOPS project. As with every other part of the kanoaMES application, 
 this page can be copied and entirely customized to suit your specific needs.<br />
 
@@ -21,7 +20,6 @@ that can be shared with any other system such as PowerBI, Tableau, MathLab via o
 With all that said, let's go over some of the parts of this downtime anaylsis screen.
 
 ## Filtering Downtime
-
 We're looking at a lot of downtime data in different ways on this page, so we've limited it to one at asset at a time. You can change that if you like for your application, 
 but for a 30,000ft view of downtime and utilization across all assets within your enterprise, may we recommend the 'Asset Utilization - Reliability KPIs page'.
 
