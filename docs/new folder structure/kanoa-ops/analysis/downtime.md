@@ -13,6 +13,8 @@ There are many ways to look at downtime. We have provided charts to display the 
 
 ## Filters Section
 
+![Downtime Report](/img/filterbar.png)
+
 ### Asset Filter
 Opens the asset selector pop-up to choose the desired asset. 
 
