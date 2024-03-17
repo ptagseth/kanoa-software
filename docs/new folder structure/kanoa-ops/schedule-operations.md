@@ -1,14 +1,16 @@
 ---
 id: operations1
-title: Operations XXX
+title: Scheduling Operations
 sidebar_position: 2
 hide_table_of_contents: true
 ---
-# Operations Scheduling in Kanoa Ops
-
-## Overview
-
-The Operations Scheduling screen in the application is a vital tool for planning and managing work orders and production runs on specific assets within your plants. It provides a clear view of the current and planned production activities, aligning them with your production plans. The screen consists of two main sections: the filtering control section and the main calendar content area.
+Scheduling asset operations within your plant provides a clear view of the current and planned production activities, aligning them with your production plans. 
+To truly gain deep insight into how your assets are being used, schedule information is crucial, and we strongly recommend that while you may have a different solution
+for scheduling and planning, whether that is done in ERP or excel, that information needs to be shared with MES. Why? Because data is only useful if it is contextualized and keeping
+schedule information separate from production information limits your ability to gain insights into 'just how well are we scheduling?'. 
+In fact we would go so far as to say that poor scheduling of resources in terms of asset, material and personnel may well be your No.1 cause of inefficiency.
+Whether you use our built-in scheduling solution or a third party, integrating production scheduling information into the MES application is an important step in
+driving continuous improvement.
 
 ![Schedule Operations](/img/ops-scheduling-operations.png)
 
