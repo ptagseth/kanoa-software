@@ -5,11 +5,11 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 
-# Downtime Report in Kanoa Ops
+# Downtime
 
-## Overview
-
-The Kanoa Ops Downtime Report is a comprehensive tool designed to analyze and report on asset downtime. This report is essential for identifying patterns, reasons, and durations of downtime across selected assets. It is divided into two main sections: Filters and Report Content.
+A ready made downtime analysis page is provided as part of the standard Kanoa OPS project. As with every other part of the kanoaMES application, this page can be copied and entirely customized
+to suit your specific needs.
+There are many ways to look at downtime. We have provided charts to display the downtime analysis is broken
 
 ## Filters Section
 
