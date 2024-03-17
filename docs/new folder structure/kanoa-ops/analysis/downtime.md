@@ -15,11 +15,11 @@ There are many ways to slice and dice downtime data to ascertain the main culpri
 Analysis is ultimately driven by the data, which is why we have focused on ensuring we have the most performant and comprehensive manufacturing 
 data schema out there. There is no aggregated data; any changes you make to production info, downtime states, 
 production counts will be immediately reflected in any analysis performed thereafter. The data pulled to display in our downtime charts is the same data 
-that can be shared with any other system such as PowerBI, Tableau, MathLab via our stored procedurte and view tables.<br />
+that can be shared with any other system such as PowerBI, Tableau, MathLab via our stored procedures and view tables.<br />
 
 With all that said, let's go over some of the parts of this downtime anaylsis screen.
 
-## Filtering Downtime
+## Filters
 We're looking at a lot of downtime data in different ways on this page, so we've limited it to one at asset at a time. You can change that if you like for your application, 
 but for a 30,000ft view of downtime and utilization across all assets within your enterprise, may we recommend the 'Asset Utilization - Reliability KPIs page'.
 
