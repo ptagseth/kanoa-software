@@ -17,8 +17,12 @@ We use the BIJC Calendar component, thanks to Chris Taylor and Lewis Storey for 
 ![Schedule Operations](/img/schedule/schedule.png)
 ***
 ### Features
+**Site Time Zone**<br />
+KanoaOPS provides support for enterprises with sites in different timezones. When a site is selected, the calendar will show the scheduled event times in the sites' timezone.<br />
+Site timezones is set as a custom attribute called 'tz' in the asset configuration screen.
+
 **Recurring Events**<br />
-We are using the dateutil rrule object which offers a complete and fast implementation of the recurrence rules documented in the [iCalendar RFC](https://datatracker.ietf.org/doc/html/rfc5545).
+We use the dateutil rrule object which offers a complete and fast implementation of the recurrence rules documented in the [iCalendar RFC](https://datatracker.ietf.org/doc/html/rfc5545).
 This makes the scheduling of repeating operations and shifts very simple and pretty much identical to how it is done in google calendar, iCalendar and Microsofts calendar.<br />
 
 ![Schedule Operations](/img/schedule/recurrence.png)<br />
