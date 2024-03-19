@@ -13,10 +13,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteModeEvent(modeEventId, userId)</b>
     <li>Parameters <br />
-        <ul>
-            modeEventId - ModeEvent ID.
-            userId - User ID.
-        </ul>
+        <ul>modeEventId - ModeEvent ID.</ul>
+        <ul>userId - User ID.</ul>
     </li>
     <li>Returns <br />
         Records modified (int).

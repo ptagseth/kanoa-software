@@ -13,14 +13,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addCountEvent(counterId, deltaValue, tStamp)</b>
     <li>Parameters <br />
-        <ul>
-            counterId - Counter ID.
-            deltaValue (float) - Delta value.
-            tStamp (datetime) - Timestamp.
-        </ul>
+        <ul>counterId - Counter ID.</ul>
+        <ul>deltaValue (float) - Delta value.</ul>
+        <ul>tStamp (datetime) - Timestamp.</ul>
     </li>
     <li>Returns <br />
-        counterId (int).
+        <ul>counterId (int).</ul>
     </li>
 </HeaderBox>
 

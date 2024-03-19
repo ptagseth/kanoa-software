@@ -13,13 +13,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getOEEColors(paramsDict, oee, availability, performance, quality)</b>
     <li>Parameters <br />
-        <ul>
-            paramsDict (dict) - Dictionary, e.g., &#123;'assetId': 18} or &#123;'assetPath': 'Kanoa Industries\Adelaide Hills\Packaging\Line 1'}.
-            oee (float) - OEE value.
-            availability (float) - Availability value.
-            performance (float) - Performance value.
-            quality (float) - Quality value.
-        </ul>
+        <ul>paramsDict (dict) - Dictionary, e.g., &#123;'assetId': 18} or &#123;'assetPath': 'Kanoa Industries\Adelaide Hills\Packaging\Line 1'}.</ul>
+        <ul>oee (float) - OEE value.</ul>
+        <ul>availability (float) - Availability value.</ul>
+        <ul>performance (float) - Performance value.</ul>
+        <ul>quality (float) - Quality value.</ul>
     </li>
     <li>Returns <br />
         oeeColor, aColor, pColor, qColor (tuple of string values for colors).

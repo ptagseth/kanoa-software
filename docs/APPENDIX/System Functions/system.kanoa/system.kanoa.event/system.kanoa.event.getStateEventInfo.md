@@ -13,10 +13,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getStateEventInfo(stateEventId, stateEventInfoName=None)</b>
     <li>Parameters <br />
-        <ul>
-            stateEventId - StateEvent ID.
-            stateEventInfoName (optional) - Name of the stateEventInfo.
-        </ul>
+        <ul>stateEventId - StateEvent ID.</ul>
+        <ul>stateEventInfoName (optional) - Name of the stateEventInfo.</ul>
     </li>
     <li>Returns <br />
         data (pyDataset).

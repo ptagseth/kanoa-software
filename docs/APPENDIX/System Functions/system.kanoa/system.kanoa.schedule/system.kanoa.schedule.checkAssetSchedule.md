@@ -14,10 +14,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>checkAssetSchedule(parentPath, includeChildren=True)</b>
     <li>Parameters <br />
-        <ul>
-            parentPath (string) - Path of the parent asset.
-            includeChildren (boolean, default=True) - Include children assets.
-        </ul>
+        <ul>parentPath (string) - Path of the parent asset.</ul>
+        <ul>includeChildren (boolean, default=True) - Include children assets.</ul>
     </li>
     <li>Returns <br />
         <ul>None</ul>

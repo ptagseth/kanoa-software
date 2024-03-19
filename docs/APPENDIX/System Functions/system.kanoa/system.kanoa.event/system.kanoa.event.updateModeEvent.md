@@ -13,13 +13,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateModeEvent(field, value, modeSourceId, userId, modeEventId)</b>
     <li>Parameters <br />
-        <ul>
-            field - string colName i.e. 'modeCode', 'workOrderId', 'itemId', 'tStamp', 'comment'<br />
-            value - PyObject<br />
-            modeSourceId - int<br />
-            userId - int<br />
-            modeEventId - int<br />
-        </ul>
+        <ul>field - string colName i.e. 'modeCode', 'workOrderId', 'itemId', 'tStamp', 'comment'</ul>
+        <ul>value - PyObject</ul>
+        <ul>modeSourceId - int</ul>
+        <ul>userId - int</ul>
+        <ul>modeEventId - int</ul>
     </li>
     <li>Returns <br />
         Records modified (int).

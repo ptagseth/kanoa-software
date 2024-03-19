@@ -13,15 +13,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>assetOperationChange(assetId, modeCode, workOrderId, itemId, modeSourceId, tStamp, includeChildren, userId)</b>
     <li>Parameters <br />
-        <ul>
-            assetId (int) - Asset ID.
-            modeCode (int) - Mode code.
-            workOrderId (int) - Work order ID.
-            itemId (int) - Item ID.
-            tStamp (datetime) - Timestamp.
-            includeChildren (boolean) - Include child assets if true.
-            userId (int) - User ID.
-        </ul>
+        <ul>assetId (int) - Asset ID.</ul>
+        <ul>modeCode (int) - Mode code.</ul>
+        <ul>workOrderId (int) - Work order ID.</ul>
+        <ul>itemId (int) - Item ID.</ul>
+        <ul>tStamp (datetime) - Timestamp.</ul>
+        <ul>includeChildren (boolean) - Include child assets if true.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         None.

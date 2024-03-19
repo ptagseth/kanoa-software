@@ -13,10 +13,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addStateEvent(stateInfo, userId)</b>
     <li>Parameters <br />
-        <ul>
-            stateInfo - Dictionary &#123;'assetId': 18, 'assetStateId': 18, 'stateCode': 1, 'tStamp': somedate}.
-            userId - User ID.
-        </ul>
+        <ul>stateInfo - Dictionary &#123;'assetId': 18, 'assetStateId': 18, 'stateCode': 1, 'tStamp': somedate}.</ul>
+        <ul>userId - User ID.</ul>
     </li>
     <li>Returns <br />
         stateInfo (dictionary).

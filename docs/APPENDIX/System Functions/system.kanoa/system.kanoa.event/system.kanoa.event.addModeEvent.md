@@ -13,14 +13,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addModeEvent(assetId, field, value, tStamp, modeSourceId, userId)</b>
     <li>Parameters <br />
-        <ul>
-            assetId - Asset ID.
-            field - Column name.
-            value - PyObject.
-            tStamp (datetime) - Timestamp.
-            modeSourceId - Mode source ID.
-            userId - User ID.
-        </ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>field - Column name.</ul>
+        <ul>value - PyObject.</ul>
+        <ul>tStamp (datetime) - Timestamp.</ul>
+        <ul>modeSourceId - Mode source ID.</ul>
+        <ul>userId - User ID.</ul>
     </li>
     <li>Returns <br />
         ModeEvent ID (int).

@@ -13,12 +13,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getDowntimeDataForReliability(assetId, startDate, endDate, durationSecs)</b>
     <li>Parameters <br />
-        <ul>
-            assetId - Asset ID.
-            startDate - Start date.
-            endDate - End date.
-            durationSecs - Filter downtime events for events greater than this value.
-        </ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>startDate - Start date.</ul>
+        <ul>endDate - End date.</ul>
+        <ul>durationSecs - Filter downtime events for events greater than this value.</ul>
     </li>
     <li>Returns <br />
         data (pyDataset).

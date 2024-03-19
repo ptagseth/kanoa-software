@@ -13,12 +13,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getOEEDataByInterval(assetId, startDate, endDate, interval)</b>
     <li>Parameters <br />
-        <ul>
-            assetId - Asset ID.
-            startDate - Start date.
-            endDate - End date.
-            interval - Interval string (e.g., 'Hour', 'Day', 'Week', None).
-        </ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>startDate - Start date.</ul>
+        <ul>endDate - End date.</ul>
+        <ul>interval - Interval string (e.g., 'Hour', 'Day', 'Week', None).</ul>
     </li>
     <li>Returns <br />
         data (pyDataset).

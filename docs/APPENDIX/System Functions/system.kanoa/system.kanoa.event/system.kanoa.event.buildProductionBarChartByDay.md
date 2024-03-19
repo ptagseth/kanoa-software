@@ -13,9 +13,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>buildProductionBarChartByDay(data)</b>
     <li>Parameters <br />
-        <ul>
-            data - Production event data.
-        </ul>
+        <ul>data - Production event data.</ul>
     </li>
     <li>Returns <br />
         data (pyDataset).

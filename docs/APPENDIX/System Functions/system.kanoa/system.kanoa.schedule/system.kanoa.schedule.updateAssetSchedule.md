@@ -13,11 +13,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateAssetSchedule(assetPath, assetId, eventData)</b>
     <li>Parameters <br />
-        <ul>
-            assetPath (string) - Path of the asset.
-            assetId - Asset ID.
-            eventData - Event data.
-        </ul>
+        <ul>assetPath (string) - Path of the asset.</ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>eventData - Event data.</ul>
     </li>
     <li>Returns <br />
         <ul>Boolean value indicating success or failure.</ul>

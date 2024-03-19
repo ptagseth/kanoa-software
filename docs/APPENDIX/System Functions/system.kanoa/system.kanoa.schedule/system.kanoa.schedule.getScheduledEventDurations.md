@@ -13,11 +13,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getScheduledEventDurations(assetPath, rangeStart, rangeEnd)</b>
     <li>Parameters <br />
-        <ul>
-            assetPath (string) - Path of the asset.
-            rangeStart (datetime) - Start of the range.
-            rangeEnd (datetime) - End of the range.
-        </ul>
+        <ul>assetPath (string) - Path of the asset.</ul>
+        <ul>rangeStart (datetime) - Start of the range.</ul>
+        <ul>rangeEnd (datetime) - End of the range.</ul>
     </li>
     <li>Returns <br />
         <ul>Schedule data (dataset).</ul>

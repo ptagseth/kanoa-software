@@ -13,11 +13,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>checkforDuplicateModeEvents(assetId, fromDate, toDate)</b>
     <li>Parameters <br />
-        <ul>
-            assetId - Asset ID.
-            fromDate (datetime) - Start timestamp.
-            toDate (datetime) - End timestamp.
-        </ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>fromDate (datetime) - Start timestamp.</ul>
+        <ul>toDate (datetime) - End timestamp.</ul>
     </li>
     <li>Returns <br />
         Records modified (int).

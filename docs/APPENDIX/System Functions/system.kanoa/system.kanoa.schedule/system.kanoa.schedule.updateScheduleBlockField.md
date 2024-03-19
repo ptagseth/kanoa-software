@@ -11,12 +11,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateScheduleBlockField(scheduleBlockId, field, value, userId)</b>
     <li>Parameters <br />
-        <ul>
-            scheduleBlockId (int) - ID of the schedule block.
-            field (string) - Name of the column to update.
-            value (pyObject) - New value for the specified field.
-            userId (int) - User ID.
-        </ul>
+        <ul>scheduleBlockId (int) - ID of the schedule block.</ul>
+        <ul>field (string) - Name of the column to update.</ul>
+        <ul>value (pyObject) - New value for the specified field.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         <ul># of records modified.</ul>

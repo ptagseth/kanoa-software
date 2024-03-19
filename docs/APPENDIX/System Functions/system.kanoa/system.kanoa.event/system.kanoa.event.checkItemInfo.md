@@ -13,12 +13,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>checkItemInfo(assetId, workOrderName, itemName, userId)</b>
     <li>Parameters <br />
-        <ul>
-            assetId (int) - Asset ID.
-            workOrderName (string) - Work order name.
-            itemName (string) - Item name.
-            userId (int) - User ID.
-        </ul>
+        <ul>assetId (int) - Asset ID.</ul>
+        <ul>workOrderName (string) - Work order name.</ul>
+        <ul>itemName (string) - Item name.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         workOrderId, itemId (tuple).

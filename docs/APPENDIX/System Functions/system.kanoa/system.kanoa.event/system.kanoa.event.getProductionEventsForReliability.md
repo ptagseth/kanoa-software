@@ -13,12 +13,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getProductionEventsForReliability(assetId, startDate, endDate, modeId=None)</b>
     <li>Parameters <br />
-        <ul>
-            assetId - Asset ID.
-            startDate - Start date.
-            endDate - End date.
-            modeId - Mode ID (e.g., 1 for 'production') or None for all modes.
-        </ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>startDate - Start date.</ul>
+        <ul>endDate - End date.</ul>
+        <ul>modeId - Mode ID (e.g., 1 for 'production') or None for all modes.</ul>
     </li>
     <li>Returns <br />
         data (pyDataset).

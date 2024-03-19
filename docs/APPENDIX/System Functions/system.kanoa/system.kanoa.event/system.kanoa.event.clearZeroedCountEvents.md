@@ -13,11 +13,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>clearZeroedCountEvents(assetId, tStamp, userId)</b>
     <li>Parameters <br />
-        <ul>
-            assetId - Asset ID.
-            tStamp (datetime) - Timestamp.
-            userId - User ID.
-        </ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>tStamp (datetime) - Timestamp.</ul>
+        <ul>userId - User ID.</ul>
     </li>
     <li>Returns <br />
         Records deleted (int).

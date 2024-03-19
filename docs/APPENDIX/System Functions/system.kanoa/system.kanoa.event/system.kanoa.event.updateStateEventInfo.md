@@ -13,12 +13,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateStateEventInfo(stateEventId, stateEventInfoName, value, userId=None)</b>
     <li>Parameters <br />
-        <ul>
-            stateEventId - StateEvent ID.
-            stateEventInfoName - Name of the stateEventInfo.
-            value - Value to be updated or inserted.
-            userId (optional) - User ID. Default is None.
-        </ul>
+        <ul>stateEventId - StateEvent ID.</ul>
+        <ul>stateEventInfoName - Name of the stateEventInfo.</ul>
+        <ul>value - Value to be updated or inserted.</ul>
+        <ul>userId (optional) - User ID. Default is None.</ul>
     </li>
     <li>Returns <br />
         stateEventInfoId (int) if value is deleted, else None.

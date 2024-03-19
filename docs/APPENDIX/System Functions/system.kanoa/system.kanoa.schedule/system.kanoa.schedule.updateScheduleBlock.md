@@ -11,10 +11,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateScheduleBlock(scheduleBlockInfo, userId)</b>
     <li>Parameters <br />
-        <ul>
-            scheduleBlockInfo (Dictionary) - Dictionary containing information about the schedule block.
-            userId (int) - User ID.
-        </ul>
+        <ul>scheduleBlockInfo (Dictionary) - Dictionary containing information about the schedule block.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         <ul># of records modified.</ul>

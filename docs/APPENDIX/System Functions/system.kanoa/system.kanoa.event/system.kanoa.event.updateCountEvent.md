@@ -13,12 +13,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateCountEvent(counterId, deltaValue, tStamp, userId=None)</b>
     <li>Parameters <br />
-        <ul>
-            counterId - Counter ID.
-            deltaValue (float) - Delta value.
-            tStamp (datetime) - Timestamp.
-            userId (int) - User ID.
-        </ul>
+        <ul>counterId - Counter ID.</ul>
+        <ul>deltaValue (float) - Delta value.</ul>
+        <ul>tStamp (datetime) - Timestamp.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         Records modified (int).

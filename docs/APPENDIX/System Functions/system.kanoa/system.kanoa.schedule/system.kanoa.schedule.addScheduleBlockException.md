@@ -11,11 +11,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addScheduleBlockException(scheduleBlockId, exceptionDate, userId)</b>
     <li>Parameters <br />
-        <ul>
-            scheduleBlockId (int) - ID of the schedule block.
-            exceptionDate (datetime) - Date of the exception.
-            userId (int) - User ID.
-        </ul>
+        <ul>scheduleBlockId (int) - ID of the schedule block.</ul>
+        <ul>exceptionDate (datetime) - Date of the exception.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         <ul>Schedule block exception ID.</ul>

@@ -13,11 +13,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateScheduleBlockExceptions(scheduleBlockId, newStartDate, userId)</b>
     <li>Parameters <br />
-        <ul>
-            scheduleBlockId (int) - ID of the schedule block.
-            newStartDate (datetime) - New start date for the schedule block.
-            userId (int) - User ID.
-        </ul>
+        <ul>scheduleBlockId (int) - ID of the schedule block.</ul>
+        <ul>newStartDate (datetime) - New start date for the schedule block.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         <ul>No return value.</ul>

@@ -13,12 +13,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getAllEventsInRange(rangeStart, rangeEnd, assetPath='%', deviceUTCOffsetHrs=None)</b>
     <li>Parameters <br />
-        <ul>
-            rangeStart (datetime) - Start of the range.
-            rangeEnd (datetime) - End of the range.
-            assetPath (string, default='%') - Path of the asset (defaults to all assets).
-            deviceUTCOffsetHrs (float) - Device UTC offset in hours.
-        </ul>
+        <ul>rangeStart (datetime) - Start of the range.</ul>
+        <ul>rangeEnd (datetime) - End of the range.</ul>
+        <ul>assetPath (string, default='%') - Path of the asset (defaults to all assets).</ul>
+        <ul>deviceUTCOffsetHrs (float) - Device UTC offset in hours.</ul>
     </li>
     <li>Returns <br />
         <ul>Schedule data (dataset).</ul>

@@ -13,9 +13,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>buildDowntimeBarChartByDay(data)</b>
     <li>Parameters <br />
-        <ul>
-            data - Downtime Data.
-        </ul>
+        <ul>data - Downtime Data.</ul>
     </li>
     <li>Returns <br />
         data (pyDataset).

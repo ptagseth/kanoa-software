@@ -13,13 +13,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getDowntimeDataByInterval(assetId, startDate, endDate, interval, offsetMins=0)</b>
     <li>Parameters <br />
-        <ul>
-            assetId - Asset ID.
-            startDate - Start date.
-            endDate - End date.
-            interval - Interval (i.e., 'Hour', 'Day', 'Week', None - If None, the interval will be auto-calculated).
-            offsetMins (optional) - Offset in minutes. Default is 0.
-        </ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>startDate - Start date.</ul>
+        <ul>endDate - End date.</ul>
+        <ul>interval - Interval (i.e., 'Hour', 'Day', 'Week', None - If None, the interval will be auto-calculated).</ul>
+        <ul>offsetMins (optional) - Offset in minutes. Default is 0.</ul>
     </li>
     <li>Returns <br />
         data (pyDataset).

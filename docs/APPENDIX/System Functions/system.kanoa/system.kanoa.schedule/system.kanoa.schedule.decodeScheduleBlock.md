@@ -13,13 +13,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>decodeScheduleBlock(scheduleBlock, rangeStart, rangeEnd, deviceUTCOffsetHrs=0, siteOffsetMins=0)</b>
     <li>Parameters <br />
-        <ul>
-            scheduleBlock (dictionary) - Schedule block details.
-            rangeStart (datetime) - Start of the range.
-            rangeEnd (datetime) - End of the range.
-            deviceUTCOffsetHrs (float, default=0) - Device UTC offset in hours.
-            siteOffsetMins (int, default=0) - Site offset in minutes.
-        </ul>
+        <ul>scheduleBlock (dictionary) - Schedule block details.</ul>
+        <ul>rangeStart (datetime) - Start of the range.</ul>
+        <ul>rangeEnd (datetime) - End of the range.</ul>
+        <ul>deviceUTCOffsetHrs (float, default=0) - Device UTC offset in hours.</ul>
+        <ul>siteOffsetMins (int, default=0) - Site offset in minutes.</ul>
     </li>
     <li>Returns <br />
         <ul>List of datetimes (eventTimeList).</ul>

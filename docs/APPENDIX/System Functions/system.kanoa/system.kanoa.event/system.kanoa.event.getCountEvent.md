@@ -13,10 +13,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getCountEvent(counterId, tStamp)</b>
     <li>Parameters <br />
-        <ul>
-            counterId - Counter ID.
-            tStamp (datetime) - Timestamp.
-        </ul>
+        <ul>counterId - Counter ID.</ul>
+        <ul>tStamp (datetime) - Timestamp.</ul>
     </li>
     <li>Returns <br />
         countEvent (dataset).

@@ -13,13 +13,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateWorkOrderCount(counterId, assetId, value, workOrderName, userId=None)</b>
     <li>Parameters <br />
-        <ul>
-            counterId - Counter ID.
-            assetId - Asset ID.
-            value (float) - Delta value.
-            workOrderName - Work order name.
-            userId (int) - User ID.
-        </ul>
+        <ul>counterId - Counter ID.</ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>value (float) - Delta value.</ul>
+        <ul>workOrderName - Work order name.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         Records deleted (int).

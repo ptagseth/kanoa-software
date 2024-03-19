@@ -11,12 +11,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteScheduleBlocks(assetId, startDate, endDate, userId)</b>
     <li>Parameters <br />
-        <ul>
-            assetId (int) - Asset ID.
-            startDate (datetime) - Start date for the deletion.
-            endDate (datetime) - End date for the deletion.
-            userId (int) - User ID.
-        </ul>
+        <ul>assetId (int) - Asset ID.</ul>
+        <ul>startDate (datetime) - Start date for the deletion.</ul>
+        <ul>endDate (datetime) - End date for the deletion.</ul>
+        <ul>userId (int) - User ID.</ul>
     </li>
     <li>Returns <br />
         <ul># of records modified.</ul>

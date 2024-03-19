@@ -13,11 +13,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteCountEvents(counterId, startDate, endDate)</b>
     <li>Parameters <br />
-        <ul>
-            counterId - Counter ID.
-            startDate (datetime) - Start date.
-            endDate (datetime) - End date.
-        </ul>
+        <ul>counterId - Counter ID.</ul>
+        <ul>startDate (datetime) - Start date.</ul>
+        <ul>endDate (datetime) - End date.</ul>
     </li>
     <li>Returns <br />
         Records modified (int).

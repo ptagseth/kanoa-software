@@ -13,10 +13,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteCountEvent(counterEventId, userId)</b>
     <li>Parameters <br />
-        <ul>
-            counterEventId - Counter event ID.
-            userId - User ID.
-        </ul>
+        <ul>counterEventId - Counter event ID.</ul>
+        <ul>userId - User ID.</ul>
     </li>
     <li>Returns <br />
         Records modified (int).

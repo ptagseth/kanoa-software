@@ -11,9 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getScheduleBlockExceptions(paramsDict)</b>
     <li>Parameters <br />
-        <ul>
-            paramsDict (dictionary) - Parameters for filtering exceptions. E.g., &#123;'startDate': somedate, 'endDate': somedate} or &#123;'scheduleBlockId': 67}.
-        </ul>
+        <ul>paramsDict (dictionary) - Parameters for filtering exceptions. E.g., &#123;'startDate': somedate, 'endDate': somedate} or &#123;'scheduleBlockId': 67}.</ul>
     </li>
     <li>Returns <br />
         <ul>Schedule block exception data (pyDataset).</ul>

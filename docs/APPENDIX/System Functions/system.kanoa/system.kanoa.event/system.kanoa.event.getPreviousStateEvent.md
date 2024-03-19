@@ -13,10 +13,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getPreviousStateEvent(assetId, tStamp)</b>
     <li>Parameters <br />
-        <ul>
-            assetId - Asset ID.
-            tStamp (datetime) - Timestamp.
-        </ul>
+        <ul>assetId - Asset ID.</ul>
+        <ul>tStamp (datetime) - Timestamp.</ul>
     </li>
     <li>Returns <br />
         data (pyDataset).
