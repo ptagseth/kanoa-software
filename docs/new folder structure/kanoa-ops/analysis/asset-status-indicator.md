@@ -5,7 +5,7 @@ sidebar_position: 8
 hide_table_of_contents: true
 ---
 The Enterprise Overview page is designed to provide you with critical, at-a-glance information about the current state of your production assets. 
-You can click on any asset to go directly to the Operator Station page.
+You can click on any asset to go directly to the [Operator Station](https://kanoa-software.netlify.app/new%20folder%20structure/kanoa-ops/asset-operation).
 ![Asset Status Indicator](/img/ops-analytics-asset-status-indicator.png)
 
 Each asset card consists of four primary elements offering specific insights into the asset's status...

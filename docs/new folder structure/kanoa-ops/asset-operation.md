@@ -1,6 +1,6 @@
 ---
 id: asset-operation
-title: Asset Operation
+title: Operator Station
 sidebar_position: 1
 hide_table_of_contents: true
 ---
