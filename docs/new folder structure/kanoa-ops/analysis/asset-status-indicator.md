@@ -1,40 +1,37 @@
 ---
 id: asset-status-indicator
-title: Asset Status Indicator
+title: Enterprise Overview
 sidebar_position: 8
 hide_table_of_contents: true
 ---
-
-# Asset Status Indicator in Kanoa Ops
-
-## Overview
-
-The Asset Status Indicator in Decatur is a feature designed to provide users with critical, at-a-glance information about OEE (Overall Equipment Effectiveness) enabled assets. This tool is essential for quickly understanding the operational status of assets in a manufacturing or production environment.
-
+The Enterprise Overview page is designed to provide you with critical, at-a-glance information about the current state of your production assets. 
+You can click on any asset to go directly to the Operator Station page.
 ![Asset Status Indicator](/img/ops-analytics-asset-status-indicator.png)
 
-## Main Components
+Each asset card consists of four primary elements offering specific insights into the asset's status...
 
-The Asset Status Indicator consists of four primary elements, each offering specific insights into the asset's status:
+* **Mode Source** Indicates whether the asset mode was set by the asset, an operator or by the schedule. Hover over the icon to see who set the mode
+**Asset Name** The name of the asset. 
+**Modes** The current asset mode such as 'Running', 'Unplanned Downtime', 'Idle', etc. If the mode is 'Production', the current state along with the production and item being run is displayed.
+***
+### Asset Cards
+Click on the > at the Site or area level to get more detailed information about your assets.
 
-### Scheduling Status Indicator
-Displays the source of the current mode setting for the asset.<br />
-**Operator Icon**: Indicates the mode was manually set by an operator.<br />
-**Calendar Icon**: Shows the current mode was set according to the schedule.<br />
-If neither is applicable, this section will be left blank.
+![Asset Card](/img/ops-analytics-asset-card.png)
 
-### Current Mode Display
-Shows the current operational mode of the asset.<br />
-**Modes**: Includes various states like 'Running', 'Unplanned Downtime', 'Idle', etc.<br />
-**Visualization**: Each mode is represented with an icon and its preferred color for easy identification.
+**Current Mode and State**: Shows the real-time mode and state of the line.<br />
+**Time Ratio Bar**: Illustrates the ratio of time running to unplanned downtime and planned downtime.<br />
+**Time In State**: Displays the runtime and total downtime for the current production order.
 
-### Asset Name
-Displays the name of the asset.
+**Order**: Indicates the current production order and the product.<br />
+**Production Count Bar**: Shows the current production count relative to the target count.<br />
+**Total Units and Remaining Units**: Number of units produced and units remaining in the current order.<br />
+**Target and Actual Production Rates**: Displays both target and actual rates per the production order.<br />
+**Production Order Indicators**: Alerts if overproduction or under the target rate occurs, or if production is on track.
 
-### Mode Description and Context-Sensitive Information
-**Details**: Provides a description of the current mode of the asset.<br />
-**Additional Information**: Offers context-sensitive data such as the current product being run or the specific downtime reason if the asset is not operational.
+**OEE Score**: Displays the Overall Equipment Effectiveness score for the asset.<br />
+**Availability, Performance, and Quality Metrics**: Shows these metrics for the current production order.<br />
+**12 Hour OEE Bar Graph**: A bar graph depicting the last 12 hours of OEE values with tooltips on hover showing exact values and timestamps. 
 
-## Summary
-The Asset Status Indicator is a streamlined and efficient way to monitor and comprehend the status of OEE enabled assets quickly. By providing key information like scheduling status, current mode, asset name, and additional context-sensitive details, it enables users to make informed decisions and take appropriate actions in their operational environment. This feature is particularly useful in fast-paced manufacturing settings where understanding asset status rapidly is crucial for maintaining productivity and addressing issues promptly.
+
 
