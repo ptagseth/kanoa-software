@@ -11,7 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addState(stateInfo, userId)</b>
     <li> Parameters <br />
-        <ul>stateInfo (dict) - Dictionary containing state information to be added.</ul>
+        <ul>stateInfo (dict) - Dictionary i.e., &#123;'stateName': 'Running', 'stateColor': None, 'stateCategoryId': 1, 'stateTypeId': 3, 'assetGroupId': None, 'enabled': True}</ul>
         <ul>userId (int) - User ID.</ul>
     </li>
     <li> Returns <br />
