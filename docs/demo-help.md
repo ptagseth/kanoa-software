@@ -24,7 +24,7 @@ We have provided a button ![demo-help](/img/components/webSiteButton.png) that w
 To get more information specifically about any of the pages that the cards will take you to, click on the icon in the top right hand corner of each card.<br />
 If you want to go directly to our help manual, simply visit [docs.kanoa.ai](http://docs.kanoa.ai)<br />
 
-If you have questions, want more information or would like to schedule a guided demo of our applications, simply goto [kanoa.ai/contact](https://kanoa.ai/contact)
-and schedule sometime with us.<br />
+If you'd like to schedule a demo with us, click ![demo-help](/img/components/scheduleMeetButton.png) or go to [Meet with Kanoa](https://meetings.hubspot.com/sam-russem/demo-meeting-booking).<br />
+If you simply want more information, you can goto [kanoa.ai/contact](https://kanoa.ai/contact).
 
 We appreciate you taking the time to look at our what we have to offer and we hope you like it.
