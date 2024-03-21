@@ -12,15 +12,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
     It updates the status from coming due to due to overdue, etc.
 </HeaderBox>
 <HeaderBox header="Syntax">
-    <b>updateScheduledChecks()</b>
-  <ul>
-    <li>Parameters: None<br /></li>
-    <li>Returns: <br />
-    <ul>
-        <li>Number of checks updated (int).</li>
-    </ul>
-    </li>
-  </ul>
+  <b>updateScheduledChecks()</b>
+  <li>Parameters: None<br /></li>
+  <li>Returns: <br />
+    <ul>Number of checks updated (int).</ul>
+  </li>
 </HeaderBox>
 
 ### Code Example

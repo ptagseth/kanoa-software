@@ -11,14 +11,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addFile(chkShtId, fileName, fileBlob, description, thumbnail, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtId - ID of the check sheet (int).</li>
-            <li>fileName - Name of the file (string).</li>
-            <li>fileBlob - Blob containing file data.</li>
-            <li>description - Description of the file (string).</li>
-            <li>thumbnail - Blob containing thumbnail data.</li>
-            <li>userId - User ID (int).</li>
-        </ul>
+        <ul>chkShtId - ID of the check sheet (int).</ul>
+        <ul>fileName - Name of the file (string).</ul>
+        <ul>fileBlob - Blob containing file data.</ul>
+        <ul>description - Description of the file (string).</ul>
+        <ul>thumbnail - Blob containing thumbnail data.</ul>
+        <ul>userId - User ID (int).</ul>
     </li>
     <li> Returns <br />
         <ul># of records created - Number of records created (int).</ul>

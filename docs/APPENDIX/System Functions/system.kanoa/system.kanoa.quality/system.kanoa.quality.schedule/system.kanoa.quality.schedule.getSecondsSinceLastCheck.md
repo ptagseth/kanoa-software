@@ -14,18 +14,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>getSecondsSinceLastCheck(paramsDict)</b>
-  <ul>
-    <li>Parameters<br />
-      <ul>
-        <li>dictionary paramsDict - &#123;'chkShtId': 1, 'assetId': 18}</li>
-      </ul>
-    </li>
-    <li>Returns<br />
-      <ul>
-        <li>dictionary &#123;'lastScheduledDate': datetime, 'seconds': int}</li>
-      </ul>
-    </li>
-  </ul>
+  <li>Parameters<br />
+    <ul>dictionary paramsDict - &#123;'chkShtId': 1, 'assetId': 18}</ul>
+  </li>
+  <li>Returns<br />
+      <ul>dictionary &#123;'lastScheduledDate': datetime, 'seconds': int}</ul>
+  </li>
 </HeaderBox>
 
 ### Code Examples

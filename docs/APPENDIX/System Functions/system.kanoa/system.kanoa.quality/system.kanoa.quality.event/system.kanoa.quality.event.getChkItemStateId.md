@@ -11,10 +11,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getChkItemStateId(chkItemInfo, value)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkItemInfo - Dictionary containing information about the check item (dictionary).</li>
-            <li>value - Value of the check item (int/float/string).</li>
-        </ul>
+        <ul>chkItemInfo - Dictionary containing information about the check item (dictionary).</ul>
+        <ul>value - Value of the check item (int/float/string).</ul>
     </li>
     <li> Returns <br />
         <ul>chkItemStateId - ID of the check item state (int).</ul>

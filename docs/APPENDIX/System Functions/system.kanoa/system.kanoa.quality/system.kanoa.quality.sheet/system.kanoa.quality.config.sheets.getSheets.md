@@ -11,15 +11,13 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getSheets(paramsDict)</b>
     <li> Parameters <br />
-        <ul>
-            <li>paramsDict - Dictionary containing optional parameters:</li>
-            <li>  - 'enabled': True to filter by enabled check sheets (bool).</li>
-            <li>  - 'chkShtTypeId': ID of the check sheet type (int).</li>
-            <li>  - 'chkShtId': ID of the check sheet (int).</li>
-            <li>  - 'chkShtName': Name of the check sheet (string).</li>
-            <li>  - 'chkShtTypeName': Name of the check sheet type (string).</li>
-            <li>  - 'path': Path of the check sheet (string).</li>
-        </ul>
+        <ul>paramsDict - Dictionary containing optional parameters:</ul>
+        <ul>  - 'enabled': True to filter by enabled check sheets (bool).</ul>
+        <ul>  - 'chkShtTypeId': ID of the check sheet type (int).</ul>
+        <ul>  - 'chkShtId': ID of the check sheet (int).</ul>
+        <ul>  - 'chkShtName': Name of the check sheet (string).</ul>
+        <ul>  - 'chkShtTypeName': Name of the check sheet type (string).</ul>
+        <ul>  - 'path': Path of the check sheet (string).</ul>
     </li>
     <li> Returns <br />
         <ul>data - PyDataset containing unique check sheet information.</ul>

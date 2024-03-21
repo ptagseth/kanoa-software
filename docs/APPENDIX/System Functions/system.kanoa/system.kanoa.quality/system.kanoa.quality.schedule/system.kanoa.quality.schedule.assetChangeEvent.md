@@ -14,18 +14,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>assetChangeEvent(stateInfo)</b>
-  <ul>
-    <li>Parameters<br />
-      <ul>
-        <li>stateInfo: dictionary containing information about the change event</li>
-      </ul>
-    </li>
-    <li>Returns<br />
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
-  </ul>
+  <li>Parameters<br />
+      <ul>stateInfo: dictionary containing information about the change event</ul>
+  </li>
+  <li>Returns<br />
+    <ul>None</ul>
+  </li>
 </HeaderBox>
 
 ### Code Examples

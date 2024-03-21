@@ -11,25 +11,23 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateSheet(chkShtInfo, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtInfo - Dictionary containing check sheet information:</li>
-            <li>  - 'chkShtId': ID of the check sheet (int).</li>
-            <li>  - 'chkShtTypeId': ID of the check sheet type (int).</li>
-            <li>  - 'chkShtName': Name of the check sheet (string).</li>
-            <li>  - 'procName': Process name (string, optional).</li>
-            <li>  - 'description': Description of the check sheet (string, optional).</li>
-            <li>  - 'instructions': Instructions for the check sheet (string, optional).</li>
-            <li>  - 'enabled': True to enable the check sheet (bool).</li>
-            <li>  - 'assetReqd': True if asset is required (bool).</li>
-            <li>  - 'itemReqd': True if item is required (bool).</li>
-            <li>  - 'auto': True if auto (bool).</li>
-            <li>  - 'reTestChkShtId': ID of the re-test check sheet (int, optional).</li>
-            <li>  - 'reTestMins': Minutes for re-test (int, optional).</li>
-            <li>  - 'signOffReqd': True if sign-off is required (bool, optional).</li>
-            <li>  - 'durationSeconds': Duration in seconds (int, optional).</li>
-            <li>  - 'takenDateChkItemId': ID of the taken date check item (int, optional).</li>
-            <li>userId - User ID (int).</li>
-        </ul>
+        <ul>chkShtInfo - Dictionary containing check sheet information:</ul>
+        <ul>  - 'chkShtId': ID of the check sheet (int).</ul>
+        <ul>  - 'chkShtTypeId': ID of the check sheet type (int).</ul>
+        <ul>  - 'chkShtName': Name of the check sheet (string).</ul>
+        <ul>  - 'procName': Process name (string, optional).</ul>
+        <ul>  - 'description': Description of the check sheet (string, optional).</ul>
+        <ul>  - 'instructions': Instructions for the check sheet (string, optional).</ul>
+        <ul>  - 'enabled': True to enable the check sheet (bool).</ul>
+        <ul>  - 'assetReqd': True if asset is required (bool).</ul>
+        <ul>  - 'itemReqd': True if item is required (bool).</ul>
+        <ul>  - 'auto': True if auto (bool).</ul>
+        <ul>  - 'reTestChkShtId': ID of the re-test check sheet (int, optional).</ul>
+        <ul>  - 'reTestMins': Minutes for re-test (int, optional).</ul>
+        <ul>  - 'signOffReqd': True if sign-off is required (bool, optional).</ul>
+        <ul>  - 'durationSeconds': Duration in seconds (int, optional).</ul>
+        <ul>  - 'takenDateChkItemId': ID of the taken date check item (int, optional).</ul>
+        <ul>userId - User ID (int).</ul>
     </li>
     <li> Returns <br />
         <ul># of records modified - Number of records modified (int).</ul>

@@ -11,13 +11,11 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>queryChkItemEventData(chkItemId, startDate, endDate, minRange, maxRange)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkItemId - ID of the check item (int).</li>
-            <li>startDate - Start date for the query (datetime).</li>
-            <li>endDate - End date for the query (datetime).</li>
-            <li>minRange - Minimum range value (int).</li>
-            <li>maxRange - Maximum range value (int).</li>
-        </ul>
+        <ul>chkItemId - ID of the check item (int).</ul>
+        <ul>startDate - Start date for the query (datetime).</ul>
+        <ul>endDate - End date for the query (datetime).</ul>
+        <ul>minRange - Minimum range value (int).</ul>
+        <ul>maxRange - Maximum range value (int).</ul>
     </li>
     <li> Returns <br />
         <ul>data - A dataset containing check item event data (pyDataset).</ul>

@@ -11,10 +11,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteChkShtItemEvents(chkShtItemEventInfo, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtItemEventInfo - Dictionary containing information about check sheet items (dictionary).</li>
-            <li>userId - ID of the user initiating the deletion (int).</li>
-        </ul>
+        <ul>chkShtItemEventInfo - Dictionary containing information about check sheet items (dictionary).</ul>
+        <ul>userId - ID of the user initiating the deletion (int).</ul>
     </li>
     <li> Returns <br />
         <ul>Success or failure of the deletion operation (boolean).</ul>

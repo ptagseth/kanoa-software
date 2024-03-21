@@ -11,16 +11,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteSheetType(chkShtTypeId, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtTypeId - ID of the sheet type to delete (int).</li>
-            <li>userId - User ID (int).</li>
-        </ul>
+        <ul>chkShtTypeId - ID of the sheet type to delete (int).</ul>
+        <ul>userId - User ID (int).</ul>
     </li>
     <li> Returns <br />
-        <ul>
-            <li>success - Bit indicating success (bool).</li>
-            <li>message - String containing a success or error message.</li>
-        </ul>
+        <ul>success - Bit indicating success (bool).</ul>
+        <ul>message - String containing a success or error message.</ul>
     </li>
 </HeaderBox>
 

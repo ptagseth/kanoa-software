@@ -11,11 +11,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateChkShtStatus(chkShtEventId, status, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtEventId - ID of the check sheet event to be updated (int).</li>
-            <li>status - New status for the check sheet event (string).</li>
-            <li>userId - ID of the user initiating the update (int).</li>
-        </ul>
+        <ul>chkShtEventId - ID of the check sheet event to be updated (int).</ul>
+        <ul>status - New status for the check sheet event (string).</ul>
+        <ul>userId - ID of the user initiating the update (int).</ul>
     </li>
     <li> Returns <br />
         <ul>Number of records modified (int).</ul>

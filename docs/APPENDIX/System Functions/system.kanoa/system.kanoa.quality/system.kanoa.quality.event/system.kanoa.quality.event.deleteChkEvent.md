@@ -11,10 +11,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteChkEvent(chkShtEventId, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtEventId - ID of the check sheet event to be deleted (int).</li>
-            <li>userId - ID of the user initiating the deletion (int).</li>
-        </ul>
+        <ul>chkShtEventId - ID of the check sheet event to be deleted (int).</ul>
+        <ul>userId - ID of the user initiating the deletion (int).</ul>
     </li>
     <li> Returns <br />
         <ul>Number of records modified (int).</ul>

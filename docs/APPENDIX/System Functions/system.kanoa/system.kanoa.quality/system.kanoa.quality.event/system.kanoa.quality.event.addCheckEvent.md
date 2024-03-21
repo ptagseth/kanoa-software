@@ -11,10 +11,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addCheckEvent(chkEventInfo, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkEventInfo - Dictionary containing information about the check sheet event (dictionary).</li>
-            <li>userId - ID of the user adding the check sheet event (int).</li>
-        </ul>
+        <ul>chkEventInfo - Dictionary containing information about the check sheet event (dictionary).</ul>
+        <ul>userId - ID of the user adding the check sheet event (int).</ul>
     </li>
     <li> Returns <br />
         <ul>chkShtEventId - ID of the newly added check sheet event (int).</ul>

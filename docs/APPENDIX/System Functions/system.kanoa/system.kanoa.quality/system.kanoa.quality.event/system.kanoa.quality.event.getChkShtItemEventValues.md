@@ -11,10 +11,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getChkShtItemEventValues(chkShtEventId, chkShtItemId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtEventId - ID of the check sheet event (int).</li>
-            <li>chkShtItemId - ID of the check sheet item (int).</li>
-        </ul>
+        <ul>chkShtEventId - ID of the check sheet event (int).</ul>
+        <ul>chkShtItemId - ID of the check sheet item (int).</ul>
     </li>
     <li> Returns <br />
         <ul>data - A dataset containing check sheet item event values (pyDataset).</ul>

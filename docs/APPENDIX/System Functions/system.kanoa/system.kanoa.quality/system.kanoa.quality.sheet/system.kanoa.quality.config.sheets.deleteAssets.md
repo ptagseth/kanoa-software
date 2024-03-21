@@ -11,11 +11,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>deleteAssets(chkShtId, assetIdList, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtId - ID of the check sheet (int).</li>
-            <li>assetIdList - List of asset IDs (list of int).</li>
-            <li>userId - User ID (int).</li>
-        </ul>
+        <ul>chkShtId - ID of the check sheet (int).</ul>
+        <ul>assetIdList - List of asset IDs (list of int).</ul>
+        <ul>userId - User ID (int).</ul>
     </li>
     <li> Returns <br />
         <ul># of records modified - Number of records modified (int).</ul>

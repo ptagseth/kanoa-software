@@ -11,9 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getTooling(chkShtId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtId - ID of the check sheet (int).</li>
-        </ul>
+        <ul>chkShtId - ID of the check sheet (int).</ul>
     </li>
     <li> Returns <br />
         <ul>data - A dataset containing information about tooling linked to the check sheet (pyDataset).</ul>

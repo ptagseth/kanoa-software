@@ -11,18 +11,16 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getSheetsFilteredBy(paramsDict)</b>
     <li> Parameters <br />
-        <ul>
-            <li>paramsDict - Dictionary containing optional parameters:</li>
-            <li>  - 'enabled': True to filter by enabled check sheets (bool).</li>
-            <li>  - 'triggerTypeId': ID of the trigger type (int).</li>
-            <li>  - 'modeId': ID of the mode (int).</li>
-            <li>  - 'shiftNameId': ID of the shift name (int).</li>
-            <li>  - 'toolingId': ID of the tooling (int).</li>
-            <li>  - 'chkShtTypeId': ID of the check sheet type (int).</li>
-            <li>  - 'chkShtId': ID of the check sheet (int).</li>
-            <li>  - 'assetReqd': True if asset is required (bool).</li>
-            <li>  - 'assetId': ID of the asset (int).</li>
-        </ul>
+        <ul>paramsDict - Dictionary containing optional parameters:</ul>
+        <ul>  - 'enabled': True to filter by enabled check sheets (bool).</ul>
+        <ul>  - 'triggerTypeId': ID of the trigger type (int).</ul>
+        <ul>  - 'modeId': ID of the mode (int).</ul>
+        <ul>  - 'shiftNameId': ID of the shift name (int).</ul>
+        <ul>  - 'toolingId': ID of the tooling (int).</ul>
+        <ul>  - 'chkShtTypeId': ID of the check sheet type (int).</ul>
+        <ul>  - 'chkShtId': ID of the check sheet (int).</ul>
+        <ul>  - 'assetReqd': True if asset is required (bool).</ul>
+        <ul>  - 'assetId': ID of the asset (int).</ul>
     </li>
     <li> Returns <br />
         <ul>data - PyDataset containing check sheet information.</ul>

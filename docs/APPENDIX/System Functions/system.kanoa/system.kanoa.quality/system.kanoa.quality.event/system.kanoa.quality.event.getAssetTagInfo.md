@@ -11,9 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getAssetTagInfo(tagPath)</b>
     <li> Parameters <br />
-        <ul>
-            <li>tagPath - Tag path for the asset status values (string).</li>
-        </ul>
+        <ul>tagPath - Tag path for the asset status values (string).</ul>
     </li>
     <li> Returns <br />
         <ul>assetTagInfo - Dictionary containing current asset status values (dictionary).</ul>

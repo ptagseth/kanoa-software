@@ -14,21 +14,15 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>checkIfItemCheckedThisShift(chkShtId, assetId, shiftId, itemId)</b>
-  <ul>
-    <li>Parameters<br />
-      <ul>
-        <li>int chkShtId - Checksheet ID</li>
-        <li>int assetId - Asset ID</li>
-        <li>int shiftId - Shift ID</li>
-        <li>int itemId - Item ID</li>
-      </ul>
-    </li>
-    <li>Returns<br />
-      <ul>
-        <li>int count - Number of checks performed</li>
-      </ul>
-    </li>
-  </ul>
+  <li>Parameters<br />
+    <ul>int chkShtId - Checksheet ID</ul>
+    <ul>int assetId - Asset ID</ul>
+    <ul>int shiftId - Shift ID</ul>
+    <ul>int itemId - Item ID</ul>
+  </li>
+  <li>Returns<br />
+    <ul>int count - Number of checks performed</ul>
+  </li>
 </HeaderBox>
 
 ### Code Examples

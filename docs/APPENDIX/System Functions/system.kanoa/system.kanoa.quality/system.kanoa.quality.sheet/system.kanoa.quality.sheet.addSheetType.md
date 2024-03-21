@@ -11,14 +11,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addSheetType(shtTypeInfo, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>shtTypeInfo - Dictionary containing sheet type information:</li>
-            <li>  - 'chkShtTypeName': Name of the sheet type (string).</li>
-            <li>  - 'parentId': ID of the parent sheet type (int).</li>
-            <li>  - 'description': Description of the sheet type (string, optional).</li>
-            <li>  - 'enabled': True to enable the sheet type (bool).</li>
-            <li>userId - User ID (int).</li>
-        </ul>
+        <ul>shtTypeInfo - Dictionary containing sheet type information:</ul>
+        <ul>  - 'chkShtTypeName': Name of the sheet type (string).</ul>
+        <ul>  - 'parentId': ID of the parent sheet type (int).</ul>
+        <ul>  - 'description': Description of the sheet type (string, optional).</ul>
+        <ul>  - 'enabled': True to enable the sheet type (bool).</ul>
+        <ul>userId - User ID (int).</ul>
     </li>
     <li> Returns <br />
         <ul>chkShtTypeId - ID of the added sheet type (int).</ul>

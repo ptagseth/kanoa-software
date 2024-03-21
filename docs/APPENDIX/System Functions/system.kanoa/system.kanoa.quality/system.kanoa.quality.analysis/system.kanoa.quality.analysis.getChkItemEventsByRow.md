@@ -11,9 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getChkItemEventsByRow(paramsDict)</b>
     <li> Parameters <br />
-        <ul>
-            <li>paramsDict - Dictionary containing parameters (dictionary).</li>
-        </ul>
+        <ul>paramsDict - Dictionary containing parameters (dictionary).</ul>
     </li>
     <li> Returns <br />
         <ul>data - A dataset containing check sheet item event data (pyDataset).</ul>

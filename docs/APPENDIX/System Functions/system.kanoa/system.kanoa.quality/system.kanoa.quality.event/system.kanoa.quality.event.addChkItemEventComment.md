@@ -11,10 +11,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addChkItemEventComment(chkItemEventInfo, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkItemEventInfo - Dictionary containing information about the check item event (dictionary).</li>
-            <li>userId - ID of the user adding the comment (int).</li>
-        </ul>
+        <ul>chkItemEventInfo - Dictionary containing information about the check item event (dictionary).</ul>
+        <ul>userId - ID of the user adding the comment (int).</ul>
     </li>
     <li> Returns <br />
         <ul># of records modified - Number of records modified (int).</ul>

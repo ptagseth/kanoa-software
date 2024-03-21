@@ -11,12 +11,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getSheetsByAsset(paramsDict)</b>
     <li> Parameters <br />
-        <ul>
-            <li>paramsDict - Dictionary containing optional parameters:</li>
-            <li>  - 'enabled': True to filter by enabled check sheets (bool).</li>
-            <li>  - 'chkShtTypeId': ID of the check sheet type (int).</li>
-            <li>  - 'assetPath': Path of the asset (string).</li>
-        </ul>
+        <ul>paramsDict - Dictionary containing optional parameters:</ul>
+        <ul>  - 'enabled': True to filter by enabled check sheets (bool).</ul>
+        <ul>  - 'chkShtTypeId': ID of the check sheet type (int).</ul>
+        <ul>  - 'assetPath': Path of the asset (string).</ul>
     </li>
     <li> Returns <br />
         <ul>data - PyDataset containing unique check sheet information.</ul>

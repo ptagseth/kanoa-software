@@ -14,14 +14,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 <HeaderBox header="Syntax">
   <b>updateScheduledAutoChecks()</b>
-  <ul>
-    <li>Parameters: None<br /></li>
-    <li>Returns<br />
-      <ul>
-        <li>int count - Number of checks processed</li>
-      </ul>
-    </li>
-  </ul>
+  <li>Parameters: None<br /></li>
+  <li>Returns<br />
+    <ul>int count - Number of checks processed</ul>
+  </li>
 </HeaderBox>
 
 ### Code Examples

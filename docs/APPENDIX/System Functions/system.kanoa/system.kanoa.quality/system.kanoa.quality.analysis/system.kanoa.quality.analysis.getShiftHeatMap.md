@@ -11,10 +11,8 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getShiftHeatMap(paramsDict, category)</b>
     <li> Parameters <br />
-        <ul>
-            <li>paramsDict - Dictionary containing parameters (dictionary).</li>
-            <li>category - Category type (string).</li>
-        </ul>
+        <ul>paramsDict - Dictionary containing parameters (dictionary).</ul>
+        <ul>category - Category type (string).</ul>
     </li>
     <li> Returns <br />
         <ul>data - A dataset containing heatmap data (pyDataset).</ul>

@@ -11,12 +11,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateChkShtEventField(chkShtEventId, field, value, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtEventId - ID of the check sheet event to be updated (int).</li>
-            <li>field - Name of the column to change (string).</li>
-            <li>value - New value for the field (pyObject).</li>
-            <li>userId - ID of the user initiating the update (int).</li>
-        </ul>
+        <ul>chkShtEventId - ID of the check sheet event to be updated (int).</ul>
+        <ul>field - Name of the column to change (string).</ul>
+        <ul>value - New value for the field (pyObject).</ul>
+        <ul>userId - ID of the user initiating the update (int).</ul>
     </li>
     <li> Returns <br />
         <ul>Number of records modified (int).</ul>

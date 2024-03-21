@@ -11,16 +11,12 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>copySheet(chkShtId, userId)</b>
     <li> Parameters <br />
-        <ul>
-            <li>chkShtId - ID of the check sheet to copy (int).</li>
-            <li>userId - User ID (int).</li>
-        </ul>
+        <ul>chkShtId - ID of the check sheet to copy (int).</ul>
+        <ul>userId - User ID (int).</ul>
     </li>
     <li> Returns <br />
-        <ul>
-            <li>success - True if the check sheet is copied successfully (bool).</li>
-            <li>message - A message indicating the result (string).</li>
-        </ul>
+        <ul>success - True if the check sheet is copied successfully (bool).</ul>
+        <ul>message - A message indicating the result (string).</ul>
     </li>
 </HeaderBox>
 
