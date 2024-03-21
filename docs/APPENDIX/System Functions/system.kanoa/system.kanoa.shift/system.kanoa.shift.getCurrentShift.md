@@ -11,7 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>getCurrentShift(paramsDict)</b>
     <li>Parameters <br />
-        <ul>paramsDict (Dictionary) - Parameters to filter current shift.</ul>
+        <ul>paramsDict - dictionary ie &#123;'assetId':1}</ul>
     </li>
     <li>Returns <br />
         <ul>Current shift data (pyDataset).</ul>
