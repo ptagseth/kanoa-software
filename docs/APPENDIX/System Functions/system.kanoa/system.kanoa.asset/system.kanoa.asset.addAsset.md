@@ -11,7 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>addAsset(assetInfo, userId)</b>
     <li> Parameters <br />
-        <ul>assetInfo (dictionary) - Dictionary containing asset information.</ul>
+        <ul>assetInfo (dictionary) - Dictionary containing asset information</ul>
         <ul>userId (int) - User ID for tracking changes.</ul>
     </li>
     <li> Returns <br />
@@ -23,7 +23,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 
 ```python
 # Example Usage:
-asset_info = {
+assetInfo = {
     'assetName': 'SampleAsset',
     'parentId': 1,
     'assetTypeId': 1,
@@ -37,5 +37,5 @@ asset_info = {
     'sortOrder': 1,
     'enabled': True
 }
-user_id = 5
-asset_id = system.kanoa.asset.addAsset(asset_info, user_id)
+userId = 5
+asset_id = system.kanoa.asset.addAsset(assetInfo, userId)
