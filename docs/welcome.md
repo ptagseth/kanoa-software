@@ -78,7 +78,7 @@ New to Kanoa? This guide will show you how to get KanoaMES up and running at you
 ### System Architectures
 
 Clearly an MES implementation for a multi-site / multi-asset company is going to call for a slightly different architecture than for a company with a single production line. System constraints and requirements are also going 
-to dictate what that architecture looks like. Check out our [architecture page](docs/main/architecture.md) for information on all the options available and what we recommend.
+to dictate what that architecture looks like. Check out our [architecture page](https://kanoa-software.netlify.app/category/architecture) for information on all the options available and what we recommend.
 ***
 ### System Functions
 Want more help on our [system functions](https://kanoa-software.netlify.app/category/systemkanoa)? You'll find all of them documented in the appendix along with examples.
