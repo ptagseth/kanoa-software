@@ -72,12 +72,12 @@ Kanoa Quality provides the following:
 ***
 
 ### Startup Guide
-New to Kanoa? This guide wil show you how to get KanoaMES up and running at your factory.
+New to Kanoa? This guide will show you how to get KanoaMES up and running at your factory.
 
 ### System Architectures
 
 Clearly an MES implementation for a multi-site / multi-asset company is going to call for a slightly different architecture than for a company with a single production line. System constraints and requirements are also going 
-to dictate what that architecture looks like. Check out  our [architecture page][ to for information on all the options avaiable and what we recommend.
+to dictate what that architecture looks like. Check out our [architecture page](https://kanoa-software.netlify.app/new%20folder%20structure/kanoa-mes/architecture) to for information on all the options avaiable and what we recommend.
 
 ***
 ![welcome](/img/logos/friends_of_kanoa_100px.png)<br />
