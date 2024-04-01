@@ -1,5 +1,5 @@
 ---
-id: modes
+id: modes_old
 title: Modes
 sidebar_position: 2
 hide_table_of_contents: true
