@@ -13,7 +13,7 @@ States are crucial for accurately understanding the availability component of OE
 
 States help in capturing and reporting the true operational status of assets, playing a vital role in efficiency analysis and operational optimization.
 
-![State Management](/img/assetConfig/state-table-config.png)
+![State Management](/img/asset-config/state-table-config.png)
 
 #### States
 There are reserved states predefined by the system such as 'Running', 'Off-line', 'Idle', 'Faulted'
@@ -45,7 +45,7 @@ This field is simply to classify certain states as say being specific to a drill
 
 #### Adding & Editing States
 
-![State Management](/img/assetConfig/state-config.png)
+![State Management](/img/asset-config/state-config.png)
 
 * **State Name**: Name of the state. State name must be unique
 * **State Type**: Select the state type, Planned Downtime, Unplanned Downtime, or Running

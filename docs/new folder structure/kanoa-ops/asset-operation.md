@@ -14,7 +14,7 @@ From this screen, an operator can...
 * Select production orders and start and end production runs
 * Start and end non production order runs
 * Select a scheduled event
-* Change the mode of an asset to say 'idle', 'mainatenance', 'changeover' or any of the modes defined and associated with the asset.
+* Change the mode of an asset to say 'idle', 'maintenance', 'changeover' or any of the modes defined and associated with the asset.
 
 **View Current Production Run KPIs (Run Monitor)**
 * View production KPI's for the current run, last 24 hours, last 7 days or last 14 Days
@@ -35,7 +35,7 @@ Users can edit production counts by selecting a production run from the Run Revi
 
 Infeed, outfeed and waste counts can be edited by entering a new value in the numfield and clicking on the save button.
 A calculator symbol next to a count indicates that no counts were recorded from the plc for that count and so the count has been calculated from the other two counts.
-Adding a count to a calculated count will change it so that it is no longer calculated. It is your responsiblity to ensure that counts match up i.e infeed = outfeed + waste.
+Adding a count to a calculated count will change it so that it is no longer calculated. It is your responsibility to ensure that counts match up i.e infeed = outfeed + waste.
 You can clear a count by usng the x next to it and this will cause it to be re-calculated.
 
 **Lots**<br/>
@@ -58,7 +58,7 @@ The Downtime Editor allows the following actions...<br/>
 * Select a downtime event and click the ![Production Entry](/img/components/editButton.png).
 * Select the cell that was responsible for the downtime or leave it at the asset (line) level.
 * Click on the ![Production Entry](/img/components/editButton.png). to select the new state.<br/>
-![Production Entry](/img/assetOperation/editDowntimeEvent.png)
+![Production Entry](/img/asset-operation/editDowntimeEvent.png)
 * Updated downtime events are marked with a checkbox.
 
 **Note**
