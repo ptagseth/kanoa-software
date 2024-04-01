@@ -30,7 +30,7 @@ The 'Show Item Attributes' checkbox will add columns to the Attributes table.
 
 #### Adding & Edit Items
 
-![Material Management](/img/itemConfig/item-config.png)
+![Material Management](/img/itemconfig/item-config.png)
 
 * **Item Class Name**: Select the Item Class this item belongs to.
 * **Item Name**: Name of the Item. Item name must be unique

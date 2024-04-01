@@ -15,7 +15,7 @@ An asset is any entity that needs tracking or summarizing within the operational
 Assets represent different physical or logical elements within a manufacturing setup and may refer to a specific machine, a manufacturing line, or an entire factory. 
 Assets are organized in a hierarchical structure.
 
-![assets](/img/assetConfig/asset-hierarchy.png)
+![assets](/img/assetconfig/asset-hierarchy.png)
 
 #### ISA-95 Equipment Hierarchy
 ISA-95 defines a strict hierarchy for your plant equipment consisting of Enterprise > Site > Area > Line > Cell or Cell Group. 
@@ -26,13 +26,13 @@ At a minimum, we still need sites somewhere in the hierarchy to associate timezo
 
 ### Asset Configuration
 
-![assets](/img/assetConfig/asset-table-config.png)
+![assets](/img/assetconfig/asset-table-config.png)
 
 #### Add or Edit an Asset
 You can add an asset anywhere in the asset hierarchy by selecting a row in the asset table and clicking the 'Add' button. 
 To edit an existing asset, click on the edit button after selecting the asset.
 
-![assets](/img/assetConfig/asset-editor.png)
+![assets](/img/assetconfig/asset-editor.png)
 
 * **Asset Name**<br/>
 The name of the asset. Asset names must be unique within the parent.
