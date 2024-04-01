@@ -6,8 +6,6 @@ hide_table_of_contents: true
 ---
 
 
-* **Configure MES Settings**
-
 * **Configure Users**
 
 * **Configure Materials**

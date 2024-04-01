@@ -27,6 +27,7 @@ const sidebars = {
         label: 'Getting Started',
         link: {type: 'doc', id: 'gettingStarted/main'},
         items: [
+                'gettingStarted/system-requirements',
                 'gettingStarted/installation',
                 {
                     type: 'category', 

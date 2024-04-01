@@ -1,6 +1,6 @@
 ---
 id: states
-title: State Management
+title: States
 sidebar_position: 3
 hide_table_of_contents: true
 ---
