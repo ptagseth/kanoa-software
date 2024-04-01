@@ -41,7 +41,7 @@ Mode Types consist of....
 
 #### Adding & Editing Modes
 
-![Mode Configuration](/img/assetConfig/mode-config.png)
+![Mode Configuration](/img/asset-config/mode-config.png)
 
 * **Name**: Name of the mode. Mode names must be unique.
 * **Type**: Select the mode type for this new mode.

@@ -36,7 +36,7 @@ Users can edit production counts by selecting a production run from the Run Revi
 Infeed, outfeed and waste counts can be edited by entering a new value in the numfield and clicking on the save button.
 A calculator symbol next to a count indicates that no counts were recorded from the plc for that count and so the count has been calculated from the other two counts.
 Adding a count to a calculated count will change it so that it is no longer calculated. It is your responsibility to ensure that counts match up i.e infeed = outfeed + waste.
-You can clear a count by usng the x next to it and this will cause it to be re-calculated.
+You can clear a count by using the x next to it and this will cause it to be re-calculated.
 
 **Lots**<br/>
 Use the + button on the Counts tab to add a lot. Lot counts can be reconciled with production counts.
