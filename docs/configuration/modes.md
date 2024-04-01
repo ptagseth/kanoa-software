@@ -9,7 +9,7 @@ a mode tag when the asset is configured as 'OEE_Enabled'.
 Modes are used for scheduling assets using the Operations Scheduler in Kanoa Ops. This tool allows for the planned assignment of modes to various assets, ensuring that each piece of equipment is in the correct mode for its intended operation at any given time.
 In addition to being scheduled, Modes can also be manually controlled via the Line Operation screen. This feature enables operators or supervisors to dynamically adjust the mode of an asset based on real-time operational needs or changes in the production environment.
 
-![Mode Configuration](/img/assetConfig/mode-table-config.png)
+![Mode Configuration](/img/asset-config/mode-table-config.png)
 
 #### Modes
 There are reserved modes predefined by the system such as 'Unknown', 'Idle', 'Production', 'Changeover', 'Maintenance'.
