@@ -11,7 +11,7 @@ in the production of sub-assemblies and finished goods.
 
 :bulb: **Note: **<font color="green">We tend to call materials 'items' in our application. They are synonymous. If you see item classes throughout our scripts or documentation, we are referring to materials.</font><br/>
 
-![Material Management](/img/itemconfig/item-table-config.png)
+![Material Management](/img/item-config/item-table-config.png)
 
 #### Item Classes
 Item Classes are a way of categorizing items (or materials). Consider it a folder structure. Important thing to note is categorizing items can be important particularly
@@ -30,7 +30,7 @@ The 'Show Item Attributes' checkbox will add columns to the Attributes table.
 
 #### Adding & Edit Items
 
-![Material Management](/img/itemconfig/item-config.png)
+![Material Management](/img/item-config/item-config.png)
 
 * **Item Class Name**: Select the Item Class this item belongs to.
 * **Item Name**: Name of the Item. Item name must be unique
