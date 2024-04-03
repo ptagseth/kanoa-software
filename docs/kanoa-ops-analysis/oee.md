@@ -4,36 +4,30 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
-# OEE Report in Kanoa Ops
+Overall Equipment Effectiveness identifies the percentage of manufacturing time that is truly productive. 
+An OEE score of 100% means you are manufacturing only good parts, as fast as possible, with no downtime. 
 
-## Overview
+![OEE Report](/img/analysis/oee.png)
 
-The Kanoa Ops OEE (Overall Equipment Effectiveness) Report is a powerful analytical tool that provides insights into asset performance. It comprises two main sections: Filters and Report Content, designed to offer a detailed analysis of OEE metrics for selected assets or areas.
+Fair warning though, you can get the same exact OEE number for entirely different utilizations. 
 
-![OEE Report](/img/ops-analytics-oee.png)
+![OEE Report](/img/analysis/modePies.png)
 
-## Filters Section
-### Asset Filter
-Opens the asset selector for choosing specific assets or areas to report on.  The report can cover a single asset or an area, including all child assets under it.
+OEE is meaningless without utilization, so most implementations try to make OEE cover 100% of the time, making idle time considered as unplanned downtime, But why?
+'The Goal' says it ok to have local in-efficiencies, idle time allows for more capacity planning. OEE should focus on how well we operate when we are expected to operate, but 
+utilizing the assets have efficiently may be a bigger problem than how well they run during production. Perhaps reducing changeover or setup time or maintenance will have a greater
+impact on your bottom line than reducing scrap or rework. This is not to say OEE is not important, more to say don;t just focus on OEE.
+***
+The OEE Chart visualizes the individual component parts that comprise OEE. 
 
-### Time Settings
-**Date Range Dropdown**: Enables selection of predefined date ranges.<br />
-**Start and End Date Selectors**: Allows for custom date range input.
+![OEE Report](/img/analysis/oeeDashboard.png)
 
-### Range Dropdown
-**Default Setting**: Auto range, where the system calculates the appropriate time span based on the total duration selected.<br />
-**Manual Override**: Option to specify reporting by hour, day, or week.
+You can choose to chart OEE data for a specific asset or for all assets in an area, or at a site, for the given date range.
+By default, the interval (time period) is automatically determined based on the date range selected. If a range of one day is selected, an hourly interval is chosen.
+If the date range crosses multiple days, the interval will be by day. If the date range crosses  months, the interval will be by week. You can choose the interval you want, be aware
+that showing a years worth of data by hour may not render that well in the bar chart.
 
-## Report Content Section
-### Column Chart
-**Display**: Shows OEE availability, performance, and quality metrics based on the selected time span.<br />
-**Interactivity**: Users can toggle on/off availability, performance, and quality data columns.<br />
-**Auto Resize Y-Axis Button**: Appears in the upper right for adjusting the Y-axis based on currently displayed data.
+On the right side of the chart, the average OEE, availability, performance, and quality values are displayed.f
 
-### Metrics Summary
-On the right side of the chart, displays the average OEE, availability, performance, and quality for the selected duration.
-
-### Export and Data Presentation
-**Export Data Button**: On the left side, allows downloading the chart data in CSV format.<br />
-**Show Data Button**: Displays the underlying data used for the report within the application.
+Each of the plots can be toggled on or off by clicking in the chart legend.
 
