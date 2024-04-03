@@ -13,9 +13,9 @@ The DIKW model for Knowledge Management lays out the importance of contextualizi
 Recording a fault code of 'E-Stop pressed' on Line 3 for 2 hours doesn't mean the same if the line was for maintenance rather than in production. So 'Applying Meaning' means applying context. 
 Was Line 3 scheduled for production at the time? 
 
-![kanoa-ops](/img/analysis/tod.png) 
+![kanoa-ops](/img/analysis/data-transform.png) 
 
-A fault code of 'machine faulted' may give you accurate 'Availability' metrics, but it's a hard one to know how to address it in future, so ensuring that operators code the downtime events so
+A fault code of 'machine faulted' may give you accurate availability metrics, but it's a hard one to know how to address it in future, so ensuring that operators code the downtime events so
 you know that the line stopped because they ran out of infeed material is going to require a different set of solutions than say a jammed tail pulley.
 ***
 
