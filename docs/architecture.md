@@ -11,6 +11,7 @@ Now all you have to do is ensure a successful implementation... well probably be
 
 Here you go...
 
+
 ![architecture](/img/architectures/architecture_basic.png)
 
 Yes it might seem a bit simple, but we're huge fans of keeping it simple. Our motto is MES shouldn't be more complicated than the process to build your product, that would be silly. And it certainly shouldn't be as expensive.<br/>

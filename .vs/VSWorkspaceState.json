@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\docs",
+    "\\static",
+    "\\static\\img"
   ],
   "PreviewInSolutionExplorer": false
 }
