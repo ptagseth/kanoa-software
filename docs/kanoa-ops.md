@@ -72,5 +72,5 @@ Kanoa Ops comes with the following reports and dashboards built-in, which can al
 * Run Performance
 * Operation Station
 
-![kanoa-ops](/img/downtime/downtimeDashBoard.png) 
+![kanoa-ops](/img/downtime/downtimeDashboard.png) 
 ***
