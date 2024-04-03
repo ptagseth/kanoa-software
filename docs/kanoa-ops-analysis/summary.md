@@ -1,5 +1,5 @@
 ---
-id: summary1
+id: summary
 title: Summary
 sidebar_position: 6
 hide_table_of_contents: true

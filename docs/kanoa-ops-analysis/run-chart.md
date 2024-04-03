@@ -1,5 +1,5 @@
 ---
-id: run-chart1
+id: run-chart
 title: Run Chart
 sidebar_position: 5
 hide_table_of_contents: true

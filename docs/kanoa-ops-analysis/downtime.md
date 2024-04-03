@@ -1,5 +1,5 @@
 ---
-id: downtime1
+id: downtime
 title: Downtime
 sidebar_position: 1
 hide_table_of_contents: true

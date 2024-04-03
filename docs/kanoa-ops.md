@@ -58,19 +58,3 @@ And it's entirely customizable!
 
 Click here to go to the [Operator Station section](kanoa-ops/asset-operation)
 ***
-#### Analyze Performance
-What good is all this data if you aren't going to use it?!
-
-Kanoa Ops comes with the following reports and dashboards built-in, which can all be analyzed by Work Order, Shift, Time, Asset, or Item:
-
-* Summary Dashboard
-* Run Review
-* OEE
-* Downtime
-* Reliability KPIs
-* Production Counts
-* Run Performance
-* Operation Station
-
-![kanoa-ops](/img/downtime/downtimeDashboard.png) 
-***
