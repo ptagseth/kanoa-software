@@ -27,7 +27,6 @@ By default, the interval (time period) is automatically determined based on the 
 If the date range crosses multiple days, the interval will be by day. If the date range crosses  months, the interval will be by week. You can choose the interval you want, be aware
 that showing a years worth of data by hour may not render that well in the bar chart.
 
-On the right side of the chart, the average OEE, availability, performance, and quality values are displayed.f
+On the right side of the chart, the average OEE, availability, performance, and quality values are displayed.
 
 Each of the plots can be toggled on or off by clicking in the chart legend.
-
