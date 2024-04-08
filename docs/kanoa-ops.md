@@ -7,9 +7,7 @@ hide_table_of_contents: true
 
 Understand how your plant is performing and where to focus continuous improvement efforts. 
 Kanoa Ops includes everything required for the day-to-day organization and operation of a manufacturing site and tracks performance, OEE, and downtime to provide production insights and analytics.
-
-### How It Works
-
+***
 #### Configure Your Assets
 For Kanoa Ops to provide valuable insights for your plant, it is important to define your unique assets, products, and processes.
 Kanoa Ops allows you to define your enterprises...
