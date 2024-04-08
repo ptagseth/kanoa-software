@@ -51,10 +51,7 @@ Denormalized Form Pattern design could potentially provide for even faster perfo
 and increasing the database size. For us, the ease and importance of users being able to correct errant production data is paramount in our design, which is why we tried 
 and ditched this method.
 
-![kanoa-ops](/img/analysis/kanoaSchema.png) 
-
-In summary, First Normal Form provides us with a database which is performant, very clear and easy to understand for the developers and users, 
-and gives us a firm foundation on which to extend the database and build new functionality in a fast and efficient manner, allowing us to enhance our product quickly as the need arises.
+![kanoa-ops](/img/analysis/kanoaSchema.png)
 
 #### Mobile Responsive Analytics
 Enough said about our approach. Kanoa Ops comes with a number of analytical screens already provided. These screens, for the most part, are mobile responsive, and fast. 
