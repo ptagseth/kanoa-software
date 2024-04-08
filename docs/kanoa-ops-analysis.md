@@ -23,7 +23,7 @@ Inventory shortages is going to require a different solution to say fixing a jam
 We've seen a lot of change over the years in how production data is churned over to drive continuous improvement.
 The ability to generate PDF reports used to be important. But let's face it, in this day and age, emailing out a pdf report detailing last months production kpi's shouldn't really be part of your digital 
 transformation, and by implementing MES, the goal should be immediate access at any time by anyone to any of the metrics, whether at your desk or on your phone. 
-And while you're looking at the numbers, you should be able to keep diving in further to understand why production is down or costs are increasing.
+And while you're looking at the numbers, you should be able to keep drilling down until it becomes clear as to the cause of why production is down or costs are increasing.
 ***
 
 #### Data Connectors
