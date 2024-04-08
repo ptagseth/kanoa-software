@@ -16,7 +16,7 @@ Recording a fault code of 'E-Stop pressed' on Line 3 for 2 hours doesn't mean th
 
 A fault code of 'machine faulted' may give you accurate availability metrics, but it's a hard one to know how to prevent it from occurring again. 
 To truly be able to drive improvement, you really need the operators to code the downtime events so you know that the line stopped because they ran out of infeed material.
-Inventory shortages is going to require a different solution to say fixing a jammed tail pulley.
+Inventory shortages are going to require a different solution to say fixing a jammed tail pulley.
 ***
 
 #### The Evolution of Analytics
