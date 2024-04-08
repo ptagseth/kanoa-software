@@ -15,7 +15,7 @@ Recording a fault code of 'E-Stop pressed' on Line 3 for 2 hours doesn't mean th
 ![kanoa-ops](/img/analysis/data-transform.png) 
 
 A fault code of 'machine faulted' may give you accurate availability metrics, but it's a hard one to know how to prevent it from occurring again. 
-To truly be abel to drive improvement, you really need the operators to code the downtime events so you know that the line stopped because they ran out of infeed material.
+To truly be able to drive improvement, you really need the operators to code the downtime events so you know that the line stopped because they ran out of infeed material.
 Inventory shortages is going to require a different solution to say fixing a jammed tail pulley.
 ***
 
