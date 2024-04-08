@@ -33,7 +33,7 @@ was to make sure that after all the work put in to configure and connect your as
 
 We talk more about our database schema below, but here we'll just add that all the data powering the analytics you see in the KanoaOPS project come from calling functions that return data
 from stored procedures and view tables. This means that it's easy to share the same data with other teams, without having to create new endpoints or push
-and duplicate data to different databases and certainly without the fear they may show entirely different analytics to what the MES shows.
+and duplicate data to different databases and certainly without the fear they may show entirely different results in other systems to what the MES shows.
 
 ***
 
