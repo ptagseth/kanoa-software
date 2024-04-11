@@ -7,6 +7,7 @@ hide_table_of_contents: true
 import EditIcon from '@mui/icons-material/Edit';
 import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/DeleteForever';
+import LinkOffIcon from '@mui/icons-material/LinkOff';
 
 Item sets allow the user to logically group items together outside their item class. By grouping items into item sets, you can associate check sheets and tolerance specifications with multiple items at once.
 
@@ -22,7 +23,7 @@ To add, edit or delete item sets, click the <EditIcon fontSize="small" /> button
 You can select one or more items using the CTRL key. The **Item Set Linker** is located above the table and visible when you have items selected. Use the dropdown to select the Item Set you wish the items to be grouped in and click the **Link** button. The **Unlink** button is located to the left of the table and clears the item set associated with any selected items.
 
 ![Item Sets](/img/product-sets-2.png).
-To remove an item from an item set, use the unlink button.
+To remove an item from an item set, use the <LinkOffIcon fontSize="small" /> button.
 
 :::note
 An item can only belong to one item set

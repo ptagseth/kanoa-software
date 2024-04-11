@@ -30,7 +30,7 @@ If the Check Sheet specifies an asset and an item in its configuration, you will
 ***
 ### Enter Check data
 
-All check input fields will be displayed as defined by the check sheet.  If Check Groups are used - they will display above the checks themselves.   Check entry can be toggled between a Value Entry Popup window or keyboard input clicking the <KeypadIcon fontSize="small" /> to the upper right. There is also a selection for touch screen entry for devices with the ability.
+All check input fields will be displayed as defined by the check sheet.  If Check Groups are used - they will display above the checks themselves. Check entry can be toggled between a Value Entry Popup window or keyboard input clicking the <KeypadIcon fontSize="small" /> to the upper right. There is also a selection for touch screen entry for devices with the ability.
 
 ![Check Sheet](/img/quality-checks-check-sheet.png)
 
