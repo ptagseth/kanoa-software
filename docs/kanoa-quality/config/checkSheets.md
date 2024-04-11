@@ -15,50 +15,52 @@ The Check Table is the entry point to viewing, creating and editing Check Sheets
 
 ![checkSheets](/img/quality/checkSheetTable.png)
 
+***
+### Editing Check Sheets
+
 A Check Sheet can be viewed by selecting a check sheet in the table and double-clicking or using the ![checkSheets](/img/components/viewButton.png) button. Logged in users 
 with the appropriate permissions can create, edit, duplicate and delete checks sheets in this screen.
-***
-### Check Sheet Editor
 
-The first order of business is for you to provide a name for this Check Sheet. Entering the name will automatically save this check sheet and all other configuration
+The first order of business is to provide a name for this Check Sheet. Entering the name will automatically save this check sheet and all other configuration
 details will be stored against it. For the most part, any change or entry you make in the Check Sheet Editor is automatically saved as you go along. 
 Where a save action is required, a save button will be displayed.
 
 ![checkSheets](/img/quality/chkShtEditorHeader.png)
 
-* **Edit Mode Toggle**: Switch between 'Edit' and 'View Only'
-* **Name Field**: Mandatory field for the check sheet's name
-* **Estimated Minutes**: Enter the expected duration of the test. This will create a check Item in the 'Main' Group'
-
-* The Check Sheet is divided into four different sections accessed by the tab.
+* **View/Edit Mode**: ![checkSheets](/img/components/editButton.png) Switch between editing and viewing
+* **Name**: Name of the check sheet
+* **Estimated Minutes**: Enter the expected duration of the test. This will create a check Item in the 'Main' Group'. Optional
 ***
+Check Sheet configuration is divided into four different sections accessed by the tab.
 ### Info
-This section contains information about about this Check Sheet. Here you can provide...
+This section contains information about this Check Sheet. Here you can provide...
 
-* **Description**: Add a description about the Check Sheet
+* **Description**: A description about the Check Sheet
 * **Procedure Name**: A procedure name if this Check Sheet is to be linked to an existing procedure
 * **Instructions**: Detailed instructions that will be presented to the person at the time of taking the checks
-* **PDF Attachments**: Attach any SOPs or documents that detail how the checks should be carried out
+* **Documents**: Attach an SOP or document that details how the checks should be carried out
 
 ![checkSheets](/img/quality/chkShtInfo.png)
 ***
 ### Settings
-![checkSheets](/img/quality/chkShtSettings.png)
+The settings tab allows you to change the check sheets behavior in the following way...
 
 * **Enabled**: Enable or disable this Check Sheet
 * **Sign Off Required**: If checked a manually taken check sheet will require the further step of being 'Approved' or 'Rejected' after being submitted. 
 	Automatically taken checks or manually taken checks that do not require 'sign off' will automatically move from Submitted' to 'Approved'.
-**Auto**: When enabled, indicates to the system that this check sheet should be automatically executed (tag values taken) whenever it is triggered. It is also used to filter Check Sheets in Analysis.
-* **Folder**: Also known as type. Provides a method of grouping check sheets together.
+* **Auto**: When enabled, indicates to the system that this check sheet should be automatically executed (tag values taken) whenever it is triggered. It is also used to filter Check Sheets in Analysis.
+* **Folder**: Also known as Check Sheet Type. Provides a method of grouping check sheets together.
 * **Assets**: Determines whether the check sheet is to be associated with an asset or set or assets
 * **Items**: Determines whether the check sheet is to be associated with an item or item set or item class
 * **Test Fail Actions**: Determines whether a re-test check sheet is scheduled should any check fail. Can also send alert notifications email on check failure.
 * **Advanced Options**: Determines whether the date the check sheet is considered to be taken comes from a datetime check field or when the check is actually taken.
 Intent here is if the check goes against a product with a timestamp or the time a sample was pulled, not the time the data was entered into the system.
-***
-### Adding Checks
 
-#### Check Groups
+![checkSheets](/img/quality/chkShtSettings.png)
+***
+### Adding Check Items
+
+#### Check Item Groups
 Check items are individual tests within a check sheet, and a check sheet is a collection of these items organized into groups.
 Use the Group buttons to organize your checks. nothing says you have to separate out checks, but you will need at least one group.
 
@@ -80,7 +82,9 @@ Double-click on a check item in the table to edit or click the + button to add a
 
 * **Number of Measurements**: Set default measurements; enables variation analysis. (Check Type only)
 * **Instructions**: Enter instructions about the checks for operators. (Check Type only)
-* **Assign Attribute**: Assign an attribute to the check item. (Check Type only)
+* **Assign Attribute**: Attributes are used to associate a check with a tolerance spec and/or data source tag path. (Check Type only)
+* **Dynamic**: When enabled, this check item will only be shown when a valid tolerance can be found for the associated attribute. Usage is to prevent displaying
+*checks that may not be valid for certain items (products/materials)
 * **Units**: Define engineering units for data display. (Check Type only)
 * **Format**: Enter a format string for data presentation. (Check Type only)
 * **Entry Method**: Select an entry method; options vary based on data type. (Check Type only)

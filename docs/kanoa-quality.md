@@ -27,7 +27,7 @@ Click here to go to the [Check Sheet Configuration section](kanoa-quality/config
 Kanoa Quality can collect Check Sheet data through other automation systems and databases, in-app calculation, or manual operator entry.
 Leverage Ignition's data collection interfaces to collect data from PLCs, HMIs, OPC servers, databases, and more. Kanoa Quality is designed to support MQTT for collecting data from IoT and Edge devices.
 Our built-in data calculation interface allows both simple (sum, average, min/max) and complex (eval and Python scripting) tools to derive quality data from any source, including other quality data.
-Kanoa Quality is designed to accommodate manual operator data entry in complex shop floor environments with a touch-screen-friendly UI design, builtin check instructions, and real-time data validation.
+Kanoa Quality is designed to accommodate manual operator data entry in complex shop floor environments with a touch-screen-friendly UI design, built-in check instructions, and real-time data validation.
 
 ![kanoa-quality](/img/quality/quality-check.png) 
 
