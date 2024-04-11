@@ -1,5 +1,5 @@
 ---
-id: check-if-item-checked-this-shift
+id: checkIfItemCheckedThisShift
 title: system.kanoa.quality.schedule.checkIfItemCheckedThisShift
 ---
 

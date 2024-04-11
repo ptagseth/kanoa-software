@@ -1,5 +1,5 @@
 ---
-id: update-scheduled-auto-checks
+id: updateScheduledAutoChecks
 title: system.kanoa.quality.schedule.updateScheduledAutoChecks
 ---
 

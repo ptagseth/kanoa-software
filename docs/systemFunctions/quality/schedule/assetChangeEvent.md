@@ -1,5 +1,5 @@
 ---
-id: asset-change-event
+id: assetChangeEvent
 title: system.kanoa.quality.schedule.assetChangeEvent
 ---
 

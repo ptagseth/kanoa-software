@@ -7,7 +7,10 @@ import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';
 
 <PurpleBox>This function requires <b>KanoaQDS</b> module</PurpleBox>
-<HeaderBox header="Description">Updates a sheet type in KanoaQDS.</HeaderBox>
+<HeaderBox header="Description">
+Updates the sheetType associated with a check sheet. 
+Think of a sheet type essentially as a folder where checks sheets of different types can be stored. Initially implemented as a type field,
+it has now become the parentId of the check sheet allowing types to be nested.</HeaderBox>
 <HeaderBox header="Syntax">
     <b>updateSheetType(shtTypeInfo, userId)</b>
     <li> Parameters <br />

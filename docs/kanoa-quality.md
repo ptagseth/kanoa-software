@@ -21,9 +21,9 @@ There are multiple ways that Check Sheets can be scheduled and triggered to run 
 
 ![kanoa-quality](/img/quality/quality-config-check-table.png)
 
-Click here to go to the [Check Sheet Configuration section](configuration/quality/check-sheets)
+Click here to go to the [Check Sheet Configuration section](kanoa-quality/config/checkSheets)
 ***
-#### Data Collection
+#### Entering Checks
 Kanoa Quality can collect Check Sheet data through other automation systems and databases, in-app calculation, or manual operator entry.
 Leverage Ignition's data collection interfaces to collect data from PLCs, HMIs, OPC servers, databases, and more. Kanoa Quality is designed to support MQTT for collecting data from IoT and Edge devices.
 Our built-in data calculation interface allows both simple (sum, average, min/max) and complex (eval and Python scripting) tools to derive quality data from any source, including other quality data.

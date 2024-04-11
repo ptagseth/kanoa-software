@@ -1,5 +1,5 @@
 ---
-id: get-seconds-since-last-check
+id: getSecondsSinceLastCheck
 title: system.kanoa.quality.schedule.getSecondsSinceLastCheck
 ---
 

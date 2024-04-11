@@ -4,7 +4,7 @@ title: Check Details
 sidebar_position: 2
 hide_table_of_contents: true
 ---
-The Check Details screen can be used to performa analysis on check items values within a check sheet. 
+The Check Details screen can be used to perform analysis on check items values within a check sheet. 
 Individual and aggregated values a check sheet items offer a comprehensive view of the checks themselves.
 
 ![Check Details](/img/quality/qualityDetail.png)
