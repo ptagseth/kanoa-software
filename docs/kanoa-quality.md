@@ -14,7 +14,9 @@ Kanoa Quality transforms how manufacturing teams define, collect, and use qualit
 ***
 ### How It Works
 
-#### Create Your Check Sheets
+![kanoa-quality](/img/quality/qualityCheckProcess.png)
+
+#### Create Check Sheet
 The Check Sheet is the focal point of Kanoa Quality. Think of each Check Sheet as replacing a paper form.
 A Check Sheet defines all of the data required to complete a quality check or process along with engineering tolerances, operator instructions, associated assets and items, and approval requirements.
 There are multiple ways that Check Sheets can be scheduled and triggered to run including on a timed schedule, by equipment or product change, by shift change, or manually.
@@ -23,7 +25,11 @@ There are multiple ways that Check Sheets can be scheduled and triggered to run 
 
 Click here to go to the [Check Sheet Configuration section](kanoa-quality/config/checkSheets)
 ***
-#### Entering Checks
+#### Schedule Checks
+Checks that need to be performed will be scheduled based on the triggers defined for the check sheet. This can be in the form of a timed interval, say every 4 hours, or triggered by an event
+on the asset such as the starting of a production run or a shift change.
+***
+#### Take Checks
 Kanoa Quality can collect Check Sheet data through other automation systems and databases, in-app calculation, or manual operator entry.
 Leverage Ignition's data collection interfaces to collect data from PLCs, HMIs, OPC servers, databases, and more. Kanoa Quality is designed to support MQTT for collecting data from IoT and Edge devices.
 Our built-in data calculation interface allows both simple (sum, average, min/max) and complex (eval and Python scripting) tools to derive quality data from any source, including other quality data.
