@@ -54,9 +54,9 @@ const sidebars = {
                 {type: 'doc', id: 'kanoa-quality/config/checkSheets', label: 'Creating Checks'},    
                 {type: 'doc', id: 'kanoa-quality/config/attributes', label: 'Configuring Attributes'},
                 {type: 'doc', id: 'kanoa-quality/config/itemSets', label: 'Creating ItemSets'},
-                {type: 'doc', id: 'kanoa-quality/check-sheet', label: 'Entering Checks'},
-                {type: 'doc', id: 'kanoa-quality/check-summary', label: 'Analysing Check Summary'},
-                {type: 'doc', id: 'kanoa-quality/check-details', label: 'Analysing Check Details & SPC'},
+                {type: 'doc', id: 'kanoa-quality/checkSheet', label: 'Entering Checks'},
+                {type: 'doc', id: 'kanoa-quality/checkSummary', label: 'Analysing Check Summary'},
+                {type: 'doc', id: 'kanoa-quality/checkDetails', label: 'Analysing Check Details & SPC'},
                 ],
     },
     {

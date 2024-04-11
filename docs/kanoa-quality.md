@@ -28,6 +28,11 @@ Click here to go to the [Check Sheet Configuration section](kanoa-quality/config
 #### Schedule Checks
 Checks that need to be performed will be scheduled based on the triggers defined for the check sheet. This can be in the form of a timed interval, say every 4 hours, or triggered by an event
 on the asset such as the starting of a production run or a shift change.
+
+![kanoa-quality](/img/quality/chkShtTriggers.png)
+
+Click here to go to the [Check Sheet Triggers](kanoa-quality/config/checkSheets#adding-check-sheet-triggers)
+
 ***
 #### Take Checks
 Kanoa Quality can collect Check Sheet data through other automation systems and databases, in-app calculation, or manual operator entry.
@@ -37,23 +42,23 @@ Kanoa Quality is designed to accommodate manual operator data entry in complex s
 
 ![kanoa-quality](/img/quality/quality-check.png) 
 
-Click here to go to the [Entering Checks section](kanoa-quality/check-sheet)
+Click here to go to the [Entering Checks section](kanoa-quality/checkSheet).
 ***
-#### Quality Data Analysis
+#### Quality Data Analysis (Detail)
 Kanoa Quality has quality data analysis and Statistical Process Control (SPC) built into the platform.
 Access Quality Check data on-demand with our built-in analysis engine and charting tools.
 Run Nelson, WECO, or Custom statistical rules against data and highlight violations. Exclude outliers and "junk data" to focus on what is important. 
 
 ![kanoa-quality](/img/quality/qualityDetail.png) 
 
-Click here to go to the [Analyze Checks section](kanoa-quality/check-details)
+Click here to go to the [Analyze Checks section](kanoa-quality/checkDetails)
 ***
-#### Quality Performance Analysis
+#### Quality Performance Analysis (Summary)
 Drive accountability with Kanoa Quality's Check Sheet performance analysis tools. See how many checks were completed on-time as-expected and which may have been late, rejected, or missed.
 Analyze Check Sheet completion time against expectations to make sure teams are running tests efficiently.
 Filter quality efficacy data by Check Sheet, department, shift or asset.
 
 ![kanoa-quality](/img/quality/quality-analysis-check-summary.png) 
 
-Click here to go to the [Summarize Checks section](kanoa-quality/check-summary)
+Click here to go to the [Summarize Checks section](kanoa-quality/checkSummary)
 ***
