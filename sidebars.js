@@ -210,6 +210,7 @@ const sidebars = {
                             {type: 'doc', id: 'systemFunctions/event/getStateEventInfo', label: 'getStateEventInfo'},
                             {type: 'doc', id: 'systemFunctions/event/getStateEvents', label: 'getStateEvents'},
                             {type: 'doc', id: 'systemFunctions/event/getStateEventSummary', label: 'getStateEventSummary'},
+                            {type: 'doc', id: 'systemFunctions/event/getWorkOrderEventSummary', label: 'getWorkOrderEventSummary'},                           
                             {type: 'doc', id: 'systemFunctions/event/resetCountEvents', label: 'resetCountEvents'},
                             {type: 'doc', id: 'systemFunctions/event/updateCountEvent', label: 'updateCountEvent'},
                             {type: 'doc', id: 'systemFunctions/event/updateModeEvent', label: 'updateModeEvent'},

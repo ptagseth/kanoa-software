@@ -9,7 +9,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <PurpleBox>This function is part of the <b>kanoaOPS</b> module</PurpleBox>
 
 <HeaderBox header="Description">
-  Retrieves lot events filtered by the provided parameters.
+  Retrieves lot events filtered by the provided parameters.  Input parameters are inclusive, e.g. an end date is 1/1 at 12:00PM will be included in the results.
 </HeaderBox>
 
 <HeaderBox header="Syntax">
