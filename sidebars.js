@@ -148,6 +148,7 @@ const sidebars = {
                             {type: 'doc', id: 'systemFunctions/attribute/getAttributeAssetLinks', label: 'getAttributeAssetLinks'},
                             {type: 'doc', id: 'systemFunctions/attribute/getAttributeEvents', label: 'getAttributeEvents'},
                             {type: 'doc', id: 'systemFunctions/attribute/getAttributes', label: 'getAttributes'},
+                            {type: 'doc', id: 'systemFunctions/attribute/getPreviousAttributeEvent', label: 'getPreviousAttributeEvent'},
                             {type: 'doc', id: 'systemFunctions/attribute/updateAttribute', label: 'updateAttribute'},
                             {type: 'doc', id: 'systemFunctions/attribute/updateAttributeAssetLink', label: 'updateAttributeAssetLink'},
                             {type: 'doc', id: 'systemFunctions/attribute/updateAttributeEvent', label: 'updateAttributeEvent'},
