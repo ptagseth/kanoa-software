@@ -27,6 +27,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Examples
 ```python
 assetId = 33
-tStamp = '2024-04-07 08:30:00'
+tStamp = timestamp
 data = system.kanoa.attribute.getPreviousAttributeEvent(assetId, tStamp)
 print(data)  # Print the dataset 
