@@ -27,7 +27,7 @@ itemInfo = {
     'itemName': 'Sausages',
     'itemDescription': 'Delicious bangers',
     'itemClassId': None,
-    'itemColor': 'Red',
+    'itemColor': '#FF0000',
     'enabled': True,
     'itemId': 1
 }

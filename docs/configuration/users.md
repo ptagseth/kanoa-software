@@ -11,7 +11,7 @@ giving you the option of managing users within the Ignition application, through
 ### Features
 
 **Gateway Admin**<br/>
-KanoaMES supports multi-enterprise asset hierarchies on the same gateway server. Because of this we provide a reserved 'Gateway Admin' role that provides 'administrator' level rights for all enteprises.
+KanoaMES supports multi-enterprise asset hierarchies on the same gateway server. Because of this we provide a reserved 'Gateway Admin' role that provides 'administrator' level rights for all enterprises.
 The Gateway Admin is the only user who can make another user an 'Administrator' for one or more enterprises. The 'administrator' can then manage the access and roles users have within that enterprise.
 
 ***
