@@ -80,6 +80,9 @@ line-height: 2;
 .theme-doc-toc-desktop {
    display: none;
 }
+.col.col--3 {
+    display: none;
+}
 
 .hidden {
     display: none !important;

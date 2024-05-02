@@ -7,7 +7,7 @@
     margin-right: 25px;
 }
 @media (min-width: 997px) {
-  .docItemCol {
-    max-width: 75% !important;
-  }
+ /*.docItemCol {
+     max-width: 75% !important;
+   } SJ */
 }
