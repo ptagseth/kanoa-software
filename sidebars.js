@@ -65,7 +65,7 @@ const sidebars = {
     },
     {
                 type: 'html',
-                value: '<hr style= "margin-top:-4px; margin-bottom:-12px">',
+                value: '<hr style= "margin-top:-4px; margin-bottom:-12px; padding-bottom: -2px">',
                 defaultStyle: true,
     },
     {
