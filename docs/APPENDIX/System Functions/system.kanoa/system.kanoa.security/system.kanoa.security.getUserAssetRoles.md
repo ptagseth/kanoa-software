@@ -1,6 +1,7 @@
 ---
 id: getUserAssetRoles
 title: system.kanoa.security.getUserAssetRoles
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: deleteCheckWithHistory
 title: system.kanoa.quality.config.deleteCheckWithHistory
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

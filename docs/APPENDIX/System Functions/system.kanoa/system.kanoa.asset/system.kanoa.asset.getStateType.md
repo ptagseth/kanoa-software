@@ -1,6 +1,7 @@
 ---
 id: getStateType
 title: system.kanoa.asset.getStateType
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

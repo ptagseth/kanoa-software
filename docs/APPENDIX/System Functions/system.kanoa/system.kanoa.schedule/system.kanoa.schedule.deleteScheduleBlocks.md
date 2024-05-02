@@ -1,6 +1,7 @@
 ---
 id: deleteScheduleBlocks
 title: system.kanoa.schedule.deleteScheduleBlocks
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

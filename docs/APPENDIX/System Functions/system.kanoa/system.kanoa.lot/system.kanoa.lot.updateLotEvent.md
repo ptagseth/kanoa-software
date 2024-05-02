@@ -1,6 +1,7 @@
 ---
 id: update-lot-event
 title: system.kanoa.lot.updateLotEvent
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

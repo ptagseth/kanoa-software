@@ -1,6 +1,7 @@
 ---
 id: deleteGroup
 title: system.kanoa.quality.config.deleteGroup
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

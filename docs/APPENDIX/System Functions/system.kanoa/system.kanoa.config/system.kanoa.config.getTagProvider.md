@@ -1,6 +1,7 @@
 ---
 id: getTagProvider
 title: system.kanoa.config.getTagProvider
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: get-lots
 title: system.kanoa.lot.getLots
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

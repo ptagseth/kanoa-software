@@ -1,6 +1,7 @@
 ---
 id: updateUserAssetRoles
 title: system.kanoa.security.updateUserAssetRoles
+hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';

@@ -1,6 +1,7 @@
 ---
 id: updateStateField
 title: system.kanoa.asset.updateStateField
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

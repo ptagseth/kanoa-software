@@ -1,6 +1,7 @@
 ---
 id: enable-asset-lot-state-link
 title: system.kanoa.lot.enableAssetLotStateLink
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

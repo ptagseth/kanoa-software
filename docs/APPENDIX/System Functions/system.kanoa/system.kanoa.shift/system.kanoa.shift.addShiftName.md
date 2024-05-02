@@ -1,6 +1,7 @@
 ---
 id: addShiftName
 title: system.kanoa.shift.addShiftName
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

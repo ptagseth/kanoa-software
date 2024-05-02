@@ -1,6 +1,7 @@
 ---
 id: get-attribute-asset-links
 title: system.kanoa.attribute.getAttributeAssetLinks
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

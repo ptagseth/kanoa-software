@@ -1,6 +1,7 @@
 ---
 id: addSheet
 title: system.kanoa.quality.config.sheets.addSheet
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

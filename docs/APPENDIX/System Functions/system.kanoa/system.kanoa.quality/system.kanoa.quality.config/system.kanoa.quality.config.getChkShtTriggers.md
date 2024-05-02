@@ -1,6 +1,7 @@
 ---
 id: getChkShtTriggers
 title: system.kanoa.quality.config.getChkShtTriggers
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

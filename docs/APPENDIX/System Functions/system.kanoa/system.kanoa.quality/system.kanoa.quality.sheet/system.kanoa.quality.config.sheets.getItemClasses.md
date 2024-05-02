@@ -1,6 +1,7 @@
 ---
 id: getItemClasses
 title: system.kanoa.quality.config.sheets.getItemClasses
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

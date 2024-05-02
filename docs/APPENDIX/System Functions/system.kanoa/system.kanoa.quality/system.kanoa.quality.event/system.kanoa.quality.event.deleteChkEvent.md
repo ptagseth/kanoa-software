@@ -1,6 +1,7 @@
 ---
 id: deleteChkEvent
 title: system.kanoa.quality.event.deleteChkEvent
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

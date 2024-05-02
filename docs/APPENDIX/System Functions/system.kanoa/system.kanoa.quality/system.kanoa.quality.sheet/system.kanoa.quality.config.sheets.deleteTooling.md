@@ -1,6 +1,7 @@
 ---
 id: deleteTooling
 title: system.kanoa.quality.config.sheets.deleteTooling
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: getComplementaryColors
 title: system.kanoa.utilities.getComplementaryColors
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

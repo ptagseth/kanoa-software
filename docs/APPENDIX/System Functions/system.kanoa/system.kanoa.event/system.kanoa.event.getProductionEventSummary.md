@@ -1,6 +1,7 @@
 ---
 id: getProductionEventSummary
 title: system.kanoa.event.getProductionEventSummary
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

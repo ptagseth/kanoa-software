@@ -1,6 +1,7 @@
 ---
 id: addAssetGroup
 title: system.kanoa.asset.addAssetGroup
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

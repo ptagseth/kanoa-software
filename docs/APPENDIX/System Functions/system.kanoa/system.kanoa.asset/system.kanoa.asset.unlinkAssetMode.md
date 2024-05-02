@@ -1,6 +1,7 @@
 ---
 id: unlinkAssetMode
 title: system.kanoa.asset.unlinkAssetMode
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

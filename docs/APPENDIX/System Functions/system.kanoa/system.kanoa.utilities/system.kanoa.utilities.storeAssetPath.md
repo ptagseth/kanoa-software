@@ -1,6 +1,7 @@
 ---
 id: storeAssetPath
 title: system.kanoa.utilities.storeAssetPath
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

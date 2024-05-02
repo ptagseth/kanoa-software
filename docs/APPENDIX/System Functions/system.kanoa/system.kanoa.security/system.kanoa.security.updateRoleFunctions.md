@@ -1,6 +1,7 @@
 ---
 id: updateRoleFunctions
 title: system.kanoa.security.updateRoleFunctions
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: updateDataType
 title: system.kanoa.quality.config.updateDataType
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

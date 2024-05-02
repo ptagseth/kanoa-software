@@ -1,6 +1,7 @@
 ---
 id: getShiftHeatMap
 title: system.kanoa.quality.analysis.getShiftHeatMap
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

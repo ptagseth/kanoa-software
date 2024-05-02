@@ -1,6 +1,7 @@
 ---
 id: addItemAssetRate
 title: system.kanoa.item.addItemAssetRate
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

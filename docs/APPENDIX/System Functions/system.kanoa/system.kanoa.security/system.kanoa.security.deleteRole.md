@@ -1,6 +1,7 @@
 ---
 id: deleteRole
 title: system.kanoa.security.deleteRole
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

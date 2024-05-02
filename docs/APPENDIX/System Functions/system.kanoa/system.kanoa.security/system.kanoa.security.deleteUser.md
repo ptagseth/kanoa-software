@@ -1,6 +1,7 @@
 ---
 id: deleteUser
 title: system.kanoa.security.deleteUser
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: updateProductionOrderField
 title: system.kanoa.order.updateProductionOrderField
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

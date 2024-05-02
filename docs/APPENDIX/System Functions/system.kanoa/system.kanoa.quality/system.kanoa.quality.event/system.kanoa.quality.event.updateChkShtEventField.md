@@ -1,6 +1,7 @@
 ---
 id: updateChkShtEventField
 title: system.kanoa.quality.event.updateChkShtEventField
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

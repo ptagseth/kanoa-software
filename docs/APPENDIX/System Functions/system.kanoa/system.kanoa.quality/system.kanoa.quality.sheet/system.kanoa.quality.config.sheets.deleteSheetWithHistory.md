@@ -1,6 +1,7 @@
 ---
 id: deleteSheetWithHistory
 title: system.kanoa.quality.config.sheets.deleteSheetWithHistory
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

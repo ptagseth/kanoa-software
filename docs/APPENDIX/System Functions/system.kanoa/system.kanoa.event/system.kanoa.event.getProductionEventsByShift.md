@@ -1,6 +1,7 @@
 ---
 id: getProductionEventsByShift
 title: system.kanoa.event.getProductionEventsByShift
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

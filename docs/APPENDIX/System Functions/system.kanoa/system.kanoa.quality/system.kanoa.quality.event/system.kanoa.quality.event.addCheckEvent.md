@@ -1,6 +1,7 @@
 ---
 id: addCheckEvent
 title: system.kanoa.quality.event.addCheckEvent
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: RGBtoHex
 title: system.kanoa.utilities.RGBtoHex
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: pythonDateToJava
 title: system.kanoa.utilities.pythonDateToJava
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

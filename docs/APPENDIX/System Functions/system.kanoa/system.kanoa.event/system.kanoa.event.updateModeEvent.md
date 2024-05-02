@@ -1,6 +1,7 @@
 ---
 id: updateModeEvent
 title: system.kanoa.event.updateModeEvent
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

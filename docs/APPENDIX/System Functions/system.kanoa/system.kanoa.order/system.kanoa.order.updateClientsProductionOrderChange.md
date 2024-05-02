@@ -1,6 +1,7 @@
 ---
 id: updateClientsProductionOrderChange
 title: system.kanoa.order.updateClientsProductionOrderChange
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

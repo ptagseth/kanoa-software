@@ -1,6 +1,7 @@
 ---
 id: deleteSheetType
 title: system.kanoa.quality.sheet.deleteSheetType
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

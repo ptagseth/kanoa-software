@@ -1,6 +1,7 @@
 ---
 id: addItems
 title: system.kanoa.quality.config.sheets.addItems
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

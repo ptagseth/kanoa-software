@@ -1,6 +1,7 @@
 ---
 id: updateItemPeriod
 title: system.kanoa.item.updateItemPeriod
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

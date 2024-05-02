@@ -1,6 +1,7 @@
 ---
 id: getOEEDataByInterval
 title: system.kanoa.event.getOEEDataByInterval
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

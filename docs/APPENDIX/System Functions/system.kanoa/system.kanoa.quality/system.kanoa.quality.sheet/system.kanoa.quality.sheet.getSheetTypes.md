@@ -1,6 +1,7 @@
 ---
 id: getSheetTypes
 title: system.kanoa.quality.sheet.getSheetTypes
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

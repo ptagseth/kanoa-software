@@ -1,6 +1,7 @@
 ---
 id: deleteDataType
 title: system.kanoa.quality.config.deleteDataType
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

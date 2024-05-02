@@ -1,6 +1,7 @@
 ---
 id: updateShiftBlockExceptions
 title: system.kanoa.shift.updateShiftBlockExceptions
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

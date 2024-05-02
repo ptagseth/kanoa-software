@@ -1,6 +1,7 @@
 ---
 id: checkAssetSchedule
 title: system.kanoa.schedule.checkAssetSchedule
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
