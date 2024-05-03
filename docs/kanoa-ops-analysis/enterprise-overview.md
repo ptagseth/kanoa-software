@@ -34,4 +34,3 @@ The asset card shows more detailed information such as ...
 The Area Summary tab rolls up the performance data to provide an aggregated value by area.
 
 ![enterprise-overview](/img/analysis/homeAssetSummary.png)
-
