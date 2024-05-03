@@ -1,6 +1,7 @@
 ---
 id: deleteItem
 title: system.kanoa.item.deleteItem
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

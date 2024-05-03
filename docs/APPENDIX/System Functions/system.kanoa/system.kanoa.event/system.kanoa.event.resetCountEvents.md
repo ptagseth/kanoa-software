@@ -1,6 +1,7 @@
 ---
 id: resetCountEvents
 title: system.kanoa.event.resetCountEvents
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

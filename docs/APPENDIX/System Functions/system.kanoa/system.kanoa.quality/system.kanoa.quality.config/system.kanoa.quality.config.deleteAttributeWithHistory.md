@@ -1,6 +1,7 @@
 ---
 id: deleteAttributeWithHistory
 title: system.kanoa.quality.config.deleteAttributeWithHistory
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

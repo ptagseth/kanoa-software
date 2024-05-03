@@ -1,6 +1,7 @@
 ---
 id: formatDatesForSP
 title: system.kanoa.utilities.formatDatesForSP
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

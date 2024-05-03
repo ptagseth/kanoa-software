@@ -1,6 +1,7 @@
 ---
 id: intervalTimerEvent
 title: system.kanoa.quality.schedule.intervalTimerEvent
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

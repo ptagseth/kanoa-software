@@ -1,6 +1,7 @@
 ---
 id: update-lot-state-reason-field
 title: system.kanoa.lot.updateLotStateReasonField
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

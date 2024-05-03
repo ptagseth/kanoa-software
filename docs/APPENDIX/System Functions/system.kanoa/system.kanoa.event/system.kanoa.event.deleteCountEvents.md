@@ -1,6 +1,7 @@
 ---
 id: deleteCountEvents
 title: system.kanoa.event.deleteCountEvents
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

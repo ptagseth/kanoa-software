@@ -1,6 +1,7 @@
 ---
 id: deleteAttributeLink
 title: system.kanoa.quality.config.deleteAttributeLink
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

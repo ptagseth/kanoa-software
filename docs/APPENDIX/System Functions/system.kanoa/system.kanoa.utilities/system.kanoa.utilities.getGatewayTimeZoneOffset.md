@@ -1,6 +1,7 @@
 ---
 id: getGatewayTimeZoneOffset
 title: system.kanoa.utilities.getGatewayTimeZoneOffset
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: updateMode
 title: system.kanoa.asset.updateMode
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

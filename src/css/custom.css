@@ -28,8 +28,14 @@
   --ifm-heading-color: #1C2731;
 }
 
+/*Changing text sizes*/
 h2 { font-size: 1.8rem !important; }
 h1 { font-size: 2.4rem !important; }
+
+p {
+   margin: 0px;
+   padding: 0px;
+}
 
 .menu__list-item-collapsible {
   flex-wrap: nowrap;
@@ -74,6 +80,9 @@ line-height: 2;
 .theme-doc-toc-desktop {
    display: none;
 }
+.col.col--3 {
+    display: none;
+}
 
 .hidden {
     display: none !important;
@@ -100,11 +109,6 @@ line-height: 2;
   margin: -15px -15px 10px -15px;
   background-color: #f8f7f7;
   color: black;
-}
-
-p {
-   margin: 0px;
-   padding: 0px;
 }
 
 [data-theme='light'] .DocSearch {

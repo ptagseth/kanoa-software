@@ -1,6 +1,7 @@
 ---
 id: getSummary
 title: system.kanoa.quality.analysis.getSummary
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

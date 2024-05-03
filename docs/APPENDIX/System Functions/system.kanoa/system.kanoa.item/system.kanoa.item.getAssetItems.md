@@ -1,6 +1,7 @@
 ---
 id: getAssetItems
 title: system.kanoa.item.getAssetItems
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

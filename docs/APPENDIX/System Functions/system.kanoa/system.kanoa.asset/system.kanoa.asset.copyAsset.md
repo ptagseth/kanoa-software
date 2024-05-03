@@ -1,6 +1,7 @@
 ---
 id: copyAsset
 title: system.kanoa.asset.copyAsset
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

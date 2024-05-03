@@ -1,6 +1,7 @@
 ---
 id: convertRecurringRuleToText
 title: system.kanoa.schedule.convertRecurringRuleToText
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

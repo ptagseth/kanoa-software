@@ -1,6 +1,7 @@
 ---
 id: asset-change-event
 title: system.kanoa.quality.schedule.assetChangeEvent
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

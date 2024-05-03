@@ -1,6 +1,7 @@
 ---
 id: getUserSource
 title: system.kanoa.security.getUserSource
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

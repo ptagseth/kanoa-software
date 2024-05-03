@@ -1,6 +1,7 @@
 ---
 id: check-if-item-checked-this-shift
 title: system.kanoa.quality.schedule.checkIfItemCheckedThisShift
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

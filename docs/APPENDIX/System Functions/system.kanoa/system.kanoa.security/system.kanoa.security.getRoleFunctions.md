@@ -1,6 +1,7 @@
 ---
 id: getRoleFunctions
 title: system.kanoa.security.getRoleFunctions
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

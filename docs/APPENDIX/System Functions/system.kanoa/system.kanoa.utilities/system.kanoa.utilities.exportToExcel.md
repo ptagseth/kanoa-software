@@ -1,6 +1,7 @@
 ---
 id: exportToExcel
 title: system.kanoa.utilities.exportToExcel
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

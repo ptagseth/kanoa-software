@@ -1,6 +1,7 @@
 ---
 id: createTreeHierarchy
 title: system.kanoa.utilities.createTreeHierarchy
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

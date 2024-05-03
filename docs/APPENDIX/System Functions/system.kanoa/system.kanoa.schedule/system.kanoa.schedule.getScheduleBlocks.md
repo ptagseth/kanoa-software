@@ -1,6 +1,7 @@
 ---
 id: getScheduleBlocks
 title: system.kanoa.schedule.getScheduleBlocks
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

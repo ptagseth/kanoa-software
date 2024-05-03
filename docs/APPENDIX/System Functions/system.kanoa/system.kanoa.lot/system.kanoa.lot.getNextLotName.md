@@ -1,6 +1,7 @@
 ---
 id: get-next-lot-name
 title: system.kanoa.lot.getNextLotName
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

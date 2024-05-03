@@ -1,6 +1,7 @@
 ---
 id: getUniqueChecksOnly
 title: system.kanoa.quality.config.sheets.getUniqueChecksOnly
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

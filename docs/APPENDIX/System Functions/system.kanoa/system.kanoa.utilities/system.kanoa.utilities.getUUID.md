@@ -1,6 +1,7 @@
 ---
 id: getUUID
 title: system.kanoa.utilities.getUUID
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

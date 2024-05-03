@@ -2,6 +2,7 @@
 id: getItemPeriods
 title: system.kanoa.item.getItemPeriods
 sidebar_position: 4
+hide_table_of_contents: true
 ---
 import PurpleBox from '@site/src/components/PurpleBox';
 import HeaderBox from '@site/src/components/HeaderBox';

@@ -1,6 +1,7 @@
 ---
 id: getVersionInfo
 title: system.kanoa.config.getVersionInfo
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

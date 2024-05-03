@@ -1,6 +1,7 @@
 ---
 id: addCounter
 title: system.kanoa.asset.addCounter
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

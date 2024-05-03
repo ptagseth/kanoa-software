@@ -1,6 +1,7 @@
 ---
 id: getProductionOrderSource
 title: system.kanoa.order.getProductionOrderSource
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

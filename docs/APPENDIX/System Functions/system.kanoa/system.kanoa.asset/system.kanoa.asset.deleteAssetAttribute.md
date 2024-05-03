@@ -1,6 +1,7 @@
 ---
 id: deleteAssetAttribute
 title: system.kanoa.asset.deleteAssetAttribute
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

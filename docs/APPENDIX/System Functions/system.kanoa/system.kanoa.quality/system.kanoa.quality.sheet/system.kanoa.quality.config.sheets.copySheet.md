@@ -1,6 +1,7 @@
 ---
 id: copySheet
 title: system.kanoa.quality.config.sheets.copySheet
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: getCurrentModeInfo
 title: system.kanoa.asset.getCurrentModeInfo
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

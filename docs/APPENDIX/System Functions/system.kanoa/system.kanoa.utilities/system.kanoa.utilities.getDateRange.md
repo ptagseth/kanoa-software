@@ -1,6 +1,7 @@
 ---
 id: getDateRange
 title: system.kanoa.utilities.getDateRange
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

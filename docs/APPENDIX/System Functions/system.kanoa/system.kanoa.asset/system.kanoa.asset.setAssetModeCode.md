@@ -1,6 +1,7 @@
 ---
 id: setAssetModeCode
 title: system.kanoa.asset.setAssetModeCode
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

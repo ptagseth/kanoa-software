@@ -1,6 +1,7 @@
 ---
 id: linkItems
 title: system.kanoa.quality.config.linkItems
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

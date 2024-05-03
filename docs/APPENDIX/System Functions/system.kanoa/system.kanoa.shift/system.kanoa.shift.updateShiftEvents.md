@@ -1,6 +1,7 @@
 ---
 id: updateShiftEvents
 title: system.kanoa.shift.updateShiftEvents
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

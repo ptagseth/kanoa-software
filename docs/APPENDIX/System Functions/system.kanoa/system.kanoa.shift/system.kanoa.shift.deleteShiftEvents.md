@@ -1,6 +1,7 @@
 ---
 id: deleteShiftEvents
 title: system.kanoa.shift.deleteShiftEvents
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

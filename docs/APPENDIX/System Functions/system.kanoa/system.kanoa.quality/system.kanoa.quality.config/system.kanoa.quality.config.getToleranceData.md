@@ -1,6 +1,7 @@
 ---
 id: getToleranceData
 title: system.kanoa.quality.config.getToleranceData
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

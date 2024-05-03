@@ -1,6 +1,7 @@
 ---
 id: convertSQLTimeStamp
 title: system.kanoa.utilities.convertSQLTimeStamp
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: deleteItemSet
 title: system.kanoa.quality.config.deleteItemSet
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

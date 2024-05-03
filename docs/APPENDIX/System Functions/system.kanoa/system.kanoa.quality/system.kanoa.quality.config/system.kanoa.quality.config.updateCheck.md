@@ -1,6 +1,7 @@
 ---
 id: updateCheck
 title: system.kanoa.quality.config.updateCheck
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

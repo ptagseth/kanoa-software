@@ -1,6 +1,7 @@
 ---
 id: getTriggerTypes
 title: system.kanoa.quality.config.getTriggerTypes
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: getUserFunctions
 title: system.kanoa.security.getUserFunctions
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

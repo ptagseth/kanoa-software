@@ -1,6 +1,7 @@
 ---
 id: getDowntimeData
 title: system.kanoa.event.getDowntimeData
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

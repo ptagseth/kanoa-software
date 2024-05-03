@@ -1,6 +1,7 @@
 ---
 id: delete-attribute
 title: system.kanoa.attribute.deleteAttribute
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

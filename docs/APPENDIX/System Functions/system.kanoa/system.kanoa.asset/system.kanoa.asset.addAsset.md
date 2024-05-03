@@ -1,6 +1,7 @@
 ---
 id: addAsset
 title: system.kanoa.asset.addAsset
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
@@ -20,7 +21,6 @@ import HeaderBox from '@site/src/components/HeaderBox';
 </HeaderBox>
 
 ### Code Examples
-
 ```python
 # Example Usage:
 assetInfo = {

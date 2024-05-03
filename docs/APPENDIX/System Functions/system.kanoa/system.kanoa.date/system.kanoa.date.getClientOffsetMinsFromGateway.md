@@ -1,6 +1,7 @@
 ---
 id: getClientOffsetMinsFromGateway
 title: system.kanoa.date.getClientOffsetMinsFromGateway
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

@@ -1,6 +1,7 @@
 ---
 id: delete-lot-state-reason
 title: system.kanoa.lot.deleteLotStateReason
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

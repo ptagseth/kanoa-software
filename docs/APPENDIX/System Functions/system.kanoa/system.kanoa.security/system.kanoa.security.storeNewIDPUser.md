@@ -1,6 +1,7 @@
 ---
 id: storeNewIDPUser
 title: system.kanoa.security.storeNewIDPUser
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

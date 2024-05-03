@@ -1,6 +1,7 @@
 ---
 id: updateWorkOrderCount
 title: system.kanoa.event.updateWorkOrderCount
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

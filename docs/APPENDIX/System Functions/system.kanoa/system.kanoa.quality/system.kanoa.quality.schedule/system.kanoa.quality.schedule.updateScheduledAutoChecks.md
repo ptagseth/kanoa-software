@@ -1,6 +1,7 @@
 ---
 id: update-scheduled-auto-checks
 title: system.kanoa.quality.schedule.updateScheduledAutoChecks
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

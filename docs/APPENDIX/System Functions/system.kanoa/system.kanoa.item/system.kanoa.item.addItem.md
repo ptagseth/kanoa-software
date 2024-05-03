@@ -1,6 +1,7 @@
 ---
 id: addItem
 title: system.kanoa.item.addItem
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';

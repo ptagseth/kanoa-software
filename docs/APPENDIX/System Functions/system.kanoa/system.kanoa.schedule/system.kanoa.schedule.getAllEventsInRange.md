@@ -1,6 +1,7 @@
 ---
 id: getAllEventsInRange
 title: system.kanoa.schedule.getAllEventsInRange
+hide_table_of_contents: true
 ---
 
 import PurpleBox from '@site/src/components/PurpleBox';
