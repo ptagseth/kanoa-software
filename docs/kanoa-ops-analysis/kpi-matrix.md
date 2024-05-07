@@ -8,46 +8,46 @@ hide_table_of_contents: true
 The KPI Matrix functionality is a tool to provide insight to production KPIs.  The user will have the ability to rapidly analyze the chosen KPIs from tag data.
 :::
 
-Users not logged in can view public matrices 
+![kpi-matrix](/img/kpi-matrix/KPIMatrixView.png)
 
 ## Login
 In upper right corner - click login icon.
-Use your Koch ID and Password to log in to the application.
+Use your ID and Password to log in to the application.
 
 
-IMAGE - Upper right menu
+![kpi-matrix](/img/kpi-matrix/UpperRightMenu.png)
 
 ### User Permissions
 Once logged in, you can hover over the login icon and see your current roles.
 
 
-IMAGE - User logged in with Permissions
+![kpi-matrix](/img/kpi-matrix/MatrixPermissions.png)
 
 ### Logout
 Click the logout icon next to the login icon to log out of the application.
 
 ### Roles & Permissions
 
-**Division Admin**
+#### Division Admin
 The Division Admin can view all matrices, both public and private. They can create, edit and delete their own matrices.
 The can delete any matrix, both public and private.
 
-**Site Admin**
+#### Site Admin
 The Site Admin can view all public matrices as well as all their own.  They can view any private matrix within their own site. They can create, edit and delete their own matrices.  They can delete any matrix within their own site.
 
-**User**
+#### User
 The User can view their own public and private matrices, and any other public matrix. They can create, edit and delete only their own matrices.
 
-**Guest**
+#### Guest
 The Guest can only view public matrices.  They have no create, edit or delete permissions.
 
 
-## Create / Edit a Matrix
+## Create and Edit a KPI Matrix
 
 ### Matrix Editor
 Open the left menu and click the Matrix Editor.  This will open a view to the Folder editor and the Matrix creator and editor.
 
-IMAGE - with Folder Editor and Matrix editor - with descriptions
+![kpi-matrix](/img/kpi-matrix/KPIMatrixView.png)
 
 #### Folder Editor
 Open the folder editor by clicking the add folder icon (+) above folder structure. 
@@ -57,7 +57,7 @@ Delete folders - select folder to delete, click Delete Icon.
 
 Drag drop a matrix from one folder to another.  Select the matrix, hold the left mouse button until it is in the desired folder and then  release the mouse button.
 
-IMAGE - Details of Folder Editor - explain fields, buttons and links
+![kpi-matrix](/img/kpi-matrix/FolderEditor.png)
 
 #### Create / Edit a Matrix
 * Create a new Matrix - select a folder for the location of the Matrix.  Fill the matrix info - name, folder, icon and sort order.  Click the Enabled box to enable data to flow to the matrix so it can be viewed.  Save the Matrix using the Save icon in the top menu.
@@ -75,6 +75,8 @@ IMAGE - Details of Folder Editor - explain fields, buttons and links
 
 ### Matrix view
 
+![kpi-matrix](/img/kpi-matrix/ViewMatrix.png)
+
 **Normal Use Case:**
     1. Select the Matrix
     2. Set the time period for data
@@ -85,7 +87,8 @@ IMAGE - Details of Folder Editor - explain fields, buttons and links
     7. Select Data tag to inspect further
     8. Click Trend View
 
-IMAGE - of Matrix view with button and icons explained
+![kpi-matrix](/img/kpi-matrix/MatrixButtons.png)
+
 
 ### Top Menu
 * Matrix Selector - Select the Matrix.  Use the search function to search in folders.
@@ -98,43 +101,70 @@ IMAGE - of Matrix view with button and icons explained
 
 * Group by Matrix Group. This can be utilized if the Matrix data is organized by separate Matrix groups.
 
+
 ### Left Menu
 
-**Clear table**
+#### Clear table
 Click this icon to clear the displayed data.
 
-**Export data**
+#### Export data
 Click the export button to export the data displayed in Excel format.
 
-**Trend View**
+#### Trend View
 Select a single data tag and plot the trend over a time period.
-    • Time Series - Select the Time Series format to plot the data in a time series.  Use the Nelson and WECO rules to determine if the graph is unpredictable.
-        ○ Nelson Rules are a method to determine if some measured variable is out of control (unpredictable vs consistent).
+* Time Series - Select the Time Series format to plot the data in a time series.  Use the Nelson and WECO rules to determine if the graph is unpredictable.
+  * Nelson Rules are a method to determine if some measured variable is out of control (unpredictable vs consistent).
         Read more about the Nelson Rules here:  https://en.wikipedia.org/wiki/Nelson_rules
-        ○ WECO Rules to detect out of control r non-random conditions in your control charts.
-        Read more about the WECO (Western Electric) Rules here:  https://en.wikipedia.org/wiki/Western_Electric_rules
-    • Bar Chart - Select the Bar format for the data to be displayed in bar chart.
-    • Histogram - select a data tag to show the distribution of the data.  Select Min and Max values to limit outliers.
-    • Table - Select the Table format for data in raw table format
-    • Export data - click the export button to export the data in Excel format.
+  * WECO Rules to detect out of control r non-random conditions in your control charts.
+    Read more about the WECO (Western Electric) Rules here:  https://en.wikipedia.org/wiki/Western_Electric_rules
+* Bar Chart - Select the Bar format for the data to be displayed in bar chart.
+* Histogram - select a data tag to show the distribution of the data.  Select Min and Max values to limit outliers.
+* Table - Select the Table format for data in raw table format
+* Export data - click the export button to export the data in Excel format.
 
-IMAGE - Trend View
-
-**Tag history browser**
-Browse the tag data history with the Tag History Browser. See available data, prior to any calculations or any other modifications.
+![kpi-matrix](/img/kpi-matrix/TrendView.png)
 
 
-### Tag History Browser
-
-**Production View**
+#### Production View
 This is for multiple plots of aggregated data.  Display a data set for a desired time range.  Select multiple data sets (use CTRL button to select multiple sets) to compare and click the Production View icon.  Select the desired view. Or use the selection tree to pick the data sets to plot.
-    • Time Series - select the Time Series format to plot the data in a time series.  Select the Separate plot box to separate the data series.
-    • Bar Chart - Select the Bar format for the data to be displayed in bar chart for comparison.  Click the Separate Plot to separate the data series.
-    • Table - Select the Table format for data in raw table format
-    • Export data - click the export button to export the data in Excel format.
+* Time Series - select the Time Series format to plot the data in a time series.  Select the Separate plot box to separate the data series.
+* Bar Chart - Select the Bar format for the data to be displayed in bar chart for comparison.  Click the Separate Plot to separate the data series.
+* Table - Select the Table format for data in raw table format
+* Export data - click the export button to export the data in Excel format.
+
+![kpi-matrix](/img/kpi-matrix/ProductView2Plots.png)
+
+
+## Tag History Browser
+
+The Tag Browser provides a view to the database tag history - to review tag data for KPI Matrix plot usage.
+
+![kpi-matrix](/img/kpi-matrix/TagBrowserView.png)
+
+
+### Viewer
+Select Tag History in Left Navigation to open the Tag History Viewer
+The usage of the browser itself is documented at Inductive Automation. 
+https://docs.inductiveautomation.com/docs/8.1/appendix/components/perspective-components/perspective-chart-palette/perspective-power-chart
+
+#### Tag Selector
+Click Tag icon to open tag selector
+
+#### Add Tags
+Search for Tags - use the filter field to find desired tags.
+Select tag and click add icon (+) to add tag 
+
+![kpi-matrix](/img/kpi-matrix/TagBrowserAdd.png)
 
 
 
-IMAGE - Product View with two plots
+#### Remove Tags
+Select an added tag and click Remove icon (X) to remove tag from selection
+
+![kpi-matrix](/img/kpi-matrix/TagBrowserRemove.png)
 
 
+#### Display Tag History
+Once selection of tags has completed - click Show button and Close button to close Tag Selector window
+
+![kpi-matrix](/img/kpi-matrix/TagBrowserDisplay.png)
