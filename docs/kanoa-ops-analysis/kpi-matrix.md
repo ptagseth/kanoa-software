@@ -11,22 +11,23 @@ The KPI Matrix functionality is a tool to provide insight to production KPIs.  T
 ![kpi-matrix](/img/kpi-matrix/KPIMatrixView.png)
 
 ## Login
-In upper right corner - click login icon.
-Use your ID and Password to log in to the application.
+To login, in the upper right corner - click the login icon.
+Use your ID and Password to login to the application.
 
 
 ![kpi-matrix](/img/kpi-matrix/UpperRightMenu.png)
 
 ### User Permissions
-Once logged in, you can hover over the login icon and see your current roles.
+Once logged in, you can hover over the login icon and see your current roles for the application.
 
 
 ![kpi-matrix](/img/kpi-matrix/MatrixPermissions.png)
 
 ### Logout
-Click the logout icon next to the login icon to log out of the application.
+Click the logout icon next to the login icon to logout of the application.
 
 ### Roles & Permissions
+The roles granted to the users of the application have different permissions. 
 
 #### Division Admin
 The Division Admin can view all matrices, both public and private. They can create, edit and delete their own matrices.
@@ -45,35 +46,34 @@ The Guest can only view public matrices.  They have no create, edit or delete pe
 ## Create and Edit a KPI Matrix
 
 ### Matrix Editor
-Open the left menu and click the Matrix Editor.  This will open a view to the Folder editor and the Matrix creator and editor.
+To create or edit a Matrix - start by open the left menu and click the Matrix Editor.  This will open a view to the Matrix editor.
 
-![kpi-matrix](/img/kpi-matrix/KPIMatrixView.png)
+![kpi-matrix](/img/kpi-matrix/KPIMatrixEditor.png)
+
 
 #### Folder Editor
-Open the folder editor by clicking the add folder icon (+) above folder structure. 
-In the folder editor - select folder to edit or the location of the new folder.  Click Add button to add a new folder.  
-Enter info - set folder name, color, Roles if applicable. Click Save button.
-Delete folders - select folder to delete, click Delete Icon.
-
-Drag drop a matrix from one folder to another.  Select the matrix, hold the left mouse button until it is in the desired folder and then  release the mouse button.
+Folders are managed in the Folder Editor - the user can create, edit and delete folders. Click the  + icon above the matrix tree structure for the pop-up window with the Folder Editor:
+- Add folder - in the Folder Editor, select the parent folder, click the Add button, enter the folder name and Save.
+- Edit folder - in the Folder Editor, select the folder to edit and make the required changes. Then Save the changes.
+- Delete folder - in the Folder Editor, select the folder to delete, click the Delete button. 
 
 ![kpi-matrix](/img/kpi-matrix/FolderEditor.png)
 
+
 #### Create / Edit a Matrix
-* Create a new Matrix - select a folder for the location of the Matrix.  Fill the matrix info - name, folder, icon and sort order.  Click the Enabled box to enable data to flow to the matrix so it can be viewed.  Save the Matrix using the Save icon in the top menu.
-
-* Edit an existing Matrix - select the Matrix, change the info of the Matrix as needed (Name, Icon, Color, Sort Order). 
-
-* Matrix Groups - Organize the Matrix data by setting up groups.  Minimum one group must be created.  Create a name for each group, set background color for group.
-
-* Add data tags - Click the selector tree for data tags.  Each data tag selected will be added to the group.  Once done with selection - close the selector window with the Close button at the bottom.
-
-* Delete data tags - Select a data tag and click the Delete icon in the left menu. Confirm.
-
+- Create a new Matrix - select a folder for the location of the Matrix.  Fill the matrix info - name, folder, icon and sort order.  Click the Enabled box to enable data to flow to the matrix so it can be viewed.  Save the Matrix using the Save icon in the top menu.
+- Edit an existing Matrix - select the Matrix, change the info of the Matrix as needed (Name, Icon, Color, Sort Order). 
+- Matrix Groups - Organize the Matrix data by setting up groups.  Minimum one group must be created.  Create a name for each group, set background color for group.
+- Add data tags - Click the selector tree for data tags.  Each data tag selected will be added to the group.  Once done with selection - close the selector window with the Close button at the bottom.
+- Delete data tags - Select a data tag and click the Delete icon in the left menu. Confirm.
+- Drag and Drop - Drag and drop a matrix from one folder to another.  Select the matrix, hold the left mouse button until it is in the desired folder and then release the mouse button.
 
 ## View a Matrix
 
 ### Matrix view
+
+In the KPI Matrix view - you will be able to see the data from the selected Tags.  There are options for data intervals, how to group the data, and for how the data will be presented.
+
 
 ![kpi-matrix](/img/kpi-matrix/ViewMatrix.png)
 
@@ -91,18 +91,24 @@ Drag drop a matrix from one folder to another.  Select the matrix, hold the left
 
 
 ### Top Menu
-* Matrix Selector - Select the Matrix.  Use the search function to search in folders.
+- Matrix Selector - select the Matrix to be presented.  Use the search function to search in folders.
+- Data period - select the time period for the data to be presented - choices are today, yesterday, this week, last week, this month, etc.  Or set a custom time period.  Set the start date and time and end date and time.
+- Data Interval - select the data interval for the aggregated data.  The data is aggregated in intervals of 1 hr, 30 mins, 15 mins
+- Group by Shift or Run - this to sort by a specific Shift or Run.
+- Group by Matrix Group. This can be utilized if the Matrix data is organized by separate Matrix groups.
+- Ignore Zeros - when this is checked, zero values will be ignored.  If all values for a tag are zero, the tag will not be displayed.
+- Bradley Mode - automatically yodate the table data whenever a filter parameter changes.
+- Auto Refresh - this will automatically update the data table every 5 minutes when checked.
+- Item Path - this will show the full data path when checked
+- Item Info - this will show the data source (tag, calculation) and default aggregation mode when enabled.
+- Statistical Summary - summarized values for the chosen data will be presented when enabled.
+- MES Specs - when enabled this will show the data items specifications set for control limits, LCL and UCL.  When no limits are set, they are calculated from data values.
 
-* Data period - Select the time period for the data to be plotted - choices are today, yesterday, this week, last week, this month, etc.  Or set a custom time period.  Set the start date and time and end date and time.
-
-* Data Interval - the data is aggregated in intervals of 1 hr, 30 mins, 15 mins
-
-* Group by Shift or Run.  This is an optional field - it can be utilized to sort by a specific Shift or Run.
-
-* Group by Matrix Group. This can be utilized if the Matrix data is organized by separate Matrix groups.
+### Alerts
+- KPI Matrix data alerts - alerts are set when data are outside calculated or spec control limits.  Data values outside limits are color coded in the table.
 
 
-### Left Menu
+### Left Menu icons
 
 #### Clear table
 Click this icon to clear the displayed data.
@@ -142,7 +148,7 @@ The Tag Browser provides a view to the database tag history - to review tag data
 ![kpi-matrix](/img/kpi-matrix/TagBrowserView.png)
 
 
-### Viewer
+###Tag History Viewer
 Select Tag History in Left Navigation to open the Tag History Viewer
 The usage of the browser itself is documented at Inductive Automation. 
 https://docs.inductiveautomation.com/docs/8.1/appendix/components/perspective-components/perspective-chart-palette/perspective-power-chart
