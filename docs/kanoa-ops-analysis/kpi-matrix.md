@@ -90,7 +90,7 @@ In the KPI Matrix view - you will be able to see the data from the selected Tags
 ![kpi-matrix](/img/kpi-matrix/MatrixButtons.png)
 
 
-### Top Menu
+### Filters and Data View Parameters
 - Matrix Selector - select the Matrix to be presented.  Use the search function to search in folders.
 - Data period - select the time period for the data to be presented - choices are today, yesterday, this week, last week, this month, etc.  Or set a custom time period.  Set the start date and time and end date and time.
 - Data Interval - select the data interval for the aggregated data.  The data is aggregated in intervals of 1 hr, 30 mins, 15 mins
@@ -110,33 +110,32 @@ In the KPI Matrix view - you will be able to see the data from the selected Tags
 
 ### Left Menu icons
 
-#### Clear table
-Click this icon to clear the displayed data.
+- Clear table - Click this icon to clear the displayed data.
+- Export data - Click the export button to export the data displayed in Excel format.
+- Trend View - Select a single data tag and plot the trend over a time period.
+- Production View - Select multiple data tags to plot the views over a time period.
 
-#### Export data
-Click the export button to export the data displayed in Excel format.
-
-#### Trend View
-Select a single data tag and plot the trend over a time period.
-* Time Series - Select the Time Series format to plot the data in a time series.  Use the Nelson and WECO rules to determine if the graph is unpredictable.
-  * Nelson Rules are a method to determine if some measured variable is out of control (unpredictable vs consistent).
+### Trend View
+Trend Views displays a single tag over a chosen time period.
+- Time Series - Select the Time Series format to plot the data in a time series.  Use the Nelson and WECO rules to determine if the graph is unpredictable.
+  - Nelson Rules are a method to determine if some measured variable is out of control (unpredictable vs consistent).
         Read more about the Nelson Rules here:  https://en.wikipedia.org/wiki/Nelson_rules
-  * WECO Rules to detect out of control r non-random conditions in your control charts.
+  - WECO Rules to detect out of control r non-random conditions in your control charts.
     Read more about the WECO (Western Electric) Rules here:  https://en.wikipedia.org/wiki/Western_Electric_rules
-* Bar Chart - Select the Bar format for the data to be displayed in bar chart.
-* Histogram - select a data tag to show the distribution of the data.  Select Min and Max values to limit outliers.
-* Table - Select the Table format for data in raw table format
-* Export data - click the export button to export the data in Excel format.
+- Bar Chart - Select the Bar format for the data to be displayed in bar chart.
+- Histogram - select a data tag to show the distribution of the data.  Select Min and Max values to limit outliers.
+- Table - Select the Table format for data in raw table format
+- Export data - click the export button to export the data in Excel format.
 
 ![kpi-matrix](/img/kpi-matrix/TrendView.png)
 
 
-#### Production View
-This is for multiple plots of aggregated data.  Display a data set for a desired time range.  Select multiple data sets (use CTRL button to select multiple sets) to compare and click the Production View icon.  Select the desired view. Or use the selection tree to pick the data sets to plot.
-* Time Series - select the Time Series format to plot the data in a time series.  Select the Separate plot box to separate the data series.
-* Bar Chart - Select the Bar format for the data to be displayed in bar chart for comparison.  Click the Separate Plot to separate the data series.
-* Table - Select the Table format for data in raw table format
-* Export data - click the export button to export the data in Excel format.
+### Production View
+This to view multiple plots of aggregated data over a chosen time period.  Select multiple data sets (use CTRL button to select multiple sets) to compare and click the Production View icon.  Select the desired view. Or use the selection tree to pick the data sets to plot.
+- Time Series - select the Time Series format to plot the data in a time series.  Select the Separate plot box to separate the data series.
+- Bar Chart - Select the Bar format for the data to be displayed in bar chart for comparison.  Click the Separate Plot to separate the data series.
+- Table - Select the Table format for data in raw table format
+- Export data - click the export button to export the data in Excel format.
 
 ![kpi-matrix](/img/kpi-matrix/ProductView2Plots.png)
 
@@ -148,29 +147,16 @@ The Tag Browser provides a view to the database tag history - to review tag data
 ![kpi-matrix](/img/kpi-matrix/TagBrowserView.png)
 
 
-###Tag History Viewer
-Select Tag History in Left Navigation to open the Tag History Viewer
-The usage of the browser itself is documented at Inductive Automation. 
+### Tag History Viewer
+Select Tag History in Left Navigation to open the Tag History Viewer.  The usage of the browser itself is documented at Inductive Automation. 
 https://docs.inductiveautomation.com/docs/8.1/appendix/components/perspective-components/perspective-chart-palette/perspective-power-chart
-
-#### Tag Selector
-Click Tag icon to open tag selector
-
-#### Add Tags
-Search for Tags - use the filter field to find desired tags.
-Select tag and click add icon (+) to add tag 
 
 ![kpi-matrix](/img/kpi-matrix/TagBrowserAdd.png)
 
-
-
-#### Remove Tags
-Select an added tag and click Remove icon (X) to remove tag from selection
-
-![kpi-matrix](/img/kpi-matrix/TagBrowserRemove.png)
-
-
-#### Display Tag History
-Once selection of tags has completed - click Show button and Close button to close Tag Selector window
+#### Tag Selector
+- Tag Selector - Click the Tag icon to open tag selector
+- Add Tags - use the filter field to find tags. Select the tag and click the Add icon (+) to add the tag.  Repeat for multiple tags.
+- Remove Tags - Select an added tag and click the Remove icon (X) to remove a tag from selection
+- Display Tag History - Once the selection of tags has completed - click the Show button to view the tags and Close button to close the Tag Selector window.
 
 ![kpi-matrix](/img/kpi-matrix/TagBrowserDisplay.png)
