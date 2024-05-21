@@ -30,7 +30,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
         <ul>userId - User ID (int).</ul>
     </li>
     <li> Returns <br />
-        <ul>chkShtTriggerId - ID of the added check sheet (int).</ul>
+        <ul>chkShtId - ID of the added check sheet (int).</ul>
     </li>
 </HeaderBox>
 
