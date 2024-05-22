@@ -94,15 +94,14 @@ In the KPI Matrix view - you will be able to see the data from the selected Tags
 - Matrix Selector - select the Matrix to be presented.  Use the search function to search in folders.
 - Data period - select the time period for the data to be presented - choices are today, yesterday, this week, last week, this month, etc.  Or set a custom time period.  Set the start date and time and end date and time.
 - Data Interval - select the data interval for the aggregated data.  The data is aggregated in intervals of 1 hr, 30 mins, 15 mins
-- Group by Shift or Run - this to sort by a specific Shift or Run.
+- Group by Shift, Run or Crew - this to sort by a specific Shift, Run or Crew.
 - Group by Matrix Group. This can be utilized if the Matrix data is organized by separate Matrix groups.
 - Ignore Zeros - when this is checked, zero values will be ignored.  If all values for a tag are zero, the tag will not be displayed.
-- Bradley Mode - automatically yodate the table data whenever a filter parameter changes.
-- Auto Refresh - this will automatically update the data table every 5 minutes when checked.
-- Item Path - this will show the full data path when checked
+- Refresh Options / Auto Update - automatically update the table data whenever a filter parameter changes.
+- Full Item Path - this will show the full data path when checked
 - Item Info - this will show the data source (tag, calculation) and default aggregation mode when enabled.
-- Statistical Summary - summarized values for the chosen data will be presented when enabled.
-- MES Specs - when enabled this will show the data items specifications set for control limits, LCL and UCL.  When no limits are set, they are calculated from data values.
+- Statistics - summarized values for the chosen data will be presented when enabled.
+- Item Spec - when enabled this will show the data item specifications set for control limits, LCL and UCL.  When no limits are set, they are calculated from data values.
 
 ### Alerts
 - KPI Matrix data alerts - alerts are set when data are outside calculated or spec control limits.  Data values outside limits are color coded in the table.
