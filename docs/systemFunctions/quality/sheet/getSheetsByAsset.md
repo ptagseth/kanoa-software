@@ -15,6 +15,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
         <ul>  - 'enabled': True to filter by enabled check sheets (bool).</ul>
         <ul>  - 'chkShtTypeId': ID of the check sheet type (int).</ul>
         <ul>  - 'assetPath': Path of the asset (string).</ul>
+        <ul>  - 'assetPathList': List of Asset Paths.</ul>
     </li>
     <li> Returns <br />
         <ul>data - PyDataset containing unique check sheet information.</ul>
@@ -24,7 +25,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Example
 ```python
 # Usage example
-params_dict = {'enabled': True, 'chkShtStateId': 1, 'chkShtStateName': 'Approved'}
+params_dict = {'enabled': True, 'chkShtStateId': 1, 'chkShtStateName': 'Approved', 'assetPathList': ['ABC Box Co', 'Glue Factory']}
 sheets_data = system.kanoa.quality.config.sheets.getSheetsByAsset(paramsDict=params_dict)
 
 print(sheets_data)

@@ -11,7 +11,9 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateAsset(assetInfo, userId)</b>
     <li> Parameters <br />
-        <ul>assetInfo (dict) - Dictionary containing asset information to be updated.</ul>
+        <ul>assetInfo (dict) - Dictionary containing asset information to be updated.<br />
+           - dictionary i.e &#123;'assetName': 'Packaging', 'parentId': 538, 'assetTypeId': 2, 'assetGroupId': 4, 'oee': 0.6, 'a': 0.8, 'p': 0.7, 'q': 0.9, 'targetThreshold': 0.1, 'oeeType': 'OEE_Enabled', 'sortOrder': None, 'enabled': True, 'assetId': 540}<br />
+        </ul>
         <ul>userId (int) - User ID.</ul>
     </li>
     <li> Returns <br />

@@ -132,6 +132,7 @@ const sidebars = {
                             {type: 'doc', id: 'systemFunctions/asset/unlinkAssetMode', label: 'unlinkAssetMode'},
                             {type: 'doc', id: 'systemFunctions/asset/unlinkAssetState', label: 'unlinkAssetState'},
                             {type: 'doc', id: 'systemFunctions/asset/updateAsset', label: 'updateAsset'},
+                            {type: 'doc', id: 'systemFunctions/asset/updateAssetField', label: 'updateAssetField'},
                             {type: 'doc', id: 'systemFunctions/asset/updateAssetModeField', label: 'updateAssetModeField'},
                             {type: 'doc', id: 'systemFunctions/asset/updateAssetType', label: 'updateAssetType'},
                             {type: 'doc', id: 'systemFunctions/asset/updateCounter', label: 'updateCounter'},
