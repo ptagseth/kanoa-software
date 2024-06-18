@@ -50,20 +50,6 @@ export default function DocItemLayout({children}) {
           <DocItemPaginator />
         </div>
             <br></br>
-                <Giscus
-                id="comments"
-                repo="ptagseth/kanoa-software"
-                repoId="R_kgDOJy79jg"
-                category="General"
-                categoryId="DIC_kwDOJy79js4CcxNR"
-                mapping="pathname"
-                reactionsEnabled="1"
-                emitMetadata="0"
-                inputPosition="top"
-                theme={colorMode}
-                lang="en"
-                loading="lazy"
-            />
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
     </div>
