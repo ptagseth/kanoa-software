@@ -482,7 +482,6 @@ const sidebars = {
                             {type: 'doc', id: 'systemFunctions/security/getRoleFunctions', label: 'getRoleFunctions'},
                             {type: 'doc', id: 'systemFunctions/security/getRoles', label: 'getRoles'},
                             {type: 'doc', id: 'systemFunctions/security/getUserAssetRoles', label: 'getUserAssetRoles'},
-                            {type: 'doc', id: 'systemFunctions/security/getUserCRUD', label: 'getUserCRUD'},
                             {type: 'doc', id: 'systemFunctions/security/getUserFunctions', label: 'getUserFunctions'},
                             {type: 'doc', id: 'systemFunctions/security/getUsers', label: 'getUsers'},
                             {type: 'doc', id: 'systemFunctions/security/getUserSource', label: 'getUserSource'},
