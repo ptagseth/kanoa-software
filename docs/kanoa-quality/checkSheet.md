@@ -27,6 +27,12 @@ Check Sheets can also be created on the fly by clicking the 'Add Check' button.
 If the Check Sheet specifies an asset and an item in its configuration, you will be asked to select which asset and which item this check is being performed against.
 
 ![Checks Schedule](/img/quality/addCheck.png)
+
+Checks can also be scheduled from your mobile device.  From your mobile device, select the Mobile Check Schedule in the left menu to bring up the mobile checks page.  Schedule a new check by click the add icon (+ sign) in upper left on page.  Select an asset and an item and then add the check to the schedule by clicking the Add button.
+
+![Checks Schedule](/img/quality/mobileCheckMenu.png)
+![Checks Schedule](/img/quality/mobileActiveCheck.png)
+
 ***
 ### Enter Check data
 
@@ -48,6 +54,8 @@ Click the blue i icon and a dialog box will open with the information for each c
 
 At any time during check entry,the entry checks sheet can be canceled.
 Once the checks are all entered, the check sheet can be submitted for approval and then accepted or rejected.
+
+Checks can also be entered using your mobile device.  Additional options are GPS tracking with a map feature to track where checks were entered as well as an option to take pictures or video.
 
 #### Controls
 * **Close Button**: Located in the upper left, used to exit the check.
