@@ -55,7 +55,7 @@ Click the blue i icon and a dialog box will open with the information for each c
 At any time during check entry,the entry checks sheet can be canceled.
 Once the checks are all entered, the check sheet can be submitted for approval and then accepted or rejected.
 
-Checks can also be entered using your mobile device.  Additional options are GPS tracking with a map feature to track where checks were entered as well as an option to take pictures or video.
+Checks can also be entered using your mobile device.  Additional options for mobile are GPS tracking with a map feature to track where checks were entered and an option to take pictures or video.
 
 #### Controls
 * **Close Button**: Located in the upper left, used to exit the check.
