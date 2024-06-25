@@ -14,6 +14,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
         <ul>paramsDict (dict) - A dictionary containing parameters to filter assets. Available keys include:<br />
             - 'enabled' (bool): Filter by asset's enabled status.<br />
             - 'assetPath' (str): Filter by asset path.<br />
+            - 'assetPathList' (list): Filter by a list of asset paths.<br />
             - 'assetTypeName' (str): Filter by asset type name.<br />
             - 'parentId' (int): Filter by parent asset ID.<br />
             - 'assetId' (int): Filter by asset ID.<br />
