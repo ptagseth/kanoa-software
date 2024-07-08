@@ -11,7 +11,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 <HeaderBox header="Syntax">
     <b>updateCheck(chkItemInfo, userId)</b>
     <li> Parameters <br />
-        <ul>dict chkItemInfo - Dictionary, e.g., &#123;'chkItemId': 3, 'chkItemGroupId': 1,'chkShtId': 2,'dataTypeId':3,'engUnitId':None,'chkItemName': 'Check 1','chkItemTypeId':1,'chkItemTriggerId':4,'measCount': 1,'instructions': None,'pickListId': 4,'pickListValues': None,'calculation': None,'required': True,'enabled': True, 'dynamic': False,'sortOrder':0,'format': '#,##0.#', 'attributeId': None}</ul>
+        <ul>dict chkItemInfo - Dictionary, e.g., &#123;'chkItemId': 3, 'chkItemGroupId': 1,'chkShtId': 2,'dataTypeId':3,'engUnitId':None,'chkItemName': 'Check 1','chkItemTypeId':1,'chkItemTriggerId':4,'measCount': 1,'instructions': None,'pickListId': 4,'pickListValues': None,'calculation': None,'required': True,'enabled': True, 'dynamic': False,'sortOrder':0,'format': '#,##0.#', 'persistence': False, 'attributeId': None}</ul>
         <ul>int userId - User ID</ul>
     </li>
     <li> Returns <br />

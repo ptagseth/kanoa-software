@@ -21,7 +21,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Example
 ```python
 # Usage example
-params_dict = {'chkShtEventId': 18, 'chkShtId': 3, 'chkItemId': 437, 'chkShtTypeId': 4, 'itemClassPath': 'some path', 'chkShtStateIds': [1, 2, 3], 'itemId': 45, 'enabled': True}
+params_dict = {'chkShtEventId': 18, 'chkShtId': 3, 'chkItemId': 437, 'chkShtTypeId': 4, 'itemClassPath': 'some path', 'chkShtStateIds': [1, 2, 3], 'itemId': 45, 'persistence': False, 'enabled': True}
 data = system.kanoa.quality.event.getChkShtEventItems(paramsDict=params_dict)
 
 print(data)
