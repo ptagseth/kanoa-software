@@ -13,9 +13,10 @@ import HeaderBox from '@site/src/components/HeaderBox';
 </HeaderBox>
 
 <HeaderBox header="Syntax">
-  <b>getPreviousAttributeEvent(assetId, tStamp)</b>
+  <b>getPreviousAttributeEvent(assetId, attributeId, tStamp)</b>
     <li>Parameters <br />
       <ul>assetId: int</ul>
+      <ul>attributeId: int</ul>
       <ul>tStamp: datetime</ul>
     </li>
     <li>Returns <br />
@@ -27,6 +28,7 @@ import HeaderBox from '@site/src/components/HeaderBox';
 ### Code Examples
 ```python
 assetId = 33
+attributeId = 11
 tStamp = timestamp
-data = system.kanoa.attribute.getPreviousAttributeEvent(assetId, tStamp)
+data = system.kanoa.attribute.getPreviousAttributeEvent(assetId, attributeId, tStamp)
 print(data)  # Print the dataset 
